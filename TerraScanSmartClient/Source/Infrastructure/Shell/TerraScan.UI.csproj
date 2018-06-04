@@ -1,0 +1,1837 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29E59D8F-C030-4D83-843F-F9F0A1FF9322}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TerraScan.UI</RootNamespace>
+    <AssemblyName>TerraScan.UI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignManifests>true</SignManifests>
+    <ManifestCertificateThumbprint>00D400FAD6522357537A2730BBAA6CC09D6F8D9C</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Thomson_Reuters.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <ApplicationIcon>TLogo.ico</ApplicationIcon>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Thomson_Reuters.pfx</AssemblyOriginatorKeyFile>
+    <PublishUrl>C:\publish\WebSite1\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://localhost:81/WebSite1/</InstallUrl>
+    <ProductName>TerraScan T2</ProductName>
+    <PublisherName>Thomson Reuters.</PublisherName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>index.html</WebPage>
+    <ApplicationRevision>26</ApplicationRevision>
+    <ApplicationVersion>2.0.80.26</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\binaries\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\binaries\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="AxInterop.MODI, Version=11.0.0.0, Culture=neutral, PublicKeyToken=fc125e52118e5054, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\AxInterop.MODI.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Kent.Boogaart.HelperTrinity, Version=1.1.0.0, Culture=neutral, PublicKeyToken=cc96fa93a217f7a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\Kent.Boogaart.HelperTrinity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)\Lib\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)\Lib\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging.Database, Version=4.1.0.0, Culture=neutral, PublicKeyToken=8993b2a823bf6538, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)\Lib\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder2, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.ObjectBuilder2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TerraScan.XPPanel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7d3670600c6b1398, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\TerraScan.XPPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFConverters, Version=1.0.1.0, Culture=neutral, PublicKeyToken=cc96fa93a217f7a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\WPFConverters.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExternalComponentService.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginController.cs" />
+    <Compile Include="MyServiceHost.cs" />
+    <Compile Include="NotificationAboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotificationAboutBox.Designer.cs">
+      <DependentUpon>NotificationAboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressBar.Designer.cs">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ShellApplication.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotificationAboutBox.resx">
+      <DependentUpon>NotificationAboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBar.resx">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShellForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ShellForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartPart\NavigationPanelSmartPart.resx">
+      <DependentUpon>NavigationPanelSmartPart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="ShellForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShellForm.Designer.cs">
+      <DependentUpon>ShellForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShellFormController.cs" />
+    <Compile Include="SmartPart\NavigationPanelSmartPart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartPart\NavigationPanelSmartPart.Designer.cs">
+      <DependentUpon>NavigationPanelSmartPart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartPart\NavigationPanelSmartPartController.cs" />
+    <Compile Include="WorkItem\MainWorkItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProfileCatalog.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\1010MortgageImport.PNG" />
+    <None Include="Resources\1013BatchPayments.PNG" />
+    <None Include="Resources\1023Certificates.PNG" />
+    <None Include="Resources\1065SuspendedPayments.PNG" />
+    <None Include="Resources\1200NewPosting.PNG" />
+    <None Include="Resources\1200NewPosting1.PNG" />
+    <None Include="Resources\1200PostingList.PNG" />
+    <None Include="Resources\1210CheckRegister.PNG" />
+    <None Include="Resources\1210Dispursement.PNG" />
+    <None Include="Resources\1300AccountManagement.PNG" />
+    <None Include="Resources\CalenderImage.jpg" />
+    <None Include="Resources\CalenderImage1.jpg" />
+    <None Include="Resources\copyToolStripMenuItem.Image1.png" />
+    <None Include="Resources\cutToolStripMenuItem.Image1.png" />
+    <None Include="Resources\Desc.gif" />
+    <None Include="Resources\Down.gif" />
+    <None Include="Resources\EditSectionIndicator1.png" />
+    <None Include="Resources\File-Path Image.gif" />
+    <None Include="Resources\Logo.JPG" />
+    <None Include="Resources\NewEditSectionIndicator1.png" />
+    <None Include="Resources\pasteToolStripMenuItem.Image1.png" />
+    <None Include="Resources\PopUp Window Image.gif" />
+    <None Include="Resources\Statement.gif" />
+    <None Include="Resources\TerraScan-ClientLogo.jpg" />
+    <None Include="Resources\TerraScan-ClientLogo1.jpg" />
+    <None Include="Resources\TerraScanLogo.JPG" />
+    <None Include="Resources\TerraScan-NewLogo.gif" />
+    <None Include="Resources\Up.gif" />
+    <None Include="Resources\BaseSmartPart.ico" />
+    <None Include="Resources\terrascan-t.ico" />
+    <None Include="Resources\TLogo.ico" />
+    <Content Include="Templates\stencils.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\T2_TerraScanLogo.jpg" />
+    <None Include="Resources\ThomsonReutersLogo1.png" />
+    <None Include="Thomson_Reuters.pfx" />
+    <Content Include="Templates\SketchMe.vst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\T2 Annotation.vss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\T2 Core.vss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\T2 Custom Templates.vss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\T2 Display.vss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\T2 Templates.vss">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\VisiCAMASketch.vst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TerrascanEventLogCreator.exe" />
+    <Content Include="TLogo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\D1000\D1000.csproj">
+      <Project>{EBF54A10-3E41-4EA8-ABEE-278926098480}</Project>
+      <Name>D1000 %28Source\Modules\D1000\D1000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D10030\D10030.csproj">
+      <Project>{15FBBB99-758A-4BE2-815A-AF29A08B46EE}</Project>
+      <Name>D10030 %28Source\Modules\D10030\D10030%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D10040\D10040.csproj">
+      <Project>{2E7C9C06-D43D-42F4-B47B-C281F26F1FFB}</Project>
+      <Name>D10040 %28Source\Modules\D10040\D10040%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D10041\D10041.csproj">
+      <Project>{A0A0ED09-6D3E-42DE-B252-0C6772453049}</Project>
+      <Name>D10041 %28Source\Modules\D10041\D10041%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1010\D1010.csproj">
+      <Project>{7A480A71-C836-4A3A-AF5D-B8CF34E27FCA}</Project>
+      <Name>D1010 %28Source\Modules\D1010\D1010%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1013\D1013.csproj">
+      <Project>{1B73C972-54A8-43AE-A118-ABA410957120}</Project>
+      <Name>D1013 %28Source\Modules\D1013\D1013%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1016\D1016.csproj">
+      <Project>{39BA9AE5-CBA3-474A-BEB6-F02179F19F81}</Project>
+      <Name>D1016 %28Source\Modules\D1016\D1016%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1018\D1018.csproj">
+      <Project>{E7262141-600B-42DD-B8AC-91F030C30B07}</Project>
+      <Name>D1018 %28Source\Modules\D1018\D1018%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1020\D1020.csproj">
+      <Project>{31DC5C5A-273E-4804-9B9C-8E0DC4CE34A6}</Project>
+      <Name>D1020 %28Source\Modules\D1020\D1020%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1025\D1025.csproj">
+      <Project>{4D513976-CE6F-484E-9FB4-ED3FE47593E4}</Project>
+      <Name>D1025 %28Source\Modules\D1025\D1025%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1030\D1030.csproj">
+      <Project>{7EFC4AA9-6A44-47B3-A9A4-08ECDB173C77}</Project>
+      <Name>D1030 %28Source\Modules\D1030\D1030%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D11001\D11001.csproj">
+      <Project>{9AC02D95-FA44-4E55-A9F6-E59BD8F23C2E}</Project>
+      <Name>D11001 %28Source\Modules\D11001\D11001%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1100\D1100.csproj">
+      <Project>{88DBF2D0-4CE0-4081-926C-0FC911DC1286}</Project>
+      <Name>D1100 %28Source\Modules\D1100\D1100%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D11015\D11015.csproj">
+      <Project>{DF1AE95D-DAD1-429A-902D-37BBBFE65D90}</Project>
+      <Name>D11015 %28Source\Modules\D11015\D11015%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D11018\D11018.csproj">
+      <Project>{22AD2794-4D48-4D42-A728-B59C61D36B75}</Project>
+      <Name>D11018 %28Source\Modules\D11018\D11018%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D11019\D11019.csproj">
+      <Project>{7A09E660-818D-4113-A410-63FFA3E41C90}</Project>
+      <Name>D11019 %28Source\Modules\D11019\D11019%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D11020\D11020.csproj">
+      <Project>{ED8E360A-8709-420D-8E73-1052ECF8F8A7}</Project>
+      <Name>D11020 %28Source\Modules\D11020\D11020%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D11024\D11024.csproj">
+      <Project>{74DDC826-0547-4C44-A8B2-968A2CEF4303}</Project>
+      <Name>D11024 %28Source\Modules\D11024\D11024%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D11035\D11035.csproj">
+      <Project>{731694AE-E3D4-40E9-8FD1-972C89E5E3EC}</Project>
+      <Name>D11035 %28Source\Modules\D11035\D11035%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D11050\D11050.csproj">
+      <Project>{DE53ED59-970F-4CCC-9870-10C1046B4DD4}</Project>
+      <Name>D11050 %28Source\Modules\D11050\D11050%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D11071\D11071.csproj">
+      <Project>{462DF7E3-7582-40FB-BD90-9D5C5A05BF10}</Project>
+      <Name>D11071 %28Source\Modules\D11071\D11071%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D11072\D11072.csproj">
+      <Project>{C5F9D865-8D8C-43E5-ADAE-23CBE5D51ACA}</Project>
+      <Name>D11072 %28Source\Modules\D11072\D11072%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1200\D1200.csproj">
+      <Project>{2AFD6E6C-D67C-4AA0-8E47-838097E19444}</Project>
+      <Name>D1200 %28Source\Modules\D1200\D1200%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1203\D1203.csproj">
+      <Project>{7F69EF24-FC62-4A90-8640-8D704386E386}</Project>
+      <Name>D1203 %28Source\Modules\D1203\D1203%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1210\D1210.csproj">
+      <Project>{2909097D-465B-451D-AD81-EF5C01571648}</Project>
+      <Name>D1210 %28Source\Modules\D1210\D1210%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1405\D1405.csproj">
+      <Project>{AFE00A49-77CA-4571-B032-D4278A98531C}</Project>
+      <Name>D1405 %28Source\Modules\D1405\D1405%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D14062\D14062.csproj">
+      <Project>{ACC9695C-4F4A-4576-80B4-1113B94B079B}</Project>
+      <Name>D14062 %28Source\Modules\D14062\D14062%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1410\D1410.csproj">
+      <Project>{9AFF09D9-95D9-473A-9766-AC649CD5FF8D}</Project>
+      <Name>D1410 %28Source\Modules\D1410\D1410%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D1500\D1500.csproj">
+      <Project>{E8CB5421-DAF3-4CBF-B067-EF8569AF9C61}</Project>
+      <Name>D1500 %28Source\Modules\D1500\D1500%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D20000\D20000.csproj">
+      <Project>{8F5202FE-F761-444D-A07E-55D652C6149A}</Project>
+      <Name>D20000 %28Source\Modules\D20000\D20000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D20003\D20003.csproj">
+      <Project>{095668C4-2E7F-40C6-BA9C-3903BD78D320}</Project>
+      <Name>D20003 %28Source\Modules\D20003\D20003%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D20008\D20008.csproj">
+      <Project>{6999DADE-5572-4DD5-8CF3-37E30219A95C}</Project>
+      <Name>D20008 %28Source\Modules\D20008\D20008%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D20009\D20009.csproj">
+      <Project>{5550C19F-F821-48CA-9EBA-E1FDA47E5CB3}</Project>
+      <Name>D20009 %28Source\Modules\D20009\D20009%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D2000\D2000.csproj">
+      <Project>{B3668A42-42F5-49B8-AC72-E9B02385EF37}</Project>
+      <Name>D2000 %28Source\Modules\D2000\D2000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D20050\D20050.csproj">
+      <Project>{A2AA131B-DACA-4E60-828A-A22AFF2CCAEA}</Project>
+      <Name>D20050 %28Source\Modules\D20050\D20050%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D21000\D21000.csproj">
+      <Project>{D6F3D01E-8417-40FF-B553-27DB96296D05}</Project>
+      <Name>D21000 %28Source\Modules\D21000\D21000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D22000\D22000.csproj">
+      <Project>{74355507-497E-44DA-9B53-B93FCC0561EE}</Project>
+      <Name>D22000 %28Source\Modules\D22000\D22000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D22006\D22006.csproj">
+      <Project>{961DF97F-7D89-4383-9621-55E6A3583AA4}</Project>
+      <Name>D22006 %28Source\Modules\D22006\D22006%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D22008\D22008.csproj">
+      <Project>{596807D9-2D65-40C9-9364-8E29AB01B2A3}</Project>
+      <Name>D22008 %28Source\Modules\D22008\D22008%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D22080\D22080.csproj">
+      <Project>{8CD3367C-280A-4E91-ADB0-5EF1192B6347}</Project>
+      <Name>D22080 %28Source\Modules\D22080\D22080%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D22081\D22081.csproj">
+      <Project>{92A5E7F9-2086-4657-A567-8A249E1E3F70}</Project>
+      <Name>D22081 %28Source\Modules\D22081\D22081%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D23000\D23000.csproj">
+      <Project>{AAC450DE-8782-4F1F-9D8F-81E1D44D338A}</Project>
+      <Name>D23000 %28Source\Modules\D23000\D23000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D23100\D23100.csproj">
+      <Project>{EE8C00BC-CBE0-4C2F-B1A8-AE664C8528E6}</Project>
+      <Name>D23100 %28Source\Modules\D23100\D23100%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D23200\D23200.csproj">
+      <Project>{F1BF7AC9-4698-4AD9-B919-1F3DD5F45D22}</Project>
+      <Name>D23200 %28Source\Modules\D23200\D23200%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D23210\D23210.csproj">
+      <Project>{3A356081-7A55-49F9-BED7-253BC5F7CF2A}</Project>
+      <Name>D23210 %28Source\Modules\D23210\D23210%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D23300\D23300.csproj">
+      <Project>{14C1BB53-ABB4-4669-8C97-6AB6891FF43E}</Project>
+      <Name>D23300 %28Source\Modules\D23300\D23300%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D23310\D23310.csproj">
+      <Project>{7E7B6377-9A79-4536-9893-46CDAEE5080B}</Project>
+      <Name>D23310 %28Source\Modules\D23310\D23310%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D23500\D23500.csproj">
+      <Project>{21DA0C09-6426-458D-93E3-263C82520AE9}</Project>
+      <Name>D23500 %28Source\Modules\D23500\D23500%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D23510\D23510.csproj">
+      <Project>{069A7708-2EE4-4769-AAB1-B18F52AB82C9}</Project>
+      <Name>D23510 %28Source\Modules\D23510\D23510%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24500\D24500.csproj">
+      <Project>{4C23DE09-83BD-48A8-8AA8-6F1A419905EA}</Project>
+      <Name>D24500 %28Source\Modules\D24500\D24500%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24530\D24530.csproj">
+      <Project>{1424B4CD-F62C-410C-8B08-4C73D91D0901}</Project>
+      <Name>D24530 %28Source\Modules\D24530\D24530%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24550\D24550.csproj">
+      <Project>{202E5F24-E108-4841-8EEF-689B97810259}</Project>
+      <Name>D24550 %28Source\Modules\D24550\D24550%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24555\D24555.csproj">
+      <Project>{D82CF51D-3573-4EA8-BBCE-A64227B4D41A}</Project>
+      <Name>D24555 %28Source\Modules\D24555\D24555%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24600\D24600.csproj">
+      <Project>{7C78707A-9EF9-4276-9BCC-B4E2B0821516}</Project>
+      <Name>D24600 %28Source\Modules\D24600\D24600%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24610\D24610.csproj">
+      <Project>{8E2392AF-1DD1-4BD5-9183-1CF170A53B0E}</Project>
+      <Name>D24610 %28Source\Modules\D24610\D24610%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24620\D24620.csproj">
+      <Project>{3D14AA15-3C6A-47B2-A4AB-ACBFF1E5F189}</Project>
+      <Name>D24620 %28Source\Modules\D29505\D24620\D24620%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24630\D24630.csproj">
+      <Project>{1A407740-AC6A-460D-B611-DB18F6806FB6}</Project>
+      <Name>D24630 %28Source\Modules\D24630\D24630%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24636\D24636.csproj">
+      <Project>{A00F95EA-C370-4AEB-B12E-7078E5BF0676}</Project>
+      <Name>D24636 %28Source\Modules\D24636\D24636%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24640\D24640.csproj">
+      <Project>{D9DF155E-1E0E-486B-B6D3-BCB80D4D4361}</Project>
+      <Name>D24640 %28Source\Modules\D24640\D24640%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24650\D24650.csproj">
+      <Project>{4DD7B372-2B20-4260-9B25-A8328A363405}</Project>
+      <Name>D24650 %28Source\Modules\D24650\D24650%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D24660\D24660.csproj">
+      <Project>{E8209094-4DF8-4BD2-9A7E-7840CAB1B4B5}</Project>
+      <Name>D24660 %28Source\Modules\D24660\D24660%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D25055\D25055.csproj">
+      <Project>{066D9130-E346-49D5-A73C-A3F2456B641C}</Project>
+      <Name>D25055 %28Source\Modules\D25055\D25055%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D2550\D2550.csproj">
+      <Project>{E91C511D-2A06-43BC-8E30-4B2DC426F3BA}</Project>
+      <Name>D2550 %28Source\Modules\D2550\D2550%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D29505\D29505.csproj">
+      <Project>{7CA766C7-CAE1-47BC-BFDD-6B50156309DF}</Project>
+      <Name>D29505 %28Source\Modules\D29505\D29505%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D3000\D3000.csproj">
+      <Project>{E8B5DEFE-C777-44EF-9A17-F459B127C852}</Project>
+      <Name>D3000 %28Source\Modules\D3000\D3000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D30075\D30075.csproj">
+      <Project>{DA20AB3F-D4B5-4100-8080-B805105B7215}</Project>
+      <Name>D30075 %28Source\Modules\D30075\D30075%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D30080\D30080.csproj">
+      <Project>{CA971EA3-8EAA-41E5-9B62-ED44D192F1CE}</Project>
+      <Name>D30080 %28Source\Modules\D30080\D30080%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D30085\D30085.csproj">
+      <Project>{E5F16C00-0833-4BAE-910F-5F96F816B89F}</Project>
+      <Name>D30085 %28Source\Modules\D30085\D30085%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D31090\D31090.csproj">
+      <Project>{BE57B52D-5AC7-4395-8939-113C57394DA7}</Project>
+      <Name>D31090 %28Source\Modules\D31090\D31090%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D31091\D31091.csproj">
+      <Project>{027FF45B-E9A3-4CCC-A9BA-1599AAD84696}</Project>
+      <Name>D31091 %28Source\Modules\D31091\D31091%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D3200\D3200.csproj">
+      <Project>{83C5E7F8-9DA4-41F8-85DA-7E3E33800F03}</Project>
+      <Name>D3200 %28Source\Modules\D3200\D3200%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D3230\D3230.csproj">
+      <Project>{DD86F6BA-2505-4F07-B61D-B66F42363C73}</Project>
+      <Name>D3230 %28Source\Modules\D3230\D3230%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D34100\D34100.csproj">
+      <Project>{F7B5E4A2-2644-4163-9029-3E9DC02B9F82}</Project>
+      <Name>D34100 %28Source\Modules\D34100\D34100%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D34110\D34110.csproj">
+      <Project>{3EFBC7C3-411C-45C1-9AD3-396B896758A8}</Project>
+      <Name>D34110 %28Source\Modules\D34110\D34110%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D34133\D34133.csproj">
+      <Project>{66B3BD5B-C6E0-47AD-8B1C-F2BB3613B312}</Project>
+      <Name>D34133 %28Source\Modules\D34133\D34133%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D34135\D34135.csproj">
+      <Project>{3A73F8E5-6BAF-4DF6-8BE4-57EECC0E31A8}</Project>
+      <Name>D34135 %28Source\Modules\D34135\D34135%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D35000\D35000.csproj">
+      <Project>{FFBAE2C0-35DD-448F-BB48-B941291316DA}</Project>
+      <Name>D35000 %28Source\Modules\D35000\D35000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D35100\D35100.csproj">
+      <Project>{C20C3F62-4A93-4B05-9238-46B1348DCBA7}</Project>
+      <Name>D35100 %28Source\Modules\D35100\D35100%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D36000\D36000.csproj">
+      <Project>{2D538EB1-AC6D-43C6-8915-5EDBE73EF17F}</Project>
+      <Name>D36000 %28Source\Modules\D36000\D36000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D36001\D36001.csproj">
+      <Project>{3418CA28-802E-4504-B508-006A405AB842}</Project>
+      <Name>D36001 %28Source\Modules\D36001\D36001%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D36010\D36010.csproj">
+      <Project>{625A6D52-CE0A-49B5-9B71-65C760AAF893}</Project>
+      <Name>D36010 %28Source\Modules\D36010\D36010%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D36030\D36030.csproj">
+      <Project>{0CBE98D7-9A3B-48E8-8FB5-8511E2BEA8C4}</Project>
+      <Name>D36030 %28Source\Modules\D36030\D36030%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D36040\D36040.csproj">
+      <Project>{355B2418-C642-40A7-8DDF-7AD124AB30D9}</Project>
+      <Name>D36040 %28Source\Modules\D36040\D36040%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D36060\D36060.csproj">
+      <Project>{93CF70A0-CE47-4FD0-8524-6B1E99242D5F}</Project>
+      <Name>D36060 %28Source\Modules\D36060\D36060%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D36065\D36065.csproj">
+      <Project>{6E609FAC-49B1-4513-9F21-1D27927963F8}</Project>
+      <Name>D36065 %28Source\Modules\D36065\D36065%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D36066\D36066.csproj">
+      <Project>{D33E202B-C9B8-42C9-B456-884CD39A563B}</Project>
+      <Name>D36066 %28Source\Modules\D36066\D36066%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D49910\D49910.csproj">
+      <Project>{AF8A01E3-094F-4DD6-8C22-67ED048CC301}</Project>
+      <Name>D49910 %28Source\Modules\D49910\D49910%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D8000\D8000.csproj">
+      <Project>{07F3C6E8-FDF0-4A0E-BD16-4DA8B468A33E}</Project>
+      <Name>D8000 %28Source\Modules\D8000\D8000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D8052\D8052.csproj">
+      <Project>{B4FFEFA1-A6BD-40CE-BB70-9AFBA70503BF}</Project>
+      <Name>D8052 %28Source\Modules\D8052\D8052%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D8054\D8054.csproj">
+      <Project>{23D97558-D400-4168-A525-AB7D6C846E54}</Project>
+      <Name>D8054 %28Source\Modules\D8054\D8054%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D8056\D8056.csproj">
+      <Project>{D1EE8AF3-9356-422D-9E03-F064803B49A4}</Project>
+      <Name>D8056 %28Source\Modules\D8056\D8056%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D8058\D8058.csproj">
+      <Project>{98B73C4C-A1E9-47EB-8FCA-F0B02A21260E}</Project>
+      <Name>D8058 %28Source\Modules\D8058\D8058%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D81001\D81001.csproj">
+      <Project>{B427D36F-7ECA-4245-A859-FFF4EE50597D}</Project>
+      <Name>D81001 %28Source\Modules\D81001\D81001%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D81003\D81003.csproj">
+      <Project>{A964979A-704B-4767-94DB-73CB32F754D1}</Project>
+      <Name>D81003 %28Source\Modules\D81003\D81003%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D8102\D8102.csproj">
+      <Project>{E5F22C69-7179-422D-B714-AE63D46F604A}</Project>
+      <Name>D8102 %28Source\Modules\D8102\D8102%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D8106\D8106.csproj">
+      <Project>{88EF24FC-1C4D-4AFD-8F97-486B4D8E290C}</Project>
+      <Name>D8106 %28Source\Modules\D8106\D8106%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820001\D820001.csproj">
+      <Project>{C225B7DB-20C1-4182-BCCF-176019229569}</Project>
+      <Name>D820001 %28Source\Modules\D820001\D820001%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820002\D820002.csproj">
+      <Project>{231E5FCE-66C3-4FE9-8C15-BE66AA1826B0}</Project>
+      <Name>D820002 %28Source\Modules\D820002\D820002%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820003\D820003.csproj">
+      <Project>{9300B713-1236-44DA-8594-737440F34055}</Project>
+      <Name>D820003 %28Source\Modules\D820003\D820003%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820004\D820004.csproj">
+      <Project>{846246C8-60C3-4ACC-93F2-ACF13578447C}</Project>
+      <Name>D820004 %28Source\Modules\D820004\D820004%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820005\D820005.csproj">
+      <Project>{6F11B0C6-C6C2-4B7F-B23C-28CA97B0B38E}</Project>
+      <Name>D820005 %28Source\Modules\D820005\D820005%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820006\D820006.csproj">
+      <Project>{12930F83-A09F-4405-A4D8-EF8740B42080}</Project>
+      <Name>D820006 %28Source\Modules\D820006\D820006%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820007\D820007.csproj">
+      <Project>{89BF236D-692B-48B0-9647-D8F13D29C828}</Project>
+      <Name>D820007 %28Source\Modules\D820007\D820007%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820008\D820008.csproj">
+      <Project>{04ADA7BD-D9FD-48C3-85A4-C76DDC9050C1}</Project>
+      <Name>D820008 %28Source\Modules\D820008\D820008%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820009\D820009.csproj">
+      <Project>{3FB5CCFF-801E-4F37-9F32-160D3BD2BCF1}</Project>
+      <Name>D820009 %28Source\Modules\D820009\D820009%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820010\D820010.csproj">
+      <Project>{86ED8141-5472-4AEE-887E-B6F97665AB9C}</Project>
+      <Name>D820010 %28Source\Modules\D820010\D820010%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820011\D820011.csproj">
+      <Project>{2824DEA8-2DE9-42A0-9562-25C1FD6296C9}</Project>
+      <Name>D820011 %28Source\Modules\D820011\D820011%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820012\D820012.csproj">
+      <Project>{7BC1E945-407F-4941-8381-558D85AF59E3}</Project>
+      <Name>D820012 %28Source\Modules\D820012\D820012%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820013\D820013.csproj">
+      <Project>{243B63A6-70FB-46ED-B44D-D603BD13AD9C}</Project>
+      <Name>D820013 %28Source\Modules\D820013\D820013%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820014\D820014.csproj">
+      <Project>{FEF66606-B689-49FA-B10E-9FF502804B99}</Project>
+      <Name>D820014 %28Source\Modules\D820014\D820014%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820015\D820015.csproj">
+      <Project>{3DFC3E24-0F7A-4BCF-8A20-C91A0537E8F7}</Project>
+      <Name>D820015 %28Source\Modules\D820015\D820015%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820016\D820016.csproj">
+      <Project>{ADB9A2EB-1B5A-4E47-8374-2B941B972D1E}</Project>
+      <Name>D820016 %28Source\Modules\D820016\D820016%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D820018\D820018.csproj">
+      <Project>{DE7659E6-9ACD-4648-8043-5856A82D1D72}</Project>
+      <Name>D820018 %28Source\Modules\D820018\D820018%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D82001\D82001.csproj">
+      <Project>{1E80D555-6BC3-405A-9E7C-9CCF234EAA21}</Project>
+      <Name>D82001 %28Source\Modules\D82001\D82001%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D82006\D82006.csproj">
+      <Project>{D550909E-0849-44E9-BA32-832DC39E657C}</Project>
+      <Name>D82006 %28Source\Modules\D82006\D82006%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D84100\D84100.csproj">
+      <Project>{3C76E88A-C479-4C06-890D-408B73B5ABC8}</Project>
+      <Name>D84100 %28Source\Modules\D84100\D84100%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D84401\D84401.csproj">
+      <Project>{18383220-5588-493A-B49C-735A5A386159}</Project>
+      <Name>D84401 %28Source\Modules\D84401\D84401%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D846011\D846011.csproj">
+      <Project>{D77FA123-7959-4FC1-9054-D0A90F918C4D}</Project>
+      <Name>D846011 %28Source\Modules\D846011\D846011%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D846012\D846012.csproj">
+      <Project>{F2BB15A6-348C-4DBF-83E5-C42976975A8C}</Project>
+      <Name>D846012 %28Source\Modules\D846012\D846012%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D846021\D846021.csproj">
+      <Project>{F231002B-42EB-4FC4-8067-7E134E9FDD40}</Project>
+      <Name>D846021 %28Source\Modules\D846021\D846021%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D846022\D846022.csproj">
+      <Project>{533EB48A-99BA-418F-9EDF-60FEA61C98D7}</Project>
+      <Name>D846022 %28Source\Modules\D846022\D846022%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D846031\D846031.csproj">
+      <Project>{22B19910-D024-44E8-AB6F-8A8C2058A86F}</Project>
+      <Name>D846031 %28Source\Modules\D846031\D846031%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D846032\D846032.csproj">
+      <Project>{2F1DB9ED-34E5-4FAF-86E1-94C085A8C7CB}</Project>
+      <Name>D846032 %28Source\Modules\D846032\D846032%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D84603\D84603.csproj">
+      <Project>{58B32691-0599-427C-8D77-C901D425AB83}</Project>
+      <Name>D84603 %28Source\Modules\D84603\D84603%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D846041\D846041.csproj">
+      <Project>{EAF7F7DC-7DA2-49F0-80B2-9A79FE17D32D}</Project>
+      <Name>D846041 %28Source\Modules\D846041\D846041%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D846042\D846042.csproj">
+      <Project>{84D691F1-C4DF-48B8-BC4D-021DE5BC5C21}</Project>
+      <Name>D846042 %28Source\Modules\D846042\D846042%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D84700\D84700.csproj">
+      <Project>{65D24037-1E93-40F6-8396-CEB7601CEFA6}</Project>
+      <Name>D84700 %28Source\Modules\D84700\D84700%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D8900\D8900.csproj">
+      <Project>{5491A495-17B4-409B-987E-CE2E7FBD272C}</Project>
+      <Name>D8900 %28Source\Modules\D8900\D8900%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D90005\D90005.csproj">
+      <Project>{71F81382-EA2A-47C8-9366-E2F56F5EF418}</Project>
+      <Name>D90005 %28Source\Modules\D90005\D90005%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9000\D9000.csproj">
+      <Project>{E49E47A3-D623-4204-9BEA-8D47BD42250E}</Project>
+      <Name>D9000 %28Source\Modules\D9000\D9000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D90010\D90010.csproj">
+      <Project>{F2EA6900-89AA-43AB-A887-3E51CF8F10B4}</Project>
+      <Name>D90010 %28Source\Modules\D90010\D90010%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9002\D9002.csproj">
+      <Project>{D6070AF6-9F23-417C-823D-F0251C999AE0}</Project>
+      <Name>D9002 %28Source\Modules\D9002\D9002%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9005\D9005.csproj">
+      <Project>{FE2F4DB9-55C2-4B19-BAD2-36486523F1E9}</Project>
+      <Name>D9005 %28Source\Modules\D9005\D9005%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D90101\D90101.csproj">
+      <Project>{4767D044-409B-493C-AF70-B43556188255}</Project>
+      <Name>D90101 %28Source\Modules\D90101\D90101%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9012\D9012.csproj">
+      <Project>{42896D02-E2D3-410E-B0CB-67433A17735A}</Project>
+      <Name>D9012 %28Source\Modules\D9012\D9012%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9020\D9020.csproj">
+      <Project>{551C194B-9BBD-49BD-89B3-1F4730D6E832}</Project>
+      <Name>D9020 %28Source\Modules\D9020\D9020%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9025\D9025.csproj">
+      <Project>{DF62432D-56E6-4E9E-88AE-ECD57C67D9E1}</Project>
+      <Name>D9025 %28Source\Modules\D9025\D9025%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9030\D9030.csproj">
+      <Project>{A843F8ED-7784-4E4C-AE4C-371F867E14D0}</Project>
+      <Name>D9030 %28Source\Modules\D9030\D9030%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9050\D9050.csproj">
+      <Project>{865B7632-8F45-4A5D-A57C-AFA4918B0570}</Project>
+      <Name>D9050 %28Source\Modules\D9050\D9050%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9060\D9060.csproj">
+      <Project>{2DF6D186-41EE-450A-AE71-0ECC2ABB8D8B}</Project>
+      <Name>D9060 %28Source\Modules\D9060\D9060%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9065\D9065.csproj">
+      <Project>{A1C4CA69-B47C-4D05-8CB5-E74AFD151E3A}</Project>
+      <Name>D9065 %28Source\Modules\D9065\D9065%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9070\D9070.csproj">
+      <Project>{D145F1B5-7AC3-4E94-A310-7A26DD6A1640}</Project>
+      <Name>D9070 %28Source\Modules\D9070\D9070%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9075\D9075.csproj">
+      <Project>{9E8E64E3-BE53-4B08-941E-6D05C775B2E1}</Project>
+      <Name>D9075 %28Source\Modules\D9075\D9075%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9080\D9080.csproj">
+      <Project>{21B1846B-FA3D-47AF-9DC8-7F12CCD4A95F}</Project>
+      <Name>D9080 %28Source\Modules\D9080\D9080%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D91000\D91000.csproj">
+      <Project>{78EAFCBD-2585-4472-9424-9E2A0A4D66D4}</Project>
+      <Name>D91000 %28Source\Modules\D91000\D91000%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9100\D9100.csproj">
+      <Project>{6D992020-4B9A-41CB-8975-94017DDB1DC7}</Project>
+      <Name>D9100 %28Source\Modules\D9100\D9100%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9500\D9500.csproj">
+      <Project>{25357E45-BD87-4610-9C32-1B736583B63A}</Project>
+      <Name>D9500 %28Source\Modules\D9500\D9500%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modules\D9600\D9600.csproj">
+      <Project>{74198C6B-0BD8-4A7A-A86C-AAC92DC6EC1B}</Project>
+      <Name>D9600 %28Source\Modules\D9600\D9600%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WCF Service\TerraScan.ServiceContracts\TerraScan.ServiceContracts.csproj">
+      <Project>{48D9B07A-5CDA-42A1-A081-AFE35D901EA5}</Project>
+      <Name>TerraScan.ServiceContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WCF Service\TerraScan.ServiceImplementation\TerraScan.ServiceImplementation.csproj">
+      <Project>{549B6955-1105-4A6F-9181-36EC4FEE9658}</Project>
+      <Name>TerraScan.ServiceImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CustomControl\TerraScan.UI.Controls\TerraScan.UI.Controls.csproj">
+      <Project>{6FD716AB-21EA-4E64-9877-AC98FC211A36}</Project>
+      <Name>TerraScan.UI.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{FC459FCE-3EB0-4023-9004-D0ACD10F3EDB}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure.Library\Infrastructure.Library.csproj">
+      <Project>{87E8EF06-6674-49C9-AB7A-1D4E15965F79}</Project>
+      <Name>Infrastructure.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure.Module\Infrastructure.Module.csproj">
+      <Project>{F941B1B6-9803-4EB9-8C34-EE9FAE77E39F}</Project>
+      <Name>Infrastructure.Module</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerraScan.BusinessEntities\TerraScan.BusinessEntities.csproj">
+      <Project>{35675EC3-DE95-4247-B004-42C3C0D3BAC8}</Project>
+      <Name>TerraScan.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerraScan.Common\TerraScan.Common.csproj">
+      <Project>{D56D1D13-CD21-4E77-92A2-2EEC4933E567}</Project>
+      <Name>TerraScan.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerraScan.DALHelper\TerraScan.DALHelper.csproj">
+      <Project>{BB87A922-940B-4D27-87B3-D16D81F11762}</Project>
+      <Name>TerraScan.DALHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerraScan.DAL\TerraScan.DAL.csproj">
+      <Project>{2570B039-E48D-44A8-92F7-F7E82EB1B89B}</Project>
+      <Name>TerraScan.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerraScan.DataLayer\TerraScan.DataLayer.csproj">
+      <Project>{68D655C0-80D7-4F8D-B7DA-DC1C1F892A6D}</Project>
+      <Name>TerraScan.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerraScan.Helper\TerraScan.Helper.csproj">
+      <Project>{95484F69-AB17-4278-8F30-495581D8DE3D}</Project>
+      <Name>TerraScan.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerraScan.UI.Localization\TerraScan.UI.Localization.csproj">
+      <Project>{4A20B196-27D8-4F5A-A069-CABBA62E5109}</Project>
+      <Name>TerraScan.UI.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerraScan.Utilities\TerraScan.Utilities.csproj">
+      <Project>{67285388-F458-4C57-8109-775820A914D6}</Project>
+      <Name>TerraScan.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControl\TerraScan.FieldSummary\TerraScan.FieldSummary.csproj">
+      <Project>{E3D09114-9905-4C84-B31B-1B47FBAD82EC}</Project>
+      <Name>TerraScan.FieldSummary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControl\TerraScan.PaymentEngine\TerraScan.PaymentEngine.csproj">
+      <Project>{02AD8BE1-AC9F-46E9-9467-2D4D1EBDCE2A}</Project>
+      <Name>TerraScan.PaymentEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControl\TerraScan.ReceiptEngine\TerraScan.ReceiptEngine.csproj">
+      <Project>{0E210554-4547-4A57-B9BD-F8EE900E4ABD}</Project>
+      <Name>TerraScan.ReceiptEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControl\TerraScan.RollYearStep\TerraScan.RollYearStep.csproj">
+      <Project>{0DA1CC1B-FEF0-4A67-AD77-2511A1FEBE70}</Project>
+      <Name>TerraScan.RollYearStep</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="AxInterop.MODI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Web">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Documents.Excel.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Excel.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Shared.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Shared.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.Misc.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.Misc.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinCalcManager.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinCalcManager.v11.1.FormulaBuilder">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinCalcManager.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinCalcManager.v9.1.FormulaBuilder">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinDataSource.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinDataSource.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinEditors.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinEditors.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinGrid.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinGrid.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinPrintPreviewDialog.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinStatusBar.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinStatusBar.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinTabControl.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinTabControl.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinToolbars.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinToolbars.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinTree.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.UltraWinTree.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Win.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics3.Documents.Excel.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics3.Excel.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics3.Win.UltraWinGrid.ExcelExport.v9.1">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.mshtml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Office.Interop.Excel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Office.Interop.Outlook">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Office.Interop.Visio">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Office.Interop.VisOcx">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Practices.CompositeUI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Practices.CompositeUI.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Practices.EnterpriseLibrary.Logging">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Practices.EnterpriseLibrary.Logging.Database">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Practices.ObjectBuilder">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Practices.ObjectBuilder2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Practices.Unity">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.BatchParser">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.ConnectionInfo">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Diagnostics.STrace">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Dmf">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Management.Sdk.Sfc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Management.SmoMetadataProvider">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Management.SqlParser">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.RegSvrEnum">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Replication">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Rmo">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.ServiceBrokerEnum">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Smo">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.SmoEnum">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.SmoExtended">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.SqlClrProvider">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.SqlEnum">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.SqlWmiManagement">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.WmiEnum">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.Vbe.Interop">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="office">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ProfileCatalog.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Templates\stencils.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="TerrascanEventLogCreator.exe">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>DataFile</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

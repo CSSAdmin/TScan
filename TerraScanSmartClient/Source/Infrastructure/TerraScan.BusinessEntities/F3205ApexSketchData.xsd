@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F3205ApexSketchData" targetNamespace="http://tempuri.org/F3205ApexSketchData.xsd" xmlns:mstns="http://tempuri.org/F3205ApexSketchData.xsd" xmlns="http://tempuri.org/F3205ApexSketchData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Terrascan23May2011ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Terrascan23May2011ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.Terrascan23May2011ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F3205ApexSketchData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="F3205ApexSketchData" msprop:Generator_UserDSName="F3205ApexSketchData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F3205pcgetSketchLinksExist" msprop:Generator_UserTableName="F3205pcgetSketchLinksExist" msprop:Generator_RowDeletedName="F3205pcgetSketchLinksExistRowDeleted" msprop:Generator_TableClassName="F3205pcgetSketchLinksExistDataTable" msprop:Generator_RowChangedName="F3205pcgetSketchLinksExistRowChanged" msprop:Generator_RowClassName="F3205pcgetSketchLinksExistRow" msprop:Generator_RowChangingName="F3205pcgetSketchLinksExistRowChanging" msprop:Generator_RowEvArgName="F3205pcgetSketchLinksExistRowChangeEvent" msprop:Generator_RowEvHandlerName="F3205pcgetSketchLinksExistRowChangeEventHandler" msprop:Generator_TablePropName="F3205pcgetSketchLinksExist" msprop:Generator_TableVarName="tableF3205pcgetSketchLinksExist" msprop:Generator_RowDeletingName="F3205pcgetSketchLinksExistRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IsLinkSetComplete" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsLinkSetComplete" msprop:Generator_ColumnPropNameInRow="IsLinkSetComplete" msprop:Generator_ColumnVarNameInTable="columnIsLinkSetComplete" msprop:Generator_ColumnPropNameInTable="IsLinkSetCompleteColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="F3205pcgetSketchFilePath" msprop:Generator_UserTableName="F3205pcgetSketchFilePath" msprop:Generator_RowDeletedName="F3205pcgetSketchFilePathRowDeleted" msprop:Generator_TableClassName="F3205pcgetSketchFilePathDataTable" msprop:Generator_RowChangedName="F3205pcgetSketchFilePathRowChanged" msprop:Generator_RowClassName="F3205pcgetSketchFilePathRow" msprop:Generator_RowChangingName="F3205pcgetSketchFilePathRowChanging" msprop:Generator_RowEvArgName="F3205pcgetSketchFilePathRowChangeEvent" msprop:Generator_RowEvHandlerName="F3205pcgetSketchFilePathRowChangeEventHandler" msprop:Generator_TablePropName="F3205pcgetSketchFilePath" msprop:Generator_TableVarName="tableF3205pcgetSketchFilePath" msprop:Generator_RowDeletingName="F3205pcgetSketchFilePathRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FilePath" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FilePath" msprop:Generator_ColumnPropNameInRow="FilePath" msprop:Generator_ColumnVarNameInTable="columnFilePath" msprop:Generator_ColumnPropNameInTable="FilePathColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="F3205pcinsSketchImage" msprop:Generator_UserTableName="F3205pcinsSketchImage" msprop:Generator_RowDeletedName="F3205pcinsSketchImageRowDeleted" msprop:Generator_TableClassName="F3205pcinsSketchImageDataTable" msprop:Generator_RowChangedName="F3205pcinsSketchImageRowChanged" msprop:Generator_RowClassName="F3205pcinsSketchImageRow" msprop:Generator_RowChangingName="F3205pcinsSketchImageRowChanging" msprop:Generator_RowEvArgName="F3205pcinsSketchImageRowChangeEvent" msprop:Generator_RowEvHandlerName="F3205pcinsSketchImageRowChangeEventHandler" msprop:Generator_TablePropName="F3205pcinsSketchImage" msprop:Generator_TableVarName="tableF3205pcinsSketchImage" msprop:Generator_RowDeletingName="F3205pcinsSketchImageRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FileID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="FileID" msprop:Generator_ColumnPropNameInRow="FileID" msprop:Generator_ColumnVarNameInTable="columnFileID" msprop:Generator_ColumnPropNameInTable="FileIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Page" msprop:Generator_UserColumnName="Page" msprop:Generator_ColumnPropNameInRow="Page" msprop:Generator_ColumnVarNameInTable="columnPage" msprop:Generator_ColumnPropNameInTable="PageColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ImagePath" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ImagePath" msprop:Generator_ColumnPropNameInRow="ImagePath" msprop:Generator_ColumnVarNameInTable="columnImagePath" msprop:Generator_ColumnPropNameInTable="ImagePathColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="355" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

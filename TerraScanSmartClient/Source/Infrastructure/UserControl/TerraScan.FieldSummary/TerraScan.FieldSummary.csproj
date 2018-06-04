@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3D09114-9905-4C84-B31B-1B47FBAD82EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TerraScan.FieldSummary</RootNamespace>
+    <AssemblyName>TerraScan.FieldSummary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <StartupObject>
+    </StartupObject>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>TerraScan.FieldSummary.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\binaries\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ancestry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ancestry.Designer.cs">
+      <DependentUpon>Ancestry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Correction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Correction.Designer.cs">
+      <DependentUpon>Correction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="History.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OwnerShip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OwnerShip.Designer.cs">
+      <DependentUpon>OwnerShip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Permit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Permit.Designer.cs">
+      <DependentUpon>Permit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhotoPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PhotoPanel.Designer.cs">
+      <DependentUpon>PhotoPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Photos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Photos.Designer.cs">
+      <DependentUpon>Photos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ancestry.resx">
+      <DependentUpon>Ancestry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Correction.resx">
+      <DependentUpon>Correction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OwnerShip.resx">
+      <DependentUpon>OwnerShip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Permit.resx">
+      <DependentUpon>Permit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhotoPanel.resx">
+      <DependentUpon>PhotoPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Photos.resx">
+      <DependentUpon>Photos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Summary.resx">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TerraScan.FieldSummary.snk" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sales.Designer.cs">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Summary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CustomControl\TerraScan.UI.Controls\TerraScan.UI.Controls.csproj">
+      <Project>{6FD716AB-21EA-4E64-9877-AC98FC211A36}</Project>
+      <Name>TerraScan.UI.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TerraScan.Common\TerraScan.Common.csproj">
+      <Project>{D56D1D13-CD21-4E77-92A2-2EEC4933E567}</Project>
+      <Name>TerraScan.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TerraScan.Helper\TerraScan.Helper.csproj">
+      <Project>{95484F69-AB17-4278-8F30-495581D8DE3D}</Project>
+      <Name>TerraScan.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TerraScan.Utilities\TerraScan.Utilities.csproj">
+      <Project>{67285388-F458-4C57-8109-775820A914D6}</Project>
+      <Name>TerraScan.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Noattachement.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview unavailable.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

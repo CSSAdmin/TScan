@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F15016StatementHeaderData" targetNamespace="http://tempuri.org/F15016StatementHeaderData.xsd" xmlns:mstns="http://tempuri.org/F15016StatementHeaderData.xsd" xmlns="http://tempuri.org/F15016StatementHeaderData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F15016StatementHeaderData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F15016StatementHeaderData" msprop:Generator_DataSetName="F15016StatementHeaderData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="f15016StatementHeaderSlim" msprop:Generator_UserTableName="f15016StatementHeaderSlim" msprop:Generator_RowDeletedName="f15016StatementHeaderSlimRowDeleted" msprop:Generator_RowChangedName="f15016StatementHeaderSlimRowChanged" msprop:Generator_RowClassName="f15016StatementHeaderSlimRow" msprop:Generator_RowChangingName="f15016StatementHeaderSlimRowChanging" msprop:Generator_RowEvArgName="f15016StatementHeaderSlimRowChangeEvent" msprop:Generator_RowEvHandlerName="f15016StatementHeaderSlimRowChangeEventHandler" msprop:Generator_TableClassName="f15016StatementHeaderSlimDataTable" msprop:Generator_TableVarName="tablef15016StatementHeaderSlim" msprop:Generator_RowDeletingName="f15016StatementHeaderSlimRowDeleting" msprop:Generator_TablePropName="f15016StatementHeaderSlim">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StatementID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="StatementID" msprop:Generator_ColumnVarNameInTable="columnStatementID" msprop:Generator_ColumnPropNameInRow="StatementID" msprop:Generator_ColumnPropNameInTable="StatementIDColumn" type="xs:int" />
+              <xs:element name="StatementNumber" msprop:Generator_UserColumnName="StatementNumber" msprop:Generator_ColumnVarNameInTable="columnStatementNumber" msprop:Generator_ColumnPropNameInRow="StatementNumber" msprop:Generator_ColumnPropNameInTable="StatementNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Form" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="ParcelID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ParcelID" msprop:Generator_ColumnVarNameInTable="columnParcelID" msprop:Generator_ColumnPropNameInRow="ParcelID" msprop:Generator_ColumnPropNameInTable="ParcelIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="DistrictID" msprop:Generator_ColumnVarNameInTable="columnDistrictID" msprop:Generator_ColumnPropNameInRow="DistrictID" msprop:Generator_ColumnPropNameInTable="DistrictIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="District" msdata:ReadOnly="true" msprop:Generator_UserColumnName="District" msprop:Generator_ColumnVarNameInTable="columnDistrict" msprop:Generator_ColumnPropNameInRow="District" msprop:Generator_ColumnPropNameInTable="DistrictColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="103" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Situs" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Situs" msprop:Generator_ColumnVarNameInTable="columnSitus" msprop:Generator_ColumnPropNameInRow="Situs" msprop:Generator_ColumnPropNameInTable="SitusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Legal" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Legal" msprop:Generator_ColumnVarNameInTable="columnLegal" msprop:Generator_ColumnPropNameInRow="Legal" msprop:Generator_ColumnPropNameInTable="LegalColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

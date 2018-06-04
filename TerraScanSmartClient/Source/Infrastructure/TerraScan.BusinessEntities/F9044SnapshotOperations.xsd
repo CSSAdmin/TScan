@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9044SnapshotOperations" targetNamespace="http://tempuri.org/F9044SnapshotOperations.xsd" xmlns:mstns="http://tempuri.org/F9044SnapshotOperations.xsd" xmlns="http://tempuri.org/F9044SnapshotOperations.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanClientDevDB20121210ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanClientDevDB20121210ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanClientDevDB20121210ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9044SnapshotOperations" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="F9044SnapshotOperations" msprop:Generator_UserDSName="F9044SnapshotOperations" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="f9044_pcget_SnapshotOperationCount" msprop:Generator_UserTableName="f9044_pcget_SnapshotOperationCount" msprop:Generator_RowDeletedName="f9044_pcget_SnapshotOperationCountRowDeleted" msprop:Generator_TableClassName="f9044_pcget_SnapshotOperationCountDataTable" msprop:Generator_RowChangedName="f9044_pcget_SnapshotOperationCountRowChanged" msprop:Generator_RowClassName="f9044_pcget_SnapshotOperationCountRow" msprop:Generator_RowChangingName="f9044_pcget_SnapshotOperationCountRowChanging" msprop:Generator_RowEvArgName="f9044_pcget_SnapshotOperationCountRowChangeEvent" msprop:Generator_RowEvHandlerName="f9044_pcget_SnapshotOperationCountRowChangeEventHandler" msprop:Generator_TablePropName="f9044_pcget_SnapshotOperationCount" msprop:Generator_TableVarName="tablef9044_pcget_SnapshotOperationCount" msprop:Generator_RowDeletingName="f9044_pcget_SnapshotOperationCountRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordsInCommon" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RecordsInCommon" msprop:Generator_ColumnPropNameInRow="RecordsInCommon" msprop:Generator_ColumnVarNameInTable="columnRecordsInCommon" msprop:Generator_ColumnPropNameInTable="RecordsInCommonColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RecordsInNewSnapshot" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RecordsInNewSnapshot" msprop:Generator_ColumnPropNameInRow="RecordsInNewSnapshot" msprop:Generator_ColumnVarNameInTable="columnRecordsInNewSnapshot" msprop:Generator_ColumnPropNameInTable="RecordsInNewSnapshotColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f9044_pcget_SnapshotOperations" msprop:Generator_UserTableName="f9044_pcget_SnapshotOperations" msprop:Generator_RowDeletedName="f9044_pcget_SnapshotOperationsRowDeleted" msprop:Generator_TableClassName="f9044_pcget_SnapshotOperationsDataTable" msprop:Generator_RowChangedName="f9044_pcget_SnapshotOperationsRowChanged" msprop:Generator_RowClassName="f9044_pcget_SnapshotOperationsRow" msprop:Generator_RowChangingName="f9044_pcget_SnapshotOperationsRowChanging" msprop:Generator_RowEvArgName="f9044_pcget_SnapshotOperationsRowChangeEvent" msprop:Generator_RowEvHandlerName="f9044_pcget_SnapshotOperationsRowChangeEventHandler" msprop:Generator_TablePropName="f9044_pcget_SnapshotOperations" msprop:Generator_TableVarName="tablef9044_pcget_SnapshotOperations" msprop:Generator_RowDeletingName="f9044_pcget_SnapshotOperationsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SnapshotID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="SnapshotID" msprop:Generator_ColumnPropNameInRow="SnapshotID" msprop:Generator_ColumnVarNameInTable="columnSnapshotID" msprop:Generator_ColumnPropNameInTable="SnapshotIDColumn" type="xs:int" />
+              <xs:element name="SnapshotName" msprop:Generator_UserColumnName="SnapshotName" msprop:Generator_ColumnPropNameInRow="SnapshotName" msprop:Generator_ColumnVarNameInTable="columnSnapshotName" msprop:Generator_ColumnPropNameInTable="SnapshotNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SnapshotNote" msprop:Generator_UserColumnName="SnapshotNote" msprop:Generator_ColumnPropNameInRow="SnapshotNote" msprop:Generator_ColumnVarNameInTable="columnSnapshotNote" msprop:Generator_ColumnPropNameInTable="SnapshotNoteColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CreatedBy" msprop:Generator_UserColumnName="CreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RecordCount" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RecordCount" msprop:Generator_ColumnPropNameInRow="RecordCount" msprop:Generator_ColumnVarNameInTable="columnRecordCount" msprop:Generator_ColumnPropNameInTable="RecordCountColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f9044_pcget_Operations" msprop:Generator_UserTableName="f9044_pcget_Operations" msprop:Generator_RowDeletedName="f9044_pcget_OperationsRowDeleted" msprop:Generator_TableClassName="f9044_pcget_OperationsDataTable" msprop:Generator_RowChangedName="f9044_pcget_OperationsRowChanged" msprop:Generator_RowClassName="f9044_pcget_OperationsRow" msprop:Generator_RowChangingName="f9044_pcget_OperationsRowChanging" msprop:Generator_RowEvArgName="f9044_pcget_OperationsRowChangeEvent" msprop:Generator_RowEvHandlerName="f9044_pcget_OperationsRowChangeEventHandler" msprop:Generator_TablePropName="f9044_pcget_Operations" msprop:Generator_TableVarName="tablef9044_pcget_Operations" msprop:Generator_RowDeletingName="f9044_pcget_OperationsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OperationID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OperationID" msprop:Generator_ColumnPropNameInRow="OperationID" msprop:Generator_ColumnVarNameInTable="columnOperationID" msprop:Generator_ColumnPropNameInTable="OperationIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Operation" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Operation" msprop:Generator_ColumnPropNameInRow="Operation" msprop:Generator_ColumnVarNameInTable="columnOperation" msprop:Generator_ColumnPropNameInTable="OperationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OperationDescription" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OperationDescription" msprop:Generator_ColumnPropNameInRow="OperationDescription" msprop:Generator_ColumnVarNameInTable="columnOperationDescription" msprop:Generator_ColumnPropNameInTable="OperationDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="63" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

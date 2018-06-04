@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HelpEngineData" targetNamespace="http://tempuri.org/HelpEngineData.xsd" xmlns:mstns="http://tempuri.org/HelpEngineData.xsd" xmlns="http://tempuri.org/HelpEngineData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerraScanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerraScanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerraScanConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HelpEngineData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="HelpEngineData" msprop:Generator_DataSetName="HelpEngineData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListHelpDocumentForm" msprop:Generator_UserTableName="ListHelpDocumentForm" msprop:Generator_RowDeletedName="ListHelpDocumentFormRowDeleted" msprop:Generator_TableClassName="ListHelpDocumentFormDataTable" msprop:Generator_RowChangedName="ListHelpDocumentFormRowChanged" msprop:Generator_RowClassName="ListHelpDocumentFormRow" msprop:Generator_RowChangingName="ListHelpDocumentFormRowChanging" msprop:Generator_RowEvArgName="ListHelpDocumentFormRowChangeEvent" msprop:Generator_RowEvHandlerName="ListHelpDocumentFormRowChangeEventHandler" msprop:Generator_TablePropName="ListHelpDocumentForm" msprop:Generator_TableVarName="tableListHelpDocumentForm" msprop:Generator_RowDeletingName="ListHelpDocumentFormRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HelpID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="HelpID" msprop:Generator_ColumnPropNameInRow="HelpID" msprop:Generator_ColumnVarNameInTable="columnHelpID" msprop:Generator_ColumnPropNameInTable="HelpIDColumn" type="xs:int" />
+              <xs:element name="FormFile" msprop:Generator_UserColumnName="FormFile" msprop:Generator_ColumnPropNameInRow="FormFile" msprop:Generator_ColumnVarNameInTable="columnFormFile" msprop:Generator_ColumnPropNameInTable="FormFileColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FileName" msprop:Generator_UserColumnName="FileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsFile" msprop:Generator_UserColumnName="IsFile" msprop:Generator_ColumnPropNameInRow="IsFile" msprop:Generator_ColumnVarNameInTable="columnIsFile" msprop:Generator_ColumnPropNameInTable="IsFileColumn" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

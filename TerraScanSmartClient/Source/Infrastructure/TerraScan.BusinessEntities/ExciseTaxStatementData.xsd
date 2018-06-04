@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ExciseTaxStatementData" targetNamespace="http://tempuri.org/ExciseTaxStatementData.xsd" xmlns:mstns="http://tempuri.org/ExciseTaxStatementData.xsd" xmlns="http://tempuri.org/ExciseTaxStatementData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerraScanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerraScanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerraScanConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ExciseTaxStatementData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ExciseTaxStatementData" msprop:Generator_DataSetName="ExciseTaxStatementData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetExciseTaxStatement" msprop:Generator_UserTableName="GetExciseTaxStatement" msprop:Generator_RowDeletedName="GetExciseTaxStatementRowDeleted" msprop:Generator_RowChangedName="GetExciseTaxStatementRowChanged" msprop:Generator_RowClassName="GetExciseTaxStatementRow" msprop:Generator_RowChangingName="GetExciseTaxStatementRowChanging" msprop:Generator_RowEvArgName="GetExciseTaxStatementRowChangeEvent" msprop:Generator_RowEvHandlerName="GetExciseTaxStatementRowChangeEventHandler" msprop:Generator_TableClassName="GetExciseTaxStatementDataTable" msprop:Generator_TableVarName="tableGetExciseTaxStatement" msprop:Generator_RowDeletingName="GetExciseTaxStatementRowDeleting" msprop:Generator_TablePropName="GetExciseTaxStatement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StatementID" msprop:Generator_UserColumnName="StatementID" msprop:Generator_ColumnPropNameInRow="StatementID" msprop:Generator_ColumnVarNameInTable="columnStatementID" msprop:Generator_ColumnPropNameInTable="StatementIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SaleDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SaleDate" msprop:Generator_ColumnPropNameInRow="SaleDate" msprop:Generator_ColumnVarNameInTable="columnSaleDate" msprop:Generator_ColumnPropNameInTable="SaleDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FormDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FormDate" msprop:Generator_ColumnPropNameInRow="FormDate" msprop:Generator_ColumnVarNameInTable="columnFormDate" msprop:Generator_ColumnPropNameInTable="FormDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PaymentDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PaymentDate" msprop:Generator_ColumnPropNameInRow="PaymentDate" msprop:Generator_ColumnVarNameInTable="columnPaymentDate" msprop:Generator_ColumnPropNameInTable="PaymentDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MobileHome" msdata:ReadOnly="true" msprop:Generator_UserColumnName="MobileHome" msprop:Generator_ColumnPropNameInRow="MobileHome" msprop:Generator_ColumnVarNameInTable="columnMobileHome" msprop:Generator_ColumnPropNameInTable="MobileHomeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ReceiptNumber" msprop:Generator_UserColumnName="ReceiptNumber" msprop:Generator_ColumnPropNameInRow="ReceiptNumber" msprop:Generator_ColumnVarNameInTable="columnReceiptNumber" msprop:Generator_ColumnPropNameInTable="ReceiptNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ReceiptID" msprop:Generator_UserColumnName="ReceiptID" msprop:Generator_ColumnVarNameInTable="columnReceiptID" msprop:Generator_ColumnPropNameInRow="ReceiptID" msprop:Generator_ColumnPropNameInTable="ReceiptIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DistrictID" msprop:Generator_UserColumnName="DistrictID" msprop:Generator_ColumnPropNameInRow="DistrictID" msprop:Generator_ColumnVarNameInTable="columnDistrictID" msprop:Generator_ColumnPropNameInTable="DistrictIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="District" msdata:ReadOnly="true" msprop:Generator_UserColumnName="District" msprop:Generator_ColumnPropNameInRow="District" msprop:Generator_ColumnVarNameInTable="columnDistrict" msprop:Generator_ColumnPropNameInTable="DistrictColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="103" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TaxableSalePrice" msprop:Generator_UserColumnName="TaxableSalePrice" msprop:Generator_ColumnPropNameInRow="TaxableSalePrice" msprop:Generator_ColumnVarNameInTable="columnTaxableSalePrice" msprop:Generator_ColumnPropNameInTable="TaxableSalePriceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TaxCode" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TaxCode" msprop:Generator_ColumnPropNameInRow="TaxCode" msprop:Generator_ColumnVarNameInTable="columnTaxCode" msprop:Generator_ColumnPropNameInTable="TaxCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Grantor" msprop:Generator_UserColumnName="Grantor" msprop:Generator_ColumnPropNameInRow="Grantor" msprop:Generator_ColumnVarNameInTable="columnGrantor" msprop:Generator_ColumnPropNameInTable="GrantorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GrantorOwnerID" msprop:Generator_UserColumnName="GrantorOwnerID" msprop:Generator_ColumnPropNameInRow="GrantorOwnerID" msprop:Generator_ColumnVarNameInTable="columnGrantorOwnerID" msprop:Generator_ColumnPropNameInTable="GrantorOwnerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Grantee" msprop:Generator_UserColumnName="Grantee" msprop:Generator_ColumnPropNameInRow="Grantee" msprop:Generator_ColumnVarNameInTable="columnGrantee" msprop:Generator_ColumnPropNameInTable="GranteeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GranteeOwnerID" msprop:Generator_UserColumnName="GranteeOwnerID" msprop:Generator_ColumnPropNameInRow="GranteeOwnerID" msprop:Generator_ColumnVarNameInTable="columnGranteeOwnerID" msprop:Generator_ColumnPropNameInTable="GranteeOwnerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PPaymentID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PPaymentID" msprop:Generator_ColumnPropNameInRow="PPaymentID" msprop:Generator_ColumnVarNameInTable="columnPPaymentID" msprop:Generator_ColumnPropNameInTable="PPaymentIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListExciseTaxStatementID" msprop:Generator_UserTableName="ListExciseTaxStatementID" msprop:Generator_RowDeletedName="ListExciseTaxStatementIDRowDeleted" msprop:Generator_RowChangedName="ListExciseTaxStatementIDRowChanged" msprop:Generator_RowClassName="ListExciseTaxStatementIDRow" msprop:Generator_RowChangingName="ListExciseTaxStatementIDRowChanging" msprop:Generator_RowEvArgName="ListExciseTaxStatementIDRowChangeEvent" msprop:Generator_RowEvHandlerName="ListExciseTaxStatementIDRowChangeEventHandler" msprop:Generator_TableClassName="ListExciseTaxStatementIDDataTable" msprop:Generator_TableVarName="tableListExciseTaxStatementID" msprop:Generator_RowDeletingName="ListExciseTaxStatementIDRowDeleting" msprop:Generator_TablePropName="ListExciseTaxStatementID">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyID" msprop:Generator_UserColumnName="KeyID" msprop:Generator_ColumnPropNameInRow="KeyID" msprop:Generator_ColumnVarNameInTable="columnKeyID" msprop:Generator_ColumnPropNameInTable="KeyIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetExciseTaxReceipt" msprop:Generator_UserTableName="GetExciseTaxReceipt" msprop:Generator_RowDeletedName="GetExciseTaxReceiptRowDeleted" msprop:Generator_RowChangedName="GetExciseTaxReceiptRowChanged" msprop:Generator_RowClassName="GetExciseTaxReceiptRow" msprop:Generator_RowChangingName="GetExciseTaxReceiptRowChanging" msprop:Generator_RowEvArgName="GetExciseTaxReceiptRowChangeEvent" msprop:Generator_RowEvHandlerName="GetExciseTaxReceiptRowChangeEventHandler" msprop:Generator_TableClassName="GetExciseTaxReceiptDataTable" msprop:Generator_TableVarName="tableGetExciseTaxReceipt" msprop:Generator_RowDeletingName="GetExciseTaxReceiptRowDeleting" msprop:Generator_TablePropName="GetExciseTaxReceipt">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Item" msprop:Generator_UserColumnName="Item" msprop:Generator_ColumnPropNameInRow="Item" msprop:Generator_ColumnVarNameInTable="columnItem" msprop:Generator_ColumnPropNameInTable="ItemColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StateRate" msprop:Generator_UserColumnName="StateRate" msprop:Generator_ColumnPropNameInRow="StateRate" msprop:Generator_ColumnVarNameInTable="columnStateRate" msprop:Generator_ColumnPropNameInTable="StateRateColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="StateAmount" msprop:Generator_UserColumnName="StateAmount" msprop:Generator_ColumnPropNameInRow="StateAmount" msprop:Generator_ColumnVarNameInTable="columnStateAmount" msprop:Generator_ColumnPropNameInTable="StateAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LocalRate" msprop:Generator_UserColumnName="LocalRate" msprop:Generator_ColumnPropNameInRow="LocalRate" msprop:Generator_ColumnVarNameInTable="columnLocalRate" msprop:Generator_ColumnPropNameInTable="LocalRateColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="LocalAmount" msprop:Generator_UserColumnName="LocalAmount" msprop:Generator_ColumnPropNameInRow="LocalAmount" msprop:Generator_ColumnVarNameInTable="columnLocalAmount" msprop:Generator_ColumnPropNameInTable="LocalAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FeeType" msprop:Generator_UserColumnName="FeeType" msprop:Generator_ColumnPropNameInRow="FeeType" msprop:Generator_ColumnVarNameInTable="columnFeeType" msprop:Generator_ColumnPropNameInTable="FeeTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeeAmount" msprop:Generator_UserColumnName="FeeAmount" msprop:Generator_ColumnPropNameInRow="FeeAmount" msprop:Generator_ColumnVarNameInTable="columnFeeAmount" msprop:Generator_ColumnPropNameInTable="FeeAmountColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SaveExciseTaxReceipt" msprop:Generator_UserTableName="SaveExciseTaxReceipt" msprop:Generator_RowDeletedName="SaveExciseTaxReceiptRowDeleted" msprop:Generator_RowChangedName="SaveExciseTaxReceiptRowChanged" msprop:Generator_RowClassName="SaveExciseTaxReceiptRow" msprop:Generator_RowChangingName="SaveExciseTaxReceiptRowChanging" msprop:Generator_RowEvArgName="SaveExciseTaxReceiptRowChangeEvent" msprop:Generator_RowEvHandlerName="SaveExciseTaxReceiptRowChangeEventHandler" msprop:Generator_TableClassName="SaveExciseTaxReceiptDataTable" msprop:Generator_TableVarName="tableSaveExciseTaxReceipt" msprop:Generator_RowDeletingName="SaveExciseTaxReceiptRowDeleting" msprop:Generator_TablePropName="SaveExciseTaxReceipt">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StatementID" msprop:Generator_UserColumnName="StatementID" msprop:Generator_ColumnPropNameInRow="StatementID" msprop:Generator_ColumnVarNameInTable="columnStatementID" msprop:Generator_ColumnPropNameInTable="StatementIDColumn" type="xs:int" />
+              <xs:element name="ReceiptDate" msprop:Generator_UserColumnName="ReceiptDate" msprop:Generator_ColumnPropNameInRow="ReceiptDate" msprop:Generator_ColumnVarNameInTable="columnReceiptDate" msprop:Generator_ColumnPropNameInTable="ReceiptDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PostID" msprop:Generator_UserColumnName="PostID" msprop:Generator_ColumnPropNameInRow="PostID" msprop:Generator_ColumnVarNameInTable="columnPostID" msprop:Generator_ColumnPropNameInTable="PostIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PostTypeID" msprop:Generator_UserColumnName="PostTypeID" msprop:Generator_ColumnPropNameInRow="PostTypeID" msprop:Generator_ColumnVarNameInTable="columnPostTypeID" msprop:Generator_ColumnPropNameInTable="PostTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="InterestDate" msprop:Generator_UserColumnName="InterestDate" msprop:Generator_ColumnPropNameInRow="InterestDate" msprop:Generator_ColumnVarNameInTable="columnInterestDate" msprop:Generator_ColumnPropNameInTable="InterestDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PPaymentID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PPaymentID" msprop:Generator_ColumnPropNameInRow="PPaymentID" msprop:Generator_ColumnVarNameInTable="columnPPaymentID" msprop:Generator_ColumnPropNameInTable="PPaymentIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExciseTaxReceiptResultSet" msprop:Generator_UserTableName="ExciseTaxReceiptResultSet" msprop:Generator_RowDeletedName="ExciseTaxReceiptResultSetRowDeleted" msprop:Generator_RowChangedName="ExciseTaxReceiptResultSetRowChanged" msprop:Generator_RowClassName="ExciseTaxReceiptResultSetRow" msprop:Generator_RowChangingName="ExciseTaxReceiptResultSetRowChanging" msprop:Generator_RowEvArgName="ExciseTaxReceiptResultSetRowChangeEvent" msprop:Generator_RowEvHandlerName="ExciseTaxReceiptResultSetRowChangeEventHandler" msprop:Generator_TableClassName="ExciseTaxReceiptResultSetDataTable" msprop:Generator_TableVarName="tableExciseTaxReceiptResultSet" msprop:Generator_RowDeletingName="ExciseTaxReceiptResultSetRowDeleting" msprop:Generator_TablePropName="ExciseTaxReceiptResultSet">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReceiptID" msprop:Generator_UserColumnName="ReceiptID" msprop:Generator_ColumnPropNameInRow="ReceiptID" msprop:Generator_ColumnVarNameInTable="columnReceiptID" msprop:Generator_ColumnPropNameInTable="ReceiptIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsDelinquent" msprop:Generator_UserColumnName="IsDelinquent" msprop:Generator_ColumnPropNameInRow="IsDelinquent" msprop:Generator_ColumnVarNameInTable="columnIsDelinquent" msprop:Generator_ColumnPropNameInTable="IsDelinquentColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PPaymentID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PPaymentID" msprop:Generator_ColumnPropNameInRow="PPaymentID" msprop:Generator_ColumnVarNameInTable="columnPPaymentID" msprop:Generator_ColumnPropNameInTable="PPaymentIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsAutoPrint" msprop:Generator_UserColumnName="IsAutoPrint" msprop:Generator_ColumnPropNameInRow="IsAutoPrint" msprop:Generator_ColumnVarNameInTable="columnIsAutoPrint" msprop:Generator_ColumnPropNameInTable="IsAutoPrintColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

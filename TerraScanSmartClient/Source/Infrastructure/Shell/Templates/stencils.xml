@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stencils>
+  <stencil name="Templates\T2 Core.vss" title="T2 Core" editable="false" active="true" />
+  <stencil name="Templates\T2 Annotation.vss" title="T2 Annotation" editable="false" />
+  <stencil name="Templates\T2 Display.vss" title="T2 Display" editable="false" />
+  <stencil name="Templates\T2 Custom Templates.vss" title="T2 Custom Templates" editable="true" />
+  <stencil name="Templates\T2 Templates.vss" title="T2 Templates" editable="false" />
+</stencils>

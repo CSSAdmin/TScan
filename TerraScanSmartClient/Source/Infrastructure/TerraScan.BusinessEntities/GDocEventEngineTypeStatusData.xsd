@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GDocEventEngineTypeStatusData" targetNamespace="http://tempuri.org/GDocEventEngineTypeStatusData.xsd" xmlns:mstns="http://tempuri.org/GDocEventEngineTypeStatusData.xsd" xmlns="http://tempuri.org/GDocEventEngineTypeStatusData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GDocEventEngineTypeStatusData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GDocEventEngineTypeStatusData" msprop:Generator_DataSetName="GDocEventEngineTypeStatusData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListEventEngineTypeTable" msprop:Generator_UserTableName="ListEventEngineTypeTable" msprop:Generator_RowDeletedName="ListEventEngineTypeTableRowDeleted" msprop:Generator_RowChangedName="ListEventEngineTypeTableRowChanged" msprop:Generator_RowClassName="ListEventEngineTypeTableRow" msprop:Generator_RowChangingName="ListEventEngineTypeTableRowChanging" msprop:Generator_RowEvArgName="ListEventEngineTypeTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ListEventEngineTypeTableRowChangeEventHandler" msprop:Generator_TableClassName="ListEventEngineTypeTableDataTable" msprop:Generator_TableVarName="tableListEventEngineTypeTable" msprop:Generator_RowDeletingName="ListEventEngineTypeTableRowDeleting" msprop:Generator_TablePropName="ListEventEngineTypeTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventTypeID" msprop:Generator_UserColumnName="EventTypeID" msprop:Generator_ColumnVarNameInTable="columnEventTypeID" msprop:Generator_ColumnPropNameInRow="EventTypeID" msprop:Generator_ColumnPropNameInTable="EventTypeIDColumn" type="xs:int" />
+              <xs:element name="EventType" msprop:Generator_UserColumnName="EventType" msprop:Generator_ColumnVarNameInTable="columnEventType" msprop:Generator_ColumnPropNameInRow="EventType" msprop:Generator_ColumnPropNameInTable="EventTypeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListEventStatusTypeTable" msprop:Generator_UserTableName="ListEventStatusTypeTable" msprop:Generator_RowDeletedName="ListEventStatusTypeTableRowDeleted" msprop:Generator_RowChangedName="ListEventStatusTypeTableRowChanged" msprop:Generator_RowClassName="ListEventStatusTypeTableRow" msprop:Generator_RowChangingName="ListEventStatusTypeTableRowChanging" msprop:Generator_RowEvArgName="ListEventStatusTypeTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ListEventStatusTypeTableRowChangeEventHandler" msprop:Generator_TableClassName="ListEventStatusTypeTableDataTable" msprop:Generator_TableVarName="tableListEventStatusTypeTable" msprop:Generator_RowDeletingName="ListEventStatusTypeTableRowDeleting" msprop:Generator_TablePropName="ListEventStatusTypeTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StatusID" msprop:Generator_UserColumnName="StatusID" msprop:Generator_ColumnVarNameInTable="columnStatusID" msprop:Generator_ColumnPropNameInRow="StatusID" msprop:Generator_ColumnPropNameInTable="StatusIDColumn" type="xs:int" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StatusColor" msprop:Generator_UserColumnName="StatusColor" msprop:Generator_ColumnVarNameInTable="columnStatusColor" msprop:Generator_ColumnPropNameInRow="StatusColor" msprop:Generator_ColumnPropNameInTable="StatusColorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

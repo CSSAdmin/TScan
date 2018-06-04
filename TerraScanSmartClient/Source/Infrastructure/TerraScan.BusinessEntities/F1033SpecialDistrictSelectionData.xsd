@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F1033SpecialDistrictSelectionData" targetNamespace="http://tempuri.org/F1033SpecialDistrictSelectionData.xsd" xmlns:mstns="http://tempuri.org/F1033SpecialDistrictSelectionData.xsd" xmlns="http://tempuri.org/F1033SpecialDistrictSelectionData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString3" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F1033SpecialDistrictSelectionData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F1033SpecialDistrictSelectionData" msprop:Generator_DataSetName="F1033SpecialDistrictSelectionData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListPostType" msprop:Generator_UserTableName="ListPostType" msprop:Generator_RowDeletedName="ListPostTypeRowDeleted" msprop:Generator_RowChangedName="ListPostTypeRowChanged" msprop:Generator_RowClassName="ListPostTypeRow" msprop:Generator_RowChangingName="ListPostTypeRowChanging" msprop:Generator_RowEvArgName="ListPostTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="ListPostTypeRowChangeEventHandler" msprop:Generator_TableClassName="ListPostTypeDataTable" msprop:Generator_TableVarName="tableListPostType" msprop:Generator_RowDeletingName="ListPostTypeRowDeleting" msprop:Generator_TablePropName="ListPostType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostTypeID" msprop:Generator_UserColumnName="PostTypeID" msprop:Generator_ColumnVarNameInTable="columnPostTypeID" msprop:Generator_ColumnPropNameInRow="PostTypeID" msprop:Generator_ColumnPropNameInTable="PostTypeIDColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="PostName" msprop:Generator_UserColumnName="PostName" msprop:Generator_ColumnVarNameInTable="columnPostName" msprop:Generator_ColumnPropNameInRow="PostName" msprop:Generator_ColumnPropNameInTable="PostNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListSpecialDistrict" msprop:Generator_UserTableName="ListSpecialDistrict" msprop:Generator_RowDeletedName="ListSpecialDistrictRowDeleted" msprop:Generator_RowChangedName="ListSpecialDistrictRowChanged" msprop:Generator_RowClassName="ListSpecialDistrictRow" msprop:Generator_RowChangingName="ListSpecialDistrictRowChanging" msprop:Generator_RowEvArgName="ListSpecialDistrictRowChangeEvent" msprop:Generator_RowEvHandlerName="ListSpecialDistrictRowChangeEventHandler" msprop:Generator_TableClassName="ListSpecialDistrictDataTable" msprop:Generator_TableVarName="tableListSpecialDistrict" msprop:Generator_RowDeletingName="ListSpecialDistrictRowDeleting" msprop:Generator_TablePropName="ListSpecialDistrict">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SADistrictID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SADistrictID" msprop:Generator_ColumnPropNameInRow="SADistrictID" msprop:Generator_ColumnVarNameInTable="columnSADistrictID" msprop:Generator_ColumnPropNameInTable="SADistrictIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="District" msprop:Generator_UserColumnName="District" msprop:Generator_ColumnPropNameInRow="District" msprop:Generator_ColumnVarNameInTable="columnDistrict" msprop:Generator_ColumnPropNameInTable="DistrictColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PostTypeID" msprop:Generator_UserColumnName="PostTypeID" msprop:Generator_ColumnPropNameInRow="PostTypeID" msprop:Generator_ColumnVarNameInTable="columnPostTypeID" msprop:Generator_ColumnPropNameInTable="PostTypeIDColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="PostName" msprop:Generator_UserColumnName="PostName" msprop:Generator_ColumnPropNameInRow="PostName" msprop:Generator_ColumnVarNameInTable="columnPostName" msprop:Generator_ColumnPropNameInTable="PostNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

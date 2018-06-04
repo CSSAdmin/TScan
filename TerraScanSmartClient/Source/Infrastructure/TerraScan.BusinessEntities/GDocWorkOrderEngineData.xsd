@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GDocWorkOrderEngineData" targetNamespace="http://tempuri.org/GDocWorkOrderEngineData.xsd" xmlns:mstns="http://tempuri.org/GDocWorkOrderEngineData.xsd" xmlns="http://tempuri.org/GDocWorkOrderEngineData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString3" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GDocWorkOrderEngineData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GDocWorkOrderEngineData" msprop:Generator_DataSetName="GDocWorkOrderEngineData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetWorkOrderEngine" msprop:Generator_UserTableName="GetWorkOrderEngine" msprop:Generator_RowDeletedName="GetWorkOrderEngineRowDeleted" msprop:Generator_RowChangedName="GetWorkOrderEngineRowChanged" msprop:Generator_RowClassName="GetWorkOrderEngineRow" msprop:Generator_RowChangingName="GetWorkOrderEngineRowChanging" msprop:Generator_RowEvArgName="GetWorkOrderEngineRowChangeEvent" msprop:Generator_RowEvHandlerName="GetWorkOrderEngineRowChangeEventHandler" msprop:Generator_TableClassName="GetWorkOrderEngineDataTable" msprop:Generator_TableVarName="tableGetWorkOrderEngine" msprop:Generator_RowDeletingName="GetWorkOrderEngineRowDeleting" msprop:Generator_TablePropName="GetWorkOrderEngine">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SystemName" msprop:Generator_UserColumnName="SystemName" msprop:Generator_ColumnVarNameInTable="columnSystemName" msprop:Generator_ColumnPropNameInRow="SystemName" msprop:Generator_ColumnPropNameInTable="SystemNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="65" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SystemColor" msprop:Generator_UserColumnName="SystemColor" msprop:Generator_ColumnVarNameInTable="columnSystemColor" msprop:Generator_ColumnPropNameInRow="SystemColor" msprop:Generator_ColumnPropNameInTable="SystemColorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SystemID" msprop:Generator_UserColumnName="SystemID" msprop:Generator_ColumnVarNameInTable="columnSystemID" msprop:Generator_ColumnPropNameInRow="SystemID" msprop:Generator_ColumnPropNameInTable="SystemIDColumn" type="xs:int" />
+              <xs:element name="WOID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="WOID" msprop:Generator_ColumnVarNameInTable="columnWOID" msprop:Generator_ColumnPropNameInRow="WOID" msprop:Generator_ColumnPropNameInTable="WOIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="WODate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="WODate" msprop:Generator_ColumnVarNameInTable="columnWODate" msprop:Generator_ColumnPropNameInRow="WODate" msprop:Generator_ColumnPropNameInTable="WODateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IsOpen" msprop:Generator_UserColumnName="IsOpen" msprop:Generator_ColumnVarNameInTable="columnIsOpen" msprop:Generator_ColumnPropNameInRow="IsOpen" msprop:Generator_ColumnPropNameInTable="IsOpenColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Comments" msprop:Generator_UserColumnName="Comments" msprop:nullValue="_throw" msprop:Generator_ColumnPropNameInRow="Comments" msprop:Generator_ColumnPropNameInTable="CommentsColumn" msprop:Generator_ColumnVarNameInTable="columnComments" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WOType" msprop:Generator_UserColumnName="WOType" msprop:Generator_ColumnVarNameInTable="columnWOType" msprop:Generator_ColumnPropNameInRow="WOType" msprop:Generator_ColumnPropNameInTable="WOTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WOTypeID" msprop:Generator_UserColumnName="WOTypeID" msprop:Generator_ColumnVarNameInTable="columnWOTypeID" msprop:Generator_ColumnPropNameInRow="WOTypeID" msprop:Generator_ColumnPropNameInTable="WOTypeIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SaveWorkOrderEngine" msprop:Generator_UserTableName="SaveWorkOrderEngine" msprop:Generator_RowDeletedName="SaveWorkOrderEngineRowDeleted" msprop:Generator_RowChangedName="SaveWorkOrderEngineRowChanged" msprop:Generator_RowClassName="SaveWorkOrderEngineRow" msprop:Generator_RowChangingName="SaveWorkOrderEngineRowChanging" msprop:Generator_RowEvArgName="SaveWorkOrderEngineRowChangeEvent" msprop:Generator_RowEvHandlerName="SaveWorkOrderEngineRowChangeEventHandler" msprop:Generator_TableClassName="SaveWorkOrderEngineDataTable" msprop:Generator_TableVarName="tableSaveWorkOrderEngine" msprop:Generator_RowDeletingName="SaveWorkOrderEngineRowDeleting" msprop:Generator_TablePropName="SaveWorkOrderEngine">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SystemName" msprop:Generator_UserColumnName="SystemName" msprop:Generator_ColumnVarNameInTable="columnSystemName" msprop:Generator_ColumnPropNameInRow="SystemName" msprop:Generator_ColumnPropNameInTable="SystemNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="62" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SystemColor" msprop:Generator_UserColumnName="SystemColor" msprop:Generator_ColumnVarNameInTable="columnSystemColor" msprop:Generator_ColumnPropNameInRow="SystemColor" msprop:Generator_ColumnPropNameInTable="SystemColorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SystemID" msprop:Generator_UserColumnName="SystemID" msprop:Generator_ColumnVarNameInTable="columnSystemID" msprop:Generator_ColumnPropNameInRow="SystemID" msprop:Generator_ColumnPropNameInTable="SystemIDColumn" type="xs:int" />
+              <xs:element name="WOID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="WOID" msprop:Generator_ColumnVarNameInTable="columnWOID" msprop:Generator_ColumnPropNameInRow="WOID" msprop:Generator_ColumnPropNameInTable="WOIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="WODate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="WODate" msprop:Generator_ColumnVarNameInTable="columnWODate" msprop:Generator_ColumnPropNameInRow="WODate" msprop:Generator_ColumnPropNameInTable="WODateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsOpen" msprop:Generator_UserColumnName="IsOpen" msprop:Generator_ColumnVarNameInTable="columnIsOpen" msprop:Generator_ColumnPropNameInRow="IsOpen" msprop:Generator_ColumnPropNameInTable="IsOpenColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Comments" msprop:Generator_UserColumnName="Comments" msprop:Generator_ColumnVarNameInTable="columnComments" msprop:Generator_ColumnPropNameInRow="Comments" msprop:Generator_ColumnPropNameInTable="CommentsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WOType" msprop:Generator_UserColumnName="WOType" msprop:Generator_ColumnVarNameInTable="columnWOType" msprop:Generator_ColumnPropNameInRow="WOType" msprop:Generator_ColumnPropNameInTable="WOTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WOTypeID" msprop:Generator_UserColumnName="WOTypeID" msprop:Generator_ColumnVarNameInTable="columnWOTypeID" msprop:Generator_ColumnPropNameInRow="WOTypeID" msprop:Generator_ColumnPropNameInTable="WOTypeIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetWorkOrderType" msprop:Generator_UserTableName="GetWorkOrderType" msprop:Generator_RowDeletedName="GetWorkOrderTypeRowDeleted" msprop:Generator_RowChangedName="GetWorkOrderTypeRowChanged" msprop:Generator_RowClassName="GetWorkOrderTypeRow" msprop:Generator_RowChangingName="GetWorkOrderTypeRowChanging" msprop:Generator_RowEvArgName="GetWorkOrderTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="GetWorkOrderTypeRowChangeEventHandler" msprop:Generator_TableClassName="GetWorkOrderTypeDataTable" msprop:Generator_TableVarName="tableGetWorkOrderType" msprop:Generator_RowDeletingName="GetWorkOrderTypeRowDeleting" msprop:Generator_TablePropName="GetWorkOrderType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WOTypeID" msprop:Generator_UserColumnName="WOTypeID" msprop:Generator_ColumnVarNameInTable="columnWOTypeID" msprop:Generator_ColumnPropNameInRow="WOTypeID" msprop:Generator_ColumnPropNameInTable="WOTypeIDColumn" type="xs:short" />
+              <xs:element name="WOType" msprop:Generator_UserColumnName="WOType" msprop:Generator_ColumnVarNameInTable="columnWOType" msprop:Generator_ColumnPropNameInRow="WOType" msprop:Generator_ColumnPropNameInTable="WOTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

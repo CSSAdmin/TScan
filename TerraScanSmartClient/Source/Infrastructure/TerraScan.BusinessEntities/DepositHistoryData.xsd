@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DepositHistoryData" targetNamespace="http://tempuri.org/DepositHistoryData.xsd" xmlns:mstns="http://tempuri.org/DepositHistoryData.xsd" xmlns="http://tempuri.org/DepositHistoryData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient">
+          </Connection>
+          <Connection AppSettingsPropertyName="T2TerrascanConnectionString3" ConnectionStringObject="Data Source=DOTNET2005;Initial Catalog=T2Terrascan;Persist Security Info=True;User ID=sa;Password=pass@123" IsAppSettingsProperty="False" Modifier="Assembly" Name="T2TerrascanConnectionString" ParameterPrefix="@" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DepositHistoryData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DepositHistoryData" msprop:Generator_DataSetName="DepositHistoryData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListDepositHistoryTable" msprop:Generator_UserTableName="ListDepositHistoryTable" msprop:Generator_RowDeletedName="ListDepositHistoryTableRowDeleted" msprop:Generator_RowChangedName="ListDepositHistoryTableRowChanged" msprop:Generator_RowClassName="ListDepositHistoryTableRow" msprop:Generator_RowChangingName="ListDepositHistoryTableRowChanging" msprop:Generator_RowEvArgName="ListDepositHistoryTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ListDepositHistoryTableRowChangeEventHandler" msprop:Generator_TableClassName="ListDepositHistoryTableDataTable" msprop:Generator_TableVarName="tableListDepositHistoryTable" msprop:Generator_RowDeletingName="ListDepositHistoryTableRowDeleting" msprop:Generator_TablePropName="ListDepositHistoryTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CLID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CLID" msprop:Generator_ColumnVarNameInTable="columnCLID" msprop:Generator_ColumnPropNameInRow="CLID" msprop:Generator_ColumnPropNameInTable="CLIDColumn" type="xs:int" />
+              <xs:element name="EntryDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="EntryDate" msprop:Generator_ColumnVarNameInTable="columnEntryDate" msprop:Generator_ColumnPropNameInRow="EntryDate" msprop:Generator_ColumnPropNameInTable="EntryDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountName" msprop:Generator_UserColumnName="AccountName" msprop:Generator_ColumnVarNameInTable="columnAccountName" msprop:Generator_ColumnPropNameInRow="AccountName" msprop:Generator_ColumnPropNameInTable="AccountNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name_Display" msprop:Generator_UserColumnName="Name_Display" msprop:Generator_ColumnVarNameInTable="columnName_Display" msprop:Generator_ColumnPropNameInRow="Name_Display" msprop:Generator_ColumnPropNameInTable="Name_DisplayColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsCleared" msprop:Generator_UserColumnName="IsCleared" msprop:Generator_ColumnVarNameInTable="columnIsCleared" msprop:Generator_ColumnPropNameInRow="IsCleared" msprop:Generator_ColumnPropNameInTable="IsClearedColumn" type="xs:boolean" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListAccountName" msprop:Generator_UserTableName="ListAccountName" msprop:Generator_RowDeletedName="ListAccountNameRowDeleted" msprop:Generator_RowChangedName="ListAccountNameRowChanged" msprop:Generator_RowClassName="ListAccountNameRow" msprop:Generator_RowChangingName="ListAccountNameRowChanging" msprop:Generator_RowEvArgName="ListAccountNameRowChangeEvent" msprop:Generator_RowEvHandlerName="ListAccountNameRowChangeEventHandler" msprop:Generator_TableClassName="ListAccountNameDataTable" msprop:Generator_TableVarName="tableListAccountName" msprop:Generator_RowDeletingName="ListAccountNameRowDeleting" msprop:Generator_TablePropName="ListAccountName">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RegisterID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RegisterID" msprop:Generator_ColumnVarNameInTable="columnRegisterID" msprop:Generator_ColumnPropNameInRow="RegisterID" msprop:Generator_ColumnPropNameInTable="RegisterIDColumn" type="xs:int" />
+              <xs:element name="AccountName" msprop:Generator_UserColumnName="AccountName" msprop:Generator_ColumnVarNameInTable="columnAccountName" msprop:Generator_ColumnPropNameInRow="AccountName" msprop:Generator_ColumnPropNameInTable="AccountNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountNumber" msprop:Generator_UserColumnName="AccountNumber" msprop:Generator_ColumnVarNameInTable="columnAccountNumber" msprop:Generator_ColumnPropNameInRow="AccountNumber" msprop:Generator_ColumnPropNameInTable="AccountNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsDefault" msprop:Generator_UserColumnName="IsDefault" msprop:Generator_ColumnVarNameInTable="columnIsDefault" msprop:Generator_ColumnPropNameInRow="IsDefault" msprop:Generator_ColumnPropNameInTable="IsDefaultColumn" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

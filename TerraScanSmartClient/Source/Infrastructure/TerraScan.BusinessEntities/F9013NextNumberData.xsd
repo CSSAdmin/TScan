@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9013NextNumberData" targetNamespace="http://tempuri.org/F9013NextNumberData.xsd" xmlns:mstns="http://tempuri.org/F9013NextNumberData.xsd" xmlns="http://tempuri.org/F9013NextNumberData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9013NextNumberData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F9013NextNumberData" msprop:Generator_DataSetName="F9013NextNumberData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListNextNumberRollYear" msprop:Generator_UserTableName="ListNextNumberRollYear" msprop:Generator_RowDeletedName="ListNextNumberRollYearRowDeleted" msprop:Generator_RowChangedName="ListNextNumberRollYearRowChanged" msprop:Generator_RowClassName="ListNextNumberRollYearRow" msprop:Generator_RowChangingName="ListNextNumberRollYearRowChanging" msprop:Generator_RowEvArgName="ListNextNumberRollYearRowChangeEvent" msprop:Generator_RowEvHandlerName="ListNextNumberRollYearRowChangeEventHandler" msprop:Generator_TableClassName="ListNextNumberRollYearDataTable" msprop:Generator_TableVarName="tableListNextNumberRollYear" msprop:Generator_RowDeletingName="ListNextNumberRollYearRowDeleting" msprop:Generator_TablePropName="ListNextNumberRollYear">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="IsDefault" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsDefault" msprop:Generator_ColumnPropNameInRow="IsDefault" msprop:Generator_ColumnVarNameInTable="columnIsDefault" msprop:Generator_ColumnPropNameInTable="IsDefaultColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LisNextNumberConfiguration" msprop:Generator_UserTableName="LisNextNumberConfiguration" msprop:Generator_RowDeletedName="LisNextNumberConfigurationRowDeleted" msprop:Generator_RowChangedName="LisNextNumberConfigurationRowChanged" msprop:Generator_RowClassName="LisNextNumberConfigurationRow" msprop:Generator_RowChangingName="LisNextNumberConfigurationRowChanging" msprop:Generator_RowEvArgName="LisNextNumberConfigurationRowChangeEvent" msprop:Generator_RowEvHandlerName="LisNextNumberConfigurationRowChangeEventHandler" msprop:Generator_TableClassName="LisNextNumberConfigurationDataTable" msprop:Generator_TableVarName="tableLisNextNumberConfiguration" msprop:Generator_RowDeletingName="LisNextNumberConfigurationRowDeleting" msprop:Generator_TablePropName="LisNextNumberConfiguration">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NextNumberID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="NextNumberID" msprop:Generator_ColumnPropNameInRow="NextNumberID" msprop:Generator_ColumnVarNameInTable="columnNextNumberID" msprop:Generator_ColumnPropNameInTable="NextNumberIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NextNumberTypeID" msprop:Generator_UserColumnName="NextNumberTypeID" msprop:Generator_ColumnPropNameInRow="NextNumberTypeID" msprop:Generator_ColumnVarNameInTable="columnNextNumberTypeID" msprop:Generator_ColumnPropNameInTable="NextNumberTypeIDColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="Description" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Year" msprop:Generator_UserColumnName="Year" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInTable="YearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="NextNumber" msprop:Generator_UserColumnName="NextNumber" msprop:Generator_ColumnPropNameInRow="NextNumber" msprop:Generator_ColumnVarNameInTable="columnNextNumber" msprop:Generator_ColumnPropNameInTable="NextNumberColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Formula" msprop:Generator_UserColumnName="Formula" msprop:Generator_ColumnPropNameInRow="Formula" msprop:Generator_ColumnVarNameInTable="columnFormula" msprop:Generator_ColumnPropNameInTable="FormulaColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ApplicationID" msprop:Generator_UserColumnName="ApplicationID" msprop:Generator_ColumnPropNameInRow="ApplicationID" msprop:Generator_ColumnVarNameInTable="columnApplicationID" msprop:Generator_ColumnPropNameInTable="ApplicationIDColumn" type="xs:unsignedByte" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

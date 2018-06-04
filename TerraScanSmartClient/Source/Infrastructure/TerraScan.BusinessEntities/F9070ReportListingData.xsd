@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9070ReportListingData" targetNamespace="http://tempuri.org/F9070ReportListingData.xsd" xmlns:mstns="http://tempuri.org/F9070ReportListingData.xsd" xmlns="http://tempuri.org/F9070ReportListingData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9070ReportListingData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F9070ReportListingData" msprop:Generator_DataSetName="F9070ReportListingData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F9070GetReportListing" msprop:Generator_UserTableName="F9070GetReportListing" msprop:Generator_RowDeletedName="F9070GetReportListingRowDeleted" msprop:Generator_RowChangedName="F9070GetReportListingRowChanged" msprop:Generator_RowClassName="F9070GetReportListingRow" msprop:Generator_RowChangingName="F9070GetReportListingRowChanging" msprop:Generator_RowEvArgName="F9070GetReportListingRowChangeEvent" msprop:Generator_RowEvHandlerName="F9070GetReportListingRowChangeEventHandler" msprop:Generator_TableClassName="F9070GetReportListingDataTable" msprop:Generator_TableVarName="tableF9070GetReportListing" msprop:Generator_RowDeletingName="F9070GetReportListingRowDeleting" msprop:Generator_TablePropName="F9070GetReportListing">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReportID" msprop:Generator_UserColumnName="ReportID" msprop:Generator_ColumnPropNameInRow="ReportID" msprop:Generator_ColumnVarNameInTable="columnReportID" msprop:Generator_ColumnPropNameInTable="ReportIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ReportNumber" msprop:Generator_UserColumnName="ReportNumber" msprop:Generator_ColumnPropNameInRow="ReportNumber" msprop:Generator_ColumnVarNameInTable="columnReportNumber" msprop:Generator_ColumnPropNameInTable="ReportNumberColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnPropNameInRow="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_ColumnPropNameInRow="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsHelp" msprop:Generator_UserColumnName="IsHelp" msprop:Generator_ColumnVarNameInTable="columnIsHelp" msprop:Generator_ColumnPropNameInRow="IsHelp" msprop:Generator_ColumnPropNameInTable="IsHelpColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="GroupID" msprop:Generator_UserColumnName="GroupID" msprop:Generator_ColumnPropNameInRow="GroupID" msprop:Generator_ColumnVarNameInTable="columnGroupID" msprop:Generator_ColumnPropNameInTable="GroupIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="ReportFile" msprop:Generator_UserColumnName="ReportFile" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnReportFile" msprop:Generator_ColumnPropNameInTable="ReportFileColumn" msprop:Generator_ColumnPropNameInRow="ReportFile" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ReportHeader" msprop:Generator_UserTableName="ReportHeader" msprop:Generator_RowDeletedName="ReportHeaderRowDeleted" msprop:Generator_RowChangedName="ReportHeaderRowChanged" msprop:Generator_RowClassName="ReportHeaderRow" msprop:Generator_RowChangingName="ReportHeaderRowChanging" msprop:Generator_RowEvArgName="ReportHeaderRowChangeEvent" msprop:Generator_RowEvHandlerName="ReportHeaderRowChangeEventHandler" msprop:Generator_TableClassName="ReportHeaderDataTable" msprop:Generator_TableVarName="tableReportHeader" msprop:Generator_RowDeletingName="ReportHeaderRowDeleting" msprop:Generator_TablePropName="ReportHeader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GroupID" msprop:Generator_UserColumnName="GroupID" msprop:Generator_ColumnPropNameInRow="GroupID" msprop:Generator_ColumnVarNameInTable="columnGroupID" msprop:Generator_ColumnPropNameInTable="GroupIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_ColumnPropNameInRow="Title" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BackColor" msprop:Generator_UserColumnName="BackColor" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnBackColor" msprop:Generator_ColumnPropNameInTable="BackColorColumn" msprop:Generator_ColumnPropNameInRow="BackColor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Forecolor" msprop:Generator_UserColumnName="Forecolor" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnForecolor" msprop:Generator_ColumnPropNameInTable="ForecolorColumn" msprop:Generator_ColumnPropNameInRow="Forecolor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GroupOrder" msprop:Generator_UserColumnName="GroupOrder" msprop:Generator_ColumnPropNameInRow="GroupOrder" msprop:Generator_ColumnVarNameInTable="columnGroupOrder" msprop:Generator_ColumnPropNameInTable="GroupOrderColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InspectionEventData" targetNamespace="http://tempuri.org/InspectionEventData.xsd" xmlns:mstns="http://tempuri.org/InspectionEventData.xsd" xmlns="http://tempuri.org/InspectionEventData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsPropertyName="T2TerrascanConnectionString3" ConnectionStringObject="Data Source=DOTNET2005;Initial Catalog=T2Terrascan;Persist Security Info=True;User ID=sa;Password=pass@123" IsAppSettingsProperty="False" Modifier="Assembly" Name="T2TerrascanConnectionString" ParameterPrefix="@" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InspectionEventData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="InspectionEventData" msprop:Generator_DataSetName="InspectionEventData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListInspectionDetails" msprop:Generator_UserTableName="ListInspectionDetails" msprop:Generator_RowDeletedName="ListInspectionDetailsRowDeleted" msprop:Generator_RowChangedName="ListInspectionDetailsRowChanged" msprop:Generator_RowClassName="ListInspectionDetailsRow" msprop:Generator_RowChangingName="ListInspectionDetailsRowChanging" msprop:Generator_RowEvArgName="ListInspectionDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="ListInspectionDetailsRowChangeEventHandler" msprop:Generator_TableClassName="ListInspectionDetailsDataTable" msprop:Generator_TableVarName="tableListInspectionDetails" msprop:Generator_RowDeletingName="ListInspectionDetailsRowDeleting" msprop:Generator_TablePropName="ListInspectionDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" />
+              <xs:element name="ComponentID" msprop:Generator_UserColumnName="ComponentID" msprop:Generator_ColumnVarNameInTable="columnComponentID" msprop:Generator_ColumnPropNameInRow="ComponentID" msprop:Generator_ColumnPropNameInTable="ComponentIDColumn" type="xs:int" />
+              <xs:element name="ConditionID" msprop:Generator_UserColumnName="ConditionID" msprop:Generator_ColumnVarNameInTable="columnConditionID" msprop:Generator_ColumnPropNameInRow="ConditionID" msprop:Generator_ColumnPropNameInTable="ConditionIDColumn" type="xs:int" />
+              <xs:element name="ActionID" msprop:Generator_UserColumnName="ActionID" msprop:Generator_ColumnVarNameInTable="columnActionID" msprop:Generator_ColumnPropNameInRow="ActionID" msprop:Generator_ColumnPropNameInTable="ActionIDColumn" type="xs:int" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InspectionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="InspectionID" msprop:Generator_ColumnVarNameInTable="columnInspectionID" msprop:Generator_ColumnPropNameInRow="InspectionID" msprop:Generator_ColumnPropNameInTable="InspectionIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListInspectionAction" msprop:Generator_UserTableName="ListInspectionAction" msprop:Generator_RowDeletedName="ListInspectionActionRowDeleted" msprop:Generator_RowChangedName="ListInspectionActionRowChanged" msprop:Generator_RowClassName="ListInspectionActionRow" msprop:Generator_RowChangingName="ListInspectionActionRowChanging" msprop:Generator_RowEvArgName="ListInspectionActionRowChangeEvent" msprop:Generator_RowEvHandlerName="ListInspectionActionRowChangeEventHandler" msprop:Generator_TableClassName="ListInspectionActionDataTable" msprop:Generator_TableVarName="tableListInspectionAction" msprop:Generator_RowDeletingName="ListInspectionActionRowDeleting" msprop:Generator_TablePropName="ListInspectionAction">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ActionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ActionID" msprop:Generator_ColumnVarNameInTable="columnActionID" msprop:Generator_ColumnPropNameInRow="ActionID" msprop:Generator_ColumnPropNameInTable="ActionIDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListInspectionComponent" msprop:Generator_UserTableName="ListInspectionComponent" msprop:Generator_RowDeletedName="ListInspectionComponentRowDeleted" msprop:Generator_RowChangedName="ListInspectionComponentRowChanged" msprop:Generator_RowClassName="ListInspectionComponentRow" msprop:Generator_RowChangingName="ListInspectionComponentRowChanging" msprop:Generator_RowEvArgName="ListInspectionComponentRowChangeEvent" msprop:Generator_RowEvHandlerName="ListInspectionComponentRowChangeEventHandler" msprop:Generator_TableClassName="ListInspectionComponentDataTable" msprop:Generator_TableVarName="tableListInspectionComponent" msprop:Generator_RowDeletingName="ListInspectionComponentRowDeleting" msprop:Generator_TablePropName="ListInspectionComponent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ComponentID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ComponentID" msprop:Generator_ColumnVarNameInTable="columnComponentID" msprop:Generator_ColumnPropNameInRow="ComponentID" msprop:Generator_ColumnPropNameInTable="ComponentIDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListInspectionCondition" msprop:Generator_UserTableName="ListInspectionCondition" msprop:Generator_RowDeletedName="ListInspectionConditionRowDeleted" msprop:Generator_RowChangedName="ListInspectionConditionRowChanged" msprop:Generator_RowClassName="ListInspectionConditionRow" msprop:Generator_RowChangingName="ListInspectionConditionRowChanging" msprop:Generator_RowEvArgName="ListInspectionConditionRowChangeEvent" msprop:Generator_RowEvHandlerName="ListInspectionConditionRowChangeEventHandler" msprop:Generator_TableClassName="ListInspectionConditionDataTable" msprop:Generator_TableVarName="tableListInspectionCondition" msprop:Generator_RowDeletingName="ListInspectionConditionRowDeleting" msprop:Generator_TablePropName="ListInspectionCondition">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ConditionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ConditionID" msprop:Generator_ColumnVarNameInTable="columnConditionID" msprop:Generator_ColumnPropNameInRow="ConditionID" msprop:Generator_ColumnPropNameInTable="ConditionIDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SaveInspectionDetails" msprop:Generator_UserTableName="SaveInspectionDetails" msprop:Generator_RowDeletedName="SaveInspectionDetailsRowDeleted" msprop:Generator_RowChangedName="SaveInspectionDetailsRowChanged" msprop:Generator_RowClassName="SaveInspectionDetailsRow" msprop:Generator_RowChangingName="SaveInspectionDetailsRowChanging" msprop:Generator_RowEvArgName="SaveInspectionDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="SaveInspectionDetailsRowChangeEventHandler" msprop:Generator_TableClassName="SaveInspectionDetailsDataTable" msprop:Generator_TableVarName="tableSaveInspectionDetails" msprop:Generator_RowDeletingName="SaveInspectionDetailsRowDeleting" msprop:Generator_TablePropName="SaveInspectionDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" />
+              <xs:element name="ActionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ActionID" msprop:Generator_ColumnVarNameInTable="columnActionID" msprop:Generator_ColumnPropNameInRow="ActionID" msprop:Generator_ColumnPropNameInTable="ActionIDColumn" type="xs:int" />
+              <xs:element name="ComponentID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ComponentID" msprop:Generator_ColumnVarNameInTable="columnComponentID" msprop:Generator_ColumnPropNameInRow="ComponentID" msprop:Generator_ColumnPropNameInTable="ComponentIDColumn" type="xs:int" />
+              <xs:element name="ConditionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ConditionID" msprop:Generator_ColumnVarNameInTable="columnConditionID" msprop:Generator_ColumnPropNameInRow="ConditionID" msprop:Generator_ColumnPropNameInTable="ConditionIDColumn" type="xs:int" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UpdInspectionDetails" msprop:Generator_UserTableName="UpdInspectionDetails" msprop:Generator_RowDeletedName="UpdInspectionDetailsRowDeleted" msprop:Generator_RowChangedName="UpdInspectionDetailsRowChanged" msprop:Generator_RowClassName="UpdInspectionDetailsRow" msprop:Generator_RowChangingName="UpdInspectionDetailsRowChanging" msprop:Generator_RowEvArgName="UpdInspectionDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="UpdInspectionDetailsRowChangeEventHandler" msprop:Generator_TableClassName="UpdInspectionDetailsDataTable" msprop:Generator_TableVarName="tableUpdInspectionDetails" msprop:Generator_RowDeletingName="UpdInspectionDetailsRowDeleting" msprop:Generator_TablePropName="UpdInspectionDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" />
+              <xs:element name="ActionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ActionID" msprop:Generator_ColumnVarNameInTable="columnActionID" msprop:Generator_ColumnPropNameInRow="ActionID" msprop:Generator_ColumnPropNameInTable="ActionIDColumn" type="xs:int" />
+              <xs:element name="ComponentID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ComponentID" msprop:Generator_ColumnVarNameInTable="columnComponentID" msprop:Generator_ColumnPropNameInRow="ComponentID" msprop:Generator_ColumnPropNameInTable="ComponentIDColumn" type="xs:int" />
+              <xs:element name="ConditionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ConditionID" msprop:Generator_ColumnVarNameInTable="columnConditionID" msprop:Generator_ColumnPropNameInRow="ConditionID" msprop:Generator_ColumnPropNameInTable="ConditionIDColumn" type="xs:int" />
+              <xs:element name="InspectionID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="InspectionID" msprop:Generator_ColumnVarNameInTable="columnInspectionID" msprop:Generator_ColumnPropNameInRow="InspectionID" msprop:Generator_ColumnPropNameInTable="InspectionIDColumn" type="xs:int" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GDocCommentData" targetNamespace="http://tempuri.org/GDocCommentData.xsd" xmlns:mstns="http://tempuri.org/GDocCommentData.xsd" xmlns="http://tempuri.org/GDocCommentData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GDocCommentData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GDocCommentData" msprop:Generator_DataSetName="GDocCommentData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetGDocComment" msprop:Generator_UserTableName="GetGDocComment" msprop:Generator_RowDeletedName="GetGDocCommentRowDeleted" msprop:Generator_RowChangedName="GetGDocCommentRowChanged" msprop:Generator_RowClassName="GetGDocCommentRow" msprop:Generator_RowChangingName="GetGDocCommentRowChanging" msprop:Generator_RowEvArgName="GetGDocCommentRowChangeEvent" msprop:Generator_RowEvHandlerName="GetGDocCommentRowChangeEventHandler" msprop:Generator_TableClassName="GetGDocCommentDataTable" msprop:Generator_TableVarName="tableGetGDocComment" msprop:Generator_RowDeletingName="GetGDocCommentRowDeleting" msprop:Generator_TablePropName="GetGDocComment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

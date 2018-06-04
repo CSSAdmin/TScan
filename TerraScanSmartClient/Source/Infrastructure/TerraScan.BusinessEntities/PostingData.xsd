@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PostingData" targetNamespace="http://tempuri.org/PostingData.xsd" xmlns:mstns="http://tempuri.org/PostingData.xsd" xmlns="http://tempuri.org/PostingData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PostingData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="PostingData" msprop:Generator_DataSetName="PostingData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListPostingPreview" msprop:Generator_UserTableName="ListPostingPreview" msprop:Generator_RowDeletedName="ListPostingPreviewRowDeleted" msprop:Generator_RowChangedName="ListPostingPreviewRowChanged" msprop:Generator_RowClassName="ListPostingPreviewRow" msprop:Generator_RowChangingName="ListPostingPreviewRowChanging" msprop:Generator_RowEvArgName="ListPostingPreviewRowChangeEvent" msprop:Generator_RowEvHandlerName="ListPostingPreviewRowChangeEventHandler" msprop:Generator_TableClassName="ListPostingPreviewDataTable" msprop:Generator_TableVarName="tableListPostingPreview" msprop:Generator_RowDeletingName="ListPostingPreviewRowDeleting" msprop:Generator_TablePropName="ListPostingPreview">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostTypeID" msprop:Generator_UserColumnName="PostTypeID" msprop:Generator_ColumnPropNameInRow="PostTypeID" msprop:Generator_ColumnVarNameInTable="columnPostTypeID" msprop:Generator_ColumnPropNameInTable="PostTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Qnty" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Qnty" msprop:Generator_ColumnPropNameInRow="Qnty" msprop:Generator_ColumnVarNameInTable="columnQnty" msprop:Generator_ColumnPropNameInTable="QntyColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="ReceiptAmount" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ReceiptAmount" msprop:Generator_ColumnPropNameInRow="ReceiptAmount" msprop:Generator_ColumnVarNameInTable="columnReceiptAmount" msprop:Generator_ColumnPropNameInTable="ReceiptAmountColumn" type="xs:decimal" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListPostTypes" msprop:Generator_UserTableName="ListPostTypes" msprop:Generator_RowDeletedName="ListPostTypesRowDeleted" msprop:Generator_RowChangedName="ListPostTypesRowChanged" msprop:Generator_RowClassName="ListPostTypesRow" msprop:Generator_RowChangingName="ListPostTypesRowChanging" msprop:Generator_RowEvArgName="ListPostTypesRowChangeEvent" msprop:Generator_RowEvHandlerName="ListPostTypesRowChangeEventHandler" msprop:Generator_TableClassName="ListPostTypesDataTable" msprop:Generator_TableVarName="tableListPostTypes" msprop:Generator_RowDeletingName="ListPostTypesRowDeleting" msprop:Generator_TablePropName="ListPostTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostTypeID" msprop:Generator_UserColumnName="PostTypeID" msprop:Generator_ColumnPropNameInRow="PostTypeID" msprop:Generator_ColumnVarNameInTable="columnPostTypeID" msprop:Generator_ColumnPropNameInTable="PostTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PostName" msprop:Generator_UserColumnName="PostName" msprop:Generator_ColumnPropNameInRow="PostName" msprop:Generator_ColumnVarNameInTable="columnPostName" msprop:Generator_ColumnPropNameInTable="PostNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Qnty" msprop:Generator_UserColumnName="Qnty" msprop:Generator_ColumnVarNameInTable="columnQnty" msprop:Generator_ColumnPropNameInRow="Qnty" msprop:Generator_ColumnPropNameInTable="QntyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ReceiptAmount" msprop:Generator_UserColumnName="ReceiptAmount" msprop:Generator_ColumnVarNameInTable="columnReceiptAmount" msprop:Generator_ColumnPropNameInRow="ReceiptAmount" msprop:Generator_ColumnPropNameInTable="ReceiptAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PostDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PostDate" msprop:Generator_ColumnPropNameInRow="PostDate" msprop:Generator_ColumnVarNameInTable="columnPostDate" msprop:Generator_ColumnPropNameInTable="PostDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RanOn" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RanOn" msprop:Generator_ColumnPropNameInRow="RanOn" msprop:Generator_ColumnVarNameInTable="columnRanOn" msprop:Generator_ColumnPropNameInTable="RanOnColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AmountTotal" msprop:Generator_UserColumnName="AmountTotal" msprop:Generator_ColumnPropNameInRow="AmountTotal" msprop:Generator_ColumnVarNameInTable="columnAmountTotal" msprop:Generator_ColumnPropNameInTable="AmountTotalColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PostingErrorCount" msprop:Generator_UserTableName="PostingErrorCount" msprop:Generator_RowDeletedName="PostingErrorCountRowDeleted" msprop:Generator_RowChangedName="PostingErrorCountRowChanged" msprop:Generator_RowClassName="PostingErrorCountRow" msprop:Generator_RowChangingName="PostingErrorCountRowChanging" msprop:Generator_RowEvArgName="PostingErrorCountRowChangeEvent" msprop:Generator_RowEvHandlerName="PostingErrorCountRowChangeEventHandler" msprop:Generator_TableClassName="PostingErrorCountDataTable" msprop:Generator_TableVarName="tablePostingErrorCount" msprop:Generator_RowDeletingName="PostingErrorCountRowDeleting" msprop:Generator_TablePropName="PostingErrorCount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Error" msprop:Generator_UserColumnName="Error" msprop:Generator_ColumnPropNameInRow="Error" msprop:Generator_ColumnVarNameInTable="columnError" msprop:Generator_ColumnPropNameInTable="ErrorColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PostLockCount" msprop:Generator_UserTableName="PostLockCount" msprop:Generator_RowDeletedName="PostLockCountRowDeleted" msprop:Generator_RowChangedName="PostLockCountRowChanged" msprop:Generator_RowClassName="PostLockCountRow" msprop:Generator_RowChangingName="PostLockCountRowChanging" msprop:Generator_RowEvArgName="PostLockCountRowChangeEvent" msprop:Generator_RowEvHandlerName="PostLockCountRowChangeEventHandler" msprop:Generator_TableClassName="PostLockCountDataTable" msprop:Generator_TableVarName="tablePostLockCount" msprop:Generator_RowDeletingName="PostLockCountRowDeleting" msprop:Generator_TablePropName="PostLockCount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ErrorID" msprop:Generator_UserColumnName="ErrorID" msprop:Generator_ColumnPropNameInRow="ErrorID" msprop:Generator_ColumnVarNameInTable="columnErrorID" msprop:Generator_ColumnPropNameInTable="ErrorIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ErrMsg" msprop:Generator_UserColumnName="ErrMsg" msprop:Generator_ColumnPropNameInRow="ErrMsg" msprop:Generator_ColumnVarNameInTable="columnErrMsg" msprop:Generator_ColumnPropNameInTable="ErrMsgColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F28210PermitImport" targetNamespace="http://tempuri.org/F28210PermitImport.xsd" xmlns:mstns="http://tempuri.org/F28210PermitImport.xsd" xmlns="http://tempuri.org/F28210PermitImport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerraScanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerraScanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerraScanConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F28210PermitImport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F28210PermitImport" msprop:Generator_DataSetName="F28210PermitImport" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetPermitImportHeaderDetails" msprop:Generator_UserTableName="GetPermitImportHeaderDetails" msprop:Generator_RowDeletedName="GetPermitImportHeaderDetailsRowDeleted" msprop:Generator_RowChangedName="GetPermitImportHeaderDetailsRowChanged" msprop:Generator_RowClassName="GetPermitImportHeaderDetailsRow" msprop:Generator_RowChangingName="GetPermitImportHeaderDetailsRowChanging" msprop:Generator_RowEvArgName="GetPermitImportHeaderDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetPermitImportHeaderDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetPermitImportHeaderDetailsDataTable" msprop:Generator_TableVarName="tableGetPermitImportHeaderDetails" msprop:Generator_RowDeletingName="GetPermitImportHeaderDetailsRowDeleting" msprop:Generator_TablePropName="GetPermitImportHeaderDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ImportID" msprop:Generator_UserColumnName="ImportID" msprop:Generator_ColumnPropNameInRow="ImportID" msprop:Generator_ColumnVarNameInTable="columnImportID" msprop:Generator_ColumnPropNameInTable="ImportIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TemplateID" msprop:Generator_UserColumnName="TemplateID" msprop:Generator_ColumnPropNameInRow="TemplateID" msprop:Generator_ColumnVarNameInTable="columnTemplateID" msprop:Generator_ColumnPropNameInTable="TemplateIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TemplateName" msprop:Generator_UserColumnName="TemplateName" msprop:Generator_ColumnPropNameInRow="TemplateName" msprop:Generator_ColumnVarNameInTable="columnTemplateName" msprop:Generator_ColumnPropNameInTable="TemplateNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TypeName" msprop:Generator_UserColumnName="TypeName" msprop:Generator_ColumnPropNameInRow="TypeName" msprop:Generator_ColumnVarNameInTable="columnTypeName" msprop:Generator_ColumnPropNameInTable="TypeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FilePath" msprop:Generator_UserColumnName="FilePath" msprop:Generator_ColumnPropNameInRow="FilePath" msprop:Generator_ColumnVarNameInTable="columnFilePath" msprop:Generator_ColumnPropNameInTable="FilePathColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsImportEnabled" msprop:Generator_UserColumnName="IsImportEnabled" msprop:Generator_ColumnPropNameInRow="IsImportEnabled" msprop:Generator_ColumnVarNameInTable="columnIsImportEnabled" msprop:Generator_ColumnPropNameInTable="IsImportEnabledColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ImportStatus" msprop:Generator_UserColumnName="ImportStatus" msprop:Generator_ColumnVarNameInTable="columnImportStatus" msprop:Generator_ColumnPropNameInRow="ImportStatus" msprop:Generator_ColumnPropNameInTable="ImportStatusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ImportedEntries" msprop:Generator_UserColumnName="ImportedEntries" msprop:Generator_ColumnVarNameInTable="columnImportedEntries" msprop:Generator_ColumnPropNameInRow="ImportedEntries" msprop:Generator_ColumnPropNameInTable="ImportedEntriesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsCheckForErrors" msprop:Generator_UserColumnName="IsCheckForErrors" msprop:Generator_ColumnVarNameInTable="columnIsCheckForErrors" msprop:Generator_ColumnPropNameInRow="IsCheckForErrors" msprop:Generator_ColumnPropNameInTable="IsCheckForErrorsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CheckErrorStatus" msprop:Generator_UserColumnName="CheckErrorStatus" msprop:Generator_ColumnVarNameInTable="columnCheckErrorStatus" msprop:Generator_ColumnPropNameInRow="CheckErrorStatus" msprop:Generator_ColumnPropNameInTable="CheckErrorStatusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EntriesInError" msprop:Generator_UserColumnName="EntriesInError" msprop:Generator_ColumnVarNameInTable="columnEntriesInError" msprop:Generator_ColumnPropNameInRow="EntriesInError" msprop:Generator_ColumnPropNameInTable="EntriesInErrorColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsRecordsCreated" msprop:Generator_UserColumnName="IsRecordsCreated" msprop:Generator_ColumnVarNameInTable="columnIsRecordsCreated" msprop:Generator_ColumnPropNameInRow="IsRecordsCreated" msprop:Generator_ColumnPropNameInTable="IsRecordsCreatedColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RecordsCreateStatus" msprop:Generator_UserColumnName="RecordsCreateStatus" msprop:Generator_ColumnVarNameInTable="columnRecordsCreateStatus" msprop:Generator_ColumnPropNameInRow="RecordsCreateStatus" msprop:Generator_ColumnPropNameInTable="RecordsCreateStatusColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="F28210_SaveHeaderTemplateDataTable" msprop:Generator_UserTableName="F28210_SaveHeaderTemplateDataTable" msprop:Generator_RowDeletedName="F28210_SaveHeaderTemplateDataTableRowDeleted" msprop:Generator_RowChangedName="F28210_SaveHeaderTemplateDataTableRowChanged" msprop:Generator_RowClassName="F28210_SaveHeaderTemplateDataTableRow" msprop:Generator_RowChangingName="F28210_SaveHeaderTemplateDataTableRowChanging" msprop:Generator_RowEvArgName="F28210_SaveHeaderTemplateDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="F28210_SaveHeaderTemplateDataTableRowChangeEventHandler" msprop:Generator_TableClassName="F28210_SaveHeaderTemplateDataTableDataTable" msprop:Generator_TableVarName="tableF28210_SaveHeaderTemplateDataTable" msprop:Generator_RowDeletingName="F28210_SaveHeaderTemplateDataTableRowDeleting" msprop:Generator_TablePropName="F28210_SaveHeaderTemplateDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TemplateID" msprop:Generator_UserColumnName="TemplateID" msprop:Generator_ColumnPropNameInRow="TemplateID" msprop:Generator_ColumnVarNameInTable="columnTemplateID" msprop:Generator_ColumnPropNameInTable="TemplateIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FilePath" msprop:Generator_UserColumnName="FilePath" msprop:Generator_ColumnPropNameInRow="FilePath" msprop:Generator_ColumnVarNameInTable="columnFilePath" msprop:Generator_ColumnPropNameInTable="FilePathColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsImportEnabled" msprop:Generator_UserColumnName="IsImportEnabled" msprop:Generator_ColumnPropNameInRow="IsImportEnabled" msprop:Generator_ColumnVarNameInTable="columnIsImportEnabled" msprop:Generator_ColumnPropNameInTable="IsImportEnabledColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="IsCheckForErrors" msprop:Generator_UserColumnName="IsCheckForErrors" msprop:Generator_ColumnPropNameInRow="IsCheckForErrors" msprop:Generator_ColumnVarNameInTable="columnIsCheckForErrors" msprop:Generator_ColumnPropNameInTable="IsCheckForErrorsColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="IsRecordsCreated" msprop:Generator_UserColumnName="IsRecordsCreated" msprop:Generator_ColumnPropNameInRow="IsRecordsCreated" msprop:Generator_ColumnVarNameInTable="columnIsRecordsCreated" msprop:Generator_ColumnPropNameInTable="IsRecordsCreatedColumn" type="xs:unsignedByte" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetPermitImportDetails" msprop:Generator_UserTableName="GetPermitImportDetails" msprop:Generator_RowDeletedName="GetPermitImportDetailsRowDeleted" msprop:Generator_RowChangedName="GetPermitImportDetailsRowChanged" msprop:Generator_RowClassName="GetPermitImportDetailsRow" msprop:Generator_RowChangingName="GetPermitImportDetailsRowChanging" msprop:Generator_RowEvArgName="GetPermitImportDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetPermitImportDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetPermitImportDetailsDataTable" msprop:Generator_TableVarName="tableGetPermitImportDetails" msprop:Generator_RowDeletingName="GetPermitImportDetailsRowDeleting" msprop:Generator_TablePropName="GetPermitImportDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ImportID" msprop:Generator_UserColumnName="ImportID" msprop:Generator_ColumnVarNameInTable="columnImportID" msprop:Generator_ColumnPropNameInRow="ImportID" msprop:Generator_ColumnPropNameInTable="ImportIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PermitNumber" msprop:Generator_UserColumnName="PermitNumber" msprop:Generator_ColumnVarNameInTable="columnPermitNumber" msprop:Generator_ColumnPropNameInRow="PermitNumber" msprop:Generator_ColumnPropNameInTable="PermitNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ErrorStatus" msprop:Generator_UserColumnName="ErrorStatus" msprop:Generator_ColumnVarNameInTable="columnErrorStatus" msprop:Generator_ColumnPropNameInRow="ErrorStatus" msprop:Generator_ColumnPropNameInTable="ErrorStatusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Line" msprop:Generator_UserColumnName="Line" msprop:Generator_ColumnVarNameInTable="columnLine" msprop:Generator_ColumnPropNameInRow="Line" msprop:Generator_ColumnPropNameInTable="LineColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="EntryID" msprop:Generator_UserColumnName="EntryID" msprop:Generator_ColumnVarNameInTable="columnEntryID" msprop:Generator_ColumnPropNameInRow="EntryID" msprop:Generator_ColumnPropNameInTable="EntryIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SavePermitImportEntryError" msprop:Generator_UserTableName="SavePermitImportEntryError" msprop:Generator_RowDeletedName="SavePermitImportEntryErrorRowDeleted" msprop:Generator_RowChangedName="SavePermitImportEntryErrorRowChanged" msprop:Generator_RowClassName="SavePermitImportEntryErrorRow" msprop:Generator_RowChangingName="SavePermitImportEntryErrorRowChanging" msprop:Generator_RowEvArgName="SavePermitImportEntryErrorRowChangeEvent" msprop:Generator_RowEvHandlerName="SavePermitImportEntryErrorRowChangeEventHandler" msprop:Generator_TableClassName="SavePermitImportEntryErrorDataTable" msprop:Generator_TableVarName="tableSavePermitImportEntryError" msprop:Generator_RowDeletingName="SavePermitImportEntryErrorRowDeleting" msprop:Generator_TablePropName="SavePermitImportEntryError">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ErrorMsg" msprop:Generator_UserColumnName="ErrorMsg" msprop:Generator_ColumnPropNameInRow="ErrorMsg" msprop:Generator_ColumnVarNameInTable="columnErrorMsg" msprop:Generator_ColumnPropNameInTable="ErrorMsgColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SavePermitImportEntry" msprop:Generator_UserTableName="SavePermitImportEntry" msprop:Generator_RowDeletedName="SavePermitImportEntryRowDeleted" msprop:Generator_RowChangedName="SavePermitImportEntryRowChanged" msprop:Generator_RowClassName="SavePermitImportEntryRow" msprop:Generator_RowChangingName="SavePermitImportEntryRowChanging" msprop:Generator_RowEvArgName="SavePermitImportEntryRowChangeEvent" msprop:Generator_RowEvHandlerName="SavePermitImportEntryRowChangeEventHandler" msprop:Generator_TableClassName="SavePermitImportEntryDataTable" msprop:Generator_TableVarName="tableSavePermitImportEntry" msprop:Generator_RowDeletingName="SavePermitImportEntryRowDeleting" msprop:Generator_TablePropName="SavePermitImportEntry">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ImportRunBy" msprop:Generator_UserColumnName="ImportRunBy" msprop:Generator_ColumnPropNameInRow="ImportRunBy" msprop:Generator_ColumnVarNameInTable="columnImportRunBy" msprop:Generator_ColumnPropNameInTable="ImportRunByColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ImportRunDt" msprop:Generator_UserColumnName="ImportRunDt" msprop:Generator_ColumnPropNameInRow="ImportRunDt" msprop:Generator_ColumnVarNameInTable="columnImportRunDt" msprop:Generator_ColumnPropNameInTable="ImportRunDtColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportedEntries" msprop:Generator_UserColumnName="ImportedEntries" msprop:Generator_ColumnPropNameInRow="ImportedEntries" msprop:Generator_ColumnVarNameInTable="columnImportedEntries" msprop:Generator_ColumnPropNameInTable="ImportedEntriesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ImportedEntriesTotal" msprop:Generator_UserColumnName="ImportedEntriesTotal" msprop:Generator_ColumnPropNameInRow="ImportedEntriesTotal" msprop:Generator_ColumnVarNameInTable="columnImportedEntriesTotal" msprop:Generator_ColumnPropNameInTable="ImportedEntriesTotalColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F3602CopyMoveMiscImprovement" targetNamespace="http://tempuri.org/F3602CopyMoveMiscImprovement.xsd" xmlns:mstns="http://tempuri.org/F3602CopyMoveMiscImprovement.xsd" xmlns="http://tempuri.org/F3602CopyMoveMiscImprovement.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F3602CopyMoveMiscImprovement" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F3602CopyMoveMiscImprovement" msprop:Generator_DataSetName="F3602CopyMoveMiscImprovement" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F3602CopyMoveMiscImprovement" msprop:Generator_UserTableName="F3602CopyMoveMiscImprovement" msprop:Generator_RowDeletedName="F3602CopyMoveMiscImprovementRowDeleted" msprop:Generator_RowChangedName="F3602CopyMoveMiscImprovementRowChanged" msprop:Generator_RowClassName="F3602CopyMoveMiscImprovementRow" msprop:Generator_RowChangingName="F3602CopyMoveMiscImprovementRowChanging" msprop:Generator_RowEvArgName="F3602CopyMoveMiscImprovementRowChangeEvent" msprop:Generator_RowEvHandlerName="F3602CopyMoveMiscImprovementRowChangeEventHandler" msprop:Generator_TableClassName="F3602CopyMoveMiscImprovementDataTable" msprop:Generator_TableVarName="tableF3602CopyMoveMiscImprovement" msprop:Generator_RowDeletingName="F3602CopyMoveMiscImprovementRowDeleting" msprop:Generator_TablePropName="_F3602CopyMoveMiscImprovement">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ObjectTypeTable" msprop:Generator_UserTableName="ObjectTypeTable" msprop:Generator_RowDeletedName="ObjectTypeTableRowDeleted" msprop:Generator_RowChangedName="ObjectTypeTableRowChanged" msprop:Generator_RowClassName="ObjectTypeTableRow" msprop:Generator_RowChangingName="ObjectTypeTableRowChanging" msprop:Generator_RowEvArgName="ObjectTypeTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ObjectTypeTableRowChangeEventHandler" msprop:Generator_TableClassName="ObjectTypeTableDataTable" msprop:Generator_TableVarName="tableObjectTypeTable" msprop:Generator_RowDeletingName="ObjectTypeTableRowDeleting" msprop:Generator_TablePropName="ObjectTypeTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ObjectTypeID" msprop:Generator_UserColumnName="ObjectTypeID" msprop:Generator_ColumnPropNameInRow="ObjectTypeID" msprop:Generator_ColumnVarNameInTable="columnObjectTypeID" msprop:Generator_ColumnPropNameInTable="ObjectTypeIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ObjectType" msprop:Generator_UserColumnName="ObjectType" msprop:Generator_ColumnPropNameInRow="ObjectType" msprop:Generator_ColumnVarNameInTable="columnObjectType" msprop:Generator_ColumnPropNameInTable="ObjectTypeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetObjectDetailsTable" msprop:Generator_UserTableName="GetObjectDetailsTable" msprop:Generator_RowDeletedName="GetObjectDetailsTableRowDeleted" msprop:Generator_RowChangedName="GetObjectDetailsTableRowChanged" msprop:Generator_RowClassName="GetObjectDetailsTableRow" msprop:Generator_RowChangingName="GetObjectDetailsTableRowChanging" msprop:Generator_RowEvArgName="GetObjectDetailsTableRowChangeEvent" msprop:Generator_RowEvHandlerName="GetObjectDetailsTableRowChangeEventHandler" msprop:Generator_TableClassName="GetObjectDetailsTableDataTable" msprop:Generator_TableVarName="tableGetObjectDetailsTable" msprop:Generator_RowDeletingName="GetObjectDetailsTableRowDeleting" msprop:Generator_TablePropName="GetObjectDetailsTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ObjectID" msprop:Generator_UserColumnName="ObjectID" msprop:Generator_ColumnPropNameInRow="ObjectID" msprop:Generator_ColumnVarNameInTable="columnObjectID" msprop:Generator_ColumnPropNameInTable="ObjectIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ObjectType" msprop:Generator_UserColumnName="ObjectType" msprop:Generator_ColumnPropNameInRow="ObjectType" msprop:Generator_ColumnVarNameInTable="columnObjectType" msprop:Generator_ColumnPropNameInTable="ObjectTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetMiscImprovementDetails" msprop:Generator_UserTableName="GetMiscImprovementDetails" msprop:Generator_RowDeletedName="GetMiscImprovementDetailsRowDeleted" msprop:Generator_RowChangedName="GetMiscImprovementDetailsRowChanged" msprop:Generator_RowClassName="GetMiscImprovementDetailsRow" msprop:Generator_RowChangingName="GetMiscImprovementDetailsRowChanging" msprop:Generator_RowEvArgName="GetMiscImprovementDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetMiscImprovementDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetMiscImprovementDetailsDataTable" msprop:Generator_TableVarName="tableGetMiscImprovementDetails" msprop:Generator_RowDeletingName="GetMiscImprovementDetailsRowDeleting" msprop:Generator_TablePropName="GetMiscImprovementDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MID" msprop:Generator_UserColumnName="MID" msprop:Generator_ColumnPropNameInRow="MID" msprop:Generator_ColumnVarNameInTable="columnMID" msprop:Generator_ColumnPropNameInTable="MIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MICode" msprop:Generator_UserColumnName="MICode" msprop:Generator_ColumnPropNameInRow="MICode" msprop:Generator_ColumnVarNameInTable="columnMICode" msprop:Generator_ColumnPropNameInTable="MICodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetValueSliceDetails" msprop:Generator_UserTableName="GetValueSliceDetails" msprop:Generator_RowDeletedName="GetValueSliceDetailsRowDeleted" msprop:Generator_RowChangedName="GetValueSliceDetailsRowChanged" msprop:Generator_RowClassName="GetValueSliceDetailsRow" msprop:Generator_RowChangingName="GetValueSliceDetailsRowChanging" msprop:Generator_RowEvArgName="GetValueSliceDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetValueSliceDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetValueSliceDetailsDataTable" msprop:Generator_TableVarName="tableGetValueSliceDetails" msprop:Generator_RowDeletingName="GetValueSliceDetailsRowDeleting" msprop:Generator_TablePropName="GetValueSliceDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ValueSliceId" msprop:Generator_UserColumnName="ValueSliceId" msprop:Generator_ColumnPropNameInRow="ValueSliceId" msprop:Generator_ColumnVarNameInTable="columnValueSliceId" msprop:Generator_ColumnPropNameInTable="ValueSliceIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SliceType" msprop:Generator_UserColumnName="SliceType" msprop:Generator_ColumnPropNameInRow="SliceType" msprop:Generator_ColumnVarNameInTable="columnSliceType" msprop:Generator_ColumnPropNameInTable="SliceTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="miscDetailsTable" msprop:Generator_UserTableName="miscDetailsTable" msprop:Generator_RowDeletedName="miscDetailsTableRowDeleted" msprop:Generator_RowChangedName="miscDetailsTableRowChanged" msprop:Generator_RowClassName="miscDetailsTableRow" msprop:Generator_RowChangingName="miscDetailsTableRowChanging" msprop:Generator_RowEvArgName="miscDetailsTableRowChangeEvent" msprop:Generator_RowEvHandlerName="miscDetailsTableRowChangeEventHandler" msprop:Generator_TableClassName="miscDetailsTableDataTable" msprop:Generator_TableVarName="tablemiscDetailsTable" msprop:Generator_RowDeletingName="miscDetailsTableRowDeleting" msprop:Generator_TablePropName="miscDetailsTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MID" msprop:Generator_UserColumnName="MID" msprop:Generator_ColumnVarNameInTable="columnMID" msprop:Generator_ColumnPropNameInRow="MID" msprop:Generator_ColumnPropNameInTable="MIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsChecked" msprop:Generator_UserColumnName="IsChecked" msprop:Generator_ColumnVarNameInTable="columnIsChecked" msprop:Generator_ColumnPropNameInRow="IsChecked" msprop:Generator_ColumnPropNameInTable="IsCheckedColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

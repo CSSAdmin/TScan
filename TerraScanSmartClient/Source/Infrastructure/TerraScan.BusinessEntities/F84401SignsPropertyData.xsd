@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F84401SignsPropertyData" targetNamespace="http://tempuri.org/F84401SignsPropertyData.xsd" xmlns:mstns="http://tempuri.org/F84401SignsPropertyData.xsd" xmlns="http://tempuri.org/F84401SignsPropertyData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F84401SignsPropertyData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F84401SignsPropertyData" msprop:Generator_DataSetName="F84401SignsPropertyData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetSignsProperty" msprop:Generator_UserTableName="GetSignsProperty" msprop:Generator_RowDeletedName="GetSignsPropertyRowDeleted" msprop:Generator_RowChangedName="GetSignsPropertyRowChanged" msprop:Generator_RowClassName="GetSignsPropertyRow" msprop:Generator_RowChangingName="GetSignsPropertyRowChanging" msprop:Generator_RowEvArgName="GetSignsPropertyRowChangeEvent" msprop:Generator_RowEvHandlerName="GetSignsPropertyRowChangeEventHandler" msprop:Generator_TableClassName="GetSignsPropertyDataTable" msprop:Generator_TableVarName="tableGetSignsProperty" msprop:Generator_RowDeletingName="GetSignsPropertyRowDeleting" msprop:Generator_TablePropName="GetSignsProperty">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CID" msprop:Generator_UserColumnName="CID" msprop:Generator_ColumnPropNameInRow="CID" msprop:Generator_ColumnVarNameInTable="columnCID" msprop:Generator_ColumnPropNameInTable="CIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SignText" msprop:Generator_UserColumnName="SignText" msprop:Generator_ColumnPropNameInRow="SignText" msprop:Generator_ColumnVarNameInTable="columnSignText" msprop:Generator_ColumnPropNameInTable="SignTextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign01_ID" msprop:Generator_UserColumnName="Sign01_ID" msprop:Generator_ColumnPropNameInRow="Sign01_ID" msprop:Generator_ColumnVarNameInTable="columnSign01_ID" msprop:Generator_ColumnPropNameInTable="Sign01_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign02_ID" msprop:Generator_UserColumnName="Sign02_ID" msprop:Generator_ColumnPropNameInRow="Sign02_ID" msprop:Generator_ColumnVarNameInTable="columnSign02_ID" msprop:Generator_ColumnPropNameInTable="Sign02_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign03_ID" msprop:Generator_UserColumnName="Sign03_ID" msprop:Generator_ColumnPropNameInRow="Sign03_ID" msprop:Generator_ColumnVarNameInTable="columnSign03_ID" msprop:Generator_ColumnPropNameInTable="Sign03_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign04_ID" msprop:Generator_UserColumnName="Sign04_ID" msprop:Generator_ColumnPropNameInRow="Sign04_ID" msprop:Generator_ColumnVarNameInTable="columnSign04_ID" msprop:Generator_ColumnPropNameInTable="Sign04_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign05_ID" msprop:Generator_UserColumnName="Sign05_ID" msprop:Generator_ColumnPropNameInRow="Sign05_ID" msprop:Generator_ColumnVarNameInTable="columnSign05_ID" msprop:Generator_ColumnPropNameInTable="Sign05_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign06_ID" msprop:Generator_UserColumnName="Sign06_ID" msprop:Generator_ColumnPropNameInRow="Sign06_ID" msprop:Generator_ColumnVarNameInTable="columnSign06_ID" msprop:Generator_ColumnPropNameInTable="Sign06_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign07_ID" msprop:Generator_UserColumnName="Sign07_ID" msprop:Generator_ColumnPropNameInRow="Sign07_ID" msprop:Generator_ColumnVarNameInTable="columnSign07_ID" msprop:Generator_ColumnPropNameInTable="Sign07_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Primary_StreetID" msprop:Generator_UserColumnName="Primary_StreetID" msprop:Generator_ColumnPropNameInRow="Primary_StreetID" msprop:Generator_ColumnVarNameInTable="columnPrimary_StreetID" msprop:Generator_ColumnPropNameInTable="Primary_StreetIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Cross_StreetID" msprop:Generator_UserColumnName="Cross_StreetID" msprop:Generator_ColumnPropNameInRow="Cross_StreetID" msprop:Generator_ColumnVarNameInTable="columnCross_StreetID" msprop:Generator_ColumnPropNameInTable="Cross_StreetIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Offset" msprop:Generator_UserColumnName="Offset" msprop:Generator_ColumnPropNameInRow="Offset" msprop:Generator_ColumnVarNameInTable="columnOffset" msprop:Generator_ColumnPropNameInTable="OffsetColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DistFromCrossSt" msprop:Generator_UserColumnName="DistFromCrossSt" msprop:Generator_ColumnPropNameInRow="DistFromCrossSt" msprop:Generator_ColumnVarNameInTable="columnDistFromCrossSt" msprop:Generator_ColumnPropNameInTable="DistFromCrossStColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Aspect" msprop:Generator_UserColumnName="Aspect" msprop:Generator_ColumnPropNameInRow="Aspect" msprop:Generator_ColumnVarNameInTable="columnAspect" msprop:Generator_ColumnPropNameInTable="AspectColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Width" msprop:Generator_UserColumnName="Width" msprop:Generator_ColumnPropNameInRow="Width" msprop:Generator_ColumnVarNameInTable="columnWidth" msprop:Generator_ColumnPropNameInTable="WidthColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Height" msprop:Generator_UserColumnName="Height" msprop:Generator_ColumnPropNameInRow="Height" msprop:Generator_ColumnVarNameInTable="columnHeight" msprop:Generator_ColumnPropNameInTable="HeightColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GPX_X" msprop:Generator_UserColumnName="GPX_X" msprop:Generator_ColumnPropNameInRow="GPX_X" msprop:Generator_ColumnVarNameInTable="columnGPX_X" msprop:Generator_ColumnPropNameInTable="GPX_XColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GPX_Y" msprop:Generator_UserColumnName="GPX_Y" msprop:Generator_ColumnPropNameInRow="GPX_Y" msprop:Generator_ColumnVarNameInTable="columnGPX_Y" msprop:Generator_ColumnPropNameInTable="GPX_YColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Sign01Value" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign01Value" msprop:Generator_ColumnPropNameInRow="Sign01Value" msprop:Generator_ColumnVarNameInTable="columnSign01Value" msprop:Generator_ColumnPropNameInTable="Sign01ValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign02Value" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign02Value" msprop:Generator_ColumnPropNameInRow="Sign02Value" msprop:Generator_ColumnVarNameInTable="columnSign02Value" msprop:Generator_ColumnPropNameInTable="Sign02ValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign03Value" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign03Value" msprop:Generator_ColumnPropNameInRow="Sign03Value" msprop:Generator_ColumnVarNameInTable="columnSign03Value" msprop:Generator_ColumnPropNameInTable="Sign03ValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign04Value" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign04Value" msprop:Generator_ColumnPropNameInRow="Sign04Value" msprop:Generator_ColumnVarNameInTable="columnSign04Value" msprop:Generator_ColumnPropNameInTable="Sign04ValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign05Value" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign05Value" msprop:Generator_ColumnPropNameInRow="Sign05Value" msprop:Generator_ColumnVarNameInTable="columnSign05Value" msprop:Generator_ColumnPropNameInTable="Sign05ValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign06Value" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign06Value" msprop:Generator_ColumnPropNameInRow="Sign06Value" msprop:Generator_ColumnVarNameInTable="columnSign06Value" msprop:Generator_ColumnPropNameInTable="Sign06ValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign07Value" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign07Value" msprop:Generator_ColumnPropNameInRow="Sign07Value" msprop:Generator_ColumnVarNameInTable="columnSign07Value" msprop:Generator_ColumnPropNameInTable="Sign07ValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimarySTValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PrimarySTValue" msprop:Generator_ColumnPropNameInRow="PrimarySTValue" msprop:Generator_ColumnVarNameInTable="columnPrimarySTValue" msprop:Generator_ColumnPropNameInTable="PrimarySTValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CrossSTValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CrossSTValue" msprop:Generator_ColumnPropNameInRow="CrossSTValue" msprop:Generator_ColumnVarNameInTable="columnCrossSTValue" msprop:Generator_ColumnPropNameInTable="CrossSTValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign01LabelValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign01LabelValue" msprop:Generator_ColumnPropNameInRow="Sign01LabelValue" msprop:Generator_ColumnVarNameInTable="columnSign01LabelValue" msprop:Generator_ColumnPropNameInTable="Sign01LabelValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign02LabelValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign02LabelValue" msprop:Generator_ColumnPropNameInRow="Sign02LabelValue" msprop:Generator_ColumnVarNameInTable="columnSign02LabelValue" msprop:Generator_ColumnPropNameInTable="Sign02LabelValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign03LabelValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign03LabelValue" msprop:Generator_ColumnPropNameInRow="Sign03LabelValue" msprop:Generator_ColumnVarNameInTable="columnSign03LabelValue" msprop:Generator_ColumnPropNameInTable="Sign03LabelValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign04LabelValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign04LabelValue" msprop:Generator_ColumnPropNameInRow="Sign04LabelValue" msprop:Generator_ColumnVarNameInTable="columnSign04LabelValue" msprop:Generator_ColumnPropNameInTable="Sign04LabelValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign05LabelValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign05LabelValue" msprop:Generator_ColumnPropNameInRow="Sign05LabelValue" msprop:Generator_ColumnVarNameInTable="columnSign05LabelValue" msprop:Generator_ColumnPropNameInTable="Sign05LabelValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign06LabelValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign06LabelValue" msprop:Generator_ColumnPropNameInRow="Sign06LabelValue" msprop:Generator_ColumnVarNameInTable="columnSign06LabelValue" msprop:Generator_ColumnPropNameInTable="Sign06LabelValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign07LabelValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Sign07LabelValue" msprop:Generator_ColumnPropNameInRow="Sign07LabelValue" msprop:Generator_ColumnVarNameInTable="columnSign07LabelValue" msprop:Generator_ColumnPropNameInTable="Sign07LabelValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SignHeight" msprop:Generator_UserColumnName="SignHeight" msprop:Generator_ColumnPropNameInRow="SignHeight" msprop:Generator_ColumnVarNameInTable="columnSignHeight" msprop:Generator_ColumnPropNameInTable="SignHeightColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SignsProperty" msprop:Generator_UserTableName="SignsProperty" msprop:Generator_RowDeletedName="SignsPropertyRowDeleted" msprop:Generator_RowChangedName="SignsPropertyRowChanged" msprop:Generator_RowClassName="SignsPropertyRow" msprop:Generator_RowChangingName="SignsPropertyRowChanging" msprop:Generator_RowEvArgName="SignsPropertyRowChangeEvent" msprop:Generator_RowEvHandlerName="SignsPropertyRowChangeEventHandler" msprop:Generator_TableClassName="SignsPropertyDataTable" msprop:Generator_TableVarName="tableSignsProperty" msprop:Generator_RowDeletingName="SignsPropertyRowDeleting" msprop:Generator_TablePropName="SignsProperty">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CID" msprop:Generator_UserColumnName="CID" msprop:Generator_ColumnVarNameInTable="columnCID" msprop:Generator_ColumnPropNameInRow="CID" msprop:Generator_ColumnPropNameInTable="CIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SignText" msprop:Generator_UserColumnName="SignText" msprop:Generator_ColumnVarNameInTable="columnSignText" msprop:Generator_ColumnPropNameInRow="SignText" msprop:Generator_ColumnPropNameInTable="SignTextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sign01_ID" msprop:Generator_UserColumnName="Sign01_ID" msprop:Generator_ColumnVarNameInTable="columnSign01_ID" msprop:Generator_ColumnPropNameInRow="Sign01_ID" msprop:Generator_ColumnPropNameInTable="Sign01_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign02_ID" msprop:Generator_UserColumnName="Sign02_ID" msprop:Generator_ColumnVarNameInTable="columnSign02_ID" msprop:Generator_ColumnPropNameInRow="Sign02_ID" msprop:Generator_ColumnPropNameInTable="Sign02_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign03_ID" msprop:Generator_UserColumnName="Sign03_ID" msprop:Generator_ColumnVarNameInTable="columnSign03_ID" msprop:Generator_ColumnPropNameInRow="Sign03_ID" msprop:Generator_ColumnPropNameInTable="Sign03_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign04_ID" msprop:Generator_UserColumnName="Sign04_ID" msprop:Generator_ColumnVarNameInTable="columnSign04_ID" msprop:Generator_ColumnPropNameInRow="Sign04_ID" msprop:Generator_ColumnPropNameInTable="Sign04_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign05_ID" msprop:Generator_UserColumnName="Sign05_ID" msprop:Generator_ColumnVarNameInTable="columnSign05_ID" msprop:Generator_ColumnPropNameInRow="Sign05_ID" msprop:Generator_ColumnPropNameInTable="Sign05_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign06_ID" msprop:Generator_UserColumnName="Sign06_ID" msprop:Generator_ColumnVarNameInTable="columnSign06_ID" msprop:Generator_ColumnPropNameInRow="Sign06_ID" msprop:Generator_ColumnPropNameInTable="Sign06_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Sign07_ID" msprop:Generator_UserColumnName="Sign07_ID" msprop:Generator_ColumnVarNameInTable="columnSign07_ID" msprop:Generator_ColumnPropNameInRow="Sign07_ID" msprop:Generator_ColumnPropNameInTable="Sign07_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Primary_StreetID" msprop:Generator_UserColumnName="Primary_StreetID" msprop:Generator_ColumnVarNameInTable="columnPrimary_StreetID" msprop:Generator_ColumnPropNameInRow="Primary_StreetID" msprop:Generator_ColumnPropNameInTable="Primary_StreetIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Cross_StreetID" msprop:Generator_UserColumnName="Cross_StreetID" msprop:Generator_ColumnVarNameInTable="columnCross_StreetID" msprop:Generator_ColumnPropNameInRow="Cross_StreetID" msprop:Generator_ColumnPropNameInTable="Cross_StreetIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Offset" msprop:Generator_UserColumnName="Offset" msprop:Generator_ColumnVarNameInTable="columnOffset" msprop:Generator_ColumnPropNameInRow="Offset" msprop:Generator_ColumnPropNameInTable="OffsetColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DistFromCrossSt" msprop:Generator_UserColumnName="DistFromCrossSt" msprop:Generator_ColumnVarNameInTable="columnDistFromCrossSt" msprop:Generator_ColumnPropNameInRow="DistFromCrossSt" msprop:Generator_ColumnPropNameInTable="DistFromCrossStColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Aspect" msprop:Generator_UserColumnName="Aspect" msprop:Generator_ColumnVarNameInTable="columnAspect" msprop:Generator_ColumnPropNameInRow="Aspect" msprop:Generator_ColumnPropNameInTable="AspectColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Width" msprop:Generator_UserColumnName="Width" msprop:Generator_ColumnVarNameInTable="columnWidth" msprop:Generator_ColumnPropNameInRow="Width" msprop:Generator_ColumnPropNameInTable="WidthColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Height" msprop:Generator_UserColumnName="Height" msprop:Generator_ColumnVarNameInTable="columnHeight" msprop:Generator_ColumnPropNameInRow="Height" msprop:Generator_ColumnPropNameInTable="HeightColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GPX_X" msprop:Generator_UserColumnName="GPX_X" msprop:Generator_ColumnVarNameInTable="columnGPX_X" msprop:Generator_ColumnPropNameInRow="GPX_X" msprop:Generator_ColumnPropNameInTable="GPX_XColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GPX_Y" msprop:Generator_UserColumnName="GPX_Y" msprop:Generator_ColumnVarNameInTable="columnGPX_Y" msprop:Generator_ColumnPropNameInRow="GPX_Y" msprop:Generator_ColumnPropNameInTable="GPX_YColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SignHeight" msprop:Generator_UserColumnName="SignHeight" msprop:Generator_ColumnPropNameInRow="SignHeight" msprop:Generator_ColumnVarNameInTable="columnSignHeight" msprop:Generator_ColumnPropNameInTable="SignHeightColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

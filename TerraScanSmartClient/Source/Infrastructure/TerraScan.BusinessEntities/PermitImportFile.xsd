@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PermitImportFile" targetNamespace="http://tempuri.org/PermitImportFile.xsd" xmlns:mstns="http://tempuri.org/PermitImportFile.xsd" xmlns="http://tempuri.org/PermitImportFile.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PermitImportFile" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="PermitImportFile" msprop:Generator_DataSetName="PermitImportFile" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PermitImportEntry" msprop:Generator_UserTableName="PermitImportEntry" msprop:Generator_RowDeletedName="PermitImportEntryRowDeleted" msprop:Generator_RowChangedName="PermitImportEntryRowChanged" msprop:Generator_RowClassName="PermitImportEntryRow" msprop:Generator_RowChangingName="PermitImportEntryRowChanging" msprop:Generator_RowEvArgName="PermitImportEntryRowChangeEvent" msprop:Generator_RowEvHandlerName="PermitImportEntryRowChangeEventHandler" msprop:Generator_TableClassName="PermitImportEntryDataTable" msprop:Generator_TableVarName="tablePermitImportEntry" msprop:Generator_RowDeletingName="PermitImportEntryRowDeleting" msprop:Generator_TablePropName="PermitImportEntry">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PermitNumber" msprop:Generator_UserColumnName="PermitNumber" msprop:Generator_ColumnVarNameInTable="columnPermitNumber" msprop:Generator_ColumnPropNameInRow="PermitNumber" msprop:Generator_ColumnPropNameInTable="PermitNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DateOpened" msprop:Generator_UserColumnName="DateOpened" msprop:Generator_ColumnVarNameInTable="columnDateOpened" msprop:Generator_ColumnPropNameInRow="DateOpened" msprop:Generator_ColumnPropNameInTable="DateOpenedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DateLastVisit" msprop:Generator_UserColumnName="DateLastVisit" msprop:Generator_ColumnVarNameInTable="columnDateLastVisit" msprop:Generator_ColumnPropNameInRow="DateLastVisit" msprop:Generator_ColumnPropNameInTable="DateLastVisitColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DateClosed" msprop:Generator_UserColumnName="DateClosed" msprop:Generator_ColumnVarNameInTable="columnDateClosed" msprop:Generator_ColumnPropNameInRow="DateClosed" msprop:Generator_ColumnPropNameInTable="DateClosedColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EstValue" msprop:Generator_UserColumnName="EstValue" msprop:Generator_ColumnVarNameInTable="columnEstValue" msprop:Generator_ColumnPropNameInRow="EstValue" msprop:Generator_ColumnPropNameInTable="EstValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AssignedAppraiserUser" msprop:Generator_UserColumnName="AssignedAppraiserUser" msprop:Generator_ColumnVarNameInTable="columnAssignedAppraiserUser" msprop:Generator_ColumnPropNameInRow="AssignedAppraiserUser" msprop:Generator_ColumnPropNameInTable="AssignedAppraiserUserColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PermitType" msprop:Generator_UserColumnName="PermitType" msprop:Generator_ColumnVarNameInTable="columnPermitType" msprop:Generator_ColumnPropNameInRow="PermitType" msprop:Generator_ColumnPropNameInTable="PermitTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PercentComplete" msprop:Generator_UserColumnName="PercentComplete" msprop:Generator_ColumnVarNameInTable="columnPercentComplete" msprop:Generator_ColumnPropNameInRow="PercentComplete" msprop:Generator_ColumnPropNameInTable="PercentCompleteColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PermitDescription" msprop:Generator_UserColumnName="PermitDescription" msprop:Generator_ColumnVarNameInTable="columnPermitDescription" msprop:Generator_ColumnPropNameInRow="PermitDescription" msprop:Generator_ColumnPropNameInTable="PermitDescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Line" msprop:Generator_UserColumnName="Line" msprop:Generator_ColumnVarNameInTable="columnLine" msprop:Generator_ColumnPropNameInRow="Line" msprop:Generator_ColumnPropNameInTable="LineColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

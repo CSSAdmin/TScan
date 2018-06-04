@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F1504CopyAccountData" targetNamespace="http://tempuri.org/F1504CopyAccountData.xsd" xmlns:mstns="http://tempuri.org/F1504CopyAccountData.xsd" xmlns="http://tempuri.org/F1504CopyAccountData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F1504CopyAccountData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F1504CopyAccountData" msprop:Generator_DataSetName="F1504CopyAccountData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F1504_ListSubFund" msprop:Generator_UserTableName="F1504_ListSubFund" msprop:Generator_RowDeletedName="F1504_ListSubFundRowDeleted" msprop:Generator_RowChangedName="F1504_ListSubFundRowChanged" msprop:Generator_RowClassName="F1504_ListSubFundRow" msprop:Generator_RowChangingName="F1504_ListSubFundRowChanging" msprop:Generator_RowEvArgName="F1504_ListSubFundRowChangeEvent" msprop:Generator_RowEvHandlerName="F1504_ListSubFundRowChangeEventHandler" msprop:Generator_TableClassName="F1504_ListSubFundDataTable" msprop:Generator_TableVarName="tableF1504_ListSubFund" msprop:Generator_RowDeletingName="F1504_ListSubFundRowDeleting" msprop:Generator_TablePropName="F1504_ListSubFund">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubFund" msprop:Generator_UserColumnName="SubFund" msprop:Generator_ColumnPropNameInRow="SubFund" msprop:Generator_ColumnVarNameInTable="columnSubFund" msprop:Generator_ColumnPropNameInTable="SubFundColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="F1504_GetAccountDetail" msprop:Generator_UserTableName="F1504_GetAccountDetail" msprop:Generator_RowDeletedName="F1504_GetAccountDetailRowDeleted" msprop:Generator_RowChangedName="F1504_GetAccountDetailRowChanged" msprop:Generator_RowClassName="F1504_GetAccountDetailRow" msprop:Generator_RowChangingName="F1504_GetAccountDetailRowChanging" msprop:Generator_RowEvArgName="F1504_GetAccountDetailRowChangeEvent" msprop:Generator_RowEvHandlerName="F1504_GetAccountDetailRowChangeEventHandler" msprop:Generator_TableClassName="F1504_GetAccountDetailDataTable" msprop:Generator_TableVarName="tableF1504_GetAccountDetail" msprop:Generator_RowDeletingName="F1504_GetAccountDetailRowDeleting" msprop:Generator_TablePropName="F1504_GetAccountDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SubFundID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SubFundID" msprop:Generator_ColumnVarNameInTable="columnSubFundID" msprop:Generator_ColumnPropNameInRow="SubFundID" msprop:Generator_ColumnPropNameInTable="SubFundIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SubFund" msprop:Generator_UserColumnName="SubFund" msprop:Generator_ColumnVarNameInTable="columnSubFund" msprop:Generator_ColumnPropNameInRow="SubFund" msprop:Generator_ColumnPropNameInTable="SubFundColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AcctDesc" msprop:Generator_UserColumnName="AcctDesc" msprop:Generator_ColumnVarNameInTable="columnAcctDesc" msprop:Generator_ColumnPropNameInRow="AcctDesc" msprop:Generator_ColumnPropNameInTable="AcctDescColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FunctionID" msprop:Generator_UserColumnName="FunctionID" msprop:Generator_ColumnVarNameInTable="columnFunctionID" msprop:Generator_ColumnPropNameInRow="FunctionID" msprop:Generator_ColumnPropNameInTable="FunctionIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BarID" msprop:Generator_UserColumnName="BarID" msprop:Generator_ColumnVarNameInTable="columnBarID" msprop:Generator_ColumnPropNameInRow="BarID" msprop:Generator_ColumnPropNameInTable="BarIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ObjectID" msprop:Generator_UserColumnName="ObjectID" msprop:Generator_ColumnVarNameInTable="columnObjectID" msprop:Generator_ColumnPropNameInRow="ObjectID" msprop:Generator_ColumnPropNameInTable="ObjectIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineID" msprop:Generator_UserColumnName="LineID" msprop:Generator_ColumnVarNameInTable="columnLineID" msprop:Generator_ColumnPropNameInRow="LineID" msprop:Generator_ColumnPropNameInTable="LineIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FunctionFlag" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FunctionFlag" msprop:Generator_ColumnVarNameInTable="columnFunctionFlag" msprop:Generator_ColumnPropNameInRow="FunctionFlag" msprop:Generator_ColumnPropNameInTable="FunctionFlagColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BarsFlag" msdata:ReadOnly="true" msprop:Generator_UserColumnName="BarsFlag" msprop:Generator_ColumnVarNameInTable="columnBarsFlag" msprop:Generator_ColumnPropNameInRow="BarsFlag" msprop:Generator_ColumnPropNameInTable="BarsFlagColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ObjectFlag" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ObjectFlag" msprop:Generator_ColumnVarNameInTable="columnObjectFlag" msprop:Generator_ColumnPropNameInRow="ObjectFlag" msprop:Generator_ColumnPropNameInTable="ObjectFlagColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LineFlag" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LineFlag" msprop:Generator_ColumnVarNameInTable="columnLineFlag" msprop:Generator_ColumnPropNameInRow="LineFlag" msprop:Generator_ColumnPropNameInTable="LineFlagColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="F1504_SaveCopyAccount" msprop:Generator_UserTableName="F1504_SaveCopyAccount" msprop:Generator_RowDeletedName="F1504_SaveCopyAccountRowDeleted" msprop:Generator_RowChangedName="F1504_SaveCopyAccountRowChanged" msprop:Generator_RowClassName="F1504_SaveCopyAccountRow" msprop:Generator_RowChangingName="F1504_SaveCopyAccountRowChanging" msprop:Generator_RowEvArgName="F1504_SaveCopyAccountRowChangeEvent" msprop:Generator_RowEvHandlerName="F1504_SaveCopyAccountRowChangeEventHandler" msprop:Generator_TableClassName="F1504_SaveCopyAccountDataTable" msprop:Generator_TableVarName="tableF1504_SaveCopyAccount" msprop:Generator_RowDeletingName="F1504_SaveCopyAccountRowDeleting" msprop:Generator_TablePropName="F1504_SaveCopyAccount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyID" msprop:Generator_UserColumnName="KeyID" msprop:Generator_ColumnPropNameInRow="KeyID" msprop:Generator_ColumnVarNameInTable="columnKeyID" msprop:Generator_ColumnPropNameInTable="KeyIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsShowMessage" msprop:Generator_UserColumnName="IsShowMessage" msprop:Generator_ColumnVarNameInTable="columnIsShowMessage" msprop:Generator_ColumnPropNameInRow="IsShowMessage" msprop:Generator_ColumnPropNameInTable="IsShowMessageColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

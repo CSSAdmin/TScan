@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9075CommentTemplate" targetNamespace="http://tempuri.org/F9075CommentTemplate.xsd" xmlns:mstns="http://tempuri.org/F9075CommentTemplate.xsd" xmlns="http://tempuri.org/F9075CommentTemplate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9075CommentTemplate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F9075CommentTemplate" msprop:Generator_DataSetName="F9075CommentTemplate">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TemplateList" msprop:Generator_UserTableName="TemplateList" msprop:Generator_RowDeletedName="TemplateListRowDeleted" msprop:Generator_RowChangedName="TemplateListRowChanged" msprop:Generator_RowClassName="TemplateListRow" msprop:Generator_RowChangingName="TemplateListRowChanging" msprop:Generator_RowEvArgName="TemplateListRowChangeEvent" msprop:Generator_RowEvHandlerName="TemplateListRowChangeEventHandler" msprop:Generator_TableClassName="TemplateListDataTable" msprop:Generator_TableVarName="tableTemplateList" msprop:Generator_RowDeletingName="TemplateListRowDeleting" msprop:Generator_TablePropName="TemplateList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TemplateID" msprop:Generator_UserColumnName="TemplateID" msprop:Generator_ColumnPropNameInRow="TemplateID" msprop:Generator_ColumnVarNameInTable="columnTemplateID" msprop:Generator_ColumnPropNameInTable="TemplateIDColumn" type="xs:int" />
+              <xs:element name="Template" msprop:Generator_UserColumnName="Template" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnTemplate" msprop:Generator_ColumnPropNameInTable="TemplateColumn" msprop:Generator_ColumnPropNameInRow="Template" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CommentPriorities" msprop:Generator_UserTableName="CommentPriorities" msprop:Generator_RowDeletedName="CommentPrioritiesRowDeleted" msprop:Generator_TableClassName="CommentPrioritiesDataTable" msprop:Generator_RowChangedName="CommentPrioritiesRowChanged" msprop:Generator_RowClassName="CommentPrioritiesRow" msprop:Generator_RowChangingName="CommentPrioritiesRowChanging" msprop:Generator_RowEvArgName="CommentPrioritiesRowChangeEvent" msprop:Generator_RowEvHandlerName="CommentPrioritiesRowChangeEventHandler" msprop:Generator_TablePropName="CommentPriorities" msprop:Generator_TableVarName="tableCommentPriorities" msprop:Generator_RowDeletingName="CommentPrioritiesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CommentPriorityID" msprop:Generator_UserColumnName="CommentPriorityID" msprop:Generator_ColumnPropNameInRow="CommentPriorityID" msprop:Generator_ColumnVarNameInTable="columnCommentPriorityID" msprop:Generator_ColumnPropNameInTable="CommentPriorityIDColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="CommentPriority" msprop:Generator_UserColumnName="CommentPriority" msprop:Generator_ColumnPropNameInRow="CommentPriority" msprop:Generator_ColumnVarNameInTable="columnCommentPriority" msprop:Generator_ColumnPropNameInTable="CommentPriorityColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

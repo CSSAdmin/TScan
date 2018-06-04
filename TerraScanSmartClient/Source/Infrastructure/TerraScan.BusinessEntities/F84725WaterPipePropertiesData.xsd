@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F84725WaterPipePropertiesData" targetNamespace="http://tempuri.org/F84725WaterPipePropertiesData.xsd" xmlns:mstns="http://tempuri.org/F84725WaterPipePropertiesData.xsd" xmlns="http://tempuri.org/F84725WaterPipePropertiesData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F84725WaterPipePropertiesData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F84725WaterPipePropertiesData" msprop:Generator_DataSetName="F84725WaterPipePropertiesData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetWaterPipePropertiesDataTable" msprop:Generator_UserTableName="GetWaterPipePropertiesDataTable" msprop:Generator_RowDeletedName="GetWaterPipePropertiesDataTableRowDeleted" msprop:Generator_RowChangedName="GetWaterPipePropertiesDataTableRowChanged" msprop:Generator_RowClassName="GetWaterPipePropertiesDataTableRow" msprop:Generator_RowChangingName="GetWaterPipePropertiesDataTableRowChanging" msprop:Generator_RowEvArgName="GetWaterPipePropertiesDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="GetWaterPipePropertiesDataTableRowChangeEventHandler" msprop:Generator_TableClassName="GetWaterPipePropertiesDataTableDataTable" msprop:Generator_TableVarName="tableGetWaterPipePropertiesDataTable" msprop:Generator_RowDeletingName="GetWaterPipePropertiesDataTableRowDeleting" msprop:Generator_TablePropName="GetWaterPipePropertiesDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeatureID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="FeatureID" msprop:Generator_ColumnVarNameInTable="columnFeatureID" msprop:Generator_ColumnPropNameInRow="FeatureID" msprop:Generator_ColumnPropNameInTable="FeatureIDColumn" type="xs:int" />
+              <xs:element name="CID" msprop:Generator_UserColumnName="CID" msprop:Generator_ColumnVarNameInTable="columnCID" msprop:Generator_ColumnPropNameInRow="CID" msprop:Generator_ColumnPropNameInTable="CIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsEnabled" msprop:Generator_UserColumnName="IsEnabled" msprop:Generator_ColumnVarNameInTable="columnIsEnabled" msprop:Generator_ColumnPropNameInRow="IsEnabled" msprop:Generator_ColumnPropNameInTable="IsEnabledColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPrivate" msprop:Generator_UserColumnName="IsPrivate" msprop:Generator_ColumnVarNameInTable="columnIsPrivate" msprop:Generator_ColumnPropNameInRow="IsPrivate" msprop:Generator_ColumnPropNameInTable="IsPrivateColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BusinessID" msprop:Generator_UserColumnName="BusinessID" msprop:Generator_ColumnVarNameInTable="columnBusinessID" msprop:Generator_ColumnPropNameInRow="BusinessID" msprop:Generator_ColumnPropNameInTable="BusinessIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ManufacturerID" msprop:Generator_UserColumnName="ManufacturerID" msprop:Generator_ColumnVarNameInTable="columnManufacturerID" msprop:Generator_ColumnPropNameInRow="ManufacturerID" msprop:Generator_ColumnPropNameInTable="ManufacturerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PipeTypeID" msprop:Generator_UserColumnName="PipeTypeID" msprop:Generator_ColumnVarNameInTable="columnPipeTypeID" msprop:Generator_ColumnPropNameInRow="PipeTypeID" msprop:Generator_ColumnPropNameInTable="PipeTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Diameter" msprop:Generator_UserColumnName="Diameter" msprop:Generator_ColumnVarNameInTable="columnDiameter" msprop:Generator_ColumnPropNameInRow="Diameter" msprop:Generator_ColumnPropNameInTable="DiameterColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PressureRating" msprop:Generator_UserColumnName="PressureRating" msprop:Generator_ColumnVarNameInTable="columnPressureRating" msprop:Generator_ColumnPropNameInRow="PressureRating" msprop:Generator_ColumnPropNameInTable="PressureRatingColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PipeClass" msprop:Generator_UserColumnName="PipeClass" msprop:Generator_ColumnVarNameInTable="columnPipeClass" msprop:Generator_ColumnPropNameInRow="PipeClass" msprop:Generator_ColumnPropNameInTable="PipeClassColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MaterialID" msprop:Generator_UserColumnName="MaterialID" msprop:Generator_ColumnVarNameInTable="columnMaterialID" msprop:Generator_ColumnPropNameInRow="MaterialID" msprop:Generator_ColumnPropNameInTable="MaterialIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ExteriorCoating" msprop:Generator_UserColumnName="ExteriorCoating" msprop:Generator_ColumnVarNameInTable="columnExteriorCoating" msprop:Generator_ColumnPropNameInRow="ExteriorCoating" msprop:Generator_ColumnPropNameInTable="ExteriorCoatingColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LiningType" msprop:Generator_UserColumnName="LiningType" msprop:Generator_ColumnVarNameInTable="columnLiningType" msprop:Generator_ColumnPropNameInRow="LiningType" msprop:Generator_ColumnPropNameInTable="LiningTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsPolywrap" msprop:Generator_UserColumnName="IsPolywrap" msprop:Generator_ColumnVarNameInTable="columnIsPolywrap" msprop:Generator_ColumnPropNameInRow="IsPolywrap" msprop:Generator_ColumnPropNameInTable="IsPolywrapColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Roghness" msprop:Generator_UserColumnName="Roghness" msprop:Generator_ColumnVarNameInTable="columnRoghness" msprop:Generator_ColumnPropNameInRow="Roghness" msprop:Generator_ColumnPropNameInTable="RoghnessColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="WaterTypeID" msprop:Generator_UserColumnName="WaterTypeID" msprop:Generator_ColumnVarNameInTable="columnWaterTypeID" msprop:Generator_ColumnPropNameInRow="WaterTypeID" msprop:Generator_ColumnPropNameInTable="WaterTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="JoinTypeMaleID" msprop:Generator_UserColumnName="JoinTypeMaleID" msprop:Generator_ColumnVarNameInTable="columnJoinTypeMaleID" msprop:Generator_ColumnPropNameInRow="JoinTypeMaleID" msprop:Generator_ColumnPropNameInTable="JoinTypeMaleIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="JointTypeFemaleID" msprop:Generator_UserColumnName="JointTypeFemaleID" msprop:Generator_ColumnVarNameInTable="columnJointTypeFemaleID" msprop:Generator_ColumnPropNameInRow="JointTypeFemaleID" msprop:Generator_ColumnPropNameInTable="JointTypeFemaleIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GasketTypeID" msprop:Generator_UserColumnName="GasketTypeID" msprop:Generator_ColumnVarNameInTable="columnGasketTypeID" msprop:Generator_ColumnPropNameInRow="GasketTypeID" msprop:Generator_ColumnPropNameInTable="GasketTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LifecycleStatusID" msprop:Generator_UserColumnName="LifecycleStatusID" msprop:Generator_ColumnVarNameInTable="columnLifecycleStatusID" msprop:Generator_ColumnPropNameInRow="LifecycleStatusID" msprop:Generator_ColumnPropNameInTable="LifecycleStatusIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

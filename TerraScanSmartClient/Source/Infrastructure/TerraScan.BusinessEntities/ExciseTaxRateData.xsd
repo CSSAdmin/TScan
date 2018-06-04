@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ExciseTaxRateData" targetNamespace="http://tempuri.org/ExciseTaxRateData.xsd" xmlns:mstns="http://tempuri.org/ExciseTaxRateData.xsd" xmlns="http://tempuri.org/ExciseTaxRateData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerraScanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerraScanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerraScanConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ExciseTaxRateData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ExciseTaxRateData" msprop:Generator_DataSetName="ExciseTaxRateData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListExciseTaxRate" msprop:Generator_UserTableName="ListExciseTaxRate" msprop:Generator_RowDeletedName="ListExciseTaxRateRowDeleted" msprop:Generator_RowChangedName="ListExciseTaxRateRowChanged" msprop:Generator_RowClassName="ListExciseTaxRateRow" msprop:Generator_RowChangingName="ListExciseTaxRateRowChanging" msprop:Generator_RowEvArgName="ListExciseTaxRateRowChangeEvent" msprop:Generator_RowEvHandlerName="ListExciseTaxRateRowChangeEventHandler" msprop:Generator_TableClassName="ListExciseTaxRateDataTable" msprop:Generator_TableVarName="tableListExciseTaxRate" msprop:Generator_RowDeletingName="ListExciseTaxRateRowDeleting" msprop:Generator_TablePropName="ListExciseTaxRate">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyID" msprop:Generator_UserColumnName="KeyID" msprop:Generator_ColumnVarNameInTable="columnKeyID" msprop:Generator_ColumnPropNameInRow="KeyID" msprop:Generator_ColumnPropNameInTable="KeyIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SaveExciseTaxRate" msprop:Generator_UserTableName="SaveExciseTaxRate" msprop:Generator_RowDeletedName="SaveExciseTaxRateRowDeleted" msprop:Generator_RowChangedName="SaveExciseTaxRateRowChanged" msprop:Generator_RowClassName="SaveExciseTaxRateRow" msprop:Generator_RowChangingName="SaveExciseTaxRateRowChanging" msprop:Generator_RowEvArgName="SaveExciseTaxRateRowChangeEvent" msprop:Generator_RowEvHandlerName="SaveExciseTaxRateRowChangeEventHandler" msprop:Generator_TableClassName="SaveExciseTaxRateDataTable" msprop:Generator_TableVarName="tableSaveExciseTaxRate" msprop:Generator_RowDeletingName="SaveExciseTaxRateRowDeleting" msprop:Generator_TablePropName="SaveExciseTaxRate">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExciseRateID" msprop:Generator_UserColumnName="ExciseRateID" msprop:Generator_ColumnPropNameInRow="ExciseRateID" msprop:Generator_ColumnVarNameInTable="columnExciseRateID" msprop:Generator_ColumnPropNameInTable="ExciseRateIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DistrictID" msprop:Generator_UserColumnName="DistrictID" msprop:Generator_ColumnPropNameInRow="DistrictID" msprop:Generator_ColumnVarNameInTable="columnDistrictID" msprop:Generator_ColumnPropNameInTable="DistrictIDColumn" type="xs:int" />
+              <xs:element name="AdminFee" msprop:Generator_UserColumnName="AdminFee" msprop:Generator_ColumnVarNameInTable="columnAdminFee" msprop:Generator_ColumnPropNameInRow="AdminFee" msprop:Generator_ColumnPropNameInTable="AdminFeeColumn" type="xs:decimal" />
+              <xs:element name="TransFee" msprop:Generator_UserColumnName="TransFee" msprop:Generator_ColumnPropNameInRow="TransFee" msprop:Generator_ColumnVarNameInTable="columnTransFee" msprop:Generator_ColumnPropNameInTable="TransFeeColumn" type="xs:decimal" />
+              <xs:element name="TechFee" msprop:Generator_UserColumnName="TechFee" msprop:Generator_ColumnPropNameInRow="TechFee" msprop:Generator_ColumnVarNameInTable="columnTechFee" msprop:Generator_ColumnPropNameInTable="TechFeeColumn" type="xs:decimal" />
+              <xs:element name="Year" msprop:Generator_UserColumnName="Year" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInTable="YearColumn" type="xs:int" />
+              <xs:element name="LocalTaxRate" msprop:Generator_UserColumnName="LocalTaxRate" msprop:Generator_ColumnPropNameInRow="LocalTaxRate" msprop:Generator_ColumnVarNameInTable="columnLocalTaxRate" msprop:Generator_ColumnPropNameInTable="LocalTaxRateColumn" type="xs:decimal" />
+              <xs:element name="IsCounty" msprop:Generator_UserColumnName="IsCounty" msprop:Generator_ColumnPropNameInRow="IsCounty" msprop:Generator_ColumnVarNameInTable="columnIsCounty" msprop:Generator_ColumnPropNameInTable="IsCountyColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AdminAcct" msprop:Generator_UserColumnName="AdminAcct" msprop:Generator_ColumnPropNameInRow="AdminAcct" msprop:Generator_ColumnVarNameInTable="columnAdminAcct" msprop:Generator_ColumnPropNameInTable="AdminAcctColumn" type="xs:int" />
+              <xs:element name="TransFeeAcct" msprop:Generator_UserColumnName="TransFeeAcct" msprop:Generator_ColumnVarNameInTable="columnTransFeeAcct" msprop:Generator_ColumnPropNameInRow="TransFeeAcct" msprop:Generator_ColumnPropNameInTable="TransFeeAcctColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TechFeeAcct" msprop:Generator_UserColumnName="TechFeeAcct" msprop:Generator_ColumnPropNameInRow="TechFeeAcct" msprop:Generator_ColumnVarNameInTable="columnTechFeeAcct" msprop:Generator_ColumnPropNameInTable="TechFeeAcctColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StateTaxAcct" msprop:Generator_UserColumnName="StateTaxAcct" msprop:Generator_ColumnPropNameInRow="StateTaxAcct" msprop:Generator_ColumnVarNameInTable="columnStateTaxAcct" msprop:Generator_ColumnPropNameInTable="StateTaxAcctColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StateIntAcct" msprop:Generator_UserColumnName="StateIntAcct" msprop:Generator_ColumnPropNameInRow="StateIntAcct" msprop:Generator_ColumnVarNameInTable="columnStateIntAcct" msprop:Generator_ColumnPropNameInTable="StateIntAcctColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StatePenAcct" msprop:Generator_UserColumnName="StatePenAcct" msprop:Generator_ColumnPropNameInRow="StatePenAcct" msprop:Generator_ColumnVarNameInTable="columnStatePenAcct" msprop:Generator_ColumnPropNameInTable="StatePenAcctColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LocalTaxAcct" msprop:Generator_UserColumnName="LocalTaxAcct" msprop:Generator_ColumnPropNameInRow="LocalTaxAcct" msprop:Generator_ColumnVarNameInTable="columnLocalTaxAcct" msprop:Generator_ColumnPropNameInTable="LocalTaxAcctColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LocalIntAcct" msprop:Generator_UserColumnName="LocalIntAcct" msprop:Generator_ColumnPropNameInRow="LocalIntAcct" msprop:Generator_ColumnVarNameInTable="columnLocalIntAcct" msprop:Generator_ColumnPropNameInTable="LocalIntAcctColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LocalPenAcct" msdata:ReadOnly="true" msdata:Caption="District" msprop:Generator_UserColumnName="LocalPenAcct" msprop:Generator_ColumnPropNameInRow="LocalPenAcct" msprop:Generator_ColumnVarNameInTable="columnLocalPenAcct" msprop:Generator_ColumnPropNameInTable="LocalPenAcctColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetExciseTaxAccountInfo" msprop:Generator_UserTableName="GetExciseTaxAccountInfo" msprop:Generator_RowDeletedName="GetExciseTaxAccountInfoRowDeleted" msprop:Generator_RowChangedName="GetExciseTaxAccountInfoRowChanged" msprop:Generator_RowClassName="GetExciseTaxAccountInfoRow" msprop:Generator_RowChangingName="GetExciseTaxAccountInfoRowChanging" msprop:Generator_RowEvArgName="GetExciseTaxAccountInfoRowChangeEvent" msprop:Generator_RowEvHandlerName="GetExciseTaxAccountInfoRowChangeEventHandler" msprop:Generator_TableClassName="GetExciseTaxAccountInfoDataTable" msprop:Generator_TableVarName="tableGetExciseTaxAccountInfo" msprop:Generator_RowDeletingName="GetExciseTaxAccountInfoRowDeleting" msprop:Generator_TablePropName="GetExciseTaxAccountInfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AdminAcct" msdata:ReadOnly="true" msprop:Generator_UserColumnName="AdminAcct" msprop:Generator_ColumnPropNameInRow="AdminAcct" msprop:Generator_ColumnVarNameInTable="columnAdminAcct" msprop:Generator_ColumnPropNameInTable="AdminAcctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AdminAcctID" msprop:Generator_UserColumnName="AdminAcctID" msprop:Generator_ColumnPropNameInRow="AdminAcctID" msprop:Generator_ColumnVarNameInTable="columnAdminAcctID" msprop:Generator_ColumnPropNameInTable="AdminAcctIDColumn" type="xs:int" />
+              <xs:element name="AdminAcctPending" msdata:ReadOnly="true" msprop:Generator_UserColumnName="AdminAcctPending" msprop:Generator_ColumnPropNameInRow="AdminAcctPending" msprop:Generator_ColumnVarNameInTable="columnAdminAcctPending" msprop:Generator_ColumnPropNameInTable="AdminAcctPendingColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="TechFeeAcct" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TechFeeAcct" msprop:Generator_ColumnPropNameInRow="TechFeeAcct" msprop:Generator_ColumnVarNameInTable="columnTechFeeAcct" msprop:Generator_ColumnPropNameInTable="TechFeeAcctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TechFeeAcctID" msprop:Generator_UserColumnName="TechFeeAcctID" msprop:Generator_ColumnPropNameInRow="TechFeeAcctID" msprop:Generator_ColumnVarNameInTable="columnTechFeeAcctID" msprop:Generator_ColumnPropNameInTable="TechFeeAcctIDColumn" type="xs:int" />
+              <xs:element name="TechFeePending" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TechFeePending" msprop:Generator_ColumnPropNameInRow="TechFeePending" msprop:Generator_ColumnVarNameInTable="columnTechFeePending" msprop:Generator_ColumnPropNameInTable="TechFeePendingColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="TransFeeAcct" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TransFeeAcct" msprop:Generator_ColumnPropNameInRow="TransFeeAcct" msprop:Generator_ColumnVarNameInTable="columnTransFeeAcct" msprop:Generator_ColumnPropNameInTable="TransFeeAcctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TransFeeAcctID" msprop:Generator_UserColumnName="TransFeeAcctID" msprop:Generator_ColumnPropNameInRow="TransFeeAcctID" msprop:Generator_ColumnVarNameInTable="columnTransFeeAcctID" msprop:Generator_ColumnPropNameInTable="TransFeeAcctIDColumn" type="xs:int" />
+              <xs:element name="TransFeePending" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TransFeePending" msprop:Generator_ColumnPropNameInRow="TransFeePending" msprop:Generator_ColumnVarNameInTable="columnTransFeePending" msprop:Generator_ColumnPropNameInTable="TransFeePendingColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="LocalTaxAcct" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LocalTaxAcct" msprop:Generator_ColumnPropNameInRow="LocalTaxAcct" msprop:Generator_ColumnVarNameInTable="columnLocalTaxAcct" msprop:Generator_ColumnPropNameInTable="LocalTaxAcctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LocalTaxAcctID" msprop:Generator_UserColumnName="LocalTaxAcctID" msprop:Generator_ColumnPropNameInRow="LocalTaxAcctID" msprop:Generator_ColumnVarNameInTable="columnLocalTaxAcctID" msprop:Generator_ColumnPropNameInTable="LocalTaxAcctIDColumn" type="xs:int" />
+              <xs:element name="LocalTaxPending" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LocalTaxPending" msprop:Generator_ColumnPropNameInRow="LocalTaxPending" msprop:Generator_ColumnVarNameInTable="columnLocalTaxPending" msprop:Generator_ColumnPropNameInTable="LocalTaxPendingColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="LocalIntAcct" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LocalIntAcct" msprop:Generator_ColumnPropNameInRow="LocalIntAcct" msprop:Generator_ColumnVarNameInTable="columnLocalIntAcct" msprop:Generator_ColumnPropNameInTable="LocalIntAcctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LocalIntAcctID" msprop:Generator_UserColumnName="LocalIntAcctID" msprop:Generator_ColumnPropNameInRow="LocalIntAcctID" msprop:Generator_ColumnVarNameInTable="columnLocalIntAcctID" msprop:Generator_ColumnPropNameInTable="LocalIntAcctIDColumn" type="xs:int" />
+              <xs:element name="LocalIntPending" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LocalIntPending" msprop:Generator_ColumnPropNameInRow="LocalIntPending" msprop:Generator_ColumnVarNameInTable="columnLocalIntPending" msprop:Generator_ColumnPropNameInTable="LocalIntPendingColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="LocalPenAcct" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LocalPenAcct" msprop:Generator_ColumnPropNameInRow="LocalPenAcct" msprop:Generator_ColumnVarNameInTable="columnLocalPenAcct" msprop:Generator_ColumnPropNameInTable="LocalPenAcctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LocalPenAcctID" msprop:Generator_UserColumnName="LocalPenAcctID" msprop:Generator_ColumnPropNameInRow="LocalPenAcctID" msprop:Generator_ColumnVarNameInTable="columnLocalPenAcctID" msprop:Generator_ColumnPropNameInTable="LocalPenAcctIDColumn" type="xs:int" />
+              <xs:element name="LocalPenPending" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LocalPenPending" msprop:Generator_ColumnPropNameInRow="LocalPenPending" msprop:Generator_ColumnVarNameInTable="columnLocalPenPending" msprop:Generator_ColumnPropNameInTable="LocalPenPendingColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="StateTaxAcct" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StateTaxAcct" msprop:Generator_ColumnPropNameInRow="StateTaxAcct" msprop:Generator_ColumnVarNameInTable="columnStateTaxAcct" msprop:Generator_ColumnPropNameInTable="StateTaxAcctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StateTaxAcctID" msprop:Generator_UserColumnName="StateTaxAcctID" msprop:Generator_ColumnPropNameInRow="StateTaxAcctID" msprop:Generator_ColumnVarNameInTable="columnStateTaxAcctID" msprop:Generator_ColumnPropNameInTable="StateTaxAcctIDColumn" type="xs:int" />
+              <xs:element name="StateTaxPending" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StateTaxPending" msprop:Generator_ColumnPropNameInRow="StateTaxPending" msprop:Generator_ColumnVarNameInTable="columnStateTaxPending" msprop:Generator_ColumnPropNameInTable="StateTaxPendingColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="StateIntAcct" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StateIntAcct" msprop:Generator_ColumnPropNameInRow="StateIntAcct" msprop:Generator_ColumnVarNameInTable="columnStateIntAcct" msprop:Generator_ColumnPropNameInTable="StateIntAcctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StateIntAcctID" msprop:Generator_UserColumnName="StateIntAcctID" msprop:Generator_ColumnPropNameInRow="StateIntAcctID" msprop:Generator_ColumnVarNameInTable="columnStateIntAcctID" msprop:Generator_ColumnPropNameInTable="StateIntAcctIDColumn" type="xs:int" />
+              <xs:element name="StateIntPending" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StateIntPending" msprop:Generator_ColumnPropNameInRow="StateIntPending" msprop:Generator_ColumnVarNameInTable="columnStateIntPending" msprop:Generator_ColumnPropNameInTable="StateIntPendingColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="StatePenAcct" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StatePenAcct" msprop:Generator_ColumnPropNameInRow="StatePenAcct" msprop:Generator_ColumnVarNameInTable="columnStatePenAcct" msprop:Generator_ColumnPropNameInTable="StatePenAcctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StatePenAcctId" msprop:Generator_UserColumnName="StatePenAcctId" msprop:Generator_ColumnPropNameInRow="StatePenAcctId" msprop:Generator_ColumnVarNameInTable="columnStatePenAcctId" msprop:Generator_ColumnPropNameInTable="StatePenAcctIdColumn" type="xs:int" />
+              <xs:element name="StatePenPending" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StatePenPending" msprop:Generator_ColumnPropNameInRow="StatePenPending" msprop:Generator_ColumnVarNameInTable="columnStatePenPending" msprop:Generator_ColumnPropNameInTable="StatePenPendingColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetExciseTaxRate" msprop:Generator_UserTableName="GetExciseTaxRate" msprop:Generator_RowDeletedName="GetExciseTaxRateRowDeleted" msprop:Generator_RowChangedName="GetExciseTaxRateRowChanged" msprop:Generator_RowClassName="GetExciseTaxRateRow" msprop:Generator_RowChangingName="GetExciseTaxRateRowChanging" msprop:Generator_RowEvArgName="GetExciseTaxRateRowChangeEvent" msprop:Generator_RowEvHandlerName="GetExciseTaxRateRowChangeEventHandler" msprop:Generator_TableClassName="GetExciseTaxRateDataTable" msprop:Generator_TableVarName="tableGetExciseTaxRate" msprop:Generator_RowDeletingName="GetExciseTaxRateRowDeleting" msprop:Generator_TablePropName="GetExciseTaxRate">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExciseRateID" msprop:Generator_UserColumnName="ExciseRateID" msprop:Generator_ColumnVarNameInTable="columnExciseRateID" msprop:Generator_ColumnPropNameInRow="ExciseRateID" msprop:Generator_ColumnPropNameInTable="ExciseRateIDColumn" type="xs:int" />
+              <xs:element name="AdminFee" msprop:Generator_UserColumnName="AdminFee" msprop:Generator_ColumnVarNameInTable="columnAdminFee" msprop:Generator_ColumnPropNameInRow="AdminFee" msprop:Generator_ColumnPropNameInTable="AdminFeeColumn" type="xs:float" />
+              <xs:element name="TransFee" msprop:Generator_UserColumnName="TransFee" msprop:Generator_ColumnVarNameInTable="columnTransFee" msprop:Generator_ColumnPropNameInRow="TransFee" msprop:Generator_ColumnPropNameInTable="TransFeeColumn" type="xs:decimal" />
+              <xs:element name="TechFee" msprop:Generator_UserColumnName="TechFee" msprop:Generator_ColumnVarNameInTable="columnTechFee" msprop:Generator_ColumnPropNameInRow="TechFee" msprop:Generator_ColumnPropNameInTable="TechFeeColumn" type="xs:decimal" />
+              <xs:element name="Year" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" type="xs:unsignedInt" minOccurs="0" />
+              <xs:element name="LocalTaxRate" msprop:Generator_UserColumnName="LocalTaxRate" msprop:Generator_ColumnVarNameInTable="columnLocalTaxRate" msprop:Generator_ColumnPropNameInRow="LocalTaxRate" msprop:Generator_ColumnPropNameInTable="LocalTaxRateColumn" type="xs:float" />
+              <xs:element name="IsCounty" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsCounty" msprop:Generator_ColumnVarNameInTable="columnIsCounty" msprop:Generator_ColumnPropNameInRow="IsCounty" msprop:Generator_ColumnPropNameInTable="IsCountyColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="District" msdata:ReadOnly="true" msprop:Generator_UserColumnName="District" msprop:Generator_ColumnVarNameInTable="columnDistrict" msprop:Generator_ColumnPropNameInRow="District" msprop:Generator_ColumnPropNameInTable="DistrictColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="103" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictID" msprop:Generator_UserColumnName="DistrictID" msprop:Generator_ColumnVarNameInTable="columnDistrictID" msprop:Generator_ColumnPropNameInRow="DistrictID" msprop:Generator_ColumnPropNameInTable="DistrictIDColumn" type="xs:int" />
+              <xs:element name="TotalTaxRate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalTaxRate" msprop:Generator_ColumnVarNameInTable="columnTotalTaxRate" msprop:Generator_ColumnPropNameInRow="TotalTaxRate" msprop:Generator_ColumnPropNameInTable="TotalTaxRateColumn" type="xs:float" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LocalType" msprop:Generator_UserTableName="LocalType" msprop:Generator_RowDeletedName="LocalTypeRowDeleted" msprop:Generator_RowChangedName="LocalTypeRowChanged" msprop:Generator_RowClassName="LocalTypeRow" msprop:Generator_RowChangingName="LocalTypeRowChanging" msprop:Generator_RowEvArgName="LocalTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="LocalTypeRowChangeEventHandler" msprop:Generator_TableClassName="LocalTypeDataTable" msprop:Generator_TableVarName="tableLocalType" msprop:Generator_RowDeletingName="LocalTypeRowDeleting" msprop:Generator_TablePropName="LocalType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LocalID" msprop:Generator_UserColumnName="LocalID" msprop:Generator_ColumnVarNameInTable="columnLocalID" msprop:Generator_ColumnPropNameInRow="LocalID" msprop:Generator_ColumnPropNameInTable="LocalIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LocalName" msprop:Generator_UserColumnName="LocalName" msprop:Generator_ColumnVarNameInTable="columnLocalName" msprop:Generator_ColumnPropNameInRow="LocalName" msprop:Generator_ColumnPropNameInTable="LocalNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetDistrictName" msprop:Generator_UserTableName="GetDistrictName" msprop:Generator_RowDeletedName="GetDistrictNameRowDeleted" msprop:Generator_RowChangedName="GetDistrictNameRowChanged" msprop:Generator_RowClassName="GetDistrictNameRow" msprop:Generator_RowChangingName="GetDistrictNameRowChanging" msprop:Generator_RowEvArgName="GetDistrictNameRowChangeEvent" msprop:Generator_RowEvHandlerName="GetDistrictNameRowChangeEventHandler" msprop:Generator_TableClassName="GetDistrictNameDataTable" msprop:Generator_TableVarName="tableGetDistrictName" msprop:Generator_RowDeletingName="GetDistrictNameRowDeleting" msprop:Generator_TablePropName="GetDistrictName">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DistrictName" msdata:ReadOnly="true" msdata:Caption="Column1" msprop:Generator_UserColumnName="DistrictName" msprop:Generator_ColumnVarNameInTable="columnDistrictName" msprop:Generator_ColumnPropNameInRow="DistrictName" msprop:Generator_ColumnPropNameInTable="DistrictNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="63" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetAccountName" msprop:Generator_UserTableName="GetAccountName" msprop:Generator_RowDeletedName="GetAccountNameRowDeleted" msprop:Generator_RowChangedName="GetAccountNameRowChanged" msprop:Generator_RowClassName="GetAccountNameRow" msprop:Generator_RowChangingName="GetAccountNameRowChanging" msprop:Generator_RowEvArgName="GetAccountNameRowChangeEvent" msprop:Generator_RowEvHandlerName="GetAccountNameRowChangeEventHandler" msprop:Generator_TableClassName="GetAccountNameDataTable" msprop:Generator_TableVarName="tableGetAccountName" msprop:Generator_RowDeletingName="GetAccountNameRowDeleting" msprop:Generator_TablePropName="GetAccountName">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AdminAcct" msdata:ReadOnly="true" msprop:Generator_UserColumnName="AdminAcct" msprop:Generator_ColumnVarNameInTable="columnAdminAcct" msprop:Generator_ColumnPropNameInRow="AdminAcct" msprop:Generator_ColumnPropNameInTable="AdminAcctColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="AdminAcctPending" msdata:ReadOnly="true" msprop:Generator_UserColumnName="AdminAcctPending" msprop:Generator_ColumnVarNameInTable="columnAdminAcctPending" msprop:Generator_ColumnPropNameInRow="AdminAcctPending" msprop:Generator_ColumnPropNameInTable="AdminAcctPendingColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

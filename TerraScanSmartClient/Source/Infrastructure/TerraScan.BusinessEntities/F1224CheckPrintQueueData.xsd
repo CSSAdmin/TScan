@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F1224CheckPrintQueueData" targetNamespace="http://tempuri.org/F1224CheckPrintQueueData.xsd" xmlns:mstns="http://tempuri.org/F1224CheckPrintQueueData.xsd" xmlns="http://tempuri.org/F1224CheckPrintQueueData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString3" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F1224CheckPrintQueueData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F1224CheckPrintQueueData" msprop:Generator_DataSetName="F1224CheckPrintQueueData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CheckNumberTable" msprop:Generator_UserTableName="CheckNumberTable" msprop:Generator_RowDeletedName="CheckNumberTableRowDeleted" msprop:Generator_RowChangedName="CheckNumberTableRowChanged" msprop:Generator_RowClassName="CheckNumberTableRow" msprop:Generator_RowChangingName="CheckNumberTableRowChanging" msprop:Generator_RowEvArgName="CheckNumberTableRowChangeEvent" msprop:Generator_RowEvHandlerName="CheckNumberTableRowChangeEventHandler" msprop:Generator_TableClassName="CheckNumberTableDataTable" msprop:Generator_TableVarName="tableCheckNumberTable" msprop:Generator_RowDeletingName="CheckNumberTableRowDeleting" msprop:Generator_TablePropName="CheckNumberTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CheckNumber" msdata:ReadOnly="true" msdata:Caption="Column1" msprop:Generator_UserColumnName="CheckNumber" msprop:Generator_ColumnVarNameInTable="columnCheckNumber" msprop:Generator_ColumnPropNameInRow="CheckNumber" msprop:Generator_ColumnPropNameInTable="CheckNumberColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListUnPrintedChecksTable" msprop:Generator_UserTableName="ListUnPrintedChecksTable" msprop:Generator_RowDeletedName="ListUnPrintedChecksTableRowDeleted" msprop:Generator_RowChangedName="ListUnPrintedChecksTableRowChanged" msprop:Generator_RowClassName="ListUnPrintedChecksTableRow" msprop:Generator_RowChangingName="ListUnPrintedChecksTableRowChanging" msprop:Generator_RowEvArgName="ListUnPrintedChecksTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ListUnPrintedChecksTableRowChangeEventHandler" msprop:Generator_TableClassName="ListUnPrintedChecksTableDataTable" msprop:Generator_TableVarName="tableListUnPrintedChecksTable" msprop:Generator_RowDeletingName="ListUnPrintedChecksTableRowDeleting" msprop:Generator_TablePropName="ListUnPrintedChecksTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CLID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CLID" msprop:Generator_ColumnVarNameInTable="columnCLID" msprop:Generator_ColumnPropNameInRow="CLID" msprop:Generator_ColumnPropNameInTable="CLIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="EntryDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="EntryDate" msprop:Generator_ColumnVarNameInTable="columnEntryDate" msprop:Generator_ColumnPropNameInRow="EntryDate" msprop:Generator_ColumnPropNameInTable="EntryDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CLType" msprop:Generator_UserColumnName="CLType" msprop:Generator_ColumnVarNameInTable="columnCLType" msprop:Generator_ColumnPropNameInRow="CLType" msprop:Generator_ColumnPropNameInTable="CLTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PayableTo" msprop:Generator_UserColumnName="PayableTo" msprop:Generator_ColumnVarNameInTable="columnPayableTo" msprop:Generator_ColumnPropNameInRow="PayableTo" msprop:Generator_ColumnPropNameInTable="PayableToColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CheckedItem" msprop:Generator_UserColumnName="CheckedItem" msprop:Generator_ColumnVarNameInTable="columnCheckedItem" msprop:Generator_ColumnPropNameInRow="CheckedItem" msprop:Generator_ColumnPropNameInTable="CheckedItemColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListAccountNames" msprop:Generator_UserTableName="ListAccountNames" msprop:Generator_RowDeletedName="ListAccountNamesRowDeleted" msprop:Generator_RowChangedName="ListAccountNamesRowChanged" msprop:Generator_RowClassName="ListAccountNamesRow" msprop:Generator_RowChangingName="ListAccountNamesRowChanging" msprop:Generator_RowEvArgName="ListAccountNamesRowChangeEvent" msprop:Generator_RowEvHandlerName="ListAccountNamesRowChangeEventHandler" msprop:Generator_TableClassName="ListAccountNamesDataTable" msprop:Generator_TableVarName="tableListAccountNames" msprop:Generator_RowDeletingName="ListAccountNamesRowDeleting" msprop:Generator_TablePropName="ListAccountNames">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RegisterID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RegisterID" msprop:Generator_ColumnPropNameInRow="RegisterID" msprop:Generator_ColumnVarNameInTable="columnRegisterID" msprop:Generator_ColumnPropNameInTable="RegisterIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AccountName" msprop:Generator_UserColumnName="AccountName" msprop:Generator_ColumnPropNameInRow="AccountName" msprop:Generator_ColumnVarNameInTable="columnAccountName" msprop:Generator_ColumnPropNameInTable="AccountNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountNumber" msprop:Generator_UserColumnName="AccountNumber" msprop:Generator_ColumnPropNameInRow="AccountNumber" msprop:Generator_ColumnVarNameInTable="columnAccountNumber" msprop:Generator_ColumnPropNameInTable="AccountNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsDefault" msprop:Generator_UserColumnName="IsDefault" msprop:Generator_ColumnPropNameInRow="IsDefault" msprop:Generator_ColumnVarNameInTable="columnIsDefault" msprop:Generator_ColumnPropNameInTable="IsDefaultColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListCreateChecksTable" msprop:Generator_UserTableName="ListCreateChecksTable" msprop:Generator_RowDeletedName="ListCreateChecksTableRowDeleted" msprop:Generator_RowChangedName="ListCreateChecksTableRowChanged" msprop:Generator_RowClassName="ListCreateChecksTableRow" msprop:Generator_RowChangingName="ListCreateChecksTableRowChanging" msprop:Generator_RowEvArgName="ListCreateChecksTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ListCreateChecksTableRowChangeEventHandler" msprop:Generator_TableClassName="ListCreateChecksTableDataTable" msprop:Generator_TableVarName="tableListCreateChecksTable" msprop:Generator_RowDeletingName="ListCreateChecksTableRowDeleting" msprop:Generator_TablePropName="ListCreateChecksTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MinCLID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="MinCLID" msprop:Generator_ColumnVarNameInTable="columnMinCLID" msprop:Generator_ColumnPropNameInRow="MinCLID" msprop:Generator_ColumnPropNameInTable="MinCLIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StartingCheckNumber" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StartingCheckNumber" msprop:Generator_ColumnVarNameInTable="columnStartingCheckNumber" msprop:Generator_ColumnPropNameInRow="StartingCheckNumber" msprop:Generator_ColumnPropNameInTable="StartingCheckNumberColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="MaxCheckNumber" msdata:ReadOnly="true" msprop:Generator_UserColumnName="MaxCheckNumber" msprop:Generator_ColumnVarNameInTable="columnMaxCheckNumber" msprop:Generator_ColumnPropNameInRow="MaxCheckNumber" msprop:Generator_ColumnPropNameInTable="MaxCheckNumberColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="MinCheckNumber" msdata:ReadOnly="true" msprop:Generator_UserColumnName="MinCheckNumber" msprop:Generator_ColumnVarNameInTable="columnMinCheckNumber" msprop:Generator_ColumnPropNameInRow="MinCheckNumber" msprop:Generator_ColumnPropNameInTable="MinCheckNumberColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

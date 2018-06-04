@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F35060ScheduleItemCodeData" targetNamespace="http://tempuri.org/F35060ScheduleItemCodeData.xsd" xmlns:mstns="http://tempuri.org/F35060ScheduleItemCodeData.xsd" xmlns="http://tempuri.org/F35060ScheduleItemCodeData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F35060ScheduleItemCodeData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="F35060ScheduleItemCodeData" msprop:Generator_UserDSName="F35060ScheduleItemCodeData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetScheduleItemCode" msprop:Generator_UserTableName="GetScheduleItemCode" msprop:Generator_RowDeletedName="GetScheduleItemCodeRowDeleted" msprop:Generator_TableClassName="GetScheduleItemCodeDataTable" msprop:Generator_RowChangedName="GetScheduleItemCodeRowChanged" msprop:Generator_RowClassName="GetScheduleItemCodeRow" msprop:Generator_RowChangingName="GetScheduleItemCodeRowChanging" msprop:Generator_RowEvArgName="GetScheduleItemCodeRowChangeEvent" msprop:Generator_RowEvHandlerName="GetScheduleItemCodeRowChangeEventHandler" msprop:Generator_TablePropName="GetScheduleItemCode" msprop:Generator_TableVarName="tableGetScheduleItemCode" msprop:Generator_RowDeletingName="GetScheduleItemCodeRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemCodeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ItemCodeID" msprop:Generator_ColumnPropNameInRow="ItemCodeID" msprop:Generator_ColumnVarNameInTable="columnItemCodeID" msprop:Generator_ColumnPropNameInTable="ItemCodeIDColumn" type="xs:int" default="0" />
+              <xs:element name="ItemCode" msprop:Generator_UserColumnName="ItemCode" msprop:Generator_ColumnPropNameInRow="ItemCode" msprop:Generator_ColumnVarNameInTable="columnItemCode" msprop:Generator_ColumnPropNameInTable="ItemCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Abstract" msprop:Generator_UserColumnName="Abstract" msprop:Generator_ColumnPropNameInRow="Abstract" msprop:Generator_ColumnVarNameInTable="columnAbstract" msprop:Generator_ColumnPropNameInTable="AbstractColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

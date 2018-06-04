@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F29650ExemptionData" targetNamespace="http://tempuri.org/F29650ExemptionData.xsd" xmlns:mstns="http://tempuri.org/F29650ExemptionData.xsd" xmlns="http://tempuri.org/F29650ExemptionData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F29650ExemptionData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="F29650ExemptionData" msprop:Generator_UserDSName="F29650ExemptionData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetExemption" msprop:Generator_UserTableName="GetExemption" msprop:Generator_RowDeletedName="GetExemptionRowDeleted" msprop:Generator_TableClassName="GetExemptionDataTable" msprop:Generator_RowChangedName="GetExemptionRowChanged" msprop:Generator_RowClassName="GetExemptionRow" msprop:Generator_RowChangingName="GetExemptionRowChanging" msprop:Generator_RowEvArgName="GetExemptionRowChangeEvent" msprop:Generator_RowEvHandlerName="GetExemptionRowChangeEventHandler" msprop:Generator_TablePropName="GetExemption" msprop:Generator_TableVarName="tableGetExemption" msprop:Generator_RowDeletingName="GetExemptionRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExemptionEventID" msprop:Generator_UserColumnName="ExemptionEventID" msprop:Generator_ColumnPropNameInRow="ExemptionEventID" msprop:Generator_ColumnVarNameInTable="columnExemptionEventID" msprop:Generator_ColumnPropNameInTable="ExemptionEventIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ExemptionID" msprop:Generator_UserColumnName="ExemptionID" msprop:Generator_ColumnPropNameInRow="ExemptionID" msprop:Generator_ColumnVarNameInTable="columnExemptionID" msprop:Generator_ColumnPropNameInTable="ExemptionIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ExemptionCode" msprop:Generator_UserColumnName="ExemptionCode" msprop:Generator_ColumnPropNameInRow="ExemptionCode" msprop:Generator_ColumnVarNameInTable="columnExemptionCode" msprop:Generator_ColumnPropNameInTable="ExemptionCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Loss" msprop:Generator_UserColumnName="Loss" msprop:Generator_ColumnPropNameInRow="Loss" msprop:Generator_ColumnVarNameInTable="columnLoss" msprop:Generator_ColumnPropNameInTable="LossColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ReductionOfValue" msprop:Generator_UserColumnName="ReductionOfValue" msprop:Generator_ColumnPropNameInRow="ReductionOfValue" msprop:Generator_ColumnVarNameInTable="columnReductionOfValue" msprop:Generator_ColumnPropNameInTable="ReductionOfValueColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListExemptionType" msprop:Generator_UserTableName="ListExemptionType" msprop:Generator_RowDeletedName="ListExemptionTypeRowDeleted" msprop:Generator_TableClassName="ListExemptionTypeDataTable" msprop:Generator_RowChangedName="ListExemptionTypeRowChanged" msprop:Generator_RowClassName="ListExemptionTypeRow" msprop:Generator_RowChangingName="ListExemptionTypeRowChanging" msprop:Generator_RowEvArgName="ListExemptionTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="ListExemptionTypeRowChangeEventHandler" msprop:Generator_TablePropName="ListExemptionType" msprop:Generator_TableVarName="tableListExemptionType" msprop:Generator_RowDeletingName="ListExemptionTypeRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExemptionID" msprop:Generator_UserColumnName="ExemptionID" msprop:Generator_ColumnPropNameInRow="ExemptionID" msprop:Generator_ColumnVarNameInTable="columnExemptionID" msprop:Generator_ColumnPropNameInTable="ExemptionIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ExemptionCode" msprop:Generator_UserColumnName="ExemptionCode" msprop:Generator_ColumnPropNameInRow="ExemptionCode" msprop:Generator_ColumnVarNameInTable="columnExemptionCode" msprop:Generator_ColumnPropNameInTable="ExemptionCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Maximum" msprop:Generator_UserColumnName="Maximum" msprop:Generator_ColumnPropNameInRow="Maximum" msprop:Generator_ColumnVarNameInTable="columnMaximum" msprop:Generator_ColumnPropNameInTable="MaximumColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SaveExemption" msprop:Generator_UserTableName="SaveExemption" msprop:Generator_RowDeletedName="SaveExemptionRowDeleted" msprop:Generator_TableClassName="SaveExemptionDataTable" msprop:Generator_RowChangedName="SaveExemptionRowChanged" msprop:Generator_RowClassName="SaveExemptionRow" msprop:Generator_RowChangingName="SaveExemptionRowChanging" msprop:Generator_RowEvArgName="SaveExemptionRowChangeEvent" msprop:Generator_RowEvHandlerName="SaveExemptionRowChangeEventHandler" msprop:Generator_TablePropName="SaveExemption" msprop:Generator_TableVarName="tableSaveExemption" msprop:Generator_RowDeletingName="SaveExemptionRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExemptionEventID" msprop:Generator_UserColumnName="ExemptionEventID" msprop:Generator_ColumnPropNameInRow="ExemptionEventID" msprop:Generator_ColumnVarNameInTable="columnExemptionEventID" msprop:Generator_ColumnPropNameInTable="ExemptionEventIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ExemptionID" msprop:Generator_UserColumnName="ExemptionID" msprop:Generator_ColumnPropNameInRow="ExemptionID" msprop:Generator_ColumnVarNameInTable="columnExemptionID" msprop:Generator_ColumnPropNameInTable="ExemptionIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ExemptionCode" msprop:Generator_UserColumnName="ExemptionCode" msprop:Generator_ColumnPropNameInRow="ExemptionCode" msprop:Generator_ColumnVarNameInTable="columnExemptionCode" msprop:Generator_ColumnPropNameInTable="ExemptionCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Loss" msprop:Generator_UserColumnName="Loss" msprop:Generator_ColumnPropNameInRow="Loss" msprop:Generator_ColumnVarNameInTable="columnLoss" msprop:Generator_ColumnPropNameInTable="LossColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ReductionOfValue" msprop:Generator_UserColumnName="ReductionOfValue" msprop:Generator_ColumnPropNameInRow="ReductionOfValue" msprop:Generator_ColumnVarNameInTable="columnReductionOfValue" msprop:Generator_ColumnPropNameInTable="ReductionOfValueColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

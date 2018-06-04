@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceReference>
+	<ProxyGenerationParameters
+		ServiceReferenceUri="http://localhost:1395/MSWCFService/service.svc"
+		Name="localhost"
+		NotifyPropertyChange="True"
+		UseObservableCollection="False">
+	</ProxyGenerationParameters>
+	<EndPoints>
+		<EndPoint
+			Address="http://localhost:1395/MSWCFService/service.svc"
+			BindingConfiguration="WSHttpBinding_IServiceImplimentation1"
+			Contract="D36000.localhost.IServiceImplimentation"
+			>
+		</EndPoint>
+	</EndPoints>
+</ServiceReference>

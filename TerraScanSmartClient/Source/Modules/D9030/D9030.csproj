@@ -1,0 +1,491 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A843F8ED-7784-4E4C-AE4C-371F867E14D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>D9030</RootNamespace>
+    <AssemblyName>D9030</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>D9030.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\binaries\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRules>-Microsoft.Design#CA1009;-Microsoft.Design#CA1031;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1707;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Security#CA2109</CodeAnalysisRules>
+    <DocumentationFile>bin\Debug\D9030.XML</DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\binaries\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Sprint36_37|AnyCPU' ">
+    <OutputPath>bin\Sprint36_37\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\D9030.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisRules>-Microsoft.Design#CA1009;-Microsoft.Design#CA1031;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1707;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Security#CA2109</CodeAnalysisRules>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Sprint36_37|x86' ">
+    <OutputPath>bin\x86\Sprint36_37\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataLayerException, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7ca8584b4fb30fd3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\DataLayerException.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Shared.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.Misc.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinCalcManager.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.UltraWinCalcManager.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinCalcManager.v11.1.FormulaBuilder, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.UltraWinCalcManager.v11.1.FormulaBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinDataSource.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.UltraWinDataSource.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.UltraWinEditors.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinExplorerBar.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.UltraWinExplorerBar.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.UltraWinGrid.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.UltraWinPrintPreviewDialog.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinStatusBar.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.UltraWinStatusBar.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.UltraWinTabControl.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.UltraWinToolbars.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics2.Win.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics3.Documents.Excel.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics3.Documents.Excel.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1, Version=11.1.20111.2111, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Infragistics3.Win.UltraWinGrid.ExcelExport.v11.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Lib\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, PublicKeyToken=6709f8a00db2b3c9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=1.0.51205.0, Culture=neutral, PublicKeyToken=85ce343b6913b953, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7022295ad6d322a0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=221a93e7c162c026, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=2.0.0.0, Culture=neutral, PublicKeyToken=9e9d698c5720c2b4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=2.0.0.0, Culture=neutral, PublicKeyToken=9c840c8edc6e0b63, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d1205627a3fe060b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging.Database, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e2a7cd88e1451fc2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, PublicKeyToken=2e55b91bc7b9a4aa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TerraScan.XPPanel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7d3670600c6b1398, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)Lib\TerraScan.XPPanel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="D9030ModuleInit.cs" />
+    <Compile Include="Forms\F9041Controller.cs" />
+    <Compile Include="Forms\F9041.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F9041.Designer.cs">
+      <DependentUpon>F9041.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F9038.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F9038.Designer.cs">
+      <DependentUpon>F9038.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F9038Controller.cs" />
+    <Compile Include="Forms\F9039.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F9039.Designer.cs">
+      <DependentUpon>F9039.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F9039Controller.cs" />
+    <Compile Include="Forms\F9040.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F9040.Designer.cs">
+      <DependentUpon>F9040.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F9040Controller.cs" />
+    <Compile Include="Forms\F9042.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F9042.Designer.cs">
+      <DependentUpon>F9042.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F9042Controller.cs" />
+    <Compile Include="Forms\F9043.cs">
+    </Compile>
+    <Compile Include="Forms\F9043.Designer.cs">
+      <DependentUpon>F9043.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F9043Controller.cs" />
+    <Compile Include="Forms\F9044.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F9044.Designer.cs">
+      <DependentUpon>F9044.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F9044Controller.cs" />
+    <Compile Include="Forms\F9045.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F9045.Designer.cs">
+      <DependentUpon>F9045.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F90451.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>F9045.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F9045Controller.cs" />
+    <Compile Include="Forms\F9610.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F9610.Designer.cs">
+      <DependentUpon>F9610.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F9610Controller.cs" />
+    <Compile Include="Forms\F9612.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F9612.Designer.cs">
+      <DependentUpon>F9612.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F9612Controller.cs" />
+    <Compile Include="Forms\progressform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\progressform.designer.cs">
+      <DependentUpon>progressform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QueryUtility\F9033.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QueryUtility\F9033.Designer.cs">
+      <DependentUpon>F9033.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryUtility\F9033Cotroller.cs" />
+    <Compile Include="QueryUtility\F9034.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryUtility\F9034.Designer.cs">
+      <DependentUpon>F9034.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryUtility\F9034Controller.cs" />
+    <Compile Include="QueryUtility\F9035.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryUtility\F9035.Designer.cs">
+      <DependentUpon>F9035.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryUtility\F9035Controller.cs" />
+    <Compile Include="SmartParts\F9030.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartParts\F9030.Designer.cs">
+      <DependentUpon>F9030.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartParts\F9030Controller.cs" />
+    <Compile Include="SmartParts\F9031.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartParts\F9031.Designer.cs">
+      <DependentUpon>F9031.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartParts\F9032.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartParts\F9032.Designer.cs">
+      <DependentUpon>F9032.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkItem\F9041WorkItem.cs" />
+    <Compile Include="WorkItem\F9030WorkItem.cs" />
+    <Compile Include="WorkItem\F9033WorkItem.cs" />
+    <Compile Include="WorkItem\F9034WorkItem.cs" />
+    <Compile Include="WorkItem\F9035WorkItem.cs" />
+    <Compile Include="WorkItem\F9038WorkItem.cs" />
+    <Compile Include="WorkItem\F9039WorkItem.cs" />
+    <Compile Include="WorkItem\F9040WorkItem.cs" />
+    <Compile Include="WorkItem\F9042WorkItem.cs" />
+    <Compile Include="WorkItem\F9043WorkItem.cs" />
+    <Compile Include="WorkItem\F9044WorkItem.cs" />
+    <Compile Include="WorkItem\F9045WorkItem.cs" />
+    <Compile Include="WorkItem\F9610WorkItem.cs" />
+    <Compile Include="WorkItem\F9612WorkItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\CustomControl\TerraScan.UI.Controls\TerraScan.UI.Controls.csproj">
+      <Project>{6FD716AB-21EA-4E64-9877-AC98FC211A36}</Project>
+      <Name>TerraScan.UI.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{1E43F1F5-7688-47BE-833A-8B7554EB1C8E}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.BusinessEntities\TerraScan.BusinessEntities.csproj">
+      <Project>{35675EC3-DE95-4247-B004-42C3C0D3BAC8}</Project>
+      <Name>TerraScan.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.Common\TerraScan.Common.csproj">
+      <Project>{D56D1D13-CD21-4E77-92A2-2EEC4933E567}</Project>
+      <Name>TerraScan.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.Helper\TerraScan.Helper.csproj">
+      <Project>{95484F69-AB17-4278-8F30-495581D8DE3D}</Project>
+      <Name>TerraScan.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.SmartParts\TerraScan.SmartParts.csproj">
+      <Project>{1822A871-5BCE-4273-A3C8-D7D554237574}</Project>
+      <Name>TerraScan.SmartParts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.Utilities\TerraScan.Utilities.csproj">
+      <Project>{67285388-F458-4C57-8109-775820A914D6}</Project>
+      <Name>TerraScan.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\D11001\D11001.csproj">
+      <Project>{9AC02D95-FA44-4E55-A9F6-E59BD8F23C2E}</Project>
+      <Name>D11001 %28Source\Modules\D11001\D11001%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\D90010\D90010.csproj">
+      <Project>{F2EA6900-89AA-43AB-A887-3E51CF8F10B4}</Project>
+      <Name>D90010 %28Source\Modules\D90010\D90010%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\F9041.resx">
+      <DependentUpon>F9041.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F9038.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F9038.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F9039.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F9039.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F9040.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F9040.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F9042.resx">
+      <DependentUpon>F9042.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F9043.resx">
+      <DependentUpon>F9043.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F9044.resx">
+      <DependentUpon>F9044.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F9045.resx">
+      <DependentUpon>F9045.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>F90451.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F9610.resx">
+      <DependentUpon>F9610.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F9612.resx">
+      <DependentUpon>F9612.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\progressform.resx">
+      <DependentUpon>progressform.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryUtility\F9033.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F9033.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryUtility\F9034.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F9034.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryUtility\F9035.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F9035.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartParts\F9030.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F9030.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartParts\F9031.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F9031.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartParts\F9032.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F9032.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D9030.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

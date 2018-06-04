@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F3501NeighborhoodParcelLocksData" targetNamespace="http://tempuri.org/F3501NeighborhoodParcelLocksData.xsd" xmlns:mstns="http://tempuri.org/F3501NeighborhoodParcelLocksData.xsd" xmlns="http://tempuri.org/F3501NeighborhoodParcelLocksData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F3501NeighborhoodParcelLocksData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F3501NeighborhoodParcelLocksData" msprop:Generator_DataSetName="F3501NeighborhoodParcelLocksData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="f35100NeighborhoodParcelLocks" msprop:Generator_UserTableName="f35100NeighborhoodParcelLocks" msprop:Generator_RowDeletedName="f35100NeighborhoodParcelLocksRowDeleted" msprop:Generator_RowChangedName="f35100NeighborhoodParcelLocksRowChanged" msprop:Generator_RowClassName="f35100NeighborhoodParcelLocksRow" msprop:Generator_RowChangingName="f35100NeighborhoodParcelLocksRowChanging" msprop:Generator_RowEvArgName="f35100NeighborhoodParcelLocksRowChangeEvent" msprop:Generator_RowEvHandlerName="f35100NeighborhoodParcelLocksRowChangeEventHandler" msprop:Generator_TableClassName="f35100NeighborhoodParcelLocksDataTable" msprop:Generator_TableVarName="tablef35100NeighborhoodParcelLocks" msprop:Generator_RowDeletingName="f35100NeighborhoodParcelLocksRowDeleting" msprop:Generator_TablePropName="f35100NeighborhoodParcelLocks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NeighborhoodLabel" msdata:ReadOnly="true" msprop:Generator_UserColumnName="NeighborhoodLabel" msprop:Generator_ColumnVarNameInTable="columnNeighborhoodLabel" msprop:Generator_ColumnPropNameInRow="NeighborhoodLabel" msprop:Generator_ColumnPropNameInTable="NeighborhoodLabelColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="61" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LockAppraisal" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAppraisal" msprop:Generator_ColumnVarNameInTable="columnLockAppraisal" msprop:Generator_ColumnPropNameInRow="LockAppraisal" msprop:Generator_ColumnPropNameInTable="LockAppraisalColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LockAppraisalName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAppraisalName" msprop:Generator_ColumnVarNameInTable="columnLockAppraisalName" msprop:nullValue="" msprop:Generator_ColumnPropNameInRow="LockAppraisalName" msprop:Generator_ColumnPropNameInTable="LockAppraisalNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LockAssessment" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAssessment" msprop:Generator_ColumnVarNameInTable="columnLockAssessment" msprop:Generator_ColumnPropNameInRow="LockAssessment" msprop:Generator_ColumnPropNameInTable="LockAssessmentColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LockAssessmentName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAssessmentName" msprop:Generator_ColumnVarNameInTable="columnLockAssessmentName" msprop:nullValue="" msprop:Generator_ColumnPropNameInRow="LockAssessmentName" msprop:Generator_ColumnPropNameInTable="LockAssessmentNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LockAdmin" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAdmin" msprop:Generator_ColumnVarNameInTable="columnLockAdmin" msprop:Generator_ColumnPropNameInRow="LockAdmin" msprop:Generator_ColumnPropNameInTable="LockAdminColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LockAdminName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAdminName" msprop:Generator_ColumnVarNameInTable="columnLockAdminName" msprop:nullValue="" msprop:Generator_ColumnPropNameInRow="LockAdminName" msprop:Generator_ColumnPropNameInTable="LockAdminNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f35100_pcupd_NeighborhoodLocks" msprop:Generator_UserTableName="f35100_pcupd_NeighborhoodLocks" msprop:Generator_RowDeletedName="f35100_pcupd_NeighborhoodLocksRowDeleted" msprop:Generator_RowChangedName="f35100_pcupd_NeighborhoodLocksRowChanged" msprop:Generator_RowClassName="f35100_pcupd_NeighborhoodLocksRow" msprop:Generator_RowChangingName="f35100_pcupd_NeighborhoodLocksRowChanging" msprop:Generator_RowEvArgName="f35100_pcupd_NeighborhoodLocksRowChangeEvent" msprop:Generator_RowEvHandlerName="f35100_pcupd_NeighborhoodLocksRowChangeEventHandler" msprop:Generator_TableClassName="f35100_pcupd_NeighborhoodLocksDataTable" msprop:Generator_TableVarName="tablef35100_pcupd_NeighborhoodLocks" msprop:Generator_RowDeletingName="f35100_pcupd_NeighborhoodLocksRowDeleting" msprop:Generator_TablePropName="f35100_pcupd_NeighborhoodLocks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QntyParcel" msdata:ReadOnly="true" msprop:Generator_UserColumnName="QntyParcel" msprop:Generator_ColumnVarNameInTable="columnQntyParcel" msprop:Generator_ColumnPropNameInRow="QntyParcel" msprop:Generator_ColumnPropNameInTable="QntyParcelColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="QntyParcelLocked" msdata:ReadOnly="true" msprop:Generator_UserColumnName="QntyParcelLocked" msprop:Generator_ColumnVarNameInTable="columnQntyParcelLocked" msprop:Generator_ColumnPropNameInRow="QntyParcelLocked" msprop:Generator_ColumnPropNameInTable="QntyParcelLockedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ReturnValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ReturnValue" msprop:Generator_ColumnVarNameInTable="columnReturnValue" msprop:Generator_ColumnPropNameInRow="ReturnValue" msprop:Generator_ColumnPropNameInTable="ReturnValueColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f3501SaveNeighborhoodParcelLocks" msprop:Generator_UserTableName="f3501SaveNeighborhoodParcelLocks" msprop:Generator_RowDeletedName="f3501SaveNeighborhoodParcelLocksRowDeleted" msprop:Generator_RowChangedName="f3501SaveNeighborhoodParcelLocksRowChanged" msprop:Generator_RowClassName="f3501SaveNeighborhoodParcelLocksRow" msprop:Generator_RowChangingName="f3501SaveNeighborhoodParcelLocksRowChanging" msprop:Generator_RowEvArgName="f3501SaveNeighborhoodParcelLocksRowChangeEvent" msprop:Generator_RowEvHandlerName="f3501SaveNeighborhoodParcelLocksRowChangeEventHandler" msprop:Generator_TableClassName="f3501SaveNeighborhoodParcelLocksDataTable" msprop:Generator_TableVarName="tablef3501SaveNeighborhoodParcelLocks" msprop:Generator_RowDeletingName="f3501SaveNeighborhoodParcelLocksRowDeleting" msprop:Generator_TablePropName="f3501SaveNeighborhoodParcelLocks">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NBHDID" msprop:Generator_UserColumnName="NBHDID" msprop:Generator_ColumnVarNameInTable="columnNBHDID" msprop:Generator_ColumnPropNameInRow="NBHDID" msprop:Generator_ColumnPropNameInTable="NBHDIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ApprailsalLock" msprop:Generator_UserColumnName="ApprailsalLock" msprop:Generator_ColumnVarNameInTable="columnApprailsalLock" msprop:Generator_ColumnPropNameInRow="ApprailsalLock" msprop:Generator_ColumnPropNameInTable="ApprailsalLockColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AssessmentLock" msprop:Generator_UserColumnName="AssessmentLock" msprop:Generator_ColumnVarNameInTable="columnAssessmentLock" msprop:Generator_ColumnPropNameInRow="AssessmentLock" msprop:Generator_ColumnPropNameInTable="AssessmentLockColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AdminLock" msprop:Generator_UserColumnName="AdminLock" msprop:Generator_ColumnVarNameInTable="columnAdminLock" msprop:Generator_ColumnPropNameInRow="AdminLock" msprop:Generator_ColumnPropNameInTable="AdminLockColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PrimaryKeyId" msprop:Generator_UserColumnName="PrimaryKeyId" msprop:Generator_ColumnVarNameInTable="columnPrimaryKeyId" msprop:Generator_ColumnPropNameInRow="PrimaryKeyId" msprop:Generator_ColumnPropNameInTable="PrimaryKeyIdColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GDocEventEngineData" targetNamespace="http://tempuri.org/GDocEventEngineData.xsd" xmlns:mstns="http://tempuri.org/GDocEventEngineData.xsd" xmlns="http://tempuri.org/GDocEventEngineData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient">
+          </Connection>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GDocEventEngineData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GDocEventEngineData" msprop:Generator_DataSetName="GDocEventEngineData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EventEngineHeaderTable" msprop:Generator_UserTableName="EventEngineHeaderTable" msprop:Generator_RowDeletedName="EventEngineHeaderTableRowDeleted" msprop:Generator_RowChangedName="EventEngineHeaderTableRowChanged" msprop:Generator_RowClassName="EventEngineHeaderTableRow" msprop:Generator_RowChangingName="EventEngineHeaderTableRowChanging" msprop:Generator_RowEvArgName="EventEngineHeaderTableRowChangeEvent" msprop:Generator_RowEvHandlerName="EventEngineHeaderTableRowChangeEventHandler" msprop:Generator_TableClassName="EventEngineHeaderTableDataTable" msprop:Generator_TableVarName="tableEventEngineHeaderTable" msprop:Generator_RowDeletingName="EventEngineHeaderTableRowDeleting" msprop:Generator_TablePropName="EventEngineHeaderTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeatureClassLabel" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FeatureClassLabel" msprop:Generator_ColumnPropNameInRow="FeatureClassLabel" msprop:Generator_ColumnVarNameInTable="columnFeatureClassLabel" msprop:Generator_ColumnPropNameInTable="FeatureClassLabelColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClass" msprop:Generator_UserColumnName="FeatureClass" msprop:Generator_ColumnPropNameInRow="FeatureClass" msprop:Generator_ColumnVarNameInTable="columnFeatureClass" msprop:Generator_ColumnPropNameInTable="FeatureClassColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SystemColor" msprop:Generator_UserColumnName="SystemColor" msprop:Generator_ColumnPropNameInRow="SystemColor" msprop:Generator_ColumnVarNameInTable="columnSystemColor" msprop:Generator_ColumnPropNameInTable="SystemColorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClassID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GDocEventEngineDataTable" msprop:Generator_UserTableName="GDocEventEngineDataTable" msprop:Generator_RowDeletedName="GDocEventEngineDataTableRowDeleted" msprop:Generator_RowChangedName="GDocEventEngineDataTableRowChanged" msprop:Generator_RowClassName="GDocEventEngineDataTableRow" msprop:Generator_RowChangingName="GDocEventEngineDataTableRowChanging" msprop:Generator_RowEvArgName="GDocEventEngineDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="GDocEventEngineDataTableRowChangeEventHandler" msprop:Generator_TableClassName="GDocEventEngineDataTableDataTable" msprop:Generator_TableVarName="tableGDocEventEngineDataTable" msprop:Generator_RowDeletingName="GDocEventEngineDataTableRowDeleting" msprop:Generator_TablePropName="GDocEventEngineDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AddRow" msdata:ReadOnly="true" msprop:Generator_UserColumnName="AddRow" msprop:Generator_ColumnVarNameInTable="columnAddRow" msprop:Generator_ColumnPropNameInRow="AddRow" msprop:Generator_ColumnPropNameInTable="AddRowColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventType" msdata:ReadOnly="true" msprop:Generator_UserColumnName="EventType" msprop:Generator_ColumnVarNameInTable="columnEventType" msprop:Generator_ColumnPropNameInRow="EventType" msprop:Generator_ColumnPropNameInTable="EventTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TempColor" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TempColor" msprop:Generator_ColumnVarNameInTable="columnTempColor" msprop:Generator_ColumnPropNameInRow="TempColor" msprop:Generator_ColumnPropNameInTable="TempColorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StatusColor" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StatusColor" msprop:Generator_ColumnVarNameInTable="columnStatusColor" msprop:Generator_ColumnPropNameInRow="StatusColor" msprop:Generator_ColumnPropNameInTable="StatusColorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="EventDate" msprop:Generator_ColumnVarNameInTable="columnEventDate" msprop:Generator_ColumnPropNameInRow="EventDate" msprop:Generator_ColumnPropNameInTable="EventDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="WOID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="WOID" msprop:Generator_ColumnVarNameInTable="columnWOID" msprop:Generator_ColumnPropNameInRow="WOID" msprop:Generator_ColumnPropNameInTable="WOIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsComplete" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsComplete" msprop:Generator_ColumnVarNameInTable="columnIsComplete" msprop:Generator_ColumnPropNameInRow="IsComplete" msprop:Generator_ColumnPropNameInTable="IsCompleteColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Parent" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Parent" msprop:Generator_ColumnVarNameInTable="columnParent" msprop:Generator_ColumnPropNameInRow="Parent" msprop:Generator_ColumnPropNameInTable="ParentColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Child1" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Child1" msprop:Generator_ColumnVarNameInTable="columnChild1" msprop:Generator_ColumnPropNameInRow="Child1" msprop:Generator_ColumnPropNameInTable="Child1Column" type="xs:int" minOccurs="0" />
+              <xs:element name="Child2" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Child2" msprop:Generator_ColumnVarNameInTable="columnChild2" msprop:Generator_ColumnPropNameInRow="Child2" msprop:Generator_ColumnPropNameInTable="Child2Column" type="xs:int" minOccurs="0" />
+              <xs:element name="levels" msdata:ReadOnly="true" msprop:Generator_UserColumnName="levels" msprop:Generator_ColumnVarNameInTable="columnlevels" msprop:Generator_ColumnPropNameInRow="levels" msprop:Generator_ColumnPropNameInTable="levelsColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="EventID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="EventTypeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="EventTypeID" msprop:Generator_ColumnVarNameInTable="columnEventTypeID" msprop:Generator_ColumnPropNameInRow="EventTypeID" msprop:Generator_ColumnPropNameInTable="EventTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="EventNumber" msdata:ReadOnly="true" msprop:Generator_UserColumnName="EventNumber" msprop:Generator_ColumnPropNameInRow="EventNumber" msprop:Generator_ColumnVarNameInTable="columnEventNumber" msprop:Generator_ColumnPropNameInTable="EventNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsWorkOrder" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsWorkOrder" msprop:Generator_ColumnPropNameInRow="IsWorkOrder" msprop:Generator_ColumnVarNameInTable="columnIsWorkOrder" msprop:Generator_ColumnPropNameInTable="IsWorkOrderColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListValidKeyID" msprop:Generator_UserTableName="ListValidKeyID" msprop:Generator_RowDeletedName="ListValidKeyIDRowDeleted" msprop:Generator_TableClassName="ListValidKeyIDDataTable" msprop:Generator_RowChangedName="ListValidKeyIDRowChanged" msprop:Generator_RowClassName="ListValidKeyIDRow" msprop:Generator_RowChangingName="ListValidKeyIDRowChanging" msprop:Generator_RowEvArgName="ListValidKeyIDRowChangeEvent" msprop:Generator_RowEvHandlerName="ListValidKeyIDRowChangeEventHandler" msprop:Generator_TablePropName="ListValidKeyID" msprop:Generator_TableVarName="tableListValidKeyID" msprop:Generator_RowDeletingName="ListValidKeyIDRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyIDExists" msdata:ReadOnly="true" msprop:Generator_UserColumnName="KeyIDExists" msprop:Generator_ColumnPropNameInRow="KeyIDExists" msprop:Generator_ColumnVarNameInTable="columnKeyIDExists" msprop:Generator_ColumnPropNameInTable="KeyIDExistsColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

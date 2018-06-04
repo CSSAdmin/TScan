@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9039QueryUpdate" targetNamespace="http://tempuri.org/F9039QueryUpdate.xsd" xmlns:mstns="http://tempuri.org/F9039QueryUpdate.xsd" xmlns="http://tempuri.org/F9039QueryUpdate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9039QueryUpdate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F9039QueryUpdate" msprop:Generator_DataSetName="F9039QueryUpdate">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListColumnDetails" msprop:Generator_UserTableName="ListColumnDetails" msprop:Generator_RowDeletedName="ListColumnDetailsRowDeleted" msprop:Generator_RowChangedName="ListColumnDetailsRowChanged" msprop:Generator_RowClassName="ListColumnDetailsRow" msprop:Generator_RowChangingName="ListColumnDetailsRowChanging" msprop:Generator_RowEvArgName="ListColumnDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="ListColumnDetailsRowChangeEventHandler" msprop:Generator_TableClassName="ListColumnDetailsDataTable" msprop:Generator_TableVarName="tableListColumnDetails" msprop:Generator_RowDeletingName="ListColumnDetailsRowDeleting" msprop:Generator_TablePropName="ListColumnDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReplaceID" msprop:Generator_UserColumnName="ReplaceID" msprop:Generator_ColumnVarNameInTable="columnReplaceID" msprop:Generator_ColumnPropNameInRow="ReplaceID" msprop:Generator_ColumnPropNameInTable="ReplaceIDColumn" type="xs:int" />
+              <xs:element name="ColumnName" msprop:Generator_UserColumnName="ColumnName" msprop:Generator_ColumnVarNameInTable="columnColumnName" msprop:Generator_ColumnPropNameInRow="ColumnName" msprop:Generator_ColumnPropNameInTable="ColumnNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Form" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SelectionFormMask" msprop:Generator_UserColumnName="SelectionFormMask" msprop:Generator_ColumnVarNameInTable="columnSelectionFormMask" msprop:Generator_ColumnPropNameInRow="SelectionFormMask" msprop:Generator_ColumnPropNameInTable="SelectionFormMaskColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FormulaColumn" msprop:Generator_UserColumnName="FormulaColumn" msprop:Generator_ColumnVarNameInTable="columnFormulaColumn" msprop:Generator_ColumnPropNameInRow="FormulaColumn" msprop:Generator_ColumnPropNameInTable="FormulaColumnColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ImageColumn" msprop:Generator_UserColumnName="ImageColumn" msprop:Generator_ColumnVarNameInTable="columnImageColumn" msprop:Generator_ColumnPropNameInRow="ImageColumn" msprop:Generator_ColumnPropNameInTable="ImageColumnColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FormulaValue" msprop:Generator_UserColumnName="FormulaValue" msprop:Generator_ColumnVarNameInTable="columnFormulaValue" msprop:Generator_ColumnPropNameInRow="FormulaValue" msprop:Generator_ColumnPropNameInTable="FormulaValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GenericSearchID" msprop:Generator_UserColumnName="GenericSearchID" msprop:Generator_ColumnPropNameInRow="GenericSearchID" msprop:Generator_ColumnVarNameInTable="columnGenericSearchID" msprop:Generator_ColumnPropNameInTable="GenericSearchIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

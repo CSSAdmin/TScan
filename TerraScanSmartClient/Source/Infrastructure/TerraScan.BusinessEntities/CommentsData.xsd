@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CommentsData" targetNamespace="http://tempuri.org/CommentsData.xsd" xmlns:mstns="http://tempuri.org/CommentsData.xsd" xmlns="http://tempuri.org/CommentsData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Terrascan23May2011ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Terrascan23May2011ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.Terrascan23May2011ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CommentsData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CommentsData" msprop:Generator_DataSetName="CommentsData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetComments" msprop:Generator_UserTableName="GetComments" msprop:Generator_RowDeletedName="GetCommentsRowDeleted" msprop:Generator_RowChangedName="GetCommentsRowChanged" msprop:Generator_RowClassName="GetCommentsRow" msprop:Generator_RowChangingName="GetCommentsRowChanging" msprop:Generator_RowEvArgName="GetCommentsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetCommentsRowChangeEventHandler" msprop:Generator_TableClassName="GetCommentsDataTable" msprop:Generator_TableVarName="tableGetComments" msprop:Generator_RowDeletingName="GetCommentsRowDeleting" msprop:Generator_TablePropName="GetComments">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CommentID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="CommentID" msprop:Generator_ColumnVarNameInTable="columnCommentID" msprop:Generator_ColumnPropNameInRow="CommentID" msprop:Generator_ColumnPropNameInTable="CommentIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Form" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CommentDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CommentDate" msprop:Generator_ColumnVarNameInTable="columnCommentDate" msprop:Generator_ColumnPropNameInRow="CommentDate" msprop:Generator_ColumnPropNameInTable="CommentDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserName" msprop:Generator_UserColumnName="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsPublic" msprop:Generator_UserColumnName="IsPublic" msprop:Generator_ColumnVarNameInTable="columnIsPublic" msprop:Generator_ColumnPropNameInRow="IsPublic" msprop:Generator_ColumnPropNameInTable="IsPublicColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPrint" msprop:Generator_UserColumnName="IsPrint" msprop:Generator_ColumnVarNameInTable="columnIsPrint" msprop:Generator_ColumnPropNameInRow="IsPrint" msprop:Generator_ColumnPropNameInTable="IsPrintColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsHighPriority" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsHighPriority" msprop:Generator_ColumnVarNameInTable="columnIsHighPriority" msprop:Generator_ColumnPropNameInRow="IsHighPriority" msprop:Generator_ColumnPropNameInTable="IsHighPriorityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="KeyID" msprop:Generator_UserColumnName="KeyID" msprop:Generator_ColumnVarNameInTable="columnKeyID" msprop:Generator_ColumnPropNameInRow="KeyID" msprop:Generator_ColumnPropNameInTable="KeyIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsRoll" msprop:Generator_UserColumnName="IsRoll" msprop:Generator_ColumnVarNameInTable="columnIsRoll" msprop:Generator_ColumnPropNameInRow="IsRoll" msprop:Generator_ColumnPropNameInTable="IsRollColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="CommentPriorityID" msprop:Generator_UserColumnName="CommentPriorityID" msprop:Generator_ColumnVarNameInTable="columnCommentPriorityID" msprop:Generator_ColumnPropNameInRow="CommentPriorityID" msprop:Generator_ColumnPropNameInTable="CommentPriorityIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsAdmin" msprop:Generator_UserColumnName="IsAdmin" msprop:Generator_ColumnVarNameInTable="columnIsAdmin" msprop:Generator_ColumnPropNameInRow="IsAdmin" msprop:Generator_ColumnPropNameInTable="IsAdminColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetCommentsCount" msprop:Generator_UserTableName="GetCommentsCount" msprop:Generator_RowDeletedName="GetCommentsCountRowDeleted" msprop:Generator_RowChangedName="GetCommentsCountRowChanged" msprop:Generator_RowClassName="GetCommentsCountRow" msprop:Generator_RowChangingName="GetCommentsCountRowChanging" msprop:Generator_RowEvArgName="GetCommentsCountRowChangeEvent" msprop:Generator_RowEvHandlerName="GetCommentsCountRowChangeEventHandler" msprop:Generator_TableClassName="GetCommentsCountDataTable" msprop:Generator_TableVarName="tableGetCommentsCount" msprop:Generator_RowDeletingName="GetCommentsCountRowDeleting" msprop:Generator_TablePropName="GetCommentsCount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CommentCount" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CommentCount" msprop:Generator_ColumnVarNameInTable="columnCommentCount" msprop:Generator_ColumnPropNameInRow="CommentCount" msprop:Generator_ColumnPropNameInTable="CommentCountColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PriorityFlag" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PriorityFlag" msprop:Generator_ColumnVarNameInTable="columnPriorityFlag" msprop:Generator_ColumnPropNameInRow="PriorityFlag" msprop:Generator_ColumnPropNameInTable="PriorityFlagColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetCommentsConfigDetails" msprop:Generator_UserTableName="GetCommentsConfigDetails" msprop:Generator_RowDeletedName="GetCommentsConfigDetailsRowDeleted" msprop:Generator_RowChangedName="GetCommentsConfigDetailsRowChanged" msprop:Generator_RowClassName="GetCommentsConfigDetailsRow" msprop:Generator_RowChangingName="GetCommentsConfigDetailsRowChanging" msprop:Generator_RowEvArgName="GetCommentsConfigDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetCommentsConfigDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetCommentsConfigDetailsDataTable" msprop:Generator_TableVarName="tableGetCommentsConfigDetails" msprop:Generator_RowDeletingName="GetCommentsConfigDetailsRowDeleting" msprop:Generator_TablePropName="GetCommentsConfigDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ConfigurationValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ConfigurationValue" msprop:Generator_ColumnVarNameInTable="columnConfigurationValue" msprop:Generator_ColumnPropNameInRow="ConfigurationValue" msprop:Generator_ColumnPropNameInTable="ConfigurationValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

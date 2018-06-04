@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/F25000FieldUseData.xsd" xmlns="http://tempuri.org/F25000FieldUseData.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/F25000FieldUseData.xsd" id="F25000FieldUseData" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False" name="F25000FieldUseData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tAA_AssessmentType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AssessmentTypeID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AssessmentType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_Crop">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="CropID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ValueSliceID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="CropCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsFruitTree" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Planted" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Adjust" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Acres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ValuePer" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Value" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_Land">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LUID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ValueSliceID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LandTypeID1" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LandTypeID2" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LandTypeID3" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LandCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ReportAS">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UnitType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Units" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AdjustmentType" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Adjustment">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AdjDescription">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UseAdjustmentType" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UseAdjustment">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UseAdjDescription">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LotWidth" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LotDepth" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseMrktValue" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FinalMrktValue" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FinalUseValue" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LandShape">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Frontage" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ProgramID" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LotWidthTemp">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LotDepthTemp">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SrAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="WeightedRating" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseValuePerUnit" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_LandUnit">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UnitType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsActive" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UnitsPerAcre" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MA_Type1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SiteAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DryAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IrrigatedAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TimberAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="amount">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OverrideAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOverride" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseAcres" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MA_Type10">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AssessedValue" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="rate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="amount">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OverrideAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOverride" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="units" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Factor" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MA_Type11">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OverrideAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOverride" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MA_Type12">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OverrideAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOverride" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MA_Type2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SiteAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DryAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IrrigatedAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TimberAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="amount">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OverrideAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOverride" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MA_Type3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SiteAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DryAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IrrigatedAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TimberAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="amount">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OverrideAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOverride" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MA_Type4">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Amount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OverrideAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOverride" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MA_Type6">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FirePatrolAcres" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="CountyFee" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FPAFee" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LCFFee" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FPARate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LCFRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="amount">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OverrideAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOverride" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MA_Type7">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BenefitCharge" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AssessedValue" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ResidentialRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="CommercialRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="amount">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OverrideAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOverride" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MA_Type8">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseFee" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="amount">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OverrideAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOverride" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MA_Type9">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AssessedValue" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="rate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="amount">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OverrideAmount" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOverride" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="units" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MAD_Type1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DistrictNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MinimumCharge" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MaximumAcres" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseFee" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LevyRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SiteBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SiteRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DryBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DryRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IrrigatedBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IrrigatedRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TimberBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TimberRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MAD_Type10">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DistrictNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Rate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Base" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Minimum" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Maximum" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MAD_Type11">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DistrictNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="PerAcre" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="PerParcel" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MarketRate" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MAD_Type12">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DistrictNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseFee" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MAD_Type2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DistrictNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MinimumCharge" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOwnerAssessed" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseFee" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseAcres" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SiteBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SiteRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DryBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DryRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IrrigatedBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IrrigatedRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TimberBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TimberRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MinSiteAcres" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MinDryAcres" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MinIrrigatedAcres" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MinTimberAcres" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MinOtherAcres" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseRate" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MAD_Type3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DistrictNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MinimumCharge" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOwnerAssessed" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseFee" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SiteBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SiteRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DryBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DryRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IrrigatedBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IrrigatedRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TimberBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TimberRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherBase" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MAD_Type4">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DistrictNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Rate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MAD_Type6">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DistrictNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="CountyFee" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MaxLotSize" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FPAFee" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LCFFee" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FPARate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LCFRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MAD_Type7">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DistrictNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ResidentialRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="CommercialRate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MAD_Type8">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DistrictNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="BaseFee" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MAD_Type9">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MADistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DistrictNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Rate" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_MSC_Version">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MSVersionID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ConnectionString">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="HTCXML">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="StyleListXML">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OccXML">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_Parcel_InspectionType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InspectionTypeID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InspectionType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsActive" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_Parcel_PLandType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LandTypeID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LandType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsActive" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_ParcelValue">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O1ValueA" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O1ValueB" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O1ValueC" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O1ValueD" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O1ValueE" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O2ValueA" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O2ValueB" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O2ValueC" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O2ValueD" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O2ValueE" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O3ValueA" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O3ValueB" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O3ValueC" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O3ValueD" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O3ValueE" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ResultingTaxable" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_Parcel_PImprovement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ImprovementID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Improvement">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsActive" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tTS_TableXML">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TableXML">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_Parcel_PLandType_Join">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LandTypeID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LandType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsActive" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FIPS" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelTypeID" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsRetired" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LockAppraisalBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LockAssessmentBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LockValueBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LockAdminBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O1Value" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O2Value" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O3Value" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="NBHDID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxDistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="StateCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID5">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MapNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="CAMAModelID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AAModelID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MortgageID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LoanNumber" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOwnerPrimary" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted1" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Field1" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Field2" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Field3" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Field4" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Field5" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AssessmentTypeID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID6">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID7">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID8">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ImprovementID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LandTypeID1" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FieldStatusID" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InspectedByUserID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DateInspected" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InspectionTypeID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ReviewedByUserID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ReviewDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Lat" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Long" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UndividedOwnershipID" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AglandImprovementClass">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="NonAgImprovementClass">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ClassAgLandID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ClassNonAgLandID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ClassAgImprovementID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ClassNonAgImprovementID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ClassNonAgResidentialID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OwnerOccupiedID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_Parcel_PImprovement_Join">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ImprovementID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Improvement">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsActive" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="RollYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FIPS" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ParcelTypeID" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsRetired" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsExempt" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LockAppraisalBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LockAssessmentBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LockValueBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LockAdminBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O1Value" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O2Value" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="O3Value" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="NBHDID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxDistrictID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="StateCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID1">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID2">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID3">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID4">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID5">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MapNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="CAMAModelID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AAModelID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MortgageID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LoanNumber" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsOwnerPrimary" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted1" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Field1" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Field2" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Field3" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Field4" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Field5" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AssessmentTypeID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID6">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID7">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MID8">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ImprovementID1" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LandTypeID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FieldStatusID" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InspectedByUserID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="DateInspected" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InspectionTypeID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ReviewedByUserID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ReviewDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Lat" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Long" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UndividedOwnershipID" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AglandImprovementClass">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="NonAgImprovementClass">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ClassAgLandID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ClassNonAgLandID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ClassAgImprovementID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ClassNonAgImprovementID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ClassNonAgResidentialID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OwnerOccupiedID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tAA_SliceTypeOrder">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SliceTypeID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Pass" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tTS_SeniorExemption">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="EventID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ExemptionID">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OwnerID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsCertifyAge" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsCertifyDisabled" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsCertifyVeteran" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsCertifySpouse" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ApplicantBdayDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SpouseBdayDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="PropertyPurchasedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="PropertyOccupiedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OwnershipType" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Residencels" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MHYear" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MHMake">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MHModel">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MHLocation">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="PropertyIncludes" type="xs:unsignedByte" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Acres" type="xs:short" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="AdjustedGross" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="CapitalGains" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Deductions" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Pensions" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MilitaryPay" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Dividends" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="TaxableIRA" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SocialSecurityDisability" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherIncome" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LessHome" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LessInHome" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LessPrescription" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LessInsurance" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LessOther" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="CombinedDisposable" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsQualified" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ExemptionCode">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="EffectiveDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsContinuation" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FrozenValue" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="NewConstruction" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ResultingMarket" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ValueLoss" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ResultingTaxable" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="ModuleID" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="InsertedDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="UpdatedBy" type="xs:int" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="IsDeleted" type="xs:boolean" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="CancelDate" type="xs:dateTime" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MarketImprovement" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MarketLand" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="MarketCrop" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OriginalFrozenValue" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="Pensions2" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SocialSecurityDisability2" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherIncome2" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="OtherIncome3" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="LessOther2" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="NonSRNewConstruction" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="FrozenValueLoss" type="xs:decimal" />
+              <xs:element msdata:ReadOnly="true" minOccurs="0" name="SeniorAssessedValue" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

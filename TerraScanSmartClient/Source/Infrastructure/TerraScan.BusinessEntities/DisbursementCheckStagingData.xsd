@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DisbursementCheckStagingData" targetNamespace="http://tempuri.org/DisbursementCheckStagingData.xsd" xmlns:mstns="http://tempuri.org/DisbursementCheckStagingData.xsd" xmlns="http://tempuri.org/DisbursementCheckStagingData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString3" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DisbursementCheckStagingData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DisbursementCheckStagingData" msprop:Generator_DataSetName="DisbursementCheckStagingData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListAgencyTable" msprop:Generator_UserTableName="ListAgencyTable" msprop:Generator_RowDeletedName="ListAgencyTableRowDeleted" msprop:Generator_RowChangedName="ListAgencyTableRowChanged" msprop:Generator_RowClassName="ListAgencyTableRow" msprop:Generator_RowChangingName="ListAgencyTableRowChanging" msprop:Generator_RowEvArgName="ListAgencyTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ListAgencyTableRowChangeEventHandler" msprop:Generator_TableClassName="ListAgencyTableDataTable" msprop:Generator_TableVarName="tableListAgencyTable" msprop:Generator_RowDeletingName="ListAgencyTableRowDeleting" msprop:Generator_TablePropName="ListAgencyTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TCLID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TCLID" msprop:Generator_ColumnVarNameInTable="columnTCLID" msprop:Generator_ColumnPropNameInRow="TCLID" msprop:Generator_ColumnPropNameInTable="TCLIDColumn" type="xs:int" />
+              <xs:element name="IsValid" msprop:Generator_UserColumnName="IsValid" msprop:Generator_ColumnVarNameInTable="columnIsValid" msprop:Generator_ColumnPropNameInRow="IsValid" msprop:Generator_ColumnPropNameInTable="IsValidColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AgencyName" msprop:Generator_UserColumnName="AgencyName" msprop:Generator_ColumnVarNameInTable="columnAgencyName" msprop:Generator_ColumnPropNameInRow="AgencyName" msprop:Generator_ColumnPropNameInTable="AgencyNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RegisterID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="RegisterID" msprop:Generator_ColumnVarNameInTable="columnRegisterID" msprop:Generator_ColumnPropNameInRow="RegisterID" msprop:Generator_ColumnPropNameInTable="RegisterIDColumn" type="xs:int" />
+              <xs:element name="AccountName" msprop:Generator_UserColumnName="AccountName" msprop:Generator_ColumnVarNameInTable="columnAccountName" msprop:Generator_ColumnPropNameInRow="AccountName" msprop:Generator_ColumnPropNameInTable="AccountNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PayableTo" msprop:Generator_UserColumnName="PayableTo" msprop:Generator_ColumnVarNameInTable="columnPayableTo" msprop:Generator_ColumnPropNameInRow="PayableTo" msprop:Generator_ColumnPropNameInTable="PayableToColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CheckDate" msprop:Generator_UserColumnName="CheckDate" msprop:Generator_ColumnVarNameInTable="columnCheckDate" msprop:Generator_ColumnPropNameInRow="CheckDate" msprop:Generator_ColumnPropNameInTable="CheckDateColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address1" msprop:Generator_UserColumnName="Address1" msprop:Generator_ColumnVarNameInTable="columnAddress1" msprop:Generator_ColumnPropNameInRow="Address1" msprop:Generator_ColumnPropNameInTable="Address1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address2" msprop:Generator_UserColumnName="Address2" msprop:Generator_ColumnVarNameInTable="columnAddress2" msprop:Generator_ColumnPropNameInRow="Address2" msprop:Generator_ColumnPropNameInTable="Address2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnPropNameInTable="CityColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State" msprop:Generator_UserColumnName="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Zip" msprop:Generator_UserColumnName="Zip" msprop:Generator_ColumnVarNameInTable="columnZip" msprop:Generator_ColumnPropNameInRow="Zip" msprop:Generator_ColumnPropNameInTable="ZipColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" />
+              <xs:element name="Name_Display" msprop:Generator_UserColumnName="Name_Display" msprop:Generator_ColumnVarNameInTable="columnName_Display" msprop:Generator_ColumnPropNameInRow="Name_Display" msprop:Generator_ColumnPropNameInTable="Name_DisplayColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalAmount" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalAmount" msprop:Generator_ColumnVarNameInTable="columnTotalAmount" msprop:Generator_ColumnPropNameInRow="TotalAmount" msprop:Generator_ColumnPropNameInTable="TotalAmountColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="Memo" msprop:Generator_UserColumnName="Memo" msprop:Generator_ColumnVarNameInTable="columnMemo" msprop:Generator_ColumnPropNameInRow="Memo" msprop:Generator_ColumnPropNameInTable="MemoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListFromAccountTable" msprop:Generator_UserTableName="ListFromAccountTable" msprop:Generator_RowDeletedName="ListFromAccountTableRowDeleted" msprop:Generator_RowChangedName="ListFromAccountTableRowChanged" msprop:Generator_RowClassName="ListFromAccountTableRow" msprop:Generator_RowChangingName="ListFromAccountTableRowChanging" msprop:Generator_RowEvArgName="ListFromAccountTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ListFromAccountTableRowChangeEventHandler" msprop:Generator_TableClassName="ListFromAccountTableDataTable" msprop:Generator_TableVarName="tableListFromAccountTable" msprop:Generator_RowDeletingName="ListFromAccountTableRowDeleting" msprop:Generator_TablePropName="ListFromAccountTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RegisterID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="RegisterID" msprop:Generator_ColumnPropNameInRow="RegisterID" msprop:Generator_ColumnVarNameInTable="columnRegisterID" msprop:Generator_ColumnPropNameInTable="RegisterIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AccountName" msprop:Generator_UserColumnName="AccountName" msprop:Generator_ColumnPropNameInRow="AccountName" msprop:Generator_ColumnVarNameInTable="columnAccountName" msprop:Generator_ColumnPropNameInTable="AccountNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountNumber" msprop:Generator_UserColumnName="AccountNumber" msprop:Generator_ColumnPropNameInRow="AccountNumber" msprop:Generator_ColumnVarNameInTable="columnAccountNumber" msprop:Generator_ColumnPropNameInTable="AccountNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsDefault" msprop:Generator_UserColumnName="IsDefault" msprop:Generator_ColumnPropNameInRow="IsDefault" msprop:Generator_ColumnVarNameInTable="columnIsDefault" msprop:Generator_ColumnPropNameInTable="IsDefaultColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListCheckDetailTable" msprop:Generator_UserTableName="ListCheckDetailTable" msprop:Generator_RowDeletedName="ListCheckDetailTableRowDeleted" msprop:Generator_RowChangedName="ListCheckDetailTableRowChanged" msprop:Generator_RowClassName="ListCheckDetailTableRow" msprop:Generator_RowChangingName="ListCheckDetailTableRowChanging" msprop:Generator_RowEvArgName="ListCheckDetailTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ListCheckDetailTableRowChangeEventHandler" msprop:Generator_TableClassName="ListCheckDetailTableDataTable" msprop:Generator_TableVarName="tableListCheckDetailTable" msprop:Generator_RowDeletingName="ListCheckDetailTableRowDeleting" msprop:Generator_TablePropName="ListCheckDetailTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TRegisterItemID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="TRegisterItemID" msprop:Generator_ColumnPropNameInRow="TRegisterItemID" msprop:Generator_ColumnVarNameInTable="columnTRegisterItemID" msprop:Generator_ColumnPropNameInTable="TRegisterItemIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TCLID" msprop:Generator_UserColumnName="TCLID" msprop:Generator_ColumnPropNameInRow="TCLID" msprop:Generator_ColumnVarNameInTable="columnTCLID" msprop:Generator_ColumnPropNameInTable="TCLIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsValid" msprop:Generator_UserColumnName="IsValid" msprop:Generator_ColumnPropNameInRow="IsValid" msprop:Generator_ColumnVarNameInTable="columnIsValid" msprop:Generator_ColumnPropNameInTable="IsValidColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SubFundID" msprop:Generator_UserColumnName="SubFundID" msprop:Generator_ColumnPropNameInRow="SubFundID" msprop:Generator_ColumnVarNameInTable="columnSubFundID" msprop:Generator_ColumnPropNameInTable="SubFundIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SubFund" msprop:Generator_UserColumnName="SubFund" msprop:Generator_ColumnPropNameInRow="SubFund" msprop:Generator_ColumnVarNameInTable="columnSubFund" msprop:Generator_ColumnPropNameInTable="SubFundColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PreviousAmount" msprop:Generator_UserColumnName="PreviousAmount" msprop:Generator_ColumnPropNameInRow="PreviousAmount" msprop:Generator_ColumnVarNameInTable="columnPreviousAmount" msprop:Generator_ColumnPropNameInTable="PreviousAmountColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F82002ContractorManagementData" targetNamespace="http://tempuri.org/F82002ContractorManagementData.xsd" xmlns:mstns="http://tempuri.org/F82002ContractorManagementData.xsd" xmlns="http://tempuri.org/F82002ContractorManagementData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="ListContractManagement" GeneratorFunctionsComponentClassName="ListContractManagement" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="ListContractManagement" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F82002ContractorManagementData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F82002ContractorManagementData" msprop:Generator_DataSetName="F82002ContractorManagementData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListContractorManagement" msprop:Generator_UserTableName="ListContractorManagement" msprop:Generator_RowDeletedName="ListContractorManagementRowDeleted" msprop:Generator_RowChangedName="ListContractorManagementRowChanged" msprop:Generator_RowClassName="ListContractorManagementRow" msprop:Generator_RowChangingName="ListContractorManagementRowChanging" msprop:Generator_RowEvArgName="ListContractorManagementRowChangeEvent" msprop:Generator_RowEvHandlerName="ListContractorManagementRowChangeEventHandler" msprop:Generator_TableClassName="ListContractorManagementDataTable" msprop:Generator_TableVarName="tableListContractorManagement" msprop:Generator_RowDeletingName="ListContractorManagementRowDeleting" msprop:Generator_TablePropName="ListContractorManagement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ContractorID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ContractorID" msprop:Generator_ColumnPropNameInRow="ContractorID" msprop:Generator_ColumnVarNameInTable="columnContractorID" msprop:Generator_ColumnPropNameInTable="ContractorIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ContractorName" msprop:Generator_UserColumnName="ContractorName" msprop:Generator_ColumnPropNameInRow="ContractorName" msprop:Generator_ColumnVarNameInTable="columnContractorName" msprop:Generator_ColumnPropNameInTable="ContractorNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContractorPhone" msprop:Generator_UserColumnName="ContractorPhone" msprop:Generator_ColumnPropNameInRow="ContractorPhone" msprop:Generator_ColumnVarNameInTable="columnContractorPhone" msprop:Generator_ColumnPropNameInTable="ContractorPhoneColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContractorAddress" msprop:Generator_UserColumnName="ContractorAddress" msprop:Generator_ColumnPropNameInRow="ContractorAddress" msprop:Generator_ColumnVarNameInTable="columnContractorAddress" msprop:Generator_ColumnPropNameInTable="ContractorAddressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContractorCity" msprop:Generator_UserColumnName="ContractorCity" msprop:Generator_ColumnPropNameInRow="ContractorCity" msprop:Generator_ColumnVarNameInTable="columnContractorCity" msprop:Generator_ColumnPropNameInTable="ContractorCityColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContractorState" msprop:Generator_UserColumnName="ContractorState" msprop:Generator_ColumnPropNameInRow="ContractorState" msprop:Generator_ColumnVarNameInTable="columnContractorState" msprop:Generator_ColumnPropNameInTable="ContractorStateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContractorZip" msprop:Generator_UserColumnName="ContractorZip" msprop:Generator_ColumnPropNameInRow="ContractorZip" msprop:Generator_ColumnVarNameInTable="columnContractorZip" msprop:Generator_ColumnPropNameInTable="ContractorZipColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CityLicenseNumber" msprop:Generator_UserColumnName="CityLicenseNumber" msprop:Generator_ColumnPropNameInRow="CityLicenseNumber" msprop:Generator_ColumnVarNameInTable="columnCityLicenseNumber" msprop:Generator_ColumnPropNameInTable="CityLicenseNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LicenseExprDate" msprop:Generator_UserColumnName="LicenseExprDate" msprop:Generator_ColumnPropNameInRow="LicenseExprDate" msprop:Generator_ColumnVarNameInTable="columnLicenseExprDate" msprop:Generator_ColumnPropNameInTable="LicenseExprDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BondExprDate" msprop:Generator_UserColumnName="BondExprDate" msprop:Generator_ColumnPropNameInRow="BondExprDate" msprop:Generator_ColumnVarNameInTable="columnBondExprDate" msprop:Generator_ColumnPropNameInTable="BondExprDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

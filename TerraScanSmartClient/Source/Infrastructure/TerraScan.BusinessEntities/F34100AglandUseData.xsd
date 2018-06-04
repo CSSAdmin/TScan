@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F34100AglandUseData" targetNamespace="http://tempuri.org/F34100AglandUseData.xsd" xmlns:mstns="http://tempuri.org/F34100AglandUseData.xsd" xmlns="http://tempuri.org/F34100AglandUseData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F34100AglandUseData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="F34100AglandUseData" msprop:Generator_UserDSName="F34100AglandUseData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AglandTypeDataTable" msprop:Generator_UserTableName="AglandTypeDataTable" msprop:Generator_RowDeletedName="AglandTypeDataTableRowDeleted" msprop:Generator_TableClassName="AglandTypeDataTableDataTable" msprop:Generator_RowChangedName="AglandTypeDataTableRowChanged" msprop:Generator_RowClassName="AglandTypeDataTableRow" msprop:Generator_RowChangingName="AglandTypeDataTableRowChanging" msprop:Generator_RowEvArgName="AglandTypeDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="AglandTypeDataTableRowChangeEventHandler" msprop:Generator_TablePropName="AglandTypeDataTable" msprop:Generator_TableVarName="tableAglandTypeDataTable" msprop:Generator_RowDeletingName="AglandTypeDataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AglandTypeID" msprop:Generator_UserColumnName="AglandTypeID" msprop:Generator_ColumnPropNameInRow="AglandTypeID" msprop:Generator_ColumnVarNameInTable="columnAglandTypeID" msprop:Generator_ColumnPropNameInTable="AglandTypeIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AglandType" msprop:Generator_UserColumnName="AglandType" msprop:Generator_ColumnPropNameInRow="AglandType" msprop:Generator_ColumnVarNameInTable="columnAglandType" msprop:Generator_ColumnPropNameInTable="AglandTypeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AglandMethodDataTable" msprop:Generator_UserTableName="AglandMethodDataTable" msprop:Generator_RowDeletedName="AglandMethodDataTableRowDeleted" msprop:Generator_TableClassName="AglandMethodDataTableDataTable" msprop:Generator_RowChangedName="AglandMethodDataTableRowChanged" msprop:Generator_RowClassName="AglandMethodDataTableRow" msprop:Generator_RowChangingName="AglandMethodDataTableRowChanging" msprop:Generator_RowEvArgName="AglandMethodDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="AglandMethodDataTableRowChangeEventHandler" msprop:Generator_TablePropName="AglandMethodDataTable" msprop:Generator_TableVarName="tableAglandMethodDataTable" msprop:Generator_RowDeletingName="AglandMethodDataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AglandMethodID" msprop:Generator_UserColumnName="AglandMethodID" msprop:Generator_ColumnPropNameInRow="AglandMethodID" msprop:Generator_ColumnVarNameInTable="columnAglandMethodID" msprop:Generator_ColumnPropNameInTable="AglandMethodIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AglandMethod" msprop:Generator_UserColumnName="AglandMethod" msprop:Generator_ColumnPropNameInRow="AglandMethod" msprop:Generator_ColumnVarNameInTable="columnAglandMethod" msprop:Generator_ColumnPropNameInTable="AglandMethodColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AglandUseDataTable" msprop:Generator_UserTableName="AglandUseDataTable" msprop:Generator_RowDeletedName="AglandUseDataTableRowDeleted" msprop:Generator_TableClassName="AglandUseDataTableDataTable" msprop:Generator_RowChangedName="AglandUseDataTableRowChanged" msprop:Generator_RowClassName="AglandUseDataTableRow" msprop:Generator_RowChangingName="AglandUseDataTableRowChanging" msprop:Generator_RowEvArgName="AglandUseDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="AglandUseDataTableRowChangeEventHandler" msprop:Generator_TablePropName="AglandUseDataTable" msprop:Generator_TableVarName="tableAglandUseDataTable" msprop:Generator_RowDeletingName="AglandUseDataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AglandID" msprop:Generator_UserColumnName="AglandID" msprop:Generator_ColumnPropNameInRow="AglandID" msprop:Generator_ColumnVarNameInTable="columnAglandID" msprop:Generator_ColumnPropNameInTable="AglandIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Use" msprop:Generator_UserColumnName="Use" msprop:Generator_ColumnPropNameInRow="Use" msprop:Generator_ColumnVarNameInTable="columnUse" msprop:Generator_ColumnPropNameInTable="UseColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AglandTypeID" msprop:Generator_UserColumnName="AglandTypeID" msprop:Generator_ColumnPropNameInRow="AglandTypeID" msprop:Generator_ColumnVarNameInTable="columnAglandTypeID" msprop:Generator_ColumnPropNameInTable="AglandTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AglandMethodID" msprop:Generator_UserColumnName="AglandMethodID" msprop:Generator_ColumnPropNameInRow="AglandMethodID" msprop:Generator_ColumnVarNameInTable="columnAglandMethodID" msprop:Generator_ColumnPropNameInTable="AglandMethodIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Factor" msprop:Generator_UserColumnName="Factor" msprop:Generator_ColumnPropNameInRow="Factor" msprop:Generator_ColumnVarNameInTable="columnFactor" msprop:Generator_ColumnPropNameInTable="FactorColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInTable="ValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MinimumValue" msprop:Generator_UserColumnName="MinimumValue" msprop:Generator_ColumnPropNameInRow="MinimumValue" msprop:Generator_ColumnVarNameInTable="columnMinimumValue" msprop:Generator_ColumnPropNameInTable="MinimumValueColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

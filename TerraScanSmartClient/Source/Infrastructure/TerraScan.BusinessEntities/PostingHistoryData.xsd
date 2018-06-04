@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PostingHistoryData" targetNamespace="http://tempuri.org/PostingHistoryData.xsd" xmlns:mstns="http://tempuri.org/PostingHistoryData.xsd" xmlns="http://tempuri.org/PostingHistoryData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PostingHistoryData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="PostingHistoryData" msprop:Generator_DataSetName="PostingHistoryData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListPostType" msprop:Generator_UserTableName="ListPostType" msprop:Generator_RowDeletedName="ListPostTypeRowDeleted" msprop:Generator_RowChangedName="ListPostTypeRowChanged" msprop:Generator_RowClassName="ListPostTypeRow" msprop:Generator_RowChangingName="ListPostTypeRowChanging" msprop:Generator_RowEvArgName="ListPostTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="ListPostTypeRowChangeEventHandler" msprop:Generator_TableClassName="ListPostTypeDataTable" msprop:Generator_TableVarName="tableListPostType" msprop:Generator_RowDeletingName="ListPostTypeRowDeleting" msprop:Generator_TablePropName="ListPostType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostTypeID" msprop:Generator_UserColumnName="PostTypeID" msprop:Generator_ColumnVarNameInTable="columnPostTypeID" msprop:Generator_ColumnPropNameInRow="PostTypeID" msprop:Generator_ColumnPropNameInTable="PostTypeIDColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="PostName" msprop:Generator_UserColumnName="PostName" msprop:Generator_ColumnVarNameInTable="columnPostName" msprop:Generator_ColumnPropNameInRow="PostName" msprop:Generator_ColumnPropNameInTable="PostNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Form" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AccountID" msprop:Generator_UserColumnName="AccountID" msprop:Generator_ColumnVarNameInTable="columnAccountID" msprop:Generator_ColumnPropNameInRow="AccountID" msprop:Generator_ColumnPropNameInTable="AccountIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListPostingHistory" msprop:Generator_UserTableName="ListPostingHistory" msprop:Generator_RowDeletedName="ListPostingHistoryRowDeleted" msprop:Generator_RowChangedName="ListPostingHistoryRowChanged" msprop:Generator_RowClassName="ListPostingHistoryRow" msprop:Generator_RowChangingName="ListPostingHistoryRowChanging" msprop:Generator_RowEvArgName="ListPostingHistoryRowChangeEvent" msprop:Generator_RowEvHandlerName="ListPostingHistoryRowChangeEventHandler" msprop:Generator_TableClassName="ListPostingHistoryDataTable" msprop:Generator_TableVarName="tableListPostingHistory" msprop:Generator_RowDeletingName="ListPostingHistoryRowDeleting" msprop:Generator_TablePropName="ListPostingHistory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PostID" msprop:Generator_ColumnVarNameInTable="columnPostID" msprop:Generator_ColumnPropNameInRow="PostID" msprop:Generator_ColumnPropNameInTable="PostIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PostName" msprop:Generator_UserColumnName="PostName" msprop:Generator_ColumnVarNameInTable="columnPostName" msprop:Generator_ColumnPropNameInRow="PostName" msprop:Generator_ColumnPropNameInTable="PostNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name_Display" msprop:Generator_UserColumnName="Name_Display" msprop:Generator_ColumnVarNameInTable="columnName_Display" msprop:Generator_ColumnPropNameInRow="Name_Display" msprop:Generator_ColumnPropNameInTable="Name_DisplayColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="PostDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PostDate" msprop:Generator_ColumnVarNameInTable="columnPostDate" msprop:Generator_ColumnPropNameInRow="PostDate" msprop:Generator_ColumnPropNameInTable="PostDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RanOn" msprop:Generator_UserColumnName="RanOn" msprop:Generator_ColumnVarNameInTable="columnRanOn" msprop:Generator_ColumnPropNameInRow="RanOn" msprop:Generator_ColumnPropNameInTable="RanOnColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AmountTotal" msprop:Generator_UserColumnName="AmountTotal" msprop:Generator_ColumnVarNameInTable="columnAmountTotal" msprop:Generator_ColumnPropNameInRow="AmountTotal" msprop:Generator_ColumnPropNameInTable="AmountTotalColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ReversePost" msprop:Generator_UserColumnName="ReversePost" msprop:Generator_ColumnVarNameInTable="columnReversePost" msprop:Generator_ColumnPropNameInRow="ReversePost" msprop:Generator_ColumnPropNameInTable="ReversePostColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="UnPostID" msprop:Generator_UserColumnName="UnPostID" msprop:Generator_ColumnPropNameInRow="UnPostID" msprop:Generator_ColumnVarNameInTable="columnUnPostID" msprop:Generator_ColumnPropNameInTable="UnPostIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F34110TopDollarData" targetNamespace="http://tempuri.org/F34110TopDollarData.xsd" xmlns:mstns="http://tempuri.org/F34110TopDollarData.xsd" xmlns="http://tempuri.org/F34110TopDollarData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F34110TopDollarData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F34110TopDollarData" msprop:Generator_DataSetName="F34110TopDollarData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TopDollarDataTable" msprop:Generator_UserTableName="TopDollarDataTable" msprop:Generator_RowDeletedName="TopDollarDataTableRowDeleted" msprop:Generator_RowChangedName="TopDollarDataTableRowChanged" msprop:Generator_RowClassName="TopDollarDataTableRow" msprop:Generator_RowChangingName="TopDollarDataTableRowChanging" msprop:Generator_RowEvArgName="TopDollarDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="TopDollarDataTableRowChangeEventHandler" msprop:Generator_TableClassName="TopDollarDataTableDataTable" msprop:Generator_TableVarName="tableTopDollarDataTable" msprop:Generator_RowDeletingName="TopDollarDataTableRowDeleting" msprop:Generator_TablePropName="TopDollarDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TopDollarID" msprop:Generator_UserColumnName="TopDollarID" msprop:Generator_ColumnPropNameInRow="TopDollarID" msprop:Generator_ColumnVarNameInTable="columnTopDollarID" msprop:Generator_ColumnPropNameInTable="TopDollarIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AgEqualRate" msprop:Generator_UserColumnName="AgEqualRate" msprop:Generator_ColumnPropNameInRow="AgEqualRate" msprop:Generator_ColumnVarNameInTable="columnAgEqualRate" msprop:Generator_ColumnPropNameInTable="AgEqualRateColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NonAgEqualRate" msprop:Generator_UserColumnName="NonAgEqualRate" msprop:Generator_ColumnPropNameInRow="NonAgEqualRate" msprop:Generator_ColumnVarNameInTable="columnNonAgEqualRate" msprop:Generator_ColumnPropNameInTable="NonAgEqualRateColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CropTopDollar" msprop:Generator_UserColumnName="CropTopDollar" msprop:Generator_ColumnPropNameInRow="CropTopDollar" msprop:Generator_ColumnVarNameInTable="columnCropTopDollar" msprop:Generator_ColumnPropNameInTable="CropTopDollarColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CountyFactor" msprop:Generator_UserColumnName="CountyFactor" msprop:Generator_ColumnPropNameInRow="CountyFactor" msprop:Generator_ColumnVarNameInTable="columnCountyFactor" msprop:Generator_ColumnPropNameInTable="CountyFactorColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NonCropTopDollar" msprop:Generator_UserColumnName="NonCropTopDollar" msprop:Generator_ColumnPropNameInRow="NonCropTopDollar" msprop:Generator_ColumnVarNameInTable="columnNonCropTopDollar" msprop:Generator_ColumnPropNameInTable="NonCropTopDollarColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NonCropDollarDataTable" msprop:Generator_UserTableName="NonCropDollarDataTable" msprop:Generator_RowDeletedName="NonCropDollarDataTableRowDeleted" msprop:Generator_RowChangedName="NonCropDollarDataTableRowChanged" msprop:Generator_RowClassName="NonCropDollarDataTableRow" msprop:Generator_RowChangingName="NonCropDollarDataTableRowChanging" msprop:Generator_RowEvArgName="NonCropDollarDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="NonCropDollarDataTableRowChangeEventHandler" msprop:Generator_TableClassName="NonCropDollarDataTableDataTable" msprop:Generator_TableVarName="tableNonCropDollarDataTable" msprop:Generator_RowDeletingName="NonCropDollarDataTableRowDeleting" msprop:Generator_TablePropName="NonCropDollarDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NonCropDollar" msprop:Generator_UserColumnName="NonCropDollar" msprop:Generator_ColumnVarNameInTable="columnNonCropDollar" msprop:Generator_ColumnPropNameInRow="NonCropDollar" msprop:Generator_ColumnPropNameInTable="NonCropDollarColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

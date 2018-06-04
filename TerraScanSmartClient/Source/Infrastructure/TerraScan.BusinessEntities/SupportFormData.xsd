@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SupportFormData" targetNamespace="http://tempuri.org/SupportFormData.xsd" xmlns:mstns="http://tempuri.org/SupportFormData.xsd" xmlns="http://tempuri.org/SupportFormData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient">
+          </Connection>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SupportFormData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SupportFormData" msprop:Generator_DataSetName="SupportFormData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListUsers" msprop:Generator_UserTableName="ListUsers" msprop:Generator_RowDeletedName="ListUsersRowDeleted" msprop:Generator_RowChangedName="ListUsersRowChanged" msprop:Generator_RowClassName="ListUsersRow" msprop:Generator_RowChangingName="ListUsersRowChanging" msprop:Generator_RowEvArgName="ListUsersRowChangeEvent" msprop:Generator_RowEvHandlerName="ListUsersRowChangeEventHandler" msprop:Generator_TableClassName="ListUsersDataTable" msprop:Generator_TableVarName="tableListUsers" msprop:Generator_RowDeletingName="ListUsersRowDeleting" msprop:Generator_TablePropName="ListUsers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name_Display" msprop:Generator_UserColumnName="Name_Display" msprop:Generator_ColumnVarNameInTable="columnName_Display" msprop:Generator_ColumnPropNameInRow="Name_Display" msprop:Generator_ColumnPropNameInTable="Name_DisplayColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetFormDetails" msprop:Generator_UserTableName="GetFormDetails" msprop:Generator_RowDeletedName="GetFormDetailsRowDeleted" msprop:Generator_RowChangedName="GetFormDetailsRowChanged" msprop:Generator_RowClassName="GetFormDetailsRow" msprop:Generator_RowChangingName="GetFormDetailsRowChanging" msprop:Generator_RowEvArgName="GetFormDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetFormDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetFormDetailsDataTable" msprop:Generator_TableVarName="tableGetFormDetails" msprop:Generator_RowDeletingName="GetFormDetailsRowDeleting" msprop:Generator_TablePropName="GetFormDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USER_NAMES" msdata:ReadOnly="true" msprop:Generator_UserColumnName="USER_NAMES" msprop:Generator_ColumnVarNameInTable="columnUSER_NAMES" msprop:Generator_ColumnPropNameInRow="USER_NAMES" msprop:Generator_ColumnPropNameInTable="USER_NAMESColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="63" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FormFile" msprop:Generator_UserColumnName="FormFile" msprop:Generator_ColumnVarNameInTable="columnFormFile" msprop:Generator_ColumnPropNameInRow="FormFile" msprop:Generator_ColumnPropNameInTable="FormFileColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MenuName" msprop:Generator_UserColumnName="MenuName" msprop:Generator_ColumnVarNameInTable="columnMenuName" msprop:Generator_ColumnPropNameInRow="MenuName" msprop:Generator_ColumnPropNameInTable="MenuNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MenuOrder" msprop:Generator_UserColumnName="MenuOrder" msprop:Generator_ColumnVarNameInTable="columnMenuOrder" msprop:Generator_ColumnPropNameInRow="MenuOrder" msprop:Generator_ColumnPropNameInTable="MenuOrderColumn" type="xs:unsignedByte" />
+              <xs:element name="MenuGroupID" msprop:Generator_UserColumnName="MenuGroupID" msprop:Generator_ColumnVarNameInTable="columnMenuGroupID" msprop:Generator_ColumnPropNameInRow="MenuGroupID" msprop:Generator_ColumnPropNameInTable="MenuGroupIDColumn" type="xs:short" />
+              <xs:element name="IsPermissionMenu" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsPermissionMenu" msprop:Generator_ColumnVarNameInTable="columnIsPermissionMenu" msprop:Generator_ColumnPropNameInRow="IsPermissionMenu" msprop:Generator_ColumnPropNameInTable="IsPermissionMenuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsPermissionOpen" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsPermissionOpen" msprop:Generator_ColumnVarNameInTable="columnIsPermissionOpen" msprop:Generator_ColumnPropNameInRow="IsPermissionOpen" msprop:Generator_ColumnPropNameInTable="IsPermissionOpenColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsPermissionEdit" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsPermissionEdit" msprop:Generator_ColumnVarNameInTable="columnIsPermissionEdit" msprop:Generator_ColumnPropNameInRow="IsPermissionEdit" msprop:Generator_ColumnPropNameInTable="IsPermissionEditColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsPermissionAdd" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsPermissionAdd" msprop:Generator_ColumnVarNameInTable="columnIsPermissionAdd" msprop:Generator_ColumnPropNameInRow="IsPermissionAdd" msprop:Generator_ColumnPropNameInTable="IsPermissionAddColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsPermissionDelete" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsPermissionDelete" msprop:Generator_ColumnVarNameInTable="columnIsPermissionDelete" msprop:Generator_ColumnPropNameInRow="IsPermissionDelete" msprop:Generator_ColumnPropNameInTable="IsPermissionDeleteColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsSlice" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsSlice" msprop:Generator_ColumnVarNameInTable="columnIsSlice" msprop:Generator_ColumnPropNameInRow="IsSlice" msprop:Generator_ColumnPropNameInTable="IsSliceColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetFormManagementDetails" msprop:Generator_UserTableName="GetFormManagementDetails" msprop:Generator_RowDeletedName="GetFormManagementDetailsRowDeleted" msprop:Generator_RowChangedName="GetFormManagementDetailsRowChanged" msprop:Generator_RowClassName="GetFormManagementDetailsRow" msprop:Generator_RowChangingName="GetFormManagementDetailsRowChanging" msprop:Generator_RowEvArgName="GetFormManagementDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetFormManagementDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetFormManagementDetailsDataTable" msprop:Generator_TableVarName="tableGetFormManagementDetails" msprop:Generator_RowDeletingName="GetFormManagementDetailsRowDeleting" msprop:Generator_TablePropName="GetFormManagementDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Form" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FormFile" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FormFile" msprop:Generator_ColumnPropNameInRow="FormFile" msprop:Generator_ColumnVarNameInTable="columnFormFile" msprop:Generator_ColumnPropNameInTable="FormFileColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsPermissionMenu" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsPermissionMenu" msprop:Generator_ColumnPropNameInRow="IsPermissionMenu" msprop:Generator_ColumnVarNameInTable="columnIsPermissionMenu" msprop:Generator_ColumnPropNameInTable="IsPermissionMenuColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsPermissionOpen" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsPermissionOpen" msprop:Generator_ColumnPropNameInRow="IsPermissionOpen" msprop:Generator_ColumnVarNameInTable="columnIsPermissionOpen" msprop:Generator_ColumnPropNameInTable="IsPermissionOpenColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsPermissionEdit" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsPermissionEdit" msprop:Generator_ColumnPropNameInRow="IsPermissionEdit" msprop:Generator_ColumnVarNameInTable="columnIsPermissionEdit" msprop:Generator_ColumnPropNameInTable="IsPermissionEditColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsPermissionAdd" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsPermissionAdd" msprop:Generator_ColumnPropNameInRow="IsPermissionAdd" msprop:Generator_ColumnVarNameInTable="columnIsPermissionAdd" msprop:Generator_ColumnPropNameInTable="IsPermissionAddColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsPermissionDelete" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsPermissionDelete" msprop:Generator_ColumnPropNameInRow="IsPermissionDelete" msprop:Generator_ColumnVarNameInTable="columnIsPermissionDelete" msprop:Generator_ColumnPropNameInTable="IsPermissionDeleteColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FormCallTranslate" msprop:Generator_UserTableName="FormCallTranslate" msprop:Generator_RowDeletedName="FormCallTranslateRowDeleted" msprop:Generator_TableClassName="FormCallTranslateDataTable" msprop:Generator_RowChangedName="FormCallTranslateRowChanged" msprop:Generator_RowClassName="FormCallTranslateRow" msprop:Generator_RowChangingName="FormCallTranslateRowChanging" msprop:Generator_RowEvArgName="FormCallTranslateRowChangeEvent" msprop:Generator_RowEvHandlerName="FormCallTranslateRowChangeEventHandler" msprop:Generator_TablePropName="FormCallTranslate" msprop:Generator_TableVarName="tableFormCallTranslate" msprop:Generator_RowDeletingName="FormCallTranslateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Form" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Param1Out" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Param1Out" msprop:Generator_ColumnPropNameInRow="Param1Out" msprop:Generator_ColumnVarNameInTable="columnParam1Out" msprop:Generator_ColumnPropNameInTable="Param1OutColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Param2" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Param2" msprop:Generator_ColumnPropNameInRow="Param2" msprop:Generator_ColumnVarNameInTable="columnParam2" msprop:Generator_ColumnPropNameInTable="Param2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Param3" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Param3" msprop:Generator_ColumnPropNameInRow="Param3" msprop:Generator_ColumnVarNameInTable="columnParam3" msprop:Generator_ColumnPropNameInTable="Param3Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Param4" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Param4" msprop:Generator_ColumnPropNameInRow="Param4" msprop:Generator_ColumnVarNameInTable="columnParam4" msprop:Generator_ColumnPropNameInTable="Param4Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ListUsers" />
+      <xs:field xpath="mstns:UserID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

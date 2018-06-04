@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F35100NeighborhoodHeaderData" targetNamespace="http://tempuri.org/F35100NeighborhoodHeaderData.xsd" xmlns:mstns="http://tempuri.org/F35100NeighborhoodHeaderData.xsd" xmlns="http://tempuri.org/F35100NeighborhoodHeaderData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F35100NeighborhoodHeaderData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F35100NeighborhoodHeaderData" msprop:Generator_DataSetName="F35100NeighborhoodHeaderData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="f35100GetUserDetailsDataTable" msprop:Generator_UserTableName="f35100GetUserDetailsDataTable" msprop:Generator_RowDeletedName="f35100GetUserDetailsDataTableRowDeleted" msprop:Generator_RowChangedName="f35100GetUserDetailsDataTableRowChanged" msprop:Generator_RowClassName="f35100GetUserDetailsDataTableRow" msprop:Generator_RowChangingName="f35100GetUserDetailsDataTableRowChanging" msprop:Generator_RowEvArgName="f35100GetUserDetailsDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="f35100GetUserDetailsDataTableRowChangeEventHandler" msprop:Generator_TableClassName="f35100GetUserDetailsDataTableDataTable" msprop:Generator_TableVarName="tablef35100GetUserDetailsDataTable" msprop:Generator_RowDeletingName="f35100GetUserDetailsDataTableRowDeleting" msprop:Generator_TablePropName="f35100GetUserDetailsDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" />
+              <xs:element name="UserName" msprop:Generator_UserColumnName="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f35100NeighborhoodGroupDataTable" msprop:Generator_UserTableName="f35100NeighborhoodGroupDataTable" msprop:Generator_RowDeletedName="f35100NeighborhoodGroupDataTableRowDeleted" msprop:Generator_RowChangedName="f35100NeighborhoodGroupDataTableRowChanged" msprop:Generator_RowClassName="f35100NeighborhoodGroupDataTableRow" msprop:Generator_RowChangingName="f35100NeighborhoodGroupDataTableRowChanging" msprop:Generator_RowEvArgName="f35100NeighborhoodGroupDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="f35100NeighborhoodGroupDataTableRowChangeEventHandler" msprop:Generator_TableClassName="f35100NeighborhoodGroupDataTableDataTable" msprop:Generator_TableVarName="tablef35100NeighborhoodGroupDataTable" msprop:Generator_RowDeletingName="f35100NeighborhoodGroupDataTableRowDeleting" msprop:Generator_TablePropName="f35100NeighborhoodGroupDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NBHDGroupID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="NBHDGroupID" msprop:Generator_ColumnVarNameInTable="columnNBHDGroupID" msprop:Generator_ColumnPropNameInRow="NBHDGroupID" msprop:Generator_ColumnPropNameInTable="NBHDGroupIDColumn" type="xs:int" />
+              <xs:element name="GroupName" msprop:Generator_UserColumnName="GroupName" msprop:Generator_ColumnVarNameInTable="columnGroupName" msprop:Generator_ColumnPropNameInRow="GroupName" msprop:Generator_ColumnPropNameInTable="GroupNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" />
+              <xs:element name="ReviewedBy" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ReviewedBy" msprop:Generator_ColumnVarNameInTable="columnReviewedBy" msprop:Generator_ColumnPropNameInRow="ReviewedBy" msprop:Generator_ColumnPropNameInTable="ReviewedByColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MarketReview" msprop:Generator_UserColumnName="MarketReview" msprop:Generator_ColumnVarNameInTable="columnMarketReview" msprop:Generator_ColumnPropNameInRow="MarketReview" msprop:Generator_ColumnPropNameInTable="MarketReviewColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f35100pclstNeighborhoodDataTable" msprop:Generator_UserTableName="f35100pclstNeighborhoodDataTable" msprop:Generator_RowDeletedName="f35100pclstNeighborhoodDataTableRowDeleted" msprop:Generator_RowChangedName="f35100pclstNeighborhoodDataTableRowChanged" msprop:Generator_RowClassName="f35100pclstNeighborhoodDataTableRow" msprop:Generator_RowChangingName="f35100pclstNeighborhoodDataTableRowChanging" msprop:Generator_RowEvArgName="f35100pclstNeighborhoodDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="f35100pclstNeighborhoodDataTableRowChangeEventHandler" msprop:Generator_TableClassName="f35100pclstNeighborhoodDataTableDataTable" msprop:Generator_TableVarName="tablef35100pclstNeighborhoodDataTable" msprop:Generator_RowDeletingName="f35100pclstNeighborhoodDataTableRowDeleting" msprop:Generator_TablePropName="f35100pclstNeighborhoodDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NBHDID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="NBHDID" msprop:Generator_ColumnVarNameInTable="columnNBHDID" msprop:Generator_ColumnPropNameInRow="NBHDID" msprop:Generator_ColumnPropNameInTable="NBHDIDColumn" type="xs:int" />
+              <xs:element name="Neighborhood" msprop:Generator_UserColumnName="Neighborhood" msprop:Generator_ColumnVarNameInTable="columnNeighborhood" msprop:Generator_ColumnPropNameInRow="Neighborhood" msprop:Generator_ColumnPropNameInTable="NeighborhoodColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f35100NeighborhoodLocksDataTable" msprop:Generator_UserTableName="f35100NeighborhoodLocksDataTable" msprop:Generator_RowDeletedName="f35100NeighborhoodLocksDataTableRowDeleted" msprop:Generator_RowChangedName="f35100NeighborhoodLocksDataTableRowChanged" msprop:Generator_RowClassName="f35100NeighborhoodLocksDataTableRow" msprop:Generator_RowChangingName="f35100NeighborhoodLocksDataTableRowChanging" msprop:Generator_RowEvArgName="f35100NeighborhoodLocksDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="f35100NeighborhoodLocksDataTableRowChangeEventHandler" msprop:Generator_TableClassName="f35100NeighborhoodLocksDataTableDataTable" msprop:Generator_TableVarName="tablef35100NeighborhoodLocksDataTable" msprop:Generator_RowDeletingName="f35100NeighborhoodLocksDataTableRowDeleting" msprop:Generator_TablePropName="f35100NeighborhoodLocksDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NeighborhoodLabel" msdata:ReadOnly="true" msprop:Generator_UserColumnName="NeighborhoodLabel" msprop:Generator_ColumnVarNameInTable="columnNeighborhoodLabel" msprop:Generator_ColumnPropNameInRow="NeighborhoodLabel" msprop:Generator_ColumnPropNameInTable="NeighborhoodLabelColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="61" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LockAppraisal" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAppraisal" msprop:Generator_ColumnVarNameInTable="columnLockAppraisal" msprop:Generator_ColumnPropNameInRow="LockAppraisal" msprop:Generator_ColumnPropNameInTable="LockAppraisalColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LockAppraisalName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAppraisalName" msprop:Generator_ColumnVarNameInTable="columnLockAppraisalName" msprop:Generator_ColumnPropNameInRow="LockAppraisalName" msprop:Generator_ColumnPropNameInTable="LockAppraisalNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LockAssessment" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAssessment" msprop:Generator_ColumnVarNameInTable="columnLockAssessment" msprop:Generator_ColumnPropNameInRow="LockAssessment" msprop:Generator_ColumnPropNameInTable="LockAssessmentColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LockAssessmentName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAssessmentName" msprop:Generator_ColumnVarNameInTable="columnLockAssessmentName" msprop:Generator_ColumnPropNameInRow="LockAssessmentName" msprop:Generator_ColumnPropNameInTable="LockAssessmentNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LockAdmin" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAdmin" msprop:Generator_ColumnVarNameInTable="columnLockAdmin" msprop:Generator_ColumnPropNameInRow="LockAdmin" msprop:Generator_ColumnPropNameInTable="LockAdminColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LockAdminName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAdminName" msprop:Generator_ColumnVarNameInTable="columnLockAdminName" msprop:Generator_ColumnPropNameInRow="LockAdminName" msprop:Generator_ColumnPropNameInTable="LockAdminNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f35100GrpNeighborhood" msprop:Generator_UserTableName="f35100GrpNeighborhood" msprop:Generator_RowDeletedName="f35100GrpNeighborhoodRowDeleted" msprop:Generator_RowChangedName="f35100GrpNeighborhoodRowChanged" msprop:Generator_RowClassName="f35100GrpNeighborhoodRow" msprop:Generator_RowChangingName="f35100GrpNeighborhoodRowChanging" msprop:Generator_RowEvArgName="f35100GrpNeighborhoodRowChangeEvent" msprop:Generator_RowEvHandlerName="f35100GrpNeighborhoodRowChangeEventHandler" msprop:Generator_TableClassName="f35100GrpNeighborhoodDataTable" msprop:Generator_TableVarName="tablef35100GrpNeighborhood" msprop:Generator_RowDeletingName="f35100GrpNeighborhoodRowDeleting" msprop:Generator_TablePropName="f35100GrpNeighborhood">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NBHDID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="NBHDID" msprop:Generator_ColumnVarNameInTable="columnNBHDID" msprop:Generator_ColumnPropNameInRow="NBHDID" msprop:Generator_ColumnPropNameInTable="NBHDIDColumn" type="xs:int" />
+              <xs:element name="Neighborhood" msprop:Generator_UserColumnName="Neighborhood" msprop:Generator_ColumnVarNameInTable="columnNeighborhood" msprop:Generator_ColumnPropNameInRow="Neighborhood" msprop:Generator_ColumnPropNameInTable="NeighborhoodColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="saveNeighborhoodHeaderDetails" msprop:Generator_UserTableName="saveNeighborhoodHeaderDetails" msprop:Generator_RowDeletedName="saveNeighborhoodHeaderDetailsRowDeleted" msprop:Generator_RowChangedName="saveNeighborhoodHeaderDetailsRowChanged" msprop:Generator_RowClassName="saveNeighborhoodHeaderDetailsRow" msprop:Generator_RowChangingName="saveNeighborhoodHeaderDetailsRowChanging" msprop:Generator_RowEvArgName="saveNeighborhoodHeaderDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="saveNeighborhoodHeaderDetailsRowChangeEventHandler" msprop:Generator_TableClassName="saveNeighborhoodHeaderDetailsDataTable" msprop:Generator_TableVarName="tablesaveNeighborhoodHeaderDetails" msprop:Generator_RowDeletingName="saveNeighborhoodHeaderDetailsRowDeleting" msprop:Generator_TablePropName="saveNeighborhoodHeaderDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Neighborhood" msprop:Generator_UserColumnName="Neighborhood" msprop:Generator_ColumnPropNameInRow="Neighborhood" msprop:Generator_ColumnVarNameInTable="columnNeighborhood" msprop:Generator_ColumnPropNameInTable="NeighborhoodColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NBHID" msprop:Generator_UserColumnName="NBHID" msprop:Generator_ColumnPropNameInRow="NBHID" msprop:Generator_ColumnVarNameInTable="columnNBHID" msprop:Generator_ColumnPropNameInTable="NBHIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PNBHID" msprop:Generator_UserColumnName="PNBHID" msprop:Generator_ColumnPropNameInRow="PNBHID" msprop:Generator_ColumnVarNameInTable="columnPNBHID" msprop:Generator_ColumnPropNameInTable="PNBHIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParentNeighborhood" msprop:Generator_UserColumnName="ParentNeighborhood" msprop:Generator_ColumnPropNameInRow="ParentNeighborhood" msprop:Generator_ColumnVarNameInTable="columnParentNeighborhood" msprop:Generator_ColumnPropNameInTable="ParentNeighborhoodColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GrantParentNeighborhood" msprop:Generator_UserColumnName="GrantParentNeighborhood" msprop:Generator_ColumnPropNameInRow="GrantParentNeighborhood" msprop:Generator_ColumnVarNameInTable="columnGrantParentNeighborhood" msprop:Generator_ColumnPropNameInTable="GrantParentNeighborhoodColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_ColumnVarNameInTable="columnDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="MarketReview" msprop:Generator_UserColumnName="MarketReview" msprop:nullValue="(Empty)" msprop:Generator_ColumnPropNameInRow="MarketReview" msprop:Generator_ColumnPropNameInTable="MarketReviewColumn" msprop:Generator_ColumnVarNameInTable="columnMarketReview" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f35100NeighborhoodHeaderDataTable" msprop:Generator_UserTableName="f35100NeighborhoodHeaderDataTable" msprop:Generator_RowDeletedName="f35100NeighborhoodHeaderDataTableRowDeleted" msprop:Generator_RowChangedName="f35100NeighborhoodHeaderDataTableRowChanged" msprop:Generator_RowClassName="f35100NeighborhoodHeaderDataTableRow" msprop:Generator_RowChangingName="f35100NeighborhoodHeaderDataTableRowChanging" msprop:Generator_RowEvArgName="f35100NeighborhoodHeaderDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="f35100NeighborhoodHeaderDataTableRowChangeEventHandler" msprop:Generator_TableClassName="f35100NeighborhoodHeaderDataTableDataTable" msprop:Generator_TableVarName="tablef35100NeighborhoodHeaderDataTable" msprop:Generator_RowDeletingName="f35100NeighborhoodHeaderDataTableRowDeleting" msprop:Generator_TablePropName="f35100NeighborhoodHeaderDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NBHDID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="NBHDID" msprop:Generator_ColumnVarNameInTable="columnNBHDID" msprop:Generator_ColumnPropNameInRow="NBHDID" msprop:Generator_ColumnPropNameInTable="NBHDIDColumn" type="xs:int" />
+              <xs:element name="PNBHDID" msprop:Generator_UserColumnName="PNBHDID" msprop:Generator_ColumnVarNameInTable="columnPNBHDID" msprop:Generator_ColumnPropNameInRow="PNBHDID" msprop:Generator_ColumnPropNameInTable="PNBHDIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GrandParent" msdata:ReadOnly="true" msprop:Generator_UserColumnName="GrandParent" msprop:Generator_ColumnVarNameInTable="columnGrandParent" msprop:Generator_ColumnPropNameInRow="GrandParent" msprop:Generator_ColumnPropNameInTable="GrandParentColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GrandParentName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="GrandParentName" msprop:Generator_ColumnVarNameInTable="columnGrandParentName" msprop:Generator_ColumnPropNameInRow="GrandParentName" msprop:Generator_ColumnPropNameInTable="GrandParentNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" />
+              <xs:element name="NBHDType" msprop:Generator_UserColumnName="NBHDType" msprop:Generator_ColumnVarNameInTable="columnNBHDType" msprop:Generator_ColumnPropNameInRow="NBHDType" msprop:Generator_ColumnPropNameInTable="NBHDTypeColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="Neighborhood" msprop:Generator_UserColumnName="Neighborhood" msprop:Generator_ColumnVarNameInTable="columnNeighborhood" msprop:Generator_ColumnPropNameInRow="Neighborhood" msprop:Generator_ColumnPropNameInTable="NeighborhoodColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_ColumnPropNameInRow="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MarketReview" msprop:Generator_UserColumnName="MarketReview" msprop:nullValue="(Empty)" msprop:Generator_ColumnVarNameInTable="columnMarketReview" msprop:Generator_ColumnPropNameInTable="MarketReviewColumn" msprop:Generator_ColumnPropNameInRow="MarketReview" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LockAppraisalBy" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAppraisalBy" msprop:Generator_ColumnVarNameInTable="columnLockAppraisalBy" msprop:Generator_ColumnPropNameInRow="LockAppraisalBy" msprop:Generator_ColumnPropNameInTable="LockAppraisalByColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LockAssessmentBy" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAssessmentBy" msprop:Generator_ColumnVarNameInTable="columnLockAssessmentBy" msprop:Generator_ColumnPropNameInRow="LockAssessmentBy" msprop:Generator_ColumnPropNameInTable="LockAssessmentByColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LockAdminBy" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LockAdminBy" msprop:Generator_ColumnVarNameInTable="columnLockAdminBy" msprop:Generator_ColumnPropNameInRow="LockAdminBy" msprop:Generator_ColumnPropNameInTable="LockAdminByColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RollYearDisabled" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RollYearDisabled" msprop:Generator_ColumnVarNameInTable="columnRollYearDisabled" msprop:Generator_ColumnPropNameInRow="RollYearDisabled" msprop:Generator_ColumnPropNameInTable="RollYearDisabledColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CheckDuplicateNeighborhoodTable" msprop:Generator_UserTableName="CheckDuplicateNeighborhoodTable" msprop:Generator_RowDeletedName="CheckDuplicateNeighborhoodTableRowDeleted" msprop:Generator_RowChangedName="CheckDuplicateNeighborhoodTableRowChanged" msprop:Generator_RowClassName="CheckDuplicateNeighborhoodTableRow" msprop:Generator_RowChangingName="CheckDuplicateNeighborhoodTableRowChanging" msprop:Generator_RowEvArgName="CheckDuplicateNeighborhoodTableRowChangeEvent" msprop:Generator_RowEvHandlerName="CheckDuplicateNeighborhoodTableRowChangeEventHandler" msprop:Generator_TableClassName="CheckDuplicateNeighborhoodTableDataTable" msprop:Generator_TableVarName="tableCheckDuplicateNeighborhoodTable" msprop:Generator_RowDeletingName="CheckDuplicateNeighborhoodTableRowDeleting" msprop:Generator_TablePropName="CheckDuplicateNeighborhoodTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NBHDID" msprop:Generator_UserColumnName="NBHDID" msprop:nullValue="" msprop:Generator_ColumnPropNameInRow="NBHDID" msprop:Generator_ColumnPropNameInTable="NBHDIDColumn" msprop:Generator_ColumnVarNameInTable="columnNBHDID" type="xs:int" minOccurs="0" />
+              <xs:element name="Neighborhood" msprop:Generator_UserColumnName="Neighborhood" msprop:Generator_ColumnVarNameInTable="columnNeighborhood" msprop:Generator_ColumnPropNameInRow="Neighborhood" msprop:Generator_ColumnPropNameInTable="NeighborhoodColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:nullValue="" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" msprop:Generator_ColumnVarNameInTable="columnType" type="xs:int" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:nullValue="" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" msprop:Generator_ColumnVarNameInTable="columnRollYear" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:f35100GetUserDetailsDataTable" />
+      <xs:field xpath="mstns:UserID" />
+    </xs:unique>
+    <xs:unique name="f35100NeighborhoodGroupDataTable_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:f35100NeighborhoodGroupDataTable" />
+      <xs:field xpath="mstns:NBHDGroupID" />
+      <xs:field xpath="mstns:ReviewedBy" />
+    </xs:unique>
+    <xs:unique name="f35100NeighborhoodHeaderDataTable_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:f35100NeighborhoodHeaderDataTable" />
+      <xs:field xpath="mstns:NBHDID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

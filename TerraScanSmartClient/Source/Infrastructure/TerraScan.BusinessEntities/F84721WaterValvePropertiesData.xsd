@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F84721WaterValvePropertiesData" targetNamespace="http://tempuri.org/F84721WaterValvePropertiesData.xsd" xmlns:mstns="http://tempuri.org/F84721WaterValvePropertiesData.xsd" xmlns="http://tempuri.org/F84721WaterValvePropertiesData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F84721WaterValvePropertiesData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F84721WaterValvePropertiesData" msprop:Generator_DataSetName="F84721WaterValvePropertiesData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetWaterValveProperties" msprop:Generator_UserTableName="GetWaterValveProperties" msprop:Generator_RowDeletedName="GetWaterValvePropertiesRowDeleted" msprop:Generator_RowChangedName="GetWaterValvePropertiesRowChanged" msprop:Generator_RowClassName="GetWaterValvePropertiesRow" msprop:Generator_RowChangingName="GetWaterValvePropertiesRowChanging" msprop:Generator_RowEvArgName="GetWaterValvePropertiesRowChangeEvent" msprop:Generator_RowEvHandlerName="GetWaterValvePropertiesRowChangeEventHandler" msprop:Generator_TableClassName="GetWaterValvePropertiesDataTable" msprop:Generator_TableVarName="tableGetWaterValveProperties" msprop:Generator_RowDeletingName="GetWaterValvePropertiesRowDeleting" msprop:Generator_TablePropName="GetWaterValveProperties">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeatureID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="FeatureID" msprop:Generator_ColumnVarNameInTable="columnFeatureID" msprop:Generator_ColumnPropNameInRow="FeatureID" msprop:Generator_ColumnPropNameInTable="FeatureIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CID" msprop:Generator_UserColumnName="CID" msprop:Generator_ColumnVarNameInTable="columnCID" msprop:Generator_ColumnPropNameInRow="CID" msprop:Generator_ColumnPropNameInTable="CIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ModelNumber" msprop:Generator_UserColumnName="ModelNumber" msprop:Generator_ColumnVarNameInTable="columnModelNumber" msprop:Generator_ColumnPropNameInRow="ModelNumber" msprop:Generator_ColumnPropNameInTable="ModelNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SerialNumber" msprop:Generator_UserColumnName="SerialNumber" msprop:Generator_ColumnVarNameInTable="columnSerialNumber" msprop:Generator_ColumnPropNameInRow="SerialNumber" msprop:Generator_ColumnPropNameInTable="SerialNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Diameter" msprop:Generator_UserColumnName="Diameter" msprop:Generator_ColumnVarNameInTable="columnDiameter" msprop:Generator_ColumnPropNameInRow="Diameter" msprop:Generator_ColumnPropNameInTable="DiameterColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IsMotorized" msprop:Generator_UserColumnName="IsMotorized" msprop:Generator_ColumnVarNameInTable="columnIsMotorized" msprop:Generator_ColumnPropNameInRow="IsMotorized" msprop:Generator_ColumnPropNameInTable="IsMotorizedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsCurrentlyOpen" msprop:Generator_UserColumnName="IsCurrentlyOpen" msprop:Generator_ColumnVarNameInTable="columnIsCurrentlyOpen" msprop:Generator_ColumnPropNameInRow="IsCurrentlyOpen" msprop:Generator_ColumnPropNameInTable="IsCurrentlyOpenColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsLongKey" msprop:Generator_UserColumnName="IsLongKey" msprop:Generator_ColumnVarNameInTable="columnIsLongKey" msprop:Generator_ColumnPropNameInRow="IsLongKey" msprop:Generator_ColumnPropNameInTable="IsLongKeyColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsMachineRun" msprop:Generator_UserColumnName="IsMachineRun" msprop:Generator_ColumnVarNameInTable="columnIsMachineRun" msprop:Generator_ColumnPropNameInRow="IsMachineRun" msprop:Generator_ColumnPropNameInTable="IsMachineRunColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsEnabled" msprop:Generator_UserColumnName="IsEnabled" msprop:Generator_ColumnVarNameInTable="columnIsEnabled" msprop:Generator_ColumnPropNameInRow="IsEnabled" msprop:Generator_ColumnPropNameInTable="IsEnabledColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPrivate" msprop:Generator_UserColumnName="IsPrivate" msprop:Generator_ColumnVarNameInTable="columnIsPrivate" msprop:Generator_ColumnPropNameInRow="IsPrivate" msprop:Generator_ColumnPropNameInTable="IsPrivateColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsClockwiseToClose" msprop:Generator_UserColumnName="IsClockwiseToClose" msprop:Generator_ColumnVarNameInTable="columnIsClockwiseToClose" msprop:Generator_ColumnPropNameInRow="IsClockwiseToClose" msprop:Generator_ColumnPropNameInTable="IsClockwiseToCloseColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsNormallyOpen" msprop:Generator_UserColumnName="IsNormallyOpen" msprop:Generator_ColumnVarNameInTable="columnIsNormallyOpen" msprop:Generator_ColumnPropNameInRow="IsNormallyOpen" msprop:Generator_ColumnPropNameInTable="IsNormallyOpenColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PercentOpen" msprop:Generator_UserColumnName="PercentOpen" msprop:Generator_ColumnVarNameInTable="columnPercentOpen" msprop:Generator_ColumnPropNameInRow="PercentOpen" msprop:Generator_ColumnPropNameInTable="PercentOpenColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TurnsToClose" msprop:Generator_UserColumnName="TurnsToClose" msprop:Generator_ColumnVarNameInTable="columnTurnsToClose" msprop:Generator_ColumnPropNameInRow="TurnsToClose" msprop:Generator_ColumnPropNameInTable="TurnsToCloseColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IsBypassValve" msprop:Generator_UserColumnName="IsBypassValve" msprop:Generator_ColumnVarNameInTable="columnIsBypassValve" msprop:Generator_ColumnPropNameInRow="IsBypassValve" msprop:Generator_ColumnPropNameInTable="IsBypassValveColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PressureSetting" msprop:Generator_UserColumnName="PressureSetting" msprop:Generator_ColumnVarNameInTable="columnPressureSetting" msprop:Generator_ColumnPropNameInRow="PressureSetting" msprop:Generator_ColumnPropNameInTable="PressureSettingColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HydrostaticPressue" msprop:Generator_UserColumnName="HydrostaticPressue" msprop:Generator_ColumnVarNameInTable="columnHydrostaticPressue" msprop:Generator_ColumnPropNameInRow="HydrostaticPressue" msprop:Generator_ColumnPropNameInTable="HydrostaticPressueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RegulationTypeID" msprop:Generator_UserColumnName="RegulationTypeID" msprop:Generator_ColumnVarNameInTable="columnRegulationTypeID" msprop:Generator_ColumnPropNameInRow="RegulationTypeID" msprop:Generator_ColumnPropNameInTable="RegulationTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ManufacturerID" msprop:Generator_UserColumnName="ManufacturerID" msprop:Generator_ColumnVarNameInTable="columnManufacturerID" msprop:Generator_ColumnPropNameInRow="ManufacturerID" msprop:Generator_ColumnPropNameInTable="ManufacturerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ValveTypeID" msprop:Generator_UserColumnName="ValveTypeID" msprop:Generator_ColumnVarNameInTable="columnValveTypeID" msprop:Generator_ColumnPropNameInRow="ValveTypeID" msprop:Generator_ColumnPropNameInTable="ValveTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ValveSeatTypeID" msprop:Generator_UserColumnName="ValveSeatTypeID" msprop:Generator_ColumnVarNameInTable="columnValveSeatTypeID" msprop:Generator_ColumnPropNameInRow="ValveSeatTypeID" msprop:Generator_ColumnPropNameInTable="ValveSeatTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ConnectionTypeID" msprop:Generator_UserColumnName="ConnectionTypeID" msprop:Generator_ColumnVarNameInTable="columnConnectionTypeID" msprop:Generator_ColumnPropNameInRow="ConnectionTypeID" msprop:Generator_ColumnPropNameInTable="ConnectionTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="WaterTypeID" msprop:Generator_UserColumnName="WaterTypeID" msprop:Generator_ColumnVarNameInTable="columnWaterTypeID" msprop:Generator_ColumnPropNameInRow="WaterTypeID" msprop:Generator_ColumnPropNameInTable="WaterTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AccessTypeID" msprop:Generator_UserColumnName="AccessTypeID" msprop:Generator_ColumnVarNameInTable="columnAccessTypeID" msprop:Generator_ColumnPropNameInRow="AccessTypeID" msprop:Generator_ColumnPropNameInTable="AccessTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LifecycleStatusID" msprop:Generator_UserColumnName="LifecycleStatusID" msprop:Generator_ColumnVarNameInTable="columnLifecycleStatusID" msprop:Generator_ColumnPropNameInRow="LifecycleStatusID" msprop:Generator_ColumnPropNameInTable="LifecycleStatusIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BusinessID" msprop:Generator_UserColumnName="BusinessID" msprop:Generator_ColumnVarNameInTable="columnBusinessID" msprop:Generator_ColumnPropNameInRow="BusinessID" msprop:Generator_ColumnPropNameInTable="BusinessIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F84121SanitaryManholePropertiesData" targetNamespace="http://tempuri.org/F84121SanitaryManholePropertiesData.xsd" xmlns:mstns="http://tempuri.org/F84121SanitaryManholePropertiesData.xsd" xmlns="http://tempuri.org/F84121SanitaryManholePropertiesData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F84121SanitaryManholePropertiesData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F84121SanitaryManholePropertiesData" msprop:Generator_DataSetName="F84121SanitaryManholePropertiesData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetSanitaryManholeProperties" msprop:Generator_UserTableName="GetSanitaryManholeProperties" msprop:Generator_RowDeletedName="GetSanitaryManholePropertiesRowDeleted" msprop:Generator_RowChangedName="GetSanitaryManholePropertiesRowChanged" msprop:Generator_RowClassName="GetSanitaryManholePropertiesRow" msprop:Generator_RowChangingName="GetSanitaryManholePropertiesRowChanging" msprop:Generator_RowEvArgName="GetSanitaryManholePropertiesRowChangeEvent" msprop:Generator_RowEvHandlerName="GetSanitaryManholePropertiesRowChangeEventHandler" msprop:Generator_TableClassName="GetSanitaryManholePropertiesDataTable" msprop:Generator_TableVarName="tableGetSanitaryManholeProperties" msprop:Generator_RowDeletingName="GetSanitaryManholePropertiesRowDeleting" msprop:Generator_TablePropName="GetSanitaryManholeProperties">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeatureID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="FeatureID" msprop:Generator_ColumnVarNameInTable="columnFeatureID" msprop:Generator_ColumnPropNameInRow="FeatureID" msprop:Generator_ColumnPropNameInTable="FeatureIDColumn" type="xs:int" />
+              <xs:element name="CID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CID" msprop:Generator_ColumnVarNameInTable="columnCID" msprop:Generator_ColumnPropNameInRow="CID" msprop:Generator_ColumnPropNameInTable="CIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClassID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsEnabled" msprop:Generator_UserColumnName="IsEnabled" msprop:Generator_ColumnVarNameInTable="columnIsEnabled" msprop:Generator_ColumnPropNameInRow="IsEnabled" msprop:Generator_ColumnPropNameInTable="IsEnabledColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPrivate" msprop:Generator_UserColumnName="IsPrivate" msprop:Generator_ColumnVarNameInTable="columnIsPrivate" msprop:Generator_ColumnPropNameInRow="IsPrivate" msprop:Generator_ColumnPropNameInTable="IsPrivateColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BarrelDiameter" msprop:Generator_UserColumnName="BarrelDiameter" msprop:Generator_ColumnVarNameInTable="columnBarrelDiameter" msprop:Generator_ColumnPropNameInRow="BarrelDiameter" msprop:Generator_ColumnPropNameInTable="BarrelDiameterColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CoverDiameter" msprop:Generator_UserColumnName="CoverDiameter" msprop:Generator_ColumnVarNameInTable="columnCoverDiameter" msprop:Generator_ColumnPropNameInRow="CoverDiameter" msprop:Generator_ColumnPropNameInTable="CoverDiameterColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RingElevation" msprop:Generator_UserColumnName="RingElevation" msprop:Generator_ColumnVarNameInTable="columnRingElevation" msprop:Generator_ColumnPropNameInRow="RingElevation" msprop:Generator_ColumnPropNameInTable="RingElevationColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FlowElevation" msprop:Generator_UserColumnName="FlowElevation" msprop:Generator_ColumnVarNameInTable="columnFlowElevation" msprop:Generator_ColumnPropNameInRow="FlowElevation" msprop:Generator_ColumnPropNameInTable="FlowElevationColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Depth" msprop:Generator_UserColumnName="Depth" msprop:Generator_ColumnVarNameInTable="columnDepth" msprop:Generator_ColumnPropNameInRow="Depth" msprop:Generator_ColumnPropNameInTable="DepthColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LifecycleStatusID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LifecycleStatusID" msprop:Generator_ColumnVarNameInTable="columnLifecycleStatusID" msprop:Generator_ColumnPropNameInRow="LifecycleStatusID" msprop:Generator_ColumnPropNameInTable="LifecycleStatusIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ManholeTypeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ManholeTypeID" msprop:Generator_ColumnVarNameInTable="columnManholeTypeID" msprop:Generator_ColumnPropNameInRow="ManholeTypeID" msprop:Generator_ColumnPropNameInTable="ManholeTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CoverTypeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CoverTypeID" msprop:Generator_ColumnVarNameInTable="columnCoverTypeID" msprop:Generator_ColumnPropNameInRow="CoverTypeID" msprop:Generator_ColumnPropNameInTable="CoverTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FrameTypeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FrameTypeID" msprop:Generator_ColumnVarNameInTable="columnFrameTypeID" msprop:Generator_ColumnPropNameInRow="FrameTypeID" msprop:Generator_ColumnPropNameInTable="FrameTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="BaseMaterialID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="BaseMaterialID" msprop:Generator_ColumnVarNameInTable="columnBaseMaterialID" msprop:Generator_ColumnPropNameInRow="BaseMaterialID" msprop:Generator_ColumnPropNameInTable="BaseMaterialIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="BenchMaterialID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="BenchMaterialID" msprop:Generator_ColumnVarNameInTable="columnBenchMaterialID" msprop:Generator_ColumnPropNameInRow="BenchMaterialID" msprop:Generator_ColumnPropNameInTable="BenchMaterialIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ChannelMaterialID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ChannelMaterialID" msprop:Generator_ColumnVarNameInTable="columnChannelMaterialID" msprop:Generator_ColumnPropNameInRow="ChannelMaterialID" msprop:Generator_ColumnPropNameInTable="ChannelMaterialIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ConeMaterialID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ConeMaterialID" msprop:Generator_ColumnVarNameInTable="columnConeMaterialID" msprop:Generator_ColumnPropNameInRow="ConeMaterialID" msprop:Generator_ColumnPropNameInTable="ConeMaterialIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RingMaterialID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RingMaterialID" msprop:Generator_ColumnVarNameInTable="columnRingMaterialID" msprop:Generator_ColumnPropNameInRow="RingMaterialID" msprop:Generator_ColumnPropNameInTable="RingMaterialIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StepMaterialID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StepMaterialID" msprop:Generator_ColumnVarNameInTable="columnStepMaterialID" msprop:Generator_ColumnPropNameInRow="StepMaterialID" msprop:Generator_ColumnPropNameInTable="StepMaterialIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="WallMaterialID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="WallMaterialID" msprop:Generator_ColumnVarNameInTable="columnWallMaterialID" msprop:Generator_ColumnPropNameInRow="WallMaterialID" msprop:Generator_ColumnPropNameInTable="WallMaterialIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AccessTypeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="AccessTypeID" msprop:Generator_ColumnVarNameInTable="columnAccessTypeID" msprop:Generator_ColumnPropNameInRow="AccessTypeID" msprop:Generator_ColumnPropNameInTable="AccessTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SurfaceCoverID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SurfaceCoverID" msprop:Generator_ColumnVarNameInTable="columnSurfaceCoverID" msprop:Generator_ColumnPropNameInRow="SurfaceCoverID" msprop:Generator_ColumnPropNameInTable="SurfaceCoverIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Comment" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GetSanitaryManholeProperties" />
+      <xs:field xpath="mstns:FeatureID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

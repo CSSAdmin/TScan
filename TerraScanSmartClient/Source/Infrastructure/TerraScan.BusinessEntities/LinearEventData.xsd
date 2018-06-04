@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LinearEventData" targetNamespace="http://tempuri.org/LinearEventData.xsd" xmlns:mstns="http://tempuri.org/LinearEventData.xsd" xmlns="http://tempuri.org/LinearEventData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient">
+          </Connection>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString3" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LinearEventData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="LinearEventData" msprop:Generator_DataSetName="LinearEventData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SaveFSLinearEventType" msprop:Generator_UserTableName="SaveFSLinearEventType" msprop:Generator_RowDeletedName="SaveFSLinearEventTypeRowDeleted" msprop:Generator_RowChangedName="SaveFSLinearEventTypeRowChanged" msprop:Generator_RowClassName="SaveFSLinearEventTypeRow" msprop:Generator_RowChangingName="SaveFSLinearEventTypeRowChanging" msprop:Generator_RowEvArgName="SaveFSLinearEventTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="SaveFSLinearEventTypeRowChangeEventHandler" msprop:Generator_TableClassName="SaveFSLinearEventTypeDataTable" msprop:Generator_TableVarName="tableSaveFSLinearEventType" msprop:Generator_RowDeletingName="SaveFSLinearEventTypeRowDeleting" msprop:Generator_TablePropName="SaveFSLinearEventType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" />
+              <xs:element name="StartLabel" msprop:Generator_UserColumnName="StartLabel" msprop:Generator_ColumnPropNameInRow="StartLabel" msprop:Generator_ColumnVarNameInTable="columnStartLabel" msprop:Generator_ColumnPropNameInTable="StartLabelColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Start" msprop:Generator_UserColumnName="Start" msprop:Generator_ColumnPropNameInRow="Start" msprop:Generator_ColumnVarNameInTable="columnStart" msprop:Generator_ColumnPropNameInTable="StartColumn" type="xs:decimal" />
+              <xs:element name="EndLabel" msprop:Generator_UserColumnName="EndLabel" msprop:Generator_ColumnPropNameInRow="EndLabel" msprop:Generator_ColumnVarNameInTable="columnEndLabel" msprop:Generator_ColumnPropNameInTable="EndLabelColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="End" msprop:Generator_UserColumnName="End" msprop:Generator_ColumnPropNameInRow="End" msprop:Generator_ColumnVarNameInTable="columnEnd" msprop:Generator_ColumnPropNameInTable="EndColumn" type="xs:decimal" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetFSLinearEventType" msprop:Generator_UserTableName="GetFSLinearEventType" msprop:Generator_RowDeletedName="GetFSLinearEventTypeRowDeleted" msprop:Generator_TableClassName="GetFSLinearEventTypeDataTable" msprop:Generator_RowChangedName="GetFSLinearEventTypeRowChanged" msprop:Generator_RowClassName="GetFSLinearEventTypeRow" msprop:Generator_RowChangingName="GetFSLinearEventTypeRowChanging" msprop:Generator_RowEvArgName="GetFSLinearEventTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="GetFSLinearEventTypeRowChangeEventHandler" msprop:Generator_TablePropName="GetFSLinearEventType" msprop:Generator_TableVarName="tableGetFSLinearEventType" msprop:Generator_RowDeletingName="GetFSLinearEventTypeRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" />
+              <xs:element name="StartLabel" msprop:Generator_UserColumnName="StartLabel" msprop:Generator_ColumnPropNameInRow="StartLabel" msprop:Generator_ColumnVarNameInTable="columnStartLabel" msprop:Generator_ColumnPropNameInTable="StartLabelColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Start" msprop:Generator_UserColumnName="Start" msprop:Generator_ColumnPropNameInRow="Start" msprop:Generator_ColumnVarNameInTable="columnStart" msprop:Generator_ColumnPropNameInTable="StartColumn" type="xs:decimal" />
+              <xs:element name="EndLabel" msprop:Generator_UserColumnName="EndLabel" msprop:Generator_ColumnPropNameInRow="EndLabel" msprop:Generator_ColumnVarNameInTable="columnEndLabel" msprop:Generator_ColumnPropNameInTable="EndLabelColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="End" msprop:Generator_UserColumnName="End" msprop:Generator_ColumnPropNameInRow="End" msprop:Generator_ColumnVarNameInTable="columnEnd" msprop:Generator_ColumnPropNameInTable="EndColumn" type="xs:decimal" />
+              <xs:element name="Dist" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Dist" msprop:Generator_ColumnPropNameInRow="Dist" msprop:Generator_ColumnVarNameInTable="columnDist" msprop:Generator_ColumnPropNameInTable="DistColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Length" msprop:Generator_UserColumnName="Length" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInTable="LengthColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EventType" msdata:ReadOnly="true" msprop:Generator_UserColumnName="EventType" msprop:Generator_ColumnPropNameInRow="EventType" msprop:Generator_ColumnVarNameInTable="columnEventType" msprop:Generator_ColumnPropNameInTable="EventTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Offset" msprop:Generator_UserColumnName="Offset" msprop:Generator_ColumnPropNameInRow="Offset" msprop:Generator_ColumnVarNameInTable="columnOffset" msprop:Generator_ColumnPropNameInTable="OffsetColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GetFSLinearEventType" />
+      <xs:field xpath="mstns:EventID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

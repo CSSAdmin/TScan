@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F29531AssciationLinkData" targetNamespace="http://tempuri.org/F29531AssciationLinkData.xsd" xmlns:mstns="http://tempuri.org/F29531AssciationLinkData.xsd" xmlns="http://tempuri.org/F29531AssciationLinkData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F29531AssciationLinkData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F29531AssciationLinkData" msprop:Generator_DataSetName="F29531AssciationLinkData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AssociationLinkTypeDataTable" msprop:Generator_UserTableName="AssociationLinkTypeDataTable" msprop:Generator_RowDeletedName="AssociationLinkTypeDataTableRowDeleted" msprop:Generator_RowChangedName="AssociationLinkTypeDataTableRowChanged" msprop:Generator_RowClassName="AssociationLinkTypeDataTableRow" msprop:Generator_RowChangingName="AssociationLinkTypeDataTableRowChanging" msprop:Generator_RowEvArgName="AssociationLinkTypeDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="AssociationLinkTypeDataTableRowChangeEventHandler" msprop:Generator_TableClassName="AssociationLinkTypeDataTableDataTable" msprop:Generator_TableVarName="tableAssociationLinkTypeDataTable" msprop:Generator_RowDeletingName="AssociationLinkTypeDataTableRowDeleting" msprop:Generator_TablePropName="AssociationLinkTypeDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AssociationCfgID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="AssociationCfgID" msprop:Generator_ColumnVarNameInTable="columnAssociationCfgID" msprop:Generator_ColumnPropNameInRow="AssociationCfgID" msprop:Generator_ColumnPropNameInTable="AssociationCfgIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AssociationType" msdata:ReadOnly="true" msprop:Generator_UserColumnName="AssociationType" msprop:Generator_ColumnVarNameInTable="columnAssociationType" msprop:Generator_ColumnPropNameInRow="AssociationType" msprop:Generator_ColumnPropNameInTable="AssociationTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SelectionForm" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SelectionForm" msprop:Generator_ColumnVarNameInTable="columnSelectionForm" msprop:Generator_ColumnPropNameInRow="SelectionForm" msprop:Generator_ColumnPropNameInTable="SelectionFormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DestinationForm" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DestinationForm" msprop:Generator_ColumnVarNameInTable="columnDestinationForm" msprop:Generator_ColumnPropNameInRow="DestinationForm" msprop:Generator_ColumnPropNameInTable="DestinationFormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LinkTextSQL" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LinkTextSQL" msprop:Generator_ColumnVarNameInTable="columnLinkTextSQL" msprop:Generator_ColumnPropNameInRow="LinkTextSQL" msprop:Generator_ColumnPropNameInTable="LinkTextSQLColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AssociationDataTable" msprop:Generator_UserTableName="AssociationDataTable" msprop:Generator_RowDeletedName="AssociationDataTableRowDeleted" msprop:Generator_RowChangedName="AssociationDataTableRowChanged" msprop:Generator_RowClassName="AssociationDataTableRow" msprop:Generator_RowChangingName="AssociationDataTableRowChanging" msprop:Generator_RowEvArgName="AssociationDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="AssociationDataTableRowChangeEventHandler" msprop:Generator_TableClassName="AssociationDataTableDataTable" msprop:Generator_TableVarName="tableAssociationDataTable" msprop:Generator_RowDeletingName="AssociationDataTableRowDeleting" msprop:Generator_TablePropName="AssociationDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AssociationID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="AssociationID" msprop:Generator_ColumnVarNameInTable="columnAssociationID" msprop:Generator_ColumnPropNameInRow="AssociationID" msprop:Generator_ColumnPropNameInTable="AssociationIDColumn" type="xs:int" />
+              <xs:element name="Form" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="KeyId" msprop:Generator_UserColumnName="KeyId" msprop:Generator_ColumnVarNameInTable="columnKeyId" msprop:Generator_ColumnPropNameInRow="KeyId" msprop:Generator_ColumnPropNameInTable="KeyIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LinkText" msprop:Generator_UserColumnName="LinkText" msprop:Generator_ColumnVarNameInTable="columnLinkText" msprop:Generator_ColumnPropNameInRow="LinkText" msprop:Generator_ColumnPropNameInTable="LinkTextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DestinationForm" msprop:Generator_UserColumnName="DestinationForm" msprop:Generator_ColumnVarNameInTable="columnDestinationForm" msprop:Generator_ColumnPropNameInRow="DestinationForm" msprop:Generator_ColumnPropNameInTable="DestinationFormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Param1" msprop:Generator_UserColumnName="Param1" msprop:Generator_ColumnVarNameInTable="columnParam1" msprop:Generator_ColumnPropNameInRow="Param1" msprop:Generator_ColumnPropNameInTable="Param1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Param2" msprop:Generator_UserColumnName="Param2" msprop:Generator_ColumnVarNameInTable="columnParam2" msprop:Generator_ColumnPropNameInRow="Param2" msprop:Generator_ColumnPropNameInTable="Param2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Param3" msprop:Generator_UserColumnName="Param3" msprop:Generator_ColumnVarNameInTable="columnParam3" msprop:Generator_ColumnPropNameInRow="Param3" msprop:Generator_ColumnPropNameInTable="Param3Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UpdateAssociationDataTable" msprop:Generator_UserTableName="UpdateAssociationDataTable" msprop:Generator_RowDeletedName="UpdateAssociationDataTableRowDeleted" msprop:Generator_TableClassName="UpdateAssociationDataTableDataTable" msprop:Generator_RowChangedName="UpdateAssociationDataTableRowChanged" msprop:Generator_RowClassName="UpdateAssociationDataTableRow" msprop:Generator_RowChangingName="UpdateAssociationDataTableRowChanging" msprop:Generator_RowEvArgName="UpdateAssociationDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="UpdateAssociationDataTableRowChangeEventHandler" msprop:Generator_TablePropName="UpdateAssociationDataTable" msprop:Generator_TableVarName="tableUpdateAssociationDataTable" msprop:Generator_RowDeletingName="UpdateAssociationDataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AssociationID" msprop:Generator_UserColumnName="AssociationID" msprop:Generator_ColumnPropNameInRow="AssociationID" msprop:Generator_ColumnVarNameInTable="columnAssociationID" msprop:Generator_ColumnPropNameInTable="AssociationIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AssociationDataTable" />
+      <xs:field xpath="mstns:AssociationID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

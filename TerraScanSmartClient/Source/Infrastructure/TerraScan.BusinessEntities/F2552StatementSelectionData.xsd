@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F2552StatementSelectionData" targetNamespace="http://tempuri.org/F2552StatementSelectionData.xsd" xmlns:mstns="http://tempuri.org/F2552StatementSelectionData.xsd" xmlns="http://tempuri.org/F2552StatementSelectionData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F2552StatementSelectionData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F2552StatementSelectionData" msprop:Generator_DataSetName="F2552StatementSelectionData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="StatementDataTable" msprop:Generator_UserTableName="StatementDataTable" msprop:Generator_RowDeletedName="StatementDataTableRowDeleted" msprop:Generator_RowChangedName="StatementDataTableRowChanged" msprop:Generator_RowClassName="StatementDataTableRow" msprop:Generator_RowChangingName="StatementDataTableRowChanging" msprop:Generator_RowEvArgName="StatementDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="StatementDataTableRowChangeEventHandler" msprop:Generator_TableClassName="StatementDataTableDataTable" msprop:Generator_TableVarName="tableStatementDataTable" msprop:Generator_RowDeletingName="StatementDataTableRowDeleting" msprop:Generator_TablePropName="StatementDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OwnerID" msprop:Generator_UserColumnName="OwnerID" msprop:Generator_ColumnVarNameInTable="columnOwnerID" msprop:Generator_ColumnPropNameInRow="OwnerID" msprop:Generator_ColumnPropNameInTable="OwnerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="OwnerName" msprop:Generator_UserColumnName="OwnerName" msprop:Generator_ColumnVarNameInTable="columnOwnerName" msprop:Generator_ColumnPropNameInRow="OwnerName" msprop:Generator_ColumnPropNameInTable="OwnerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OwnerPercent" msprop:Generator_UserColumnName="OwnerPercent" msprop:Generator_ColumnVarNameInTable="columnOwnerPercent" msprop:Generator_ColumnPropNameInRow="OwnerPercent" msprop:Generator_ColumnPropNameInTable="OwnerPercentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="StatementNumber" msprop:Generator_UserColumnName="StatementNumber" msprop:Generator_ColumnVarNameInTable="columnStatementNumber" msprop:Generator_ColumnPropNameInRow="StatementNumber" msprop:Generator_ColumnPropNameInTable="StatementNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="StatementID" msprop:Generator_UserColumnName="StatementID" msprop:Generator_ColumnVarNameInTable="columnStatementID" msprop:Generator_ColumnPropNameInRow="StatementID" msprop:Generator_ColumnPropNameInTable="StatementIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParcelID" msprop:Generator_UserColumnName="ParcelID" msprop:Generator_ColumnVarNameInTable="columnParcelID" msprop:Generator_ColumnPropNameInRow="ParcelID" msprop:Generator_ColumnPropNameInTable="ParcelIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TypeID" msprop:Generator_UserColumnName="TypeID" msprop:Generator_ColumnVarNameInTable="columnTypeID" msprop:Generator_ColumnPropNameInRow="TypeID" msprop:Generator_ColumnPropNameInTable="TypeIDColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="IsEdit" msprop:Generator_UserColumnName="IsEdit" msprop:Generator_ColumnPropNameInRow="IsEdit" msprop:Generator_ColumnVarNameInTable="columnIsEdit" msprop:Generator_ColumnPropNameInTable="IsEditColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

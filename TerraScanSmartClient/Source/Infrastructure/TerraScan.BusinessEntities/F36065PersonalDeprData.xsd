@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F36065PersonalDeprData" targetNamespace="http://tempuri.org/F36065PersonalDeprData.xsd" xmlns:mstns="http://tempuri.org/F36065PersonalDeprData.xsd" xmlns="http://tempuri.org/F36065PersonalDeprData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F36065PersonalDeprData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F36065PersonalDeprData" msprop:Generator_DataSetName="F36065PersonalDeprData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DepreciationTable" msprop:Generator_UserTableName="DepreciationTable" msprop:Generator_RowDeletedName="DepreciationTableRowDeleted" msprop:Generator_RowChangedName="DepreciationTableRowChanged" msprop:Generator_RowClassName="DepreciationTableRow" msprop:Generator_RowChangingName="DepreciationTableRowChanging" msprop:Generator_RowEvArgName="DepreciationTableRowChangeEvent" msprop:Generator_RowEvHandlerName="DepreciationTableRowChangeEventHandler" msprop:Generator_TableClassName="DepreciationTableDataTable" msprop:Generator_TableVarName="tableDepreciationTable" msprop:Generator_RowDeletingName="DepreciationTableRowDeleting" msprop:Generator_TablePropName="DepreciationTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PPDeprTableID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PPDeprTableID" msprop:Generator_ColumnPropNameInRow="PPDeprTableID" msprop:Generator_ColumnVarNameInTable="columnPPDeprTableID" msprop:Generator_ColumnPropNameInTable="PPDeprTableIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DeprYearID" msprop:Generator_UserColumnName="DeprYearID" msprop:Generator_ColumnPropNameInRow="DeprYearID" msprop:Generator_ColumnVarNameInTable="columnDeprYearID" msprop:Generator_ColumnPropNameInTable="DeprYearIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LifeExpectancy" msprop:Generator_UserColumnName="LifeExpectancy" msprop:Generator_ColumnPropNameInRow="LifeExpectancy" msprop:Generator_ColumnVarNameInTable="columnLifeExpectancy" msprop:Generator_ColumnPropNameInTable="LifeExpectancyColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="PPDeprName" msprop:Generator_UserColumnName="PPDeprName" msprop:Generator_ColumnPropNameInRow="PPDeprName" msprop:Generator_ColumnVarNameInTable="columnPPDeprName" msprop:Generator_ColumnPropNameInTable="PPDeprNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Year1" msprop:Generator_UserColumnName="Year1" msprop:Generator_ColumnPropNameInRow="Year1" msprop:Generator_ColumnVarNameInTable="columnYear1" msprop:Generator_ColumnPropNameInTable="Year1Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year2" msprop:Generator_UserColumnName="Year2" msprop:Generator_ColumnPropNameInRow="Year2" msprop:Generator_ColumnVarNameInTable="columnYear2" msprop:Generator_ColumnPropNameInTable="Year2Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year3" msprop:Generator_UserColumnName="Year3" msprop:Generator_ColumnPropNameInRow="Year3" msprop:Generator_ColumnVarNameInTable="columnYear3" msprop:Generator_ColumnPropNameInTable="Year3Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year4" msprop:Generator_UserColumnName="Year4" msprop:Generator_ColumnPropNameInRow="Year4" msprop:Generator_ColumnVarNameInTable="columnYear4" msprop:Generator_ColumnPropNameInTable="Year4Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year5" msprop:Generator_UserColumnName="Year5" msprop:Generator_ColumnPropNameInRow="Year5" msprop:Generator_ColumnVarNameInTable="columnYear5" msprop:Generator_ColumnPropNameInTable="Year5Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year6" msprop:Generator_UserColumnName="Year6" msprop:Generator_ColumnPropNameInRow="Year6" msprop:Generator_ColumnVarNameInTable="columnYear6" msprop:Generator_ColumnPropNameInTable="Year6Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year7" msprop:Generator_UserColumnName="Year7" msprop:Generator_ColumnPropNameInRow="Year7" msprop:Generator_ColumnVarNameInTable="columnYear7" msprop:Generator_ColumnPropNameInTable="Year7Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year8" msprop:Generator_UserColumnName="Year8" msprop:Generator_ColumnPropNameInRow="Year8" msprop:Generator_ColumnVarNameInTable="columnYear8" msprop:Generator_ColumnPropNameInTable="Year8Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year9" msprop:Generator_UserColumnName="Year9" msprop:Generator_ColumnPropNameInRow="Year9" msprop:Generator_ColumnVarNameInTable="columnYear9" msprop:Generator_ColumnPropNameInTable="Year9Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year10" msprop:Generator_UserColumnName="Year10" msprop:Generator_ColumnPropNameInRow="Year10" msprop:Generator_ColumnVarNameInTable="columnYear10" msprop:Generator_ColumnPropNameInTable="Year10Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year11" msprop:Generator_UserColumnName="Year11" msprop:Generator_ColumnPropNameInRow="Year11" msprop:Generator_ColumnVarNameInTable="columnYear11" msprop:Generator_ColumnPropNameInTable="Year11Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year12" msprop:Generator_UserColumnName="Year12" msprop:Generator_ColumnPropNameInRow="Year12" msprop:Generator_ColumnVarNameInTable="columnYear12" msprop:Generator_ColumnPropNameInTable="Year12Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year13" msprop:Generator_UserColumnName="Year13" msprop:Generator_ColumnPropNameInRow="Year13" msprop:Generator_ColumnVarNameInTable="columnYear13" msprop:Generator_ColumnPropNameInTable="Year13Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year14" msprop:Generator_UserColumnName="Year14" msprop:Generator_ColumnPropNameInRow="Year14" msprop:Generator_ColumnVarNameInTable="columnYear14" msprop:Generator_ColumnPropNameInTable="Year14Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year15" msprop:Generator_UserColumnName="Year15" msprop:Generator_ColumnPropNameInRow="Year15" msprop:Generator_ColumnVarNameInTable="columnYear15" msprop:Generator_ColumnPropNameInTable="Year15Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year16" msprop:Generator_UserColumnName="Year16" msprop:Generator_ColumnPropNameInRow="Year16" msprop:Generator_ColumnVarNameInTable="columnYear16" msprop:Generator_ColumnPropNameInTable="Year16Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year17" msprop:Generator_UserColumnName="Year17" msprop:Generator_ColumnPropNameInRow="Year17" msprop:Generator_ColumnVarNameInTable="columnYear17" msprop:Generator_ColumnPropNameInTable="Year17Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year18" msprop:Generator_UserColumnName="Year18" msprop:Generator_ColumnPropNameInRow="Year18" msprop:Generator_ColumnVarNameInTable="columnYear18" msprop:Generator_ColumnPropNameInTable="Year18Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year19" msprop:Generator_UserColumnName="Year19" msprop:Generator_ColumnPropNameInRow="Year19" msprop:Generator_ColumnVarNameInTable="columnYear19" msprop:Generator_ColumnPropNameInTable="Year19Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year20" msprop:Generator_UserColumnName="Year20" msprop:Generator_ColumnPropNameInRow="Year20" msprop:Generator_ColumnVarNameInTable="columnYear20" msprop:Generator_ColumnPropNameInTable="Year20Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year21" msprop:Generator_UserColumnName="Year21" msprop:Generator_ColumnPropNameInRow="Year21" msprop:Generator_ColumnVarNameInTable="columnYear21" msprop:Generator_ColumnPropNameInTable="Year21Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year22" msprop:Generator_UserColumnName="Year22" msprop:Generator_ColumnPropNameInRow="Year22" msprop:Generator_ColumnVarNameInTable="columnYear22" msprop:Generator_ColumnPropNameInTable="Year22Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year23" msprop:Generator_UserColumnName="Year23" msprop:Generator_ColumnPropNameInRow="Year23" msprop:Generator_ColumnVarNameInTable="columnYear23" msprop:Generator_ColumnPropNameInTable="Year23Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year24" msprop:Generator_UserColumnName="Year24" msprop:Generator_ColumnPropNameInRow="Year24" msprop:Generator_ColumnVarNameInTable="columnYear24" msprop:Generator_ColumnPropNameInTable="Year24Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year25" msprop:Generator_UserColumnName="Year25" msprop:Generator_ColumnPropNameInRow="Year25" msprop:Generator_ColumnVarNameInTable="columnYear25" msprop:Generator_ColumnPropNameInTable="Year25Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year26" msprop:Generator_UserColumnName="Year26" msprop:Generator_ColumnPropNameInRow="Year26" msprop:Generator_ColumnVarNameInTable="columnYear26" msprop:Generator_ColumnPropNameInTable="Year26Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year27" msprop:Generator_UserColumnName="Year27" msprop:Generator_ColumnPropNameInRow="Year27" msprop:Generator_ColumnVarNameInTable="columnYear27" msprop:Generator_ColumnPropNameInTable="Year27Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year28" msprop:Generator_UserColumnName="Year28" msprop:Generator_ColumnPropNameInRow="Year28" msprop:Generator_ColumnVarNameInTable="columnYear28" msprop:Generator_ColumnPropNameInTable="Year28Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year29" msprop:Generator_UserColumnName="Year29" msprop:Generator_ColumnPropNameInRow="Year29" msprop:Generator_ColumnVarNameInTable="columnYear29" msprop:Generator_ColumnPropNameInTable="Year29Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year30" msprop:Generator_UserColumnName="Year30" msprop:Generator_ColumnPropNameInRow="Year30" msprop:Generator_ColumnVarNameInTable="columnYear30" msprop:Generator_ColumnPropNameInTable="Year30Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year31" msprop:Generator_UserColumnName="Year31" msprop:Generator_ColumnPropNameInRow="Year31" msprop:Generator_ColumnVarNameInTable="columnYear31" msprop:Generator_ColumnPropNameInTable="Year31Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year32" msprop:Generator_UserColumnName="Year32" msprop:Generator_ColumnPropNameInRow="Year32" msprop:Generator_ColumnVarNameInTable="columnYear32" msprop:Generator_ColumnPropNameInTable="Year32Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year33" msprop:Generator_UserColumnName="Year33" msprop:Generator_ColumnPropNameInRow="Year33" msprop:Generator_ColumnVarNameInTable="columnYear33" msprop:Generator_ColumnPropNameInTable="Year33Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year34" msprop:Generator_UserColumnName="Year34" msprop:Generator_ColumnPropNameInRow="Year34" msprop:Generator_ColumnVarNameInTable="columnYear34" msprop:Generator_ColumnPropNameInTable="Year34Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year35" msprop:Generator_UserColumnName="Year35" msprop:Generator_ColumnPropNameInRow="Year35" msprop:Generator_ColumnVarNameInTable="columnYear35" msprop:Generator_ColumnPropNameInTable="Year35Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year36" msprop:Generator_UserColumnName="Year36" msprop:Generator_ColumnPropNameInRow="Year36" msprop:Generator_ColumnVarNameInTable="columnYear36" msprop:Generator_ColumnPropNameInTable="Year36Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year37" msprop:Generator_UserColumnName="Year37" msprop:Generator_ColumnPropNameInRow="Year37" msprop:Generator_ColumnVarNameInTable="columnYear37" msprop:Generator_ColumnPropNameInTable="Year37Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year38" msprop:Generator_UserColumnName="Year38" msprop:Generator_ColumnPropNameInRow="Year38" msprop:Generator_ColumnVarNameInTable="columnYear38" msprop:Generator_ColumnPropNameInTable="Year38Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year39" msprop:Generator_UserColumnName="Year39" msprop:Generator_ColumnPropNameInRow="Year39" msprop:Generator_ColumnVarNameInTable="columnYear39" msprop:Generator_ColumnPropNameInTable="Year39Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year40" msprop:Generator_UserColumnName="Year40" msprop:Generator_ColumnPropNameInRow="Year40" msprop:Generator_ColumnVarNameInTable="columnYear40" msprop:Generator_ColumnPropNameInTable="Year40Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year41" msprop:Generator_UserColumnName="Year41" msprop:Generator_ColumnPropNameInRow="Year41" msprop:Generator_ColumnVarNameInTable="columnYear41" msprop:Generator_ColumnPropNameInTable="Year41Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year42" msprop:Generator_UserColumnName="Year42" msprop:Generator_ColumnPropNameInRow="Year42" msprop:Generator_ColumnVarNameInTable="columnYear42" msprop:Generator_ColumnPropNameInTable="Year42Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year43" msprop:Generator_UserColumnName="Year43" msprop:Generator_ColumnPropNameInRow="Year43" msprop:Generator_ColumnVarNameInTable="columnYear43" msprop:Generator_ColumnPropNameInTable="Year43Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year44" msprop:Generator_UserColumnName="Year44" msprop:Generator_ColumnPropNameInRow="Year44" msprop:Generator_ColumnVarNameInTable="columnYear44" msprop:Generator_ColumnPropNameInTable="Year44Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year45" msprop:Generator_UserColumnName="Year45" msprop:Generator_ColumnPropNameInRow="Year45" msprop:Generator_ColumnVarNameInTable="columnYear45" msprop:Generator_ColumnPropNameInTable="Year45Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year46" msprop:Generator_UserColumnName="Year46" msprop:Generator_ColumnPropNameInRow="Year46" msprop:Generator_ColumnVarNameInTable="columnYear46" msprop:Generator_ColumnPropNameInTable="Year46Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year47" msprop:Generator_UserColumnName="Year47" msprop:Generator_ColumnPropNameInRow="Year47" msprop:Generator_ColumnVarNameInTable="columnYear47" msprop:Generator_ColumnPropNameInTable="Year47Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year48" msprop:Generator_UserColumnName="Year48" msprop:Generator_ColumnPropNameInRow="Year48" msprop:Generator_ColumnVarNameInTable="columnYear48" msprop:Generator_ColumnPropNameInTable="Year48Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year49" msprop:Generator_UserColumnName="Year49" msprop:Generator_ColumnPropNameInRow="Year49" msprop:Generator_ColumnVarNameInTable="columnYear49" msprop:Generator_ColumnPropNameInTable="Year49Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Year50" msprop:Generator_UserColumnName="Year50" msprop:Generator_ColumnPropNameInRow="Year50" msprop:Generator_ColumnVarNameInTable="columnYear50" msprop:Generator_ColumnPropNameInTable="Year50Column" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DepreciationYearTable" msprop:Generator_UserTableName="DepreciationYearTable" msprop:Generator_RowDeletedName="DepreciationYearTableRowDeleted" msprop:Generator_RowChangedName="DepreciationYearTableRowChanged" msprop:Generator_RowClassName="DepreciationYearTableRow" msprop:Generator_RowChangingName="DepreciationYearTableRowChanging" msprop:Generator_RowEvArgName="DepreciationYearTableRowChangeEvent" msprop:Generator_RowEvHandlerName="DepreciationYearTableRowChangeEventHandler" msprop:Generator_TableClassName="DepreciationYearTableDataTable" msprop:Generator_TableVarName="tableDepreciationYearTable" msprop:Generator_RowDeletingName="DepreciationYearTableRowDeleting" msprop:Generator_TablePropName="DepreciationYearTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

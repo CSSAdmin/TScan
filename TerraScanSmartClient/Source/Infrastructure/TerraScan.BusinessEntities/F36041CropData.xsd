@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F36041CropData" targetNamespace="http://tempuri.org/F36041CropData.xsd" xmlns:mstns="http://tempuri.org/F36041CropData.xsd" xmlns="http://tempuri.org/F36041CropData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F36041CropData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F36041CropData" msprop:Generator_DataSetName="F36041CropData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetCropDetails" msprop:Generator_UserTableName="GetCropDetails" msprop:Generator_RowDeletedName="GetCropDetailsRowDeleted" msprop:Generator_RowChangedName="GetCropDetailsRowChanged" msprop:Generator_RowClassName="GetCropDetailsRow" msprop:Generator_RowChangingName="GetCropDetailsRowChanging" msprop:Generator_RowEvArgName="GetCropDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetCropDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetCropDetailsDataTable" msprop:Generator_TableVarName="tableGetCropDetails" msprop:Generator_RowDeletingName="GetCropDetailsRowDeleting" msprop:Generator_TablePropName="GetCropDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CropID" msprop:Generator_UserColumnName="CropID" msprop:Generator_ColumnVarNameInTable="columnCropID" msprop:Generator_ColumnPropNameInRow="CropID" msprop:Generator_ColumnPropNameInTable="CropIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ValueSliceID" msprop:Generator_UserColumnName="ValueSliceID" msprop:Generator_ColumnVarNameInTable="columnValueSliceID" msprop:Generator_ColumnPropNameInRow="ValueSliceID" msprop:Generator_ColumnPropNameInTable="ValueSliceIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CropCode" msprop:Generator_UserColumnName="CropCode" msprop:Generator_ColumnVarNameInTable="columnCropCode" msprop:Generator_ColumnPropNameInRow="CropCode" msprop:Generator_ColumnPropNameInTable="CropCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsFruitTree" msprop:Generator_UserColumnName="IsFruitTree" msprop:Generator_ColumnVarNameInTable="columnIsFruitTree" msprop:Generator_ColumnPropNameInRow="IsFruitTree" msprop:Generator_ColumnPropNameInTable="IsFruitTreeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Planted" msprop:Generator_UserColumnName="Planted" msprop:Generator_ColumnVarNameInTable="columnPlanted" msprop:Generator_ColumnPropNameInRow="Planted" msprop:Generator_ColumnPropNameInTable="PlantedColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Age" msprop:Generator_UserColumnName="Age" msprop:Generator_ColumnVarNameInTable="columnAge" msprop:Generator_ColumnPropNameInRow="Age" msprop:Generator_ColumnPropNameInTable="AgeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Adjust" msprop:Generator_UserColumnName="Adjust" msprop:Generator_ColumnVarNameInTable="columnAdjust" msprop:Generator_ColumnPropNameInRow="Adjust" msprop:Generator_ColumnPropNameInTable="AdjustColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ValuePer" msprop:Generator_UserColumnName="ValuePer" msprop:Generator_ColumnVarNameInTable="columnValuePer" msprop:Generator_ColumnPropNameInRow="ValuePer" msprop:Generator_ColumnPropNameInTable="ValuePerColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Acres" msprop:Generator_UserColumnName="Acres" msprop:Generator_ColumnVarNameInTable="columnAcres" msprop:Generator_ColumnPropNameInRow="Acres" msprop:Generator_ColumnPropNameInTable="AcresColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IsCropConfigured" msprop:Generator_UserColumnName="IsCropConfigured" msprop:Generator_ColumnPropNameInRow="IsCropConfigured" msprop:Generator_ColumnVarNameInTable="columnIsCropConfigured" msprop:Generator_ColumnPropNameInTable="IsCropConfiguredColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetCropCodeDetails" msprop:Generator_UserTableName="GetCropCodeDetails" msprop:Generator_RowDeletedName="GetCropCodeDetailsRowDeleted" msprop:Generator_RowChangedName="GetCropCodeDetailsRowChanged" msprop:Generator_RowClassName="GetCropCodeDetailsRow" msprop:Generator_RowChangingName="GetCropCodeDetailsRowChanging" msprop:Generator_RowEvArgName="GetCropCodeDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetCropCodeDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetCropCodeDetailsDataTable" msprop:Generator_TableVarName="tableGetCropCodeDetails" msprop:Generator_RowDeletingName="GetCropCodeDetailsRowDeleting" msprop:Generator_TablePropName="GetCropCodeDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CropVID" msprop:Generator_UserColumnName="CropVID" msprop:Generator_ColumnPropNameInRow="CropVID" msprop:Generator_ColumnVarNameInTable="columnCropVID" msprop:Generator_ColumnPropNameInTable="CropVIDColumn" type="xs:int" />
+              <xs:element name="CropCode" msprop:Generator_UserColumnName="CropCode" msprop:Generator_ColumnPropNameInRow="CropCode" msprop:Generator_ColumnVarNameInTable="columnCropCode" msprop:Generator_ColumnPropNameInTable="CropCodeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsFruitTree" msprop:Generator_UserColumnName="IsFruitTree" msprop:Generator_ColumnPropNameInRow="IsFruitTree" msprop:Generator_ColumnVarNameInTable="columnIsFruitTree" msprop:Generator_ColumnPropNameInTable="IsFruitTreeColumn" type="xs:string" />
+              <xs:element name="Break2" msprop:Generator_UserColumnName="Break2" msprop:Generator_ColumnPropNameInRow="Break2" msprop:Generator_ColumnVarNameInTable="columnBreak2" msprop:Generator_ColumnPropNameInTable="Break2Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Value2" msprop:Generator_UserColumnName="Value2" msprop:Generator_ColumnPropNameInRow="Value2" msprop:Generator_ColumnVarNameInTable="columnValue2" msprop:Generator_ColumnPropNameInTable="Value2Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Value5" msprop:Generator_UserColumnName="Value5" msprop:Generator_ColumnPropNameInRow="Value5" msprop:Generator_ColumnVarNameInTable="columnValue5" msprop:Generator_ColumnPropNameInTable="Value5Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Break5" msprop:Generator_UserColumnName="Break5" msprop:Generator_ColumnPropNameInRow="Break5" msprop:Generator_ColumnVarNameInTable="columnBreak5" msprop:Generator_ColumnPropNameInTable="Break5Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Value4" msprop:Generator_UserColumnName="Value4" msprop:Generator_ColumnPropNameInRow="Value4" msprop:Generator_ColumnVarNameInTable="columnValue4" msprop:Generator_ColumnPropNameInTable="Value4Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Break4" msprop:Generator_UserColumnName="Break4" msprop:Generator_ColumnPropNameInRow="Break4" msprop:Generator_ColumnVarNameInTable="columnBreak4" msprop:Generator_ColumnPropNameInTable="Break4Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Value3" msprop:Generator_UserColumnName="Value3" msprop:Generator_ColumnPropNameInRow="Value3" msprop:Generator_ColumnVarNameInTable="columnValue3" msprop:Generator_ColumnPropNameInTable="Value3Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Break3" msprop:Generator_UserColumnName="Break3" msprop:Generator_ColumnPropNameInRow="Break3" msprop:Generator_ColumnVarNameInTable="columnBreak3" msprop:Generator_ColumnPropNameInTable="Break3Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Value1" msprop:Generator_UserColumnName="Value1" msprop:Generator_ColumnPropNameInRow="Value1" msprop:Generator_ColumnVarNameInTable="columnValue1" msprop:Generator_ColumnPropNameInTable="Value1Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Break1" msprop:Generator_UserColumnName="Break1" msprop:Generator_ColumnPropNameInRow="Break1" msprop:Generator_ColumnVarNameInTable="columnBreak1" msprop:Generator_ColumnPropNameInTable="Break1Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BaseValue" msprop:Generator_UserColumnName="BaseValue" msprop:Generator_ColumnPropNameInRow="BaseValue" msprop:Generator_ColumnVarNameInTable="columnBaseValue" msprop:Generator_ColumnPropNameInTable="BaseValueColumn" type="xs:decimal" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_ColumnPropNameInRow="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsCropConfigured" msprop:Generator_UserColumnName="IsCropConfigured" msprop:Generator_ColumnVarNameInTable="columnIsCropConfigured" msprop:Generator_ColumnPropNameInRow="IsCropConfigured" msprop:Generator_ColumnPropNameInTable="IsCropConfiguredColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CheckBreakValues" msprop:Generator_UserTableName="CheckBreakValues" msprop:Generator_RowDeletedName="CheckBreakValuesRowDeleted" msprop:Generator_RowChangedName="CheckBreakValuesRowChanged" msprop:Generator_RowClassName="CheckBreakValuesRow" msprop:Generator_RowChangingName="CheckBreakValuesRowChanging" msprop:Generator_RowEvArgName="CheckBreakValuesRowChangeEvent" msprop:Generator_RowEvHandlerName="CheckBreakValuesRowChangeEventHandler" msprop:Generator_TableClassName="CheckBreakValuesDataTable" msprop:Generator_TableVarName="tableCheckBreakValues" msprop:Generator_RowDeletingName="CheckBreakValuesRowDeleting" msprop:Generator_TablePropName="CheckBreakValues">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BaseValue" msprop:Generator_UserColumnName="BaseValue" msprop:Generator_ColumnVarNameInTable="columnBaseValue" msprop:Generator_ColumnPropNameInRow="BaseValue" msprop:Generator_ColumnPropNameInTable="BaseValueColumn" type="xs:decimal" />
+              <xs:element name="Break1" msprop:Generator_UserColumnName="Break1" msprop:Generator_ColumnVarNameInTable="columnBreak1" msprop:Generator_ColumnPropNameInRow="Break1" msprop:Generator_ColumnPropNameInTable="Break1Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Value1" msprop:Generator_UserColumnName="Value1" msprop:Generator_ColumnVarNameInTable="columnValue1" msprop:Generator_ColumnPropNameInRow="Value1" msprop:Generator_ColumnPropNameInTable="Value1Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Break2" msprop:Generator_UserColumnName="Break2" msprop:Generator_ColumnVarNameInTable="columnBreak2" msprop:Generator_ColumnPropNameInRow="Break2" msprop:Generator_ColumnPropNameInTable="Break2Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Value2" msprop:Generator_UserColumnName="Value2" msprop:Generator_ColumnVarNameInTable="columnValue2" msprop:Generator_ColumnPropNameInRow="Value2" msprop:Generator_ColumnPropNameInTable="Value2Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Break3" msprop:Generator_UserColumnName="Break3" msprop:Generator_ColumnVarNameInTable="columnBreak3" msprop:Generator_ColumnPropNameInRow="Break3" msprop:Generator_ColumnPropNameInTable="Break3Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Value3" msprop:Generator_UserColumnName="Value3" msprop:Generator_ColumnVarNameInTable="columnValue3" msprop:Generator_ColumnPropNameInRow="Value3" msprop:Generator_ColumnPropNameInTable="Value3Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Break4" msprop:Generator_UserColumnName="Break4" msprop:Generator_ColumnVarNameInTable="columnBreak4" msprop:Generator_ColumnPropNameInRow="Break4" msprop:Generator_ColumnPropNameInTable="Break4Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Value4" msprop:Generator_UserColumnName="Value4" msprop:Generator_ColumnVarNameInTable="columnValue4" msprop:Generator_ColumnPropNameInRow="Value4" msprop:Generator_ColumnPropNameInTable="Value4Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Break5" msprop:Generator_UserColumnName="Break5" msprop:Generator_ColumnVarNameInTable="columnBreak5" msprop:Generator_ColumnPropNameInRow="Break5" msprop:Generator_ColumnPropNameInTable="Break5Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Value5" msprop:Generator_UserColumnName="Value5" msprop:Generator_ColumnVarNameInTable="columnValue5" msprop:Generator_ColumnPropNameInRow="Value5" msprop:Generator_ColumnPropNameInTable="Value5Column" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RollYear" msprop:Generator_UserTableName="RollYear" msprop:Generator_RowDeletedName="RollYearRowDeleted" msprop:Generator_RowChangedName="RollYearRowChanged" msprop:Generator_RowClassName="RollYearRow" msprop:Generator_RowChangingName="RollYearRowChanging" msprop:Generator_RowEvArgName="RollYearRowChangeEvent" msprop:Generator_RowEvHandlerName="RollYearRowChangeEventHandler" msprop:Generator_TableClassName="RollYearDataTable" msprop:Generator_TableVarName="tableRollYear" msprop:Generator_RowDeletingName="RollYearRowDeleting" msprop:Generator_TablePropName="RollYear">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

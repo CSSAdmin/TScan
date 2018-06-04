@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="_x0031_030SpecialDistrictDefinitionData" targetNamespace="http://tempuri.org/1030SpecialDistrictDefinitionData.xsd" xmlns:mstns="http://tempuri.org/1030SpecialDistrictDefinitionData.xsd" xmlns="http://tempuri.org/1030SpecialDistrictDefinitionData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString3" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="_x0031_030SpecialDistrictDefinitionData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False" msprop:Generator_UserDSName="1030SpecialDistrictDefinitionData" msprop:Generator_DataSetName="F1030SpecialDistrictDefinitionData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetDistrictDefinitionDetails" msprop:Generator_UserTableName="GetDistrictDefinitionDetails" msprop:Generator_RowDeletedName="GetDistrictDefinitionDetailsRowDeleted" msprop:Generator_RowChangedName="GetDistrictDefinitionDetailsRowChanged" msprop:Generator_RowClassName="GetDistrictDefinitionDetailsRow" msprop:Generator_RowChangingName="GetDistrictDefinitionDetailsRowChanging" msprop:Generator_RowEvArgName="GetDistrictDefinitionDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetDistrictDefinitionDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetDistrictDefinitionDetailsDataTable" msprop:Generator_TableVarName="tableGetDistrictDefinitionDetails" msprop:Generator_RowDeletingName="GetDistrictDefinitionDetailsRowDeleting" msprop:Generator_TablePropName="GetDistrictDefinitionDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SADistrictID" msprop:Generator_UserColumnName="SADistrictID" msprop:Generator_ColumnPropNameInRow="SADistrictID" msprop:Generator_ColumnVarNameInTable="columnSADistrictID" msprop:Generator_ColumnPropNameInTable="SADistrictIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="District" msprop:Generator_UserColumnName="District" msprop:Generator_ColumnPropNameInRow="District" msprop:Generator_ColumnVarNameInTable="columnDistrict" msprop:Generator_ColumnPropNameInTable="DistrictColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="MinimumDistrictFee" msprop:Generator_UserColumnName="MinimumDistrictFee" msprop:Generator_ColumnPropNameInRow="MinimumDistrictFee" msprop:Generator_ColumnVarNameInTable="columnMinimumDistrictFee" msprop:Generator_ColumnPropNameInTable="MinimumDistrictFeeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PostTypeID" msprop:Generator_UserColumnName="PostTypeID" msprop:Generator_ColumnPropNameInRow="PostTypeID" msprop:Generator_ColumnVarNameInTable="columnPostTypeID" msprop:Generator_ColumnPropNameInTable="PostTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SAName" msprop:Generator_UserColumnName="SAName" msprop:Generator_ColumnPropNameInRow="SAName" msprop:Generator_ColumnVarNameInTable="columnSAName" msprop:Generator_ColumnPropNameInTable="SANameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PostName" msprop:Generator_UserColumnName="PostName" msprop:Generator_ColumnPropNameInRow="PostName" msprop:Generator_ColumnVarNameInTable="columnPostName" msprop:Generator_ColumnPropNameInTable="PostNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictStatement" msprop:Generator_UserColumnName="DistrictStatement" msprop:Generator_ColumnVarNameInTable="columnDistrictStatement" msprop:Generator_ColumnPropNameInRow="DistrictStatement" msprop:Generator_ColumnPropNameInTable="DistrictStatementColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DistrictInfoA1" msprop:Generator_UserColumnName="DistrictInfoA1" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoA1" msprop:Generator_ColumnPropNameInRow="DistrictInfoA1" msprop:Generator_ColumnPropNameInTable="DistrictInfoA1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictInfoA2" msprop:Generator_UserColumnName="DistrictInfoA2" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoA2" msprop:Generator_ColumnPropNameInRow="DistrictInfoA2" msprop:Generator_ColumnPropNameInTable="DistrictInfoA2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictInfoA3" msprop:Generator_UserColumnName="DistrictInfoA3" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoA3" msprop:Generator_ColumnPropNameInRow="DistrictInfoA3" msprop:Generator_ColumnPropNameInTable="DistrictInfoA3Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictInfoA4" msprop:Generator_UserColumnName="DistrictInfoA4" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoA4" msprop:Generator_ColumnPropNameInRow="DistrictInfoA4" msprop:Generator_ColumnPropNameInTable="DistrictInfoA4Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictInfoA5" msprop:Generator_UserColumnName="DistrictInfoA5" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoA5" msprop:Generator_ColumnPropNameInRow="DistrictInfoA5" msprop:Generator_ColumnPropNameInTable="DistrictInfoA5Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictInfoA6" msprop:Generator_UserColumnName="DistrictInfoA6" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoA6" msprop:Generator_ColumnPropNameInRow="DistrictInfoA6" msprop:Generator_ColumnPropNameInTable="DistrictInfoA6Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictInfoB1" msprop:Generator_UserColumnName="DistrictInfoB1" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoB1" msprop:Generator_ColumnPropNameInRow="DistrictInfoB1" msprop:Generator_ColumnPropNameInTable="DistrictInfoB1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictInfoB2" msprop:Generator_UserColumnName="DistrictInfoB2" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoB2" msprop:Generator_ColumnPropNameInRow="DistrictInfoB2" msprop:Generator_ColumnPropNameInTable="DistrictInfoB2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictInfoB3" msprop:Generator_UserColumnName="DistrictInfoB3" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoB3" msprop:Generator_ColumnPropNameInRow="DistrictInfoB3" msprop:Generator_ColumnPropNameInTable="DistrictInfoB3Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictInfoB4" msprop:Generator_UserColumnName="DistrictInfoB4" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoB4" msprop:Generator_ColumnPropNameInRow="DistrictInfoB4" msprop:Generator_ColumnPropNameInTable="DistrictInfoB4Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictInfoB5" msprop:Generator_UserColumnName="DistrictInfoB5" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoB5" msprop:Generator_ColumnPropNameInRow="DistrictInfoB5" msprop:Generator_ColumnPropNameInTable="DistrictInfoB5Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DistrictInfoB6" msprop:Generator_UserColumnName="DistrictInfoB6" msprop:Generator_ColumnVarNameInTable="columnDistrictInfoB6" msprop:Generator_ColumnPropNameInRow="DistrictInfoB6" msprop:Generator_ColumnPropNameInTable="DistrictInfoB6Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsHalfPaymentAllowed" msprop:Generator_UserColumnName="IsHalfPaymentAllowed" msprop:Generator_ColumnPropNameInRow="IsHalfPaymentAllowed" msprop:Generator_ColumnVarNameInTable="columnIsHalfPaymentAllowed" msprop:Generator_ColumnPropNameInTable="IsHalfPaymentAllowedColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetDistrictDistributionDetails" msprop:Generator_UserTableName="GetDistrictDistributionDetails" msprop:Generator_RowDeletedName="GetDistrictDistributionDetailsRowDeleted" msprop:Generator_RowChangedName="GetDistrictDistributionDetailsRowChanged" msprop:Generator_RowClassName="GetDistrictDistributionDetailsRow" msprop:Generator_RowChangingName="GetDistrictDistributionDetailsRowChanging" msprop:Generator_RowEvArgName="GetDistrictDistributionDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetDistrictDistributionDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetDistrictDistributionDetailsDataTable" msprop:Generator_TableVarName="tableGetDistrictDistributionDetails" msprop:Generator_RowDeletingName="GetDistrictDistributionDetailsRowDeleting" msprop:Generator_TablePropName="GetDistrictDistributionDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SARateItemID" msprop:Generator_UserColumnName="SARateItemID" msprop:Generator_ColumnPropNameInRow="SARateItemID" msprop:Generator_ColumnVarNameInTable="columnSARateItemID" msprop:Generator_ColumnPropNameInTable="SARateItemIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SADistrictID" msprop:Generator_UserColumnName="SADistrictID" msprop:Generator_ColumnPropNameInRow="SADistrictID" msprop:Generator_ColumnVarNameInTable="columnSADistrictID" msprop:Generator_ColumnPropNameInTable="SADistrictIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ItemTypeID" msprop:Generator_UserColumnName="ItemTypeID" msprop:Generator_ColumnPropNameInRow="ItemTypeID" msprop:Generator_ColumnVarNameInTable="columnItemTypeID" msprop:Generator_ColumnPropNameInTable="ItemTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Percentage" msprop:Generator_UserColumnName="Percentage" msprop:Generator_ColumnPropNameInRow="Percentage" msprop:Generator_ColumnVarNameInTable="columnPercentage" msprop:Generator_ColumnPropNameInTable="PercentageColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Account" msprop:Generator_UserColumnName="Account" msprop:Generator_ColumnPropNameInRow="Account" msprop:Generator_ColumnVarNameInTable="columnAccount" msprop:Generator_ColumnPropNameInTable="AccountColumn" default="" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountStatus" msprop:Generator_UserColumnName="AccountStatus" msprop:Generator_ColumnPropNameInRow="AccountStatus" msprop:Generator_ColumnVarNameInTable="columnAccountStatus" msprop:Generator_ColumnPropNameInTable="AccountStatusColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DistributionType" msprop:Generator_UserColumnName="DistributionType" msprop:Generator_ColumnVarNameInTable="columnDistributionType" msprop:Generator_ColumnPropNameInRow="DistributionType" msprop:Generator_ColumnPropNameInTable="DistributionTypeColumn" default="" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID" msprop:Generator_UserColumnName="AccountID" msprop:Generator_ColumnVarNameInTable="columnAccountID" msprop:Generator_ColumnPropNameInRow="AccountID" msprop:Generator_ColumnPropNameInTable="AccountIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DistrictDetails" msprop:Generator_UserTableName="DistrictDetails" msprop:Generator_RowDeletedName="DistrictDetailsRowDeleted" msprop:Generator_RowChangedName="DistrictDetailsRowChanged" msprop:Generator_RowClassName="DistrictDetailsRow" msprop:Generator_RowChangingName="DistrictDetailsRowChanging" msprop:Generator_RowEvArgName="DistrictDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="DistrictDetailsRowChangeEventHandler" msprop:Generator_TableClassName="DistrictDetailsDataTable" msprop:Generator_TableVarName="tableDistrictDetails" msprop:Generator_RowDeletingName="DistrictDetailsRowDeleting" msprop:Generator_TablePropName="DistrictDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalDistrict" msprop:Generator_UserColumnName="TotalDistrict" msprop:Generator_ColumnVarNameInTable="columnTotalDistrict" msprop:Generator_ColumnPropNameInRow="TotalDistrict" msprop:Generator_ColumnPropNameInTable="TotalDistrictColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DistrictPostingList" msprop:Generator_UserTableName="DistrictPostingList" msprop:Generator_RowDeletedName="DistrictPostingListRowDeleted" msprop:Generator_RowChangedName="DistrictPostingListRowChanged" msprop:Generator_RowClassName="DistrictPostingListRow" msprop:Generator_RowChangingName="DistrictPostingListRowChanging" msprop:Generator_RowEvArgName="DistrictPostingListRowChangeEvent" msprop:Generator_RowEvHandlerName="DistrictPostingListRowChangeEventHandler" msprop:Generator_TableClassName="DistrictPostingListDataTable" msprop:Generator_TableVarName="tableDistrictPostingList" msprop:Generator_RowDeletingName="DistrictPostingListRowDeleting" msprop:Generator_TablePropName="DistrictPostingList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PostTypeID" msprop:Generator_UserColumnName="PostTypeID" msprop:Generator_ColumnVarNameInTable="columnPostTypeID" msprop:Generator_ColumnPropNameInRow="PostTypeID" msprop:Generator_ColumnPropNameInTable="PostTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PostName" msprop:Generator_UserColumnName="PostName" msprop:Generator_ColumnVarNameInTable="columnPostName" msprop:Generator_ColumnPropNameInRow="PostName" msprop:Generator_ColumnPropNameInTable="PostNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DistrictRateList" msprop:Generator_UserTableName="DistrictRateList" msprop:Generator_RowDeletedName="DistrictRateListRowDeleted" msprop:Generator_RowChangedName="DistrictRateListRowChanged" msprop:Generator_RowClassName="DistrictRateListRow" msprop:Generator_RowChangingName="DistrictRateListRowChanging" msprop:Generator_RowEvArgName="DistrictRateListRowChangeEvent" msprop:Generator_RowEvHandlerName="DistrictRateListRowChangeEventHandler" msprop:Generator_TableClassName="DistrictRateListDataTable" msprop:Generator_TableVarName="tableDistrictRateList" msprop:Generator_RowDeletingName="DistrictRateListRowDeleting" msprop:Generator_TablePropName="DistrictRateList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemTypeID" msprop:Generator_UserColumnName="ItemTypeID" msprop:Generator_ColumnVarNameInTable="columnItemTypeID" msprop:Generator_ColumnPropNameInRow="ItemTypeID" msprop:Generator_ColumnPropNameInTable="ItemTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ItemType" msprop:Generator_UserColumnName="ItemType" msprop:Generator_ColumnVarNameInTable="columnItemType" msprop:Generator_ColumnPropNameInRow="ItemType" msprop:Generator_ColumnPropNameInTable="ItemTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DistrictDistributionTypeList" msprop:Generator_UserTableName="DistrictDistributionTypeList" msprop:Generator_RowDeletedName="DistrictDistributionTypeListRowDeleted" msprop:Generator_RowChangedName="DistrictDistributionTypeListRowChanged" msprop:Generator_RowClassName="DistrictDistributionTypeListRow" msprop:Generator_RowChangingName="DistrictDistributionTypeListRowChanging" msprop:Generator_RowEvArgName="DistrictDistributionTypeListRowChangeEvent" msprop:Generator_RowEvHandlerName="DistrictDistributionTypeListRowChangeEventHandler" msprop:Generator_TableClassName="DistrictDistributionTypeListDataTable" msprop:Generator_TableVarName="tableDistrictDistributionTypeList" msprop:Generator_RowDeletingName="DistrictDistributionTypeListRowDeleting" msprop:Generator_TablePropName="DistrictDistributionTypeList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemTypeID" msprop:Generator_UserColumnName="ItemTypeID" msprop:Generator_ColumnVarNameInTable="columnItemTypeID" msprop:Generator_ColumnPropNameInRow="ItemTypeID" msprop:Generator_ColumnPropNameInTable="ItemTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DistributionType" msprop:Generator_UserColumnName="DistributionType" msprop:Generator_ColumnVarNameInTable="columnDistributionType" msprop:Generator_ColumnPropNameInRow="DistributionType" msprop:Generator_ColumnPropNameInTable="DistributionTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetDistrictRateDetails" msprop:Generator_UserTableName="GetDistrictRateDetails" msprop:Generator_RowDeletedName="GetDistrictRateDetailsRowDeleted" msprop:Generator_RowChangedName="GetDistrictRateDetailsRowChanged" msprop:Generator_RowClassName="GetDistrictRateDetailsRow" msprop:Generator_RowChangingName="GetDistrictRateDetailsRowChanging" msprop:Generator_RowEvArgName="GetDistrictRateDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetDistrictRateDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetDistrictRateDetailsDataTable" msprop:Generator_TableVarName="tableGetDistrictRateDetails" msprop:Generator_RowDeletingName="GetDistrictRateDetailsRowDeleting" msprop:Generator_TablePropName="GetDistrictRateDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SADistrictID" msprop:Generator_UserColumnName="SADistrictID" msprop:Generator_ColumnPropNameInRow="SADistrictID" msprop:Generator_ColumnVarNameInTable="columnSADistrictID" msprop:Generator_ColumnPropNameInTable="SADistrictIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SARateItemID" msprop:Generator_UserColumnName="SARateItemID" msprop:Generator_ColumnPropNameInRow="SARateItemID" msprop:Generator_ColumnVarNameInTable="columnSARateItemID" msprop:Generator_ColumnPropNameInTable="SARateItemIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ItemTypeID" msprop:Generator_UserColumnName="ItemTypeID" msprop:Generator_ColumnPropNameInRow="ItemTypeID" msprop:Generator_ColumnVarNameInTable="columnItemTypeID" msprop:Generator_ColumnPropNameInTable="ItemTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" default="" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HasMinimum" msprop:Generator_UserColumnName="HasMinimum" msprop:Generator_ColumnPropNameInRow="HasMinimum" msprop:Generator_ColumnVarNameInTable="columnHasMinimum" msprop:Generator_ColumnPropNameInTable="HasMinimumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RateType" msprop:Generator_UserColumnName="RateType" msprop:Generator_ColumnVarNameInTable="columnRateType" msprop:Generator_ColumnPropNameInRow="RateType" msprop:Generator_ColumnPropNameInTable="RateTypeColumn" default="" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListDistrictDefinitionID" msprop:Generator_UserTableName="ListDistrictDefinitionID" msprop:Generator_RowDeletedName="ListDistrictDefinitionIDRowDeleted" msprop:Generator_RowChangedName="ListDistrictDefinitionIDRowChanged" msprop:Generator_RowClassName="ListDistrictDefinitionIDRow" msprop:Generator_RowChangingName="ListDistrictDefinitionIDRowChanging" msprop:Generator_RowEvArgName="ListDistrictDefinitionIDRowChangeEvent" msprop:Generator_RowEvHandlerName="ListDistrictDefinitionIDRowChangeEventHandler" msprop:Generator_TableClassName="ListDistrictDefinitionIDDataTable" msprop:Generator_TableVarName="tableListDistrictDefinitionID" msprop:Generator_RowDeletingName="ListDistrictDefinitionIDRowDeleting" msprop:Generator_TablePropName="ListDistrictDefinitionID">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="KeyID" msprop:Generator_ColumnVarNameInTable="columnKeyID" msprop:Generator_ColumnPropNameInRow="KeyID" msprop:Generator_ColumnPropNameInTable="KeyIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

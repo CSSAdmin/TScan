@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GDocWorkOrderData" targetNamespace="http://tempuri.org/GDocWorkOrderData.xsd" xmlns:mstns="http://tempuri.org/GDocWorkOrderData.xsd" xmlns="http://tempuri.org/GDocWorkOrderData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanTesting7ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanTesting7ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanTesting7ConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GDocWorkOrderData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GDocWorkOrderData" msprop:Generator_DataSetName="GDocWorkOrderData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetWorkOrderDetails" msprop:Generator_UserTableName="GetWorkOrderDetails" msprop:Generator_RowDeletedName="GetWorkOrderDetailsRowDeleted" msprop:Generator_RowChangedName="GetWorkOrderDetailsRowChanged" msprop:Generator_RowClassName="GetWorkOrderDetailsRow" msprop:Generator_RowChangingName="GetWorkOrderDetailsRowChanging" msprop:Generator_RowEvArgName="GetWorkOrderDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetWorkOrderDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetWorkOrderDetailsDataTable" msprop:Generator_TableVarName="tableGetWorkOrderDetails" msprop:Generator_RowDeletingName="GetWorkOrderDetailsRowDeleting" msprop:Generator_TablePropName="GetWorkOrderDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WOID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="WOID" msprop:Generator_ColumnPropNameInRow="WOID" msprop:Generator_ColumnVarNameInTable="columnWOID" msprop:Generator_ColumnPropNameInTable="WOIDColumn" type="xs:int" />
+              <xs:element name="WODate" msprop:Generator_UserColumnName="WODate" msprop:Generator_ColumnPropNameInRow="WODate" msprop:Generator_ColumnVarNameInTable="columnWODate" msprop:Generator_ColumnPropNameInTable="WODateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WOType" msprop:Generator_UserColumnName="WOType" msprop:Generator_ColumnPropNameInRow="WOType" msprop:Generator_ColumnVarNameInTable="columnWOType" msprop:Generator_ColumnPropNameInTable="WOTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Comments" msprop:Generator_UserColumnName="Comments" msprop:Generator_ColumnVarNameInTable="columnComments" msprop:Generator_ColumnPropNameInRow="Comments" msprop:Generator_ColumnPropNameInTable="CommentsColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GetWorkOrderDetails" />
+      <xs:field xpath="mstns:WOID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

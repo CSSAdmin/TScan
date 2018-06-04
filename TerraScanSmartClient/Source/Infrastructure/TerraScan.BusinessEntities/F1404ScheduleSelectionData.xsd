@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F1404ScheduleSelectionData" targetNamespace="http://tempuri.org/F1404ScheduleSelectionData.xsd" xmlns:mstns="http://tempuri.org/F1404ScheduleSelectionData.xsd" xmlns="http://tempuri.org/F1404ScheduleSelectionData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F1404ScheduleSelectionData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F1404ScheduleSelectionData" msprop:Generator_DataSetName="F1404ScheduleSelectionData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetScheduleSelection" msprop:Generator_UserTableName="GetScheduleSelection" msprop:Generator_RowDeletedName="GetScheduleSelectionRowDeleted" msprop:Generator_RowChangedName="GetScheduleSelectionRowChanged" msprop:Generator_RowClassName="GetScheduleSelectionRow" msprop:Generator_RowChangingName="GetScheduleSelectionRowChanging" msprop:Generator_RowEvArgName="GetScheduleSelectionRowChangeEvent" msprop:Generator_RowEvHandlerName="GetScheduleSelectionRowChangeEventHandler" msprop:Generator_TableClassName="GetScheduleSelectionDataTable" msprop:Generator_TableVarName="tableGetScheduleSelection" msprop:Generator_RowDeletingName="GetScheduleSelectionRowDeleting" msprop:Generator_TablePropName="GetScheduleSelection">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ScheduleID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ScheduleID" msprop:Generator_ColumnVarNameInTable="columnScheduleID" msprop:Generator_ColumnPropNameInRow="ScheduleID" msprop:Generator_ColumnPropNameInTable="ScheduleIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ScheduleNumber" msprop:Generator_UserColumnName="ScheduleNumber" msprop:Generator_ColumnVarNameInTable="columnScheduleNumber" msprop:Generator_ColumnPropNameInRow="ScheduleNumber" msprop:Generator_ColumnPropNameInTable="ScheduleNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="StreetAddress" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StreetAddress" msprop:Generator_ColumnVarNameInTable="columnStreetAddress" msprop:Generator_ColumnPropNameInRow="StreetAddress" msprop:Generator_ColumnPropNameInTable="StreetAddressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FilingDate" msprop:Generator_UserColumnName="FilingDate" msprop:Generator_ColumnVarNameInTable="columnFilingDate" msprop:Generator_ColumnPropNameInRow="FilingDate" msprop:Generator_ColumnPropNameInTable="FilingDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NAICS" msprop:Generator_UserColumnName="NAICS" msprop:Generator_ColumnVarNameInTable="columnNAICS" msprop:Generator_ColumnPropNameInRow="NAICS" msprop:Generator_ColumnPropNameInTable="NAICSColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BusinessName" msprop:Generator_UserColumnName="BusinessName" msprop:Generator_ColumnVarNameInTable="columnBusinessName" msprop:Generator_ColumnPropNameInRow="BusinessName" msprop:Generator_ColumnPropNameInTable="BusinessNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PropertyType" msprop:Generator_UserColumnName="PropertyType" msprop:Generator_ColumnVarNameInTable="columnPropertyType" msprop:Generator_ColumnPropNameInRow="PropertyType" msprop:Generator_ColumnPropNameInTable="PropertyTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StatementNumber" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StatementNumber" msprop:Generator_ColumnVarNameInTable="columnStatementNumber" msprop:Generator_ColumnPropNameInRow="StatementNumber" msprop:Generator_ColumnPropNameInTable="StatementNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OwnerID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OwnerID" msprop:Generator_ColumnVarNameInTable="columnOwnerID" msprop:Generator_ColumnPropNameInRow="OwnerID" msprop:Generator_ColumnPropNameInTable="OwnerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="OwnerName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OwnerName" msprop:Generator_ColumnVarNameInTable="columnOwnerName" msprop:Generator_ColumnPropNameInRow="OwnerName" msprop:Generator_ColumnPropNameInTable="OwnerNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Legal" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Legal" msprop:Generator_ColumnVarNameInTable="columnLegal" msprop:Generator_ColumnPropNameInRow="Legal" msprop:Generator_ColumnPropNameInTable="LegalColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="District" msdata:ReadOnly="true" msprop:Generator_UserColumnName="District" msprop:Generator_ColumnVarNameInTable="columnDistrict" msprop:Generator_ColumnPropNameInRow="District" msprop:Generator_ColumnPropNameInTable="DistrictColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="103" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ScheduleRollYearDataTable" msprop:Generator_UserTableName="ScheduleRollYearDataTable" msprop:Generator_RowDeletedName="ScheduleRollYearDataTableRowDeleted" msprop:Generator_RowChangedName="ScheduleRollYearDataTableRowChanged" msprop:Generator_RowClassName="ScheduleRollYearDataTableRow" msprop:Generator_RowChangingName="ScheduleRollYearDataTableRowChanging" msprop:Generator_RowEvArgName="ScheduleRollYearDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ScheduleRollYearDataTableRowChangeEventHandler" msprop:Generator_TableClassName="ScheduleRollYearDataTableDataTable" msprop:Generator_TableVarName="tableScheduleRollYearDataTable" msprop:Generator_RowDeletingName="ScheduleRollYearDataTableRowDeleting" msprop:Generator_TablePropName="ScheduleRollYearDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F36066TrendData" targetNamespace="http://tempuri.org/F36066TrendData.xsd" xmlns:mstns="http://tempuri.org/F36066TrendData.xsd" xmlns="http://tempuri.org/F36066TrendData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F36066TrendData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F36066TrendData" msprop:Generator_DataSetName="F36066TrendData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListDepreciation" msprop:Generator_UserTableName="ListDepreciation" msprop:Generator_RowDeletedName="ListDepreciationRowDeleted" msprop:Generator_RowChangedName="ListDepreciationRowChanged" msprop:Generator_RowClassName="ListDepreciationRow" msprop:Generator_RowChangingName="ListDepreciationRowChanging" msprop:Generator_RowEvArgName="ListDepreciationRowChangeEvent" msprop:Generator_RowEvHandlerName="ListDepreciationRowChangeEventHandler" msprop:Generator_TableClassName="ListDepreciationDataTable" msprop:Generator_TableVarName="tableListDepreciation" msprop:Generator_RowDeletingName="ListDepreciationRowDeleting" msprop:Generator_TablePropName="ListDepreciation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PPDeprTableID" msprop:Generator_UserColumnName="PPDeprTableID" msprop:Generator_ColumnVarNameInTable="columnPPDeprTableID" msprop:Generator_ColumnPropNameInRow="PPDeprTableID" msprop:Generator_ColumnPropNameInTable="PPDeprTableIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PPDeprName" msprop:Generator_UserColumnName="PPDeprName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="PPDeprName" msprop:Generator_ColumnPropNameInTable="PPDeprNameColumn" msprop:Generator_ColumnVarNameInTable="columnPPDeprName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetTrendDetails" msprop:Generator_UserTableName="GetTrendDetails" msprop:Generator_RowDeletedName="GetTrendDetailsRowDeleted" msprop:Generator_RowChangedName="GetTrendDetailsRowChanged" msprop:Generator_RowClassName="GetTrendDetailsRow" msprop:Generator_RowChangingName="GetTrendDetailsRowChanging" msprop:Generator_RowEvArgName="GetTrendDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetTrendDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetTrendDetailsDataTable" msprop:Generator_TableVarName="tableGetTrendDetails" msprop:Generator_RowDeletingName="GetTrendDetailsRowDeleting" msprop:Generator_TablePropName="GetTrendDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_ColumnVarNameInTable="columnDescription" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetTrendList" msprop:Generator_UserTableName="GetTrendList" msprop:Generator_RowDeletedName="GetTrendListRowDeleted" msprop:Generator_RowChangedName="GetTrendListRowChanged" msprop:Generator_RowClassName="GetTrendListRow" msprop:Generator_RowChangingName="GetTrendListRowChanging" msprop:Generator_RowEvArgName="GetTrendListRowChangeEvent" msprop:Generator_RowEvHandlerName="GetTrendListRowChangeEventHandler" msprop:Generator_TableClassName="GetTrendListDataTable" msprop:Generator_TableVarName="tableGetTrendList" msprop:Generator_RowDeletingName="GetTrendListRowDeleting" msprop:Generator_TablePropName="GetTrendList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TrendID" msprop:Generator_UserColumnName="TrendID" msprop:Generator_ColumnVarNameInTable="columnTrendID" msprop:Generator_ColumnPropNameInRow="TrendID" msprop:Generator_ColumnPropNameInTable="TrendIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TrendYearID" msprop:Generator_UserColumnName="TrendYearID" msprop:Generator_ColumnVarNameInTable="columnTrendYearID" msprop:Generator_ColumnPropNameInRow="TrendYearID" msprop:Generator_ColumnPropNameInTable="TrendYearIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Year" msprop:Generator_UserColumnName="Year" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Trend" msprop:Generator_UserColumnName="Trend" msprop:Generator_ColumnVarNameInTable="columnTrend" msprop:Generator_ColumnPropNameInRow="Trend" msprop:Generator_ColumnPropNameInTable="TrendColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_ColumnPropNameInRow="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F29555PersonalPropertySaleData" targetNamespace="http://tempuri.org/F29555PersonalPropertySaleData.xsd" xmlns:mstns="http://tempuri.org/F29555PersonalPropertySaleData.xsd" xmlns="http://tempuri.org/F29555PersonalPropertySaleData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevDB_20140709ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevDB_20140709ConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevDB_20140709ConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F29555PersonalPropertySaleData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F29555PersonalPropertySaleData" msprop:Generator_DataSetName="F29555PersonalPropertySaleData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="f29555_pcget_PSaleOwners" msprop:Generator_UserTableName="f29555_pcget_PSaleOwners" msprop:Generator_RowDeletedName="f29555_pcget_PSaleOwnersRowDeleted" msprop:Generator_RowChangedName="f29555_pcget_PSaleOwnersRowChanged" msprop:Generator_RowClassName="f29555_pcget_PSaleOwnersRow" msprop:Generator_RowChangingName="f29555_pcget_PSaleOwnersRowChanging" msprop:Generator_RowEvArgName="f29555_pcget_PSaleOwnersRowChangeEvent" msprop:Generator_RowEvHandlerName="f29555_pcget_PSaleOwnersRowChangeEventHandler" msprop:Generator_TableClassName="f29555_pcget_PSaleOwnersDataTable" msprop:Generator_TableVarName="tablef29555_pcget_PSaleOwners" msprop:Generator_RowDeletingName="f29555_pcget_PSaleOwnersRowDeleting" msprop:Generator_TablePropName="f29555_pcget_PSaleOwners">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OwnerID" msprop:Generator_UserColumnName="OwnerID" msprop:Generator_ColumnVarNameInTable="columnOwnerID" msprop:Generator_ColumnPropNameInRow="OwnerID" msprop:Generator_ColumnPropNameInTable="OwnerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="OwnerName" msprop:Generator_UserColumnName="OwnerName" msprop:Generator_ColumnVarNameInTable="columnOwnerName" msprop:Generator_ColumnPropNameInRow="OwnerName" msprop:Generator_ColumnPropNameInTable="OwnerNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsBuyer" msprop:Generator_UserColumnName="IsBuyer" msprop:Generator_ColumnVarNameInTable="columnIsBuyer" msprop:Generator_ColumnPropNameInRow="IsBuyer" msprop:Generator_ColumnPropNameInTable="IsBuyerColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="OwnerAddress" msprop:Generator_UserColumnName="OwnerAddress" msprop:Generator_ColumnVarNameInTable="columnOwnerAddress" msprop:Generator_ColumnPropNameInRow="OwnerAddress" msprop:Generator_ColumnPropNameInTable="OwnerAddressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OwnerLocation" msprop:Generator_UserColumnName="OwnerLocation" msprop:Generator_ColumnVarNameInTable="columnOwnerLocation" msprop:Generator_ColumnPropNameInRow="OwnerLocation" msprop:Generator_ColumnPropNameInTable="OwnerLocationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f29555_pclst_DeedTypes" msprop:Generator_UserTableName="f29555_pclst_DeedTypes" msprop:Generator_RowDeletedName="f29555_pclst_DeedTypesRowDeleted" msprop:Generator_RowChangedName="f29555_pclst_DeedTypesRowChanged" msprop:Generator_RowClassName="f29555_pclst_DeedTypesRow" msprop:Generator_RowChangingName="f29555_pclst_DeedTypesRowChanging" msprop:Generator_RowEvArgName="f29555_pclst_DeedTypesRowChangeEvent" msprop:Generator_RowEvHandlerName="f29555_pclst_DeedTypesRowChangeEventHandler" msprop:Generator_TableClassName="f29555_pclst_DeedTypesDataTable" msprop:Generator_TableVarName="tablef29555_pclst_DeedTypes" msprop:Generator_RowDeletingName="f29555_pclst_DeedTypesRowDeleting" msprop:Generator_TablePropName="f29555_pclst_DeedTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DeedTypeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DeedTypeID" msprop:Generator_ColumnVarNameInTable="columnDeedTypeID" msprop:Generator_ColumnPropNameInRow="DeedTypeID" msprop:Generator_ColumnPropNameInTable="DeedTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DeedType" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DeedType" msprop:Generator_ColumnVarNameInTable="columnDeedType" msprop:Generator_ColumnPropNameInRow="DeedType" msprop:Generator_ColumnPropNameInTable="DeedTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f29555_pcget_SaleSchedulesAndOwners" msprop:Generator_UserTableName="f29555_pcget_SaleSchedulesAndOwners" msprop:Generator_RowDeletedName="f29555_pcget_SaleSchedulesAndOwnersRowDeleted" msprop:Generator_RowChangedName="f29555_pcget_SaleSchedulesAndOwnersRowChanged" msprop:Generator_RowClassName="f29555_pcget_SaleSchedulesAndOwnersRow" msprop:Generator_RowChangingName="f29555_pcget_SaleSchedulesAndOwnersRowChanging" msprop:Generator_RowEvArgName="f29555_pcget_SaleSchedulesAndOwnersRowChangeEvent" msprop:Generator_RowEvHandlerName="f29555_pcget_SaleSchedulesAndOwnersRowChangeEventHandler" msprop:Generator_TableClassName="f29555_pcget_SaleSchedulesAndOwnersDataTable" msprop:Generator_TableVarName="tablef29555_pcget_SaleSchedulesAndOwners" msprop:Generator_RowDeletingName="f29555_pcget_SaleSchedulesAndOwnersRowDeleting" msprop:Generator_TablePropName="f29555_pcget_SaleSchedulesAndOwners">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IsBaseSchedule" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsBaseSchedule" msprop:Generator_ColumnVarNameInTable="columnIsBaseSchedule" msprop:Generator_ColumnPropNameInRow="IsBaseSchedule" msprop:Generator_ColumnPropNameInTable="IsBaseScheduleColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ScheduleNumber" msprop:Generator_UserColumnName="ScheduleNumber" msprop:Generator_ColumnVarNameInTable="columnScheduleNumber" msprop:Generator_ColumnPropNameInRow="ScheduleNumber" msprop:Generator_ColumnPropNameInTable="ScheduleNumberColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AssessedValue" msprop:Generator_UserColumnName="AssessedValue" msprop:Generator_ColumnVarNameInTable="columnAssessedValue" msprop:Generator_ColumnPropNameInRow="AssessedValue" msprop:Generator_ColumnPropNameInTable="AssessedValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TaxableValue" msprop:Generator_UserColumnName="TaxableValue" msprop:Generator_ColumnVarNameInTable="columnTaxableValue" msprop:Generator_ColumnPropNameInRow="TaxableValue" msprop:Generator_ColumnPropNameInTable="TaxableValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ScheduleID" msprop:Generator_UserColumnName="ScheduleID" msprop:Generator_ColumnPropNameInRow="ScheduleID" msprop:Generator_ColumnVarNameInTable="columnScheduleID" msprop:Generator_ColumnPropNameInTable="ScheduleIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f29555_pcget_ScheduleSaleTracking" msprop:Generator_UserTableName="f29555_pcget_ScheduleSaleTracking" msprop:Generator_RowDeletedName="f29555_pcget_ScheduleSaleTrackingRowDeleted" msprop:Generator_RowChangedName="f29555_pcget_ScheduleSaleTrackingRowChanged" msprop:Generator_RowClassName="f29555_pcget_ScheduleSaleTrackingRow" msprop:Generator_RowChangingName="f29555_pcget_ScheduleSaleTrackingRowChanging" msprop:Generator_RowEvArgName="f29555_pcget_ScheduleSaleTrackingRowChangeEvent" msprop:Generator_RowEvHandlerName="f29555_pcget_ScheduleSaleTrackingRowChangeEventHandler" msprop:Generator_TableClassName="f29555_pcget_ScheduleSaleTrackingDataTable" msprop:Generator_TableVarName="tablef29555_pcget_ScheduleSaleTracking" msprop:Generator_RowDeletingName="f29555_pcget_ScheduleSaleTrackingRowDeleting" msprop:Generator_TablePropName="f29555_pcget_ScheduleSaleTracking">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DeedType" msprop:Generator_UserColumnName="DeedType" msprop:Generator_ColumnVarNameInTable="columnDeedType" msprop:Generator_ColumnPropNameInRow="DeedType" msprop:Generator_ColumnPropNameInTable="DeedTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SaleDate" msprop:Generator_UserColumnName="SaleDate" msprop:Generator_ColumnVarNameInTable="columnSaleDate" msprop:Generator_ColumnPropNameInRow="SaleDate" msprop:Generator_ColumnPropNameInTable="SaleDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsOwnerPushed" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsOwnerPushed" msprop:Generator_ColumnVarNameInTable="columnIsOwnerPushed" msprop:Generator_ColumnPropNameInRow="IsOwnerPushed" msprop:Generator_ColumnPropNameInTable="IsOwnerPushedColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

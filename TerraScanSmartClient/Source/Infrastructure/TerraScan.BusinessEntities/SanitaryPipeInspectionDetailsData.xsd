@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SanitaryPipeInspectionDetailsData" targetNamespace="http://tempuri.org/SanitaryPipeInspectionDetailsData.xsd" xmlns:mstns="http://tempuri.org/SanitaryPipeInspectionDetailsData.xsd" xmlns="http://tempuri.org/SanitaryPipeInspectionDetailsData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SanitaryPipeInspectionDetailsData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SanitaryPipeInspectionDetailsData" msprop:Generator_DataSetName="SanitaryPipeInspectionDetailsData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListEventEngineDetailType" msprop:Generator_UserTableName="ListEventEngineDetailType" msprop:Generator_RowDeletedName="ListEventEngineDetailTypeRowDeleted" msprop:Generator_RowChangedName="ListEventEngineDetailTypeRowChanged" msprop:Generator_RowClassName="ListEventEngineDetailTypeRow" msprop:Generator_RowChangingName="ListEventEngineDetailTypeRowChanging" msprop:Generator_RowEvArgName="ListEventEngineDetailTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="ListEventEngineDetailTypeRowChangeEventHandler" msprop:Generator_TableClassName="ListEventEngineDetailTypeDataTable" msprop:Generator_TableVarName="tableListEventEngineDetailType" msprop:Generator_RowDeletingName="ListEventEngineDetailTypeRowDeleting" msprop:Generator_TablePropName="ListEventEngineDetailType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DetailType" msprop:Generator_UserColumnName="DetailType" msprop:Generator_ColumnVarNameInTable="columnDetailType" msprop:Generator_ColumnPropNameInRow="DetailType" msprop:Generator_ColumnPropNameInTable="DetailTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DetailTypeID" msprop:Generator_UserColumnName="DetailTypeID" msprop:Generator_ColumnVarNameInTable="columnDetailTypeID" msprop:Generator_ColumnPropNameInRow="DetailTypeID" msprop:Generator_ColumnPropNameInTable="DetailTypeIDColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListEventEngineTVDetails" msprop:Generator_UserTableName="ListEventEngineTVDetails" msprop:Generator_RowDeletedName="ListEventEngineTVDetailsRowDeleted" msprop:Generator_RowChangedName="ListEventEngineTVDetailsRowChanged" msprop:Generator_RowClassName="ListEventEngineTVDetailsRow" msprop:Generator_RowChangingName="ListEventEngineTVDetailsRowChanging" msprop:Generator_RowEvArgName="ListEventEngineTVDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="ListEventEngineTVDetailsRowChangeEventHandler" msprop:Generator_TableClassName="ListEventEngineTVDetailsDataTable" msprop:Generator_TableVarName="tableListEventEngineTVDetails" msprop:Generator_RowDeletingName="ListEventEngineTVDetailsRowDeleting" msprop:Generator_TablePropName="ListEventEngineTVDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DetailID" msprop:Generator_UserColumnName="DetailID" msprop:Generator_ColumnPropNameInRow="DetailID" msprop:Generator_ColumnVarNameInTable="columnDetailID" msprop:Generator_ColumnPropNameInTable="DetailIDColumn" type="xs:int" />
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" />
+              <xs:element name="DetailTypeID" msprop:Generator_UserColumnName="DetailTypeID" msprop:Generator_ColumnPropNameInRow="DetailTypeID" msprop:Generator_ColumnVarNameInTable="columnDetailTypeID" msprop:Generator_ColumnPropNameInTable="DetailTypeIDColumn" type="xs:string" />
+              <xs:element name="Length" msprop:Generator_UserColumnName="Length" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInTable="LengthColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SaveEventEngineTVDetails" msprop:Generator_UserTableName="SaveEventEngineTVDetails" msprop:Generator_RowDeletedName="SaveEventEngineTVDetailsRowDeleted" msprop:Generator_RowChangedName="SaveEventEngineTVDetailsRowChanged" msprop:Generator_RowClassName="SaveEventEngineTVDetailsRow" msprop:Generator_RowChangingName="SaveEventEngineTVDetailsRowChanging" msprop:Generator_RowEvArgName="SaveEventEngineTVDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="SaveEventEngineTVDetailsRowChangeEventHandler" msprop:Generator_TableClassName="SaveEventEngineTVDetailsDataTable" msprop:Generator_TableVarName="tableSaveEventEngineTVDetails" msprop:Generator_RowDeletingName="SaveEventEngineTVDetailsRowDeleting" msprop:Generator_TablePropName="SaveEventEngineTVDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" />
+              <xs:element name="DetailTypeID" msprop:Generator_UserColumnName="DetailTypeID" msprop:Generator_ColumnPropNameInRow="DetailTypeID" msprop:Generator_ColumnVarNameInTable="columnDetailTypeID" msprop:Generator_ColumnPropNameInTable="DetailTypeIDColumn" type="xs:int" />
+              <xs:element name="Length" msprop:Generator_UserColumnName="Length" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInTable="LengthColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UpdEventEngineTVDetails" msprop:Generator_UserTableName="UpdEventEngineTVDetails" msprop:Generator_RowDeletedName="UpdEventEngineTVDetailsRowDeleted" msprop:Generator_RowChangedName="UpdEventEngineTVDetailsRowChanged" msprop:Generator_RowClassName="UpdEventEngineTVDetailsRow" msprop:Generator_RowChangingName="UpdEventEngineTVDetailsRowChanging" msprop:Generator_RowEvArgName="UpdEventEngineTVDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="UpdEventEngineTVDetailsRowChangeEventHandler" msprop:Generator_TableClassName="UpdEventEngineTVDetailsDataTable" msprop:Generator_TableVarName="tableUpdEventEngineTVDetails" msprop:Generator_RowDeletingName="UpdEventEngineTVDetailsRowDeleting" msprop:Generator_TablePropName="UpdEventEngineTVDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DetailID" msprop:Generator_UserColumnName="DetailID" msprop:Generator_ColumnVarNameInTable="columnDetailID" msprop:Generator_ColumnPropNameInRow="DetailID" msprop:Generator_ColumnPropNameInTable="DetailIDColumn" type="xs:int" />
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" />
+              <xs:element name="DetailTypeID" msprop:Generator_UserColumnName="DetailTypeID" msprop:Generator_ColumnVarNameInTable="columnDetailTypeID" msprop:Generator_ColumnPropNameInRow="DetailTypeID" msprop:Generator_ColumnPropNameInTable="DetailTypeIDColumn" type="xs:int" />
+              <xs:element name="Length" msprop:Generator_UserColumnName="Length" msprop:Generator_ColumnVarNameInTable="columnLength" msprop:Generator_ColumnPropNameInRow="Length" msprop:Generator_ColumnPropNameInTable="LengthColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

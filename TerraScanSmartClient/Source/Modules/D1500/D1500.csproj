@@ -1,0 +1,429 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E8CB5421-DAF3-4CBF-B067-EF8569AF9C61}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>D1500</RootNamespace>
+    <AssemblyName>D1500</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>D1500.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\binaries\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRules>-Microsoft.Design#CA1009;-Microsoft.Design#CA1031;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1718;-Microsoft.Naming#CA1720;-Microsoft.Naming#CA1700;-Microsoft.Naming#CA1712;-Microsoft.Naming#CA1713;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1715;-Microsoft.Naming#CA1710;-Microsoft.Naming#CA1707;-Microsoft.Naming#CA1722;-Microsoft.Naming#CA1711;-Microsoft.Naming#CA1716;-Microsoft.Naming#CA1705;-Microsoft.Naming#CA1725;-Microsoft.Naming#CA1719;-Microsoft.Naming#CA1721;-Microsoft.Naming#CA1706;-Microsoft.Naming#CA1724;-Microsoft.Naming#CA1726;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124</CodeAnalysisRules>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\binaries\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Sprint36_37|AnyCPU' ">
+    <OutputPath>bin\Sprint36_37\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisRules>-Microsoft.Design#CA1009;-Microsoft.Design#CA1031;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1718;-Microsoft.Naming#CA1720;-Microsoft.Naming#CA1700;-Microsoft.Naming#CA1712;-Microsoft.Naming#CA1713;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1715;-Microsoft.Naming#CA1710;-Microsoft.Naming#CA1707;-Microsoft.Naming#CA1722;-Microsoft.Naming#CA1711;-Microsoft.Naming#CA1716;-Microsoft.Naming#CA1705;-Microsoft.Naming#CA1725;-Microsoft.Naming#CA1719;-Microsoft.Naming#CA1721;-Microsoft.Naming#CA1706;-Microsoft.Naming#CA1724;-Microsoft.Naming#CA1726;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124</CodeAnalysisRules>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Sprint36_37|x86' ">
+    <OutputPath>bin\x86\Sprint36_37\</OutputPath>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)\Lib\Microsoft.Practices.CompositeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.CompositeUI.WinForms, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)\Lib\Microsoft.Practices.CompositeUI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(SolutionDir)\Lib\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="D1500ModuleInit.cs" />
+    <Compile Include="Forms\F1345.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1345.Designer.cs">
+      <DependentUpon>F1345.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1345Controller.cs" />
+    <Compile Include="Forms\F1402.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1402.Designer.cs">
+      <DependentUpon>F1402.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1402Controller.cs" />
+    <Compile Include="Forms\F1404.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1404.Designer.cs">
+      <DependentUpon>F1404.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1404Controller.cs" />
+    <Compile Include="Forms\F1406.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1406.Designer.cs">
+      <DependentUpon>F1406.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1406Controller.cs" />
+    <Compile Include="Forms\F1407.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1407.Designer.cs">
+      <DependentUpon>F1407.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1407Controller.cs" />
+    <Compile Include="Forms\F1502.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1502.Designer.cs">
+      <DependentUpon>F1502.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1502Controller.cs" />
+    <Compile Include="Forms\F1503.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1503.Designer.cs">
+      <DependentUpon>F1503.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1503Controller.cs" />
+    <Compile Include="Forms\F1504.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1504.Designer.cs">
+      <DependentUpon>F1504.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1504Controller.cs" />
+    <Compile Include="Forms\F1505.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1505.Designer.cs">
+      <DependentUpon>F1505.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1505Controller.cs" />
+    <Compile Include="Forms\F1512.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1512.Designer.cs">
+      <DependentUpon>F1512.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1512Controller.cs" />
+    <Compile Include="Forms\F1513.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1513.Designer.cs">
+      <DependentUpon>F1513.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1513Controller.cs" />
+    <Compile Include="Forms\F1515.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1515.Designer.cs">
+      <DependentUpon>F1515.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1515Controller.cs" />
+    <Compile Include="Forms\F1531.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1531.Designer.cs">
+      <DependentUpon>F1531.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1531Controller.cs" />
+    <Compile Include="Forms\F1532.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\F1532.Designer.cs">
+      <DependentUpon>F1532.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\F1532Controller.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SmartParts\F1500.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartParts\F1500.Designer.cs">
+      <DependentUpon>F1500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartParts\F15002.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartParts\F15002.Designer.cs">
+      <DependentUpon>F15002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartParts\F15002Controller.cs" />
+    <Compile Include="SmartParts\F15003.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartParts\F15003.Designer.cs">
+      <DependentUpon>F15003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartParts\F15003Controller.cs" />
+    <Compile Include="SmartParts\F15004.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartParts\F15004.Designer.cs">
+      <DependentUpon>F15004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartParts\F15004Controller.cs" />
+    <Compile Include="SmartParts\F15005.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartParts\F15005.Designer.cs">
+      <DependentUpon>F15005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartParts\F15005Controller.cs" />
+    <Compile Include="SmartParts\F15007.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartParts\F15007.Designer.cs">
+      <DependentUpon>F15007.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartParts\F15007Controller.cs" />
+    <Compile Include="SmartParts\F1500Controller.cs" />
+    <Compile Include="SmartParts\F1501.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartParts\F1501.Designer.cs">
+      <DependentUpon>F1501.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartParts\F1501Controller.cs" />
+    <Compile Include="SmartParts\F1530.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SmartParts\F1530.Designer.cs">
+      <DependentUpon>F1530.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SmartParts\F1530Controller.cs" />
+    <Compile Include="WorkItems\F1345WorkItem.cs" />
+    <Compile Include="WorkItems\F1402WorkItem.cs" />
+    <Compile Include="WorkItems\F1404WorkItem.cs" />
+    <Compile Include="WorkItems\F1406WorkItem.cs" />
+    <Compile Include="WorkItems\F1407WorkItem.cs" />
+    <Compile Include="WorkItems\F15002WorkItem.cs" />
+    <Compile Include="WorkItems\F15003WorkItem.cs" />
+    <Compile Include="WorkItems\F15004WorkItem.cs" />
+    <Compile Include="WorkItems\F15005WorkItem.cs" />
+    <Compile Include="WorkItems\F15007WorkItem.cs" />
+    <Compile Include="WorkItems\F1500WorkItem.cs" />
+    <Compile Include="WorkItems\F1501WorkItem.cs" />
+    <Compile Include="WorkItems\F1502WorkItem.cs" />
+    <Compile Include="WorkItems\F1503WorkItem.cs" />
+    <Compile Include="WorkItems\F1504WorkItem.cs" />
+    <Compile Include="WorkItems\F1505WorkItem.cs" />
+    <Compile Include="WorkItems\F1512WorkItem.cs" />
+    <Compile Include="WorkItems\F1513WorkItem.cs" />
+    <Compile Include="WorkItems\F1515WorkItem.cs" />
+    <Compile Include="WorkItems\F1530WorkItem.cs" />
+    <Compile Include="WorkItems\F1531WorkItem.cs" />
+    <Compile Include="WorkItems\F1532WorkItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\CustomControl\TerraScan.UI.Controls\TerraScan.UI.Controls.csproj">
+      <Project>{6FD716AB-21EA-4E64-9877-AC98FC211A36}</Project>
+      <Name>TerraScan.UI.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Interface\Infrastructure.Interface.csproj">
+      <Project>{FC459FCE-3EB0-4023-9004-D0ACD10F3EDB}</Project>
+      <Name>Infrastructure.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.BusinessEntities\TerraScan.BusinessEntities.csproj">
+      <Project>{35675EC3-DE95-4247-B004-42C3C0D3BAC8}</Project>
+      <Name>TerraScan.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.Common\TerraScan.Common.csproj">
+      <Project>{D56D1D13-CD21-4E77-92A2-2EEC4933E567}</Project>
+      <Name>TerraScan.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.Helper\TerraScan.Helper.csproj">
+      <Project>{95484F69-AB17-4278-8F30-495581D8DE3D}</Project>
+      <Name>TerraScan.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.SmartParts\TerraScan.SmartParts.csproj">
+      <Project>{1822A871-5BCE-4273-A3C8-D7D554237574}</Project>
+      <Name>TerraScan.SmartParts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.Utilities\TerraScan.Utilities.csproj">
+      <Project>{67285388-F458-4C57-8109-775820A914D6}</Project>
+      <Name>TerraScan.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\F1345.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1345.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1402.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1402.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1404.resx">
+      <DependentUpon>F1404.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1406.resx">
+      <DependentUpon>F1406.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1407.resx">
+      <DependentUpon>F1407.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1502.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1502.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1503.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1503.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1504.resx">
+      <DependentUpon>F1504.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1505.resx">
+      <DependentUpon>F1505.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1512.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1512.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1513.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1513.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1515.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1515.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1531.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1531.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\F1532.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1532.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartParts\F1500.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartParts\F15002.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F15002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartParts\F15003.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F15003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartParts\F15004.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F15004.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartParts\F15005.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F15005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartParts\F15007.resx">
+      <DependentUpon>F15007.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartParts\F1501.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1501.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SmartParts\F1530.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>F1530.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D1500.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AcctTransFeeButton.Image.png" />
+    <Content Include="Resources\IExplorer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

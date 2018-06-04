@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F1411ParcelStatementSearchData" targetNamespace="http://tempuri.org/F1411ParcelStatementSearchData.xsd" xmlns:mstns="http://tempuri.org/F1411ParcelStatementSearchData.xsd" xmlns="http://tempuri.org/F1411ParcelStatementSearchData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F1411ParcelStatementSearchData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F1411ParcelStatementSearchData" msprop:Generator_DataSetName="F1411ParcelStatementSearchData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ParcelStatementSearchDataTable" msprop:Generator_UserTableName="ParcelStatementSearchDataTable" msprop:Generator_RowDeletedName="ParcelStatementSearchDataTableRowDeleted" msprop:Generator_RowChangedName="ParcelStatementSearchDataTableRowChanged" msprop:Generator_RowClassName="ParcelStatementSearchDataTableRow" msprop:Generator_RowChangingName="ParcelStatementSearchDataTableRowChanging" msprop:Generator_RowEvArgName="ParcelStatementSearchDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ParcelStatementSearchDataTableRowChangeEventHandler" msprop:Generator_TableClassName="ParcelStatementSearchDataTableDataTable" msprop:Generator_TableVarName="tableParcelStatementSearchDataTable" msprop:Generator_RowDeletingName="ParcelStatementSearchDataTableRowDeleting" msprop:Generator_TablePropName="ParcelStatementSearchDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StatementID" msprop:Generator_UserColumnName="StatementID" msprop:Generator_ColumnPropNameInRow="StatementID" msprop:Generator_ColumnVarNameInTable="columnStatementID" msprop:Generator_ColumnPropNameInTable="StatementIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StatementNumber" msprop:Generator_UserColumnName="StatementNumber" msprop:Generator_ColumnPropNameInRow="StatementNumber" msprop:Generator_ColumnVarNameInTable="columnStatementNumber" msprop:Generator_ColumnPropNameInTable="StatementNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Taxpayer" msprop:Generator_UserColumnName="Taxpayer" msprop:Generator_ColumnPropNameInRow="Taxpayer" msprop:Generator_ColumnVarNameInTable="columnTaxpayer" msprop:Generator_ColumnPropNameInTable="TaxpayerColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PostType" msprop:Generator_UserColumnName="PostType" msprop:Generator_ColumnPropNameInRow="PostType" msprop:Generator_ColumnVarNameInTable="columnPostType" msprop:Generator_ColumnPropNameInTable="PostTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

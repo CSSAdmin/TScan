@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F95010GetWebFormXMLData" targetNamespace="http://tempuri.org/F95010GetWebFormXMLData.xsd" xmlns:mstns="http://tempuri.org/F95010GetWebFormXMLData.xsd" xmlns="http://tempuri.org/F95010GetWebFormXMLData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F95010GetWebFormXMLData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F95010GetWebFormXMLData" msprop:Generator_DataSetName="F95010GetWebFormXMLData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F95010GetWebFormXML" msprop:Generator_UserTableName="F95010GetWebFormXML" msprop:Generator_RowDeletedName="F95010GetWebFormXMLRowDeleted" msprop:Generator_RowChangedName="F95010GetWebFormXMLRowChanged" msprop:Generator_RowClassName="F95010GetWebFormXMLRow" msprop:Generator_RowChangingName="F95010GetWebFormXMLRowChanging" msprop:Generator_RowEvArgName="F95010GetWebFormXMLRowChangeEvent" msprop:Generator_RowEvHandlerName="F95010GetWebFormXMLRowChangeEventHandler" msprop:Generator_TableClassName="F95010GetWebFormXMLDataTable" msprop:Generator_TableVarName="tableF95010GetWebFormXML" msprop:Generator_RowDeletingName="F95010GetWebFormXMLRowDeleting" msprop:Generator_TablePropName="F95010GetWebFormXML">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="XmlDocument" msdata:ReadOnly="true" msprop:Generator_UserColumnName="XmlDocument" msprop:Generator_ColumnVarNameInTable="columnXmlDocument" msprop:Generator_ColumnPropNameInRow="XmlDocument" msprop:Generator_ColumnPropNameInTable="XmlDocumentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WebFormHeight" msprop:Generator_UserTableName="WebFormHeight" msprop:Generator_RowDeletedName="WebFormHeightRowDeleted" msprop:Generator_TableClassName="WebFormHeightDataTable" msprop:Generator_RowChangedName="WebFormHeightRowChanged" msprop:Generator_RowClassName="WebFormHeightRow" msprop:Generator_RowChangingName="WebFormHeightRowChanging" msprop:Generator_RowEvArgName="WebFormHeightRowChangeEvent" msprop:Generator_RowEvHandlerName="WebFormHeightRowChangeEventHandler" msprop:Generator_TablePropName="WebFormHeight" msprop:Generator_TableVarName="tableWebFormHeight" msprop:Generator_RowDeletingName="WebFormHeightRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WebHeight" msprop:Generator_UserColumnName="WebHeight" msprop:Generator_ColumnPropNameInRow="WebHeight" msprop:Generator_ColumnVarNameInTable="columnWebHeight" msprop:Generator_ColumnPropNameInTable="WebHeightColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

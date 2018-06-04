@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6f4fc990-fead-431a-aeee-fabdcc089634" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1597/TerraScan.WCFService/SmartClientService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="F3230FieldUseData.xsd" MetadataType="Schema" ID="5cb8a418-84e1-4d5f-a359-7b73868322bc" SourceId="1" SourceUrl="http://localhost:1597/TerraScan.WCFService/SmartClientService.svc?xsd=xsd3" />
+    <MetadataFile FileName="SmartClientService.xsd" MetadataType="Schema" ID="ac8ab38b-c53f-4e70-aa56-c9ee43237f1a" SourceId="1" SourceUrl="http://localhost:1597/TerraScan.WCFService/SmartClientService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SmartClientService.disco" MetadataType="Disco" ID="f6146736-217a-4297-be6f-bbef3d47bb87" SourceId="1" SourceUrl="http://localhost:1597/TerraScan.WCFService/SmartClientService.svc?disco" />
+    <MetadataFile FileName="SmartClientService1.xsd" MetadataType="Schema" ID="e84dea03-5396-460d-a617-5fa06f9983f5" SourceId="1" SourceUrl="http://localhost:1597/TerraScan.WCFService/SmartClientService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SmartClientService.wsdl" MetadataType="Wsdl" ID="94b8e3ce-6084-4988-9974-3faf2555a280" SourceId="1" SourceUrl="http://localhost:1597/TerraScan.WCFService/SmartClientService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="F3230CheckInData.xsd" MetadataType="Schema" ID="d035d283-3ac5-4c2c-8a46-6ab6d0c631cd" SourceId="1" SourceUrl="http://localhost:1597/TerraScan.WCFService/SmartClientService.svc?xsd=xsd5" />
+    <MetadataFile FileName="F25000FieldUseData.xsd" MetadataType="Schema" ID="bc158ca2-7430-4127-85d6-5f93eb9e34fa" SourceId="1" SourceUrl="http://localhost:1597/TerraScan.WCFService/SmartClientService.svc?xsd=xsd4" />
+    <MetadataFile FileName="SmartClientService2.xsd" MetadataType="Schema" ID="985e5d31-9e3e-496e-af63-c1ef0c3d9d5f" SourceId="1" SourceUrl="http://localhost:1597/TerraScan.WCFService/SmartClientService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SmartClientService1.wsdl" MetadataType="Wsdl" ID="c8c38924-4df2-430b-9a0b-2d46f7424c7c" SourceId="1" SourceUrl="http://localhost:1597/TerraScan.WCFService/SmartClientService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

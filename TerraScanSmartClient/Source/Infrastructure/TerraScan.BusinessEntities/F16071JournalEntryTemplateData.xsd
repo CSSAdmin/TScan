@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F16071JournalEntryTemplateData" targetNamespace="http://tempuri.org/F16071JournalEntryTemplateData.xsd" xmlns:mstns="http://tempuri.org/F16071JournalEntryTemplateData.xsd" xmlns="http://tempuri.org/F16071JournalEntryTemplateData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevDB_20140709ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevDB_20140709ConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevDB_20140709ConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F16071JournalEntryTemplateData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F16071JournalEntryTemplateData" msprop:Generator_DataSetName="F16071JournalEntryTemplateData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="f11071_GetHeaderJETempalte" msprop:Generator_UserTableName="f11071_GetHeaderJETempalte" msprop:Generator_RowDeletedName="f11071_GetHeaderJETempalteRowDeleted" msprop:Generator_RowChangedName="f11071_GetHeaderJETempalteRowChanged" msprop:Generator_RowClassName="f11071_GetHeaderJETempalteRow" msprop:Generator_RowChangingName="f11071_GetHeaderJETempalteRowChanging" msprop:Generator_RowEvArgName="f11071_GetHeaderJETempalteRowChangeEvent" msprop:Generator_RowEvHandlerName="f11071_GetHeaderJETempalteRowChangeEventHandler" msprop:Generator_TableClassName="f11071_GetHeaderJETempalteDataTable" msprop:Generator_TableVarName="tablef11071_GetHeaderJETempalte" msprop:Generator_RowDeletingName="f11071_GetHeaderJETempalteRowDeleting" msprop:Generator_TablePropName="f11071_GetHeaderJETempalte">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Rollyear" msprop:Generator_UserColumnName="Rollyear" msprop:Generator_ColumnVarNameInTable="columnRollyear" msprop:Generator_ColumnPropNameInRow="Rollyear" msprop:Generator_ColumnPropNameInTable="RollyearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TransferDescription" msprop:Generator_UserColumnName="TransferDescription" msprop:Generator_ColumnVarNameInTable="columnTransferDescription" msprop:Generator_ColumnPropNameInRow="TransferDescription" msprop:Generator_ColumnPropNameInTable="TransferDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f11071_GridJETempalte" msprop:Generator_UserTableName="f11071_GridJETempalte" msprop:Generator_RowDeletedName="f11071_GridJETempalteRowDeleted" msprop:Generator_RowChangedName="f11071_GridJETempalteRowChanged" msprop:Generator_RowClassName="f11071_GridJETempalteRow" msprop:Generator_RowChangingName="f11071_GridJETempalteRowChanging" msprop:Generator_RowEvArgName="f11071_GridJETempalteRowChangeEvent" msprop:Generator_RowEvHandlerName="f11071_GridJETempalteRowChangeEventHandler" msprop:Generator_TableClassName="f11071_GridJETempalteDataTable" msprop:Generator_TableVarName="tablef11071_GridJETempalte" msprop:Generator_RowDeletingName="f11071_GridJETempalteRowDeleting" msprop:Generator_TablePropName="f11071_GridJETempalte">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FromAccountID" msprop:Generator_UserColumnName="FromAccountID" msprop:Generator_ColumnVarNameInTable="columnFromAccountID" msprop:Generator_ColumnPropNameInRow="FromAccountID" msprop:Generator_ColumnPropNameInTable="FromAccountIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FromAccount" msprop:Generator_UserColumnName="FromAccount" msprop:Generator_ColumnVarNameInTable="columnFromAccount" msprop:Generator_ColumnPropNameInRow="FromAccount" msprop:Generator_ColumnPropNameInTable="FromAccountColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="368" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ToAccountID" msprop:Generator_UserColumnName="ToAccountID" msprop:Generator_ColumnVarNameInTable="columnToAccountID" msprop:Generator_ColumnPropNameInRow="ToAccountID" msprop:Generator_ColumnPropNameInTable="ToAccountIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ToAccount" msprop:Generator_UserColumnName="ToAccount" msprop:Generator_ColumnVarNameInTable="columnToAccount" msprop:Generator_ColumnPropNameInRow="ToAccount" msprop:Generator_ColumnPropNameInTable="ToAccountColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="368" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TransferAmount" msprop:Generator_UserColumnName="TransferAmount" msprop:Generator_ColumnVarNameInTable="columnTransferAmount" msprop:Generator_ColumnPropNameInRow="TransferAmount" msprop:Generator_ColumnPropNameInTable="TransferAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TemplateItemID" msprop:Generator_UserColumnName="TemplateItemID" msprop:Generator_ColumnPropNameInRow="TemplateItemID" msprop:Generator_ColumnVarNameInTable="columnTemplateItemID" msprop:Generator_ColumnPropNameInTable="TemplateItemIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f11024_TempToAccountTable" msprop:Generator_UserTableName="f11024_TempToAccountTable" msprop:Generator_RowDeletedName="f11024_TempToAccountTableRowDeleted" msprop:Generator_TableClassName="f11024_TempToAccountTableDataTable" msprop:Generator_RowChangedName="f11024_TempToAccountTableRowChanged" msprop:Generator_RowClassName="f11024_TempToAccountTableRow" msprop:Generator_RowChangingName="f11024_TempToAccountTableRowChanging" msprop:Generator_RowEvArgName="f11024_TempToAccountTableRowChangeEvent" msprop:Generator_RowEvHandlerName="f11024_TempToAccountTableRowChangeEventHandler" msprop:Generator_TablePropName="f11024_TempToAccountTable" msprop:Generator_TableVarName="tablef11024_TempToAccountTable" msprop:Generator_RowDeletingName="f11024_TempToAccountTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ToAccountID" msprop:Generator_UserColumnName="ToAccountID" msprop:Generator_ColumnPropNameInRow="ToAccountID" msprop:Generator_ColumnVarNameInTable="columnToAccountID" msprop:Generator_ColumnPropNameInTable="ToAccountIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToAccount" msprop:Generator_UserColumnName="ToAccount" msprop:Generator_ColumnPropNameInRow="ToAccount" msprop:Generator_ColumnVarNameInTable="columnToAccount" msprop:Generator_ColumnPropNameInTable="ToAccountColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f11024_TempFromAccountTable" msprop:Generator_UserTableName="f11024_TempFromAccountTable" msprop:Generator_RowDeletedName="f11024_TempFromAccountTableRowDeleted" msprop:Generator_TableClassName="f11024_TempFromAccountTableDataTable" msprop:Generator_RowChangedName="f11024_TempFromAccountTableRowChanged" msprop:Generator_RowClassName="f11024_TempFromAccountTableRow" msprop:Generator_RowChangingName="f11024_TempFromAccountTableRowChanging" msprop:Generator_RowEvArgName="f11024_TempFromAccountTableRowChangeEvent" msprop:Generator_RowEvHandlerName="f11024_TempFromAccountTableRowChangeEventHandler" msprop:Generator_TablePropName="f11024_TempFromAccountTable" msprop:Generator_TableVarName="tablef11024_TempFromAccountTable" msprop:Generator_RowDeletingName="f11024_TempFromAccountTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FromAccountID" msprop:Generator_UserColumnName="FromAccountID" msprop:Generator_ColumnPropNameInRow="FromAccountID" msprop:Generator_ColumnVarNameInTable="columnFromAccountID" msprop:Generator_ColumnPropNameInTable="FromAccountIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromAccount" msprop:Generator_UserColumnName="FromAccount" msprop:Generator_ColumnPropNameInRow="FromAccount" msprop:Generator_ColumnVarNameInTable="columnFromAccount" msprop:Generator_ColumnPropNameInTable="FromAccountColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F49920InstrumentSearchEngineData" targetNamespace="http://tempuri.org/F49920InstrumentSearchEngineData.xsd" xmlns:mstns="http://tempuri.org/F49920InstrumentSearchEngineData.xsd" xmlns="http://tempuri.org/F49920InstrumentSearchEngineData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F49920InstrumentSearchEngineData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F49920InstrumentSearchEngineData" msprop:Generator_DataSetName="F49920InstrumentSearchEngineData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListInstrument" msprop:Generator_UserTableName="ListInstrument" msprop:Generator_RowDeletedName="ListInstrumentRowDeleted" msprop:Generator_RowChangedName="ListInstrumentRowChanged" msprop:Generator_RowClassName="ListInstrumentRow" msprop:Generator_RowChangingName="ListInstrumentRowChanging" msprop:Generator_RowEvArgName="ListInstrumentRowChangeEvent" msprop:Generator_RowEvHandlerName="ListInstrumentRowChangeEventHandler" msprop:Generator_TableClassName="ListInstrumentDataTable" msprop:Generator_TableVarName="tableListInstrument" msprop:Generator_RowDeletingName="ListInstrumentRowDeleting" msprop:Generator_TablePropName="ListInstrument">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InstID" msprop:Generator_UserColumnName="InstID" msprop:Generator_ColumnPropNameInRow="InstID" msprop:Generator_ColumnVarNameInTable="columnInstID" msprop:Generator_ColumnPropNameInTable="InstIDColumn" type="xs:int" />
+              <xs:element name="InstNum" msprop:Generator_UserColumnName="InstNum" msprop:Generator_ColumnPropNameInRow="InstNum" msprop:Generator_ColumnVarNameInTable="columnInstNum" msprop:Generator_ColumnPropNameInTable="InstNumColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Grantor" msprop:Generator_UserColumnName="Grantor" msprop:Generator_ColumnPropNameInRow="Grantor" msprop:Generator_ColumnVarNameInTable="columnGrantor" msprop:Generator_ColumnPropNameInTable="GrantorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Grantee" msprop:Generator_UserColumnName="Grantee" msprop:Generator_ColumnPropNameInRow="Grantee" msprop:Generator_ColumnVarNameInTable="columnGrantee" msprop:Generator_ColumnPropNameInTable="GranteeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ITypeID" msprop:Generator_UserColumnName="ITypeID" msprop:Generator_ColumnPropNameInRow="ITypeID" msprop:Generator_ColumnVarNameInTable="columnITypeID" msprop:Generator_ColumnPropNameInTable="ITypeIDColumn" type="xs:int" />
+              <xs:element name="InstrumentType" msprop:Generator_UserColumnName="InstrumentType" msprop:Generator_ColumnPropNameInRow="InstrumentType" msprop:Generator_ColumnVarNameInTable="columnInstrumentType" msprop:Generator_ColumnPropNameInTable="InstrumentTypeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubName" msprop:Generator_UserColumnName="SubName" msprop:Generator_ColumnPropNameInRow="SubName" msprop:Generator_ColumnVarNameInTable="columnSubName" msprop:Generator_ColumnPropNameInTable="SubNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FileDate" msprop:Generator_UserColumnName="FileDate" msprop:Generator_ColumnPropNameInRow="FileDate" msprop:Generator_ColumnVarNameInTable="columnFileDate" msprop:Generator_ColumnPropNameInTable="FileDateColumn" type="xs:string" />
+              <xs:element name="SubID" msprop:Generator_UserColumnName="SubID" msprop:Generator_ColumnPropNameInRow="SubID" msprop:Generator_ColumnVarNameInTable="columnSubID" msprop:Generator_ColumnPropNameInTable="SubIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SubName1" msprop:Generator_UserColumnName="SubName1" msprop:Generator_ColumnPropNameInRow="SubName1" msprop:Generator_ColumnVarNameInTable="columnSubName1" msprop:Generator_ColumnPropNameInTable="SubName1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListInstrumentLoadItems" msprop:Generator_UserTableName="ListInstrumentLoadItems" msprop:Generator_RowDeletedName="ListInstrumentLoadItemsRowDeleted" msprop:Generator_RowChangedName="ListInstrumentLoadItemsRowChanged" msprop:Generator_RowClassName="ListInstrumentLoadItemsRow" msprop:Generator_RowChangingName="ListInstrumentLoadItemsRowChanging" msprop:Generator_RowEvArgName="ListInstrumentLoadItemsRowChangeEvent" msprop:Generator_RowEvHandlerName="ListInstrumentLoadItemsRowChangeEventHandler" msprop:Generator_TableClassName="ListInstrumentLoadItemsDataTable" msprop:Generator_TableVarName="tableListInstrumentLoadItems" msprop:Generator_RowDeletingName="ListInstrumentLoadItemsRowDeleting" msprop:Generator_TablePropName="ListInstrumentLoadItems">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ITypeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ITypeID" msprop:Generator_ColumnPropNameInRow="ITypeID" msprop:Generator_ColumnVarNameInTable="columnITypeID" msprop:Generator_ColumnPropNameInTable="ITypeIDColumn" type="xs:int" />
+              <xs:element name="InstrumentType" msprop:Generator_UserColumnName="InstrumentType" msprop:Generator_ColumnPropNameInRow="InstrumentType" msprop:Generator_ColumnVarNameInTable="columnInstrumentType" msprop:Generator_ColumnPropNameInTable="InstrumentTypeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InstrumentLoadItems" msprop:Generator_UserTableName="InstrumentLoadItems" msprop:Generator_RowDeletedName="InstrumentLoadItemsRowDeleted" msprop:Generator_RowChangedName="InstrumentLoadItemsRowChanged" msprop:Generator_RowClassName="InstrumentLoadItemsRow" msprop:Generator_RowChangingName="InstrumentLoadItemsRowChanging" msprop:Generator_RowEvArgName="InstrumentLoadItemsRowChangeEvent" msprop:Generator_RowEvHandlerName="InstrumentLoadItemsRowChangeEventHandler" msprop:Generator_TableClassName="InstrumentLoadItemsDataTable" msprop:Generator_TableVarName="tableInstrumentLoadItems" msprop:Generator_RowDeletingName="InstrumentLoadItemsRowDeleting" msprop:Generator_TablePropName="InstrumentLoadItems">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="SubID" msprop:Generator_ColumnVarNameInTable="columnSubID" msprop:Generator_ColumnPropNameInRow="SubID" msprop:Generator_ColumnPropNameInTable="SubIDColumn" type="xs:int" />
+              <xs:element name="SubName" msprop:Generator_UserColumnName="SubName" msprop:Generator_ColumnVarNameInTable="columnSubName" msprop:Generator_ColumnPropNameInRow="SubName" msprop:Generator_ColumnPropNameInTable="SubNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

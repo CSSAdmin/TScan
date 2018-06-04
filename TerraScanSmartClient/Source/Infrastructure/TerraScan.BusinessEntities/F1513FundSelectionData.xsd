@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F1513FundSelectionData" targetNamespace="http://tempuri.org/F1513FundSelectionData.xsd" xmlns:mstns="http://tempuri.org/F1513FundSelectionData.xsd" xmlns="http://tempuri.org/F1513FundSelectionData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F1513FundSelectionData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F1513FundSelectionData" msprop:Generator_DataSetName="F1513FundSelectionData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetFundSelection" msprop:Generator_UserTableName="GetFundSelection" msprop:Generator_RowDeletedName="GetFundSelectionRowDeleted" msprop:Generator_RowChangedName="GetFundSelectionRowChanged" msprop:Generator_RowClassName="GetFundSelectionRow" msprop:Generator_RowChangingName="GetFundSelectionRowChanging" msprop:Generator_RowEvArgName="GetFundSelectionRowChangeEvent" msprop:Generator_RowEvHandlerName="GetFundSelectionRowChangeEventHandler" msprop:Generator_TableClassName="GetFundSelectionDataTable" msprop:Generator_TableVarName="tableGetFundSelection" msprop:Generator_RowDeletingName="GetFundSelectionRowDeleting" msprop:Generator_TablePropName="GetFundSelection">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FundID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FundID" msprop:Generator_ColumnVarNameInTable="columnFundID" msprop:Generator_ColumnPropNameInRow="FundID" msprop:Generator_ColumnPropNameInTable="FundIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Fund" msprop:Generator_UserColumnName="Fund" msprop:Generator_ColumnVarNameInTable="columnFund" msprop:Generator_ColumnPropNameInRow="Fund" msprop:Generator_ColumnPropNameInTable="FundColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

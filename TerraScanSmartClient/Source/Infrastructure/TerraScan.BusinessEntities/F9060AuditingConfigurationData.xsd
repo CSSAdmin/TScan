@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9060AuditingConfigurationData" targetNamespace="http://tempuri.org/F9060AuditingConfigurationData.xsd" xmlns:mstns="http://tempuri.org/F9060AuditingConfigurationData.xsd" xmlns="http://tempuri.org/F9060AuditingConfigurationData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9060AuditingConfigurationData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F9060AuditingConfigurationData" msprop:Generator_DataSetName="F9060AuditingConfigurationData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListAuditingBaseTables" msprop:Generator_UserTableName="ListAuditingBaseTables" msprop:Generator_RowDeletedName="ListAuditingBaseTablesRowDeleted" msprop:Generator_RowChangedName="ListAuditingBaseTablesRowChanged" msprop:Generator_RowClassName="ListAuditingBaseTablesRow" msprop:Generator_RowChangingName="ListAuditingBaseTablesRowChanging" msprop:Generator_RowEvArgName="ListAuditingBaseTablesRowChangeEvent" msprop:Generator_RowEvHandlerName="ListAuditingBaseTablesRowChangeEventHandler" msprop:Generator_TableClassName="ListAuditingBaseTablesDataTable" msprop:Generator_TableVarName="tableListAuditingBaseTables" msprop:Generator_RowDeletingName="ListAuditingBaseTablesRowDeleting" msprop:Generator_TablePropName="ListAuditingBaseTables">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TableID" msprop:Generator_UserColumnName="TableID" msprop:Generator_ColumnPropNameInRow="TableID" msprop:Generator_ColumnVarNameInTable="columnTableID" msprop:Generator_ColumnPropNameInTable="TableIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="TableName" msprop:Generator_UserColumnName="TableName" msprop:Generator_ColumnPropNameInRow="TableName" msprop:Generator_ColumnVarNameInTable="columnTableName" msprop:Generator_ColumnPropNameInTable="TableNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListAuditingColumnsDataTable" msprop:Generator_UserTableName="ListAuditingColumnsDataTable" msprop:Generator_RowDeletedName="ListAuditingColumnsDataTableRowDeleted" msprop:Generator_RowChangedName="ListAuditingColumnsDataTableRowChanged" msprop:Generator_RowClassName="ListAuditingColumnsDataTableRow" msprop:Generator_RowChangingName="ListAuditingColumnsDataTableRowChanging" msprop:Generator_RowEvArgName="ListAuditingColumnsDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ListAuditingColumnsDataTableRowChangeEventHandler" msprop:Generator_TableClassName="ListAuditingColumnsDataTableDataTable" msprop:Generator_TableVarName="tableListAuditingColumnsDataTable" msprop:Generator_RowDeletingName="ListAuditingColumnsDataTableRowDeleting" msprop:Generator_TablePropName="ListAuditingColumnsDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FieldID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FieldID" msprop:Generator_ColumnPropNameInRow="FieldID" msprop:Generator_ColumnVarNameInTable="columnFieldID" msprop:Generator_ColumnPropNameInTable="FieldIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="FieldName" msprop:Generator_UserColumnName="FieldName" msprop:Generator_ColumnPropNameInRow="FieldName" msprop:Generator_ColumnVarNameInTable="columnFieldName" msprop:Generator_ColumnPropNameInTable="FieldNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Audit" msprop:Generator_UserColumnName="Audit" msprop:Generator_ColumnPropNameInRow="Audit" msprop:Generator_ColumnVarNameInTable="columnAudit" msprop:Generator_ColumnPropNameInTable="AuditColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

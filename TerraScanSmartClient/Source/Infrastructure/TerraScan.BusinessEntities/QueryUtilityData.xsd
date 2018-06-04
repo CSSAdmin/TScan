@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QueryUtilityData" targetNamespace="http://tempuri.org/QueryUtilityData.xsd" xmlns:mstns="http://tempuri.org/QueryUtilityData.xsd" xmlns="http://tempuri.org/QueryUtilityData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerraScanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerraScanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerraScanConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QueryUtilityData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="QueryUtilityData" msprop:Generator_DataSetName="QueryUtilityData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListQuery" msprop:Generator_UserTableName="ListQuery" msprop:Generator_RowDeletedName="ListQueryRowDeleted" msprop:Generator_RowChangedName="ListQueryRowChanged" msprop:Generator_RowClassName="ListQueryRow" msprop:Generator_RowChangingName="ListQueryRowChanging" msprop:Generator_RowEvArgName="ListQueryRowChangeEvent" msprop:Generator_RowEvHandlerName="ListQueryRowChangeEventHandler" msprop:Generator_TableClassName="ListQueryDataTable" msprop:Generator_TableVarName="tableListQuery" msprop:Generator_RowDeletingName="ListQueryRowDeleting" msprop:Generator_TablePropName="ListQuery">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QueryID" msprop:Generator_UserColumnName="QueryID" msprop:Generator_ColumnPropNameInRow="QueryID" msprop:Generator_ColumnVarNameInTable="columnQueryID" msprop:Generator_ColumnPropNameInTable="QueryIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="QueryName" msprop:Generator_UserColumnName="QueryName" msprop:Generator_ColumnPropNameInRow="QueryName" msprop:Generator_ColumnVarNameInTable="columnQueryName" msprop:Generator_ColumnPropNameInTable="QueryNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WhereCondn" msprop:Generator_UserColumnName="WhereCondn" msprop:Generator_ColumnPropNameInRow="WhereCondn" msprop:Generator_ColumnVarNameInTable="columnWhereCondn" msprop:Generator_ColumnPropNameInTable="WhereCondnColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WhereCondnSql" msprop:Generator_UserColumnName="WhereCondnSql" msprop:Generator_ColumnPropNameInRow="WhereCondnSql" msprop:Generator_ColumnVarNameInTable="columnWhereCondnSql" msprop:Generator_ColumnPropNameInTable="WhereCondnSqlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedOn" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CreatedOn" msprop:Generator_ColumnPropNameInRow="CreatedOn" msprop:Generator_ColumnVarNameInTable="columnCreatedOn" msprop:Generator_ColumnPropNameInTable="CreatedOnColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedBy" msprop:Generator_UserColumnName="CreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

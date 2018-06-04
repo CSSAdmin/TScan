@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MADImportFile" targetNamespace="http://tempuri.org/MADImportFile.xsd" xmlns:mstns="http://tempuri.org/MADImportFile.xsd" xmlns="http://tempuri.org/MADImportFile.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MADImportFile" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MADImportFile" msprop:Generator_DataSetName="MADImportFile" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MADImportEntry" msprop:Generator_UserTableName="MADImportEntry" msprop:Generator_RowDeletedName="MADImportEntryRowDeleted" msprop:Generator_RowChangedName="MADImportEntryRowChanged" msprop:Generator_RowClassName="MADImportEntryRow" msprop:Generator_RowChangingName="MADImportEntryRowChanging" msprop:Generator_RowEvArgName="MADImportEntryRowChangeEvent" msprop:Generator_RowEvHandlerName="MADImportEntryRowChangeEventHandler" msprop:Generator_TableClassName="MADImportEntryDataTable" msprop:Generator_TableVarName="tableMADImportEntry" msprop:Generator_RowDeletingName="MADImportEntryRowDeleting" msprop:Generator_TablePropName="MADImportEntry">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DistrictNumber" msprop:Generator_UserColumnName="DistrictNumber" msprop:Generator_ColumnVarNameInTable="columnDistrictNumber" msprop:Generator_ColumnPropNameInRow="DistrictNumber" msprop:Generator_ColumnPropNameInTable="DistrictNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OverrideAmount" msprop:Generator_UserColumnName="OverrideAmount" msprop:Generator_ColumnVarNameInTable="columnOverrideAmount" msprop:Generator_ColumnPropNameInRow="OverrideAmount" msprop:Generator_ColumnPropNameInTable="OverrideAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Line" msprop:Generator_UserColumnName="Line" msprop:Generator_ColumnVarNameInTable="columnLine" msprop:Generator_ColumnPropNameInRow="Line" msprop:Generator_ColumnPropNameInTable="LineColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

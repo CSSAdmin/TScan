@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F29640FrozenValueData" targetNamespace="http://tempuri.org/F29640FrozenValueData.xsd" xmlns:mstns="http://tempuri.org/F29640FrozenValueData.xsd" xmlns="http://tempuri.org/F29640FrozenValueData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F29640FrozenValueData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="F29640FrozenValueData" msprop:Generator_UserDSName="F29640FrozenValueData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetFrozenValues" msprop:Generator_UserTableName="GetFrozenValues" msprop:Generator_RowDeletedName="GetFrozenValuesRowDeleted" msprop:Generator_TableClassName="GetFrozenValuesDataTable" msprop:Generator_RowChangedName="GetFrozenValuesRowChanged" msprop:Generator_RowClassName="GetFrozenValuesRow" msprop:Generator_RowChangingName="GetFrozenValuesRowChanging" msprop:Generator_RowEvArgName="GetFrozenValuesRowChangeEvent" msprop:Generator_RowEvHandlerName="GetFrozenValuesRowChangeEventHandler" msprop:Generator_TablePropName="GetFrozenValues" msprop:Generator_TableVarName="tableGetFrozenValues" msprop:Generator_RowDeletingName="GetFrozenValuesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FrozenID" msprop:Generator_UserColumnName="FrozenID" msprop:Generator_ColumnPropNameInRow="FrozenID" msprop:Generator_ColumnVarNameInTable="columnFrozenID" msprop:Generator_ColumnPropNameInTable="FrozenIDColumn" type="xs:int" />
+              <xs:element name="FrozenValue" msprop:Generator_UserColumnName="FrozenValue" msprop:Generator_ColumnPropNameInRow="FrozenValue" msprop:Generator_ColumnVarNameInTable="columnFrozenValue" msprop:Generator_ColumnPropNameInTable="FrozenValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Note" msprop:Generator_UserColumnName="Note" msprop:Generator_ColumnPropNameInRow="Note" msprop:Generator_ColumnVarNameInTable="columnNote" msprop:Generator_ColumnPropNameInTable="NoteColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SaveFrozenValues" msprop:Generator_UserTableName="SaveFrozenValues" msprop:Generator_RowDeletedName="SaveFrozenValuesRowDeleted" msprop:Generator_TableClassName="SaveFrozenValuesDataTable" msprop:Generator_RowChangedName="SaveFrozenValuesRowChanged" msprop:Generator_RowClassName="SaveFrozenValuesRow" msprop:Generator_RowChangingName="SaveFrozenValuesRowChanging" msprop:Generator_RowEvArgName="SaveFrozenValuesRowChangeEvent" msprop:Generator_RowEvHandlerName="SaveFrozenValuesRowChangeEventHandler" msprop:Generator_TablePropName="SaveFrozenValues" msprop:Generator_TableVarName="tableSaveFrozenValues" msprop:Generator_RowDeletingName="SaveFrozenValuesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="FrozenID" msprop:Generator_UserColumnName="FrozenID" msprop:Generator_ColumnPropNameInRow="FrozenID" msprop:Generator_ColumnVarNameInTable="columnFrozenID" msprop:Generator_ColumnPropNameInTable="FrozenIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FrozenValue" msprop:Generator_UserColumnName="FrozenValue" msprop:Generator_ColumnPropNameInRow="FrozenValue" msprop:Generator_ColumnVarNameInTable="columnFrozenValue" msprop:Generator_ColumnPropNameInTable="FrozenValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Note" msprop:Generator_UserColumnName="Note" msprop:Generator_ColumnPropNameInRow="Note" msprop:Generator_ColumnVarNameInTable="columnNote" msprop:Generator_ColumnPropNameInTable="NoteColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

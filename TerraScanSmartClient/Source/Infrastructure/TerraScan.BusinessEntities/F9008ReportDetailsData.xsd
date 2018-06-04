@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9008ReportDetailsData" targetNamespace="http://tempuri.org/F9008ReportDetailsData.xsd" xmlns:mstns="http://tempuri.org/F9008ReportDetailsData.xsd" xmlns="http://tempuri.org/F9008ReportDetailsData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9008ReportDetailsData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F9008ReportDetailsData" msprop:Generator_DataSetName="F9008ReportDetailsData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F9008GetReportDetails" msprop:Generator_UserTableName="F9008GetReportDetails" msprop:Generator_RowDeletedName="F9008GetReportDetailsRowDeleted" msprop:Generator_RowChangedName="F9008GetReportDetailsRowChanged" msprop:Generator_RowClassName="F9008GetReportDetailsRow" msprop:Generator_RowChangingName="F9008GetReportDetailsRowChanging" msprop:Generator_RowEvArgName="F9008GetReportDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="F9008GetReportDetailsRowChangeEventHandler" msprop:Generator_TableClassName="F9008GetReportDetailsDataTable" msprop:Generator_TableVarName="tableF9008GetReportDetails" msprop:Generator_RowDeletingName="F9008GetReportDetailsRowDeleting" msprop:Generator_TablePropName="F9008GetReportDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Report" msprop:Generator_UserColumnName="Report" msprop:Generator_ColumnPropNameInRow="Report" msprop:Generator_ColumnVarNameInTable="columnReport" msprop:Generator_ColumnPropNameInTable="ReportColumn" type="xs:int" />
+              <xs:element name="ReportFile" msprop:Generator_UserColumnName="ReportFile" msprop:Generator_ColumnPropNameInRow="ReportFile" msprop:Generator_ColumnVarNameInTable="columnReportFile" msprop:Generator_ColumnPropNameInTable="ReportFileColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Printer" msprop:Generator_UserColumnName="Printer" msprop:Generator_ColumnPropNameInRow="Printer" msprop:Generator_ColumnVarNameInTable="columnPrinter" msprop:Generator_ColumnPropNameInTable="PrinterColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrinterSelect" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PrinterSelect" msprop:Generator_ColumnPropNameInRow="PrinterSelect" msprop:Generator_ColumnVarNameInTable="columnPrinterSelect" msprop:Generator_ColumnPropNameInTable="PrinterSelectColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrinterClear" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PrinterClear" msprop:Generator_ColumnPropNameInRow="PrinterClear" msprop:Generator_ColumnVarNameInTable="columnPrinterClear" msprop:Generator_ColumnPropNameInTable="PrinterClearColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RID" msprop:Generator_UserColumnName="RID" msprop:Generator_ColumnPropNameInRow="RID" msprop:Generator_ColumnVarNameInTable="columnRID" msprop:Generator_ColumnPropNameInTable="RIDColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

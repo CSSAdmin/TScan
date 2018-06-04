@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F1500SampleForm" targetNamespace="http://tempuri.org/F1500SampleForm.xsd" xmlns:mstns="http://tempuri.org/F1500SampleForm.xsd" xmlns="http://tempuri.org/F1500SampleForm.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Terrascan23May2011ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="Terrascan23May2011ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.Terrascan23May2011ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F1500SampleForm" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F1500SampleForm" msprop:Generator_DataSetName="F1500SampleForm" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FormSliceDetails" msprop:Generator_UserTableName="FormSliceDetails" msprop:Generator_RowDeletedName="FormSliceDetailsRowDeleted" msprop:Generator_RowChangedName="FormSliceDetailsRowChanged" msprop:Generator_RowClassName="FormSliceDetailsRow" msprop:Generator_RowChangingName="FormSliceDetailsRowChanging" msprop:Generator_RowEvArgName="FormSliceDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="FormSliceDetailsRowChangeEventHandler" msprop:Generator_TableClassName="FormSliceDetailsDataTable" msprop:Generator_TableVarName="tableFormSliceDetails" msprop:Generator_RowDeletingName="FormSliceDetailsRowDeleting" msprop:Generator_TablePropName="FormSliceDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Form" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FormFile" msprop:Generator_UserColumnName="FormFile" msprop:Generator_ColumnPropNameInRow="FormFile" msprop:Generator_ColumnVarNameInTable="columnFormFile" msprop:Generator_ColumnPropNameInTable="FormFileColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MenuName" msprop:Generator_UserColumnName="MenuName" msprop:Generator_ColumnPropNameInRow="MenuName" msprop:Generator_ColumnVarNameInTable="columnMenuName" msprop:Generator_ColumnPropNameInTable="MenuNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WebHeight" msprop:Generator_UserColumnName="WebHeight" msprop:Generator_ColumnPropNameInRow="WebHeight" msprop:Generator_ColumnVarNameInTable="columnWebHeight" msprop:Generator_ColumnPropNameInTable="WebHeightColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MenuOrder" msprop:Generator_UserColumnName="MenuOrder" msprop:Generator_ColumnPropNameInRow="MenuOrder" msprop:Generator_ColumnVarNameInTable="columnMenuOrder" msprop:Generator_ColumnPropNameInTable="MenuOrderColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MenuGroupID" msprop:Generator_UserColumnName="MenuGroupID" msprop:Generator_ColumnPropNameInRow="MenuGroupID" msprop:Generator_ColumnVarNameInTable="columnMenuGroupID" msprop:Generator_ColumnPropNameInTable="MenuGroupIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Report" msprop:Generator_UserColumnName="Report" msprop:Generator_ColumnPropNameInRow="Report" msprop:Generator_ColumnVarNameInTable="columnReport" msprop:Generator_ColumnPropNameInTable="ReportColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ApplicationID" msprop:Generator_UserColumnName="ApplicationID" msprop:Generator_ColumnPropNameInRow="ApplicationID" msprop:Generator_ColumnVarNameInTable="columnApplicationID" msprop:Generator_ColumnPropNameInTable="ApplicationIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="GroupID" msprop:Generator_UserColumnName="GroupID" msprop:Generator_ColumnPropNameInRow="GroupID" msprop:Generator_ColumnVarNameInTable="columnGroupID" msprop:Generator_ColumnPropNameInTable="GroupIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsPermissionMenu" msprop:Generator_UserColumnName="IsPermissionMenu" msprop:Generator_ColumnPropNameInRow="IsPermissionMenu" msprop:Generator_ColumnVarNameInTable="columnIsPermissionMenu" msprop:Generator_ColumnPropNameInTable="IsPermissionMenuColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPermissionOpen" msprop:Generator_UserColumnName="IsPermissionOpen" msprop:Generator_ColumnPropNameInRow="IsPermissionOpen" msprop:Generator_ColumnVarNameInTable="columnIsPermissionOpen" msprop:Generator_ColumnPropNameInTable="IsPermissionOpenColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPermissionAdd" msprop:Generator_UserColumnName="IsPermissionAdd" msprop:Generator_ColumnPropNameInRow="IsPermissionAdd" msprop:Generator_ColumnVarNameInTable="columnIsPermissionAdd" msprop:Generator_ColumnPropNameInTable="IsPermissionAddColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPermissionEdit" msprop:Generator_UserColumnName="IsPermissionEdit" msprop:Generator_ColumnPropNameInRow="IsPermissionEdit" msprop:Generator_ColumnVarNameInTable="columnIsPermissionEdit" msprop:Generator_ColumnPropNameInTable="IsPermissionEditColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPermissionDelete" msprop:Generator_UserColumnName="IsPermissionDelete" msprop:Generator_ColumnPropNameInRow="IsPermissionDelete" msprop:Generator_ColumnVarNameInTable="columnIsPermissionDelete" msprop:Generator_ColumnPropNameInTable="IsPermissionDeleteColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SampleFormApplicationIdTable" msprop:Generator_UserTableName="SampleFormApplicationIdTable" msprop:Generator_RowDeletedName="SampleFormApplicationIdTableRowDeleted" msprop:Generator_RowChangedName="SampleFormApplicationIdTableRowChanged" msprop:Generator_RowClassName="SampleFormApplicationIdTableRow" msprop:Generator_RowChangingName="SampleFormApplicationIdTableRowChanging" msprop:Generator_RowEvArgName="SampleFormApplicationIdTableRowChangeEvent" msprop:Generator_RowEvHandlerName="SampleFormApplicationIdTableRowChangeEventHandler" msprop:Generator_TableClassName="SampleFormApplicationIdTableDataTable" msprop:Generator_TableVarName="tableSampleFormApplicationIdTable" msprop:Generator_RowDeletingName="SampleFormApplicationIdTableRowDeleting" msprop:Generator_TablePropName="SampleFormApplicationIdTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ApplicationID" msprop:Generator_UserColumnName="ApplicationID" msprop:Generator_ColumnVarNameInTable="columnApplicationID" msprop:Generator_ColumnPropNameInRow="ApplicationID" msprop:Generator_ColumnPropNameInTable="ApplicationIDColumn" type="xs:unsignedByte" />
+              <xs:element name="Application" msprop:Generator_UserColumnName="Application" msprop:Generator_ColumnVarNameInTable="columnApplication" msprop:Generator_ColumnPropNameInRow="Application" msprop:Generator_ColumnPropNameInTable="ApplicationColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SampleFormMenuGroupTable" msprop:Generator_UserTableName="SampleFormMenuGroupTable" msprop:Generator_RowDeletedName="SampleFormMenuGroupTableRowDeleted" msprop:Generator_RowChangedName="SampleFormMenuGroupTableRowChanged" msprop:Generator_RowClassName="SampleFormMenuGroupTableRow" msprop:Generator_RowChangingName="SampleFormMenuGroupTableRowChanging" msprop:Generator_RowEvArgName="SampleFormMenuGroupTableRowChangeEvent" msprop:Generator_RowEvHandlerName="SampleFormMenuGroupTableRowChangeEventHandler" msprop:Generator_TableClassName="SampleFormMenuGroupTableDataTable" msprop:Generator_TableVarName="tableSampleFormMenuGroupTable" msprop:Generator_RowDeletingName="SampleFormMenuGroupTableRowDeleting" msprop:Generator_TablePropName="SampleFormMenuGroupTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MenuGroupID" msprop:Generator_UserColumnName="MenuGroupID" msprop:Generator_ColumnVarNameInTable="columnMenuGroupID" msprop:Generator_ColumnPropNameInRow="MenuGroupID" msprop:Generator_ColumnPropNameInTable="MenuGroupIDColumn" type="xs:short" />
+              <xs:element name="MenuGroup" msprop:Generator_UserColumnName="MenuGroup" msprop:Generator_ColumnVarNameInTable="columnMenuGroup" msprop:Generator_ColumnPropNameInRow="MenuGroup" msprop:Generator_ColumnPropNameInTable="MenuGroupColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

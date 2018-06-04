@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ImportFile" targetNamespace="http://tempuri.org/ImportFile.xsd" xmlns:mstns="http://tempuri.org/ImportFile.xsd" xmlns="http://tempuri.org/ImportFile.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerraScanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerraScanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerraScanConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ImportFile" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ImportFile" msprop:Generator_DataSetName="ImportFile">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MortgageImportEntry" msprop:Generator_UserTableName="MortgageImportEntry" msprop:Generator_RowDeletedName="MortgageImportEntryRowDeleted" msprop:Generator_RowChangedName="MortgageImportEntryRowChanged" msprop:Generator_RowClassName="MortgageImportEntryRow" msprop:Generator_RowChangingName="MortgageImportEntryRowChanging" msprop:Generator_RowEvArgName="MortgageImportEntryRowChangeEvent" msprop:Generator_RowEvHandlerName="MortgageImportEntryRowChangeEventHandler" msprop:Generator_TableClassName="MortgageImportEntryDataTable" msprop:Generator_TableVarName="tableMortgageImportEntry" msprop:Generator_RowDeletingName="MortgageImportEntryRowDeleting" msprop:Generator_TablePropName="MortgageImportEntry">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StatementID" msprop:Generator_UserColumnName="StatementID" msprop:Generator_ColumnPropNameInRow="StatementID" msprop:Generator_ColumnVarNameInTable="columnStatementID" msprop:Generator_ColumnPropNameInTable="StatementIDColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="StatementNumber" msprop:Generator_UserColumnName="StatementNumber" msprop:Generator_ColumnPropNameInRow="StatementNumber" msprop:Generator_ColumnVarNameInTable="columnStatementNumber" msprop:Generator_ColumnPropNameInTable="StatementNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BankCode" msprop:Generator_UserColumnName="BankCode" msprop:Generator_ColumnPropNameInRow="BankCode" msprop:Generator_ColumnVarNameInTable="columnBankCode" msprop:Generator_ColumnPropNameInTable="BankCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TaxPayerName" msprop:Generator_UserColumnName="TaxPayerName" msprop:Generator_ColumnPropNameInRow="TaxPayerName" msprop:Generator_ColumnVarNameInTable="columnTaxPayerName" msprop:Generator_ColumnPropNameInTable="TaxPayerNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LoanNum" msprop:Generator_UserColumnName="LoanNum" msprop:Generator_ColumnPropNameInRow="LoanNum" msprop:Generator_ColumnVarNameInTable="columnLoanNum" msprop:Generator_ColumnPropNameInTable="LoanNumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FileLine" msprop:Generator_UserColumnName="FileLine" msprop:Generator_ColumnPropNameInRow="FileLine" msprop:Generator_ColumnVarNameInTable="columnFileLine" msprop:Generator_ColumnPropNameInTable="FileLineColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PostType" msprop:Generator_UserColumnName="PostType" msprop:Generator_ColumnPropNameInRow="PostType" msprop:Generator_ColumnVarNameInTable="columnPostType" msprop:Generator_ColumnPropNameInTable="PostTypeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="OwnerID" msprop:Generator_UserColumnName="OwnerID" msprop:Generator_ColumnVarNameInTable="columnOwnerID" msprop:Generator_ColumnPropNameInRow="OwnerID" msprop:Generator_ColumnPropNameInTable="OwnerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AmountChar" msprop:Generator_UserColumnName="AmountChar" msprop:Generator_ColumnVarNameInTable="columnAmountChar" msprop:Generator_ColumnPropNameInRow="AmountChar" msprop:Generator_ColumnPropNameInTable="AmountCharColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CartID" msprop:Generator_UserColumnName="CartID" msprop:Generator_ColumnPropNameInRow="CartID" msprop:Generator_ColumnVarNameInTable="columnCartID" msprop:Generator_ColumnPropNameInTable="CartIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

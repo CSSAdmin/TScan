@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F2204CopyScheduleData" targetNamespace="http://tempuri.org/F2204CopyScheduleData.xsd" xmlns:mstns="http://tempuri.org/F2204CopyScheduleData.xsd" xmlns="http://tempuri.org/F2204CopyScheduleData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F2204CopyScheduleData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F2204CopyScheduleData" msprop:Generator_DataSetName="F2204CopyScheduleData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="f25050_AssessmentType" msprop:Generator_UserTableName="f25050_AssessmentType" msprop:Generator_RowDeletedName="f25050_AssessmentTypeRowDeleted" msprop:Generator_RowChangedName="f25050_AssessmentTypeRowChanged" msprop:Generator_RowClassName="f25050_AssessmentTypeRow" msprop:Generator_RowChangingName="f25050_AssessmentTypeRowChanging" msprop:Generator_RowEvArgName="f25050_AssessmentTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="f25050_AssessmentTypeRowChangeEventHandler" msprop:Generator_TableClassName="f25050_AssessmentTypeDataTable" msprop:Generator_TableVarName="tablef25050_AssessmentType" msprop:Generator_RowDeletingName="f25050_AssessmentTypeRowDeleting" msprop:Generator_TablePropName="f25050_AssessmentType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AssessmentTypeID" msprop:Generator_UserColumnName="AssessmentTypeID" msprop:Generator_ColumnPropNameInRow="AssessmentTypeID" msprop:Generator_ColumnVarNameInTable="columnAssessmentTypeID" msprop:Generator_ColumnPropNameInTable="AssessmentTypeIDColumn" type="xs:short" />
+              <xs:element name="AssessmentType" msprop:Generator_UserColumnName="AssessmentType" msprop:Generator_ColumnPropNameInRow="AssessmentType" msprop:Generator_ColumnVarNameInTable="columnAssessmentType" msprop:Generator_ColumnPropNameInTable="AssessmentTypeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f25050_ScheduleType" msprop:Generator_UserTableName="f25050_ScheduleType" msprop:Generator_RowDeletedName="f25050_ScheduleTypeRowDeleted" msprop:Generator_RowChangedName="f25050_ScheduleTypeRowChanged" msprop:Generator_RowClassName="f25050_ScheduleTypeRow" msprop:Generator_RowChangingName="f25050_ScheduleTypeRowChanging" msprop:Generator_RowEvArgName="f25050_ScheduleTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="f25050_ScheduleTypeRowChangeEventHandler" msprop:Generator_TableClassName="f25050_ScheduleTypeDataTable" msprop:Generator_TableVarName="tablef25050_ScheduleType" msprop:Generator_RowDeletingName="f25050_ScheduleTypeRowDeleting" msprop:Generator_TablePropName="f25050_ScheduleType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ScheduleTypeID" msprop:Generator_UserColumnName="ScheduleTypeID" msprop:Generator_ColumnPropNameInRow="ScheduleTypeID" msprop:Generator_ColumnVarNameInTable="columnScheduleTypeID" msprop:Generator_ColumnPropNameInTable="ScheduleTypeIDColumn" type="xs:int" />
+              <xs:element name="ScheduleType" msprop:Generator_UserColumnName="ScheduleType" msprop:Generator_ColumnPropNameInRow="ScheduleType" msprop:Generator_ColumnVarNameInTable="columnScheduleType" msprop:Generator_ColumnPropNameInTable="ScheduleTypeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="f25050_CreateCopySchedule" msprop:Generator_UserTableName="f25050_CreateCopySchedule" msprop:Generator_RowDeletedName="f25050_CreateCopyScheduleRowDeleted" msprop:Generator_RowChangedName="f25050_CreateCopyScheduleRowChanged" msprop:Generator_RowClassName="f25050_CreateCopyScheduleRow" msprop:Generator_RowChangingName="f25050_CreateCopyScheduleRowChanging" msprop:Generator_RowEvArgName="f25050_CreateCopyScheduleRowChangeEvent" msprop:Generator_RowEvHandlerName="f25050_CreateCopyScheduleRowChangeEventHandler" msprop:Generator_TableClassName="f25050_CreateCopyScheduleDataTable" msprop:Generator_TableVarName="tablef25050_CreateCopySchedule" msprop:Generator_RowDeletingName="f25050_CreateCopyScheduleRowDeleting" msprop:Generator_TablePropName="f25050_CreateCopySchedule">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ScheduleNumber" msprop:Generator_UserColumnName="ScheduleNumber" msprop:Generator_ColumnVarNameInTable="columnScheduleNumber" msprop:Generator_ColumnPropNameInRow="ScheduleNumber" msprop:Generator_ColumnPropNameInTable="ScheduleNumberColumn" type="xs:string" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AssessmentTypeID" msprop:Generator_UserColumnName="AssessmentTypeID" msprop:Generator_ColumnVarNameInTable="columnAssessmentTypeID" msprop:Generator_ColumnPropNameInRow="AssessmentTypeID" msprop:Generator_ColumnPropNameInTable="AssessmentTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ScheduleTypeID" msprop:Generator_UserColumnName="ScheduleTypeID" msprop:Generator_ColumnVarNameInTable="columnScheduleTypeID" msprop:Generator_ColumnPropNameInRow="ScheduleTypeID" msprop:Generator_ColumnPropNameInTable="ScheduleTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CopyLineItem" msprop:Generator_UserColumnName="CopyLineItem" msprop:Generator_ColumnVarNameInTable="columnCopyLineItem" msprop:Generator_ColumnPropNameInRow="CopyLineItem" msprop:Generator_ColumnPropNameInTable="CopyLineItemColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F84726WaterPipeLocationData" targetNamespace="http://tempuri.org/F84726WaterPipeLocationData.xsd" xmlns:mstns="http://tempuri.org/F84726WaterPipeLocationData.xsd" xmlns="http://tempuri.org/F84726WaterPipeLocationData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F84726WaterPipeLocationData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F84726WaterPipeLocationData" msprop:Generator_DataSetName="F84726WaterPipeLocationData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetWaterPipeLocationDataTable" msprop:Generator_UserTableName="GetWaterPipeLocationDataTable" msprop:Generator_RowDeletedName="GetWaterPipeLocationDataTableRowDeleted" msprop:Generator_TableClassName="GetWaterPipeLocationDataTableDataTable" msprop:Generator_RowChangedName="GetWaterPipeLocationDataTableRowChanged" msprop:Generator_RowClassName="GetWaterPipeLocationDataTableRow" msprop:Generator_RowChangingName="GetWaterPipeLocationDataTableRowChanging" msprop:Generator_RowEvArgName="GetWaterPipeLocationDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="GetWaterPipeLocationDataTableRowChangeEventHandler" msprop:Generator_TablePropName="GetWaterPipeLocationDataTable" msprop:Generator_TableVarName="tableGetWaterPipeLocationDataTable" msprop:Generator_RowDeletingName="GetWaterPipeLocationDataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeatureID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="FeatureID" msprop:Generator_ColumnPropNameInRow="FeatureID" msprop:Generator_ColumnVarNameInTable="columnFeatureID" msprop:Generator_ColumnPropNameInTable="FeatureIDColumn" type="xs:int" />
+              <xs:element name="AdministrativeAreaID" msprop:Generator_UserColumnName="AdministrativeAreaID" msprop:Generator_ColumnPropNameInRow="AdministrativeAreaID" msprop:Generator_ColumnVarNameInTable="columnAdministrativeAreaID" msprop:Generator_ColumnPropNameInTable="AdministrativeAreaIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="OperationalAreaID" msprop:Generator_UserColumnName="OperationalAreaID" msprop:Generator_ColumnPropNameInRow="OperationalAreaID" msprop:Generator_ColumnVarNameInTable="columnOperationalAreaID" msprop:Generator_ColumnPropNameInTable="OperationalAreaIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Elevation" msprop:Generator_UserColumnName="Elevation" msprop:Generator_ColumnPropNameInRow="Elevation" msprop:Generator_ColumnVarNameInTable="columnElevation" msprop:Generator_ColumnPropNameInTable="ElevationColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Depth" msprop:Generator_UserColumnName="Depth" msprop:Generator_ColumnPropNameInRow="Depth" msprop:Generator_ColumnVarNameInTable="columnDepth" msprop:Generator_ColumnPropNameInTable="DepthColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GridID" msprop:Generator_UserColumnName="GridID" msprop:Generator_ColumnPropNameInRow="GridID" msprop:Generator_ColumnVarNameInTable="columnGridID" msprop:Generator_ColumnPropNameInTable="GridIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="District_Project" msprop:Generator_UserColumnName="District_Project" msprop:Generator_ColumnPropNameInRow="District_Project" msprop:Generator_ColumnVarNameInTable="columnDistrict_Project" msprop:Generator_ColumnPropNameInTable="District_ProjectColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LocationDescription" msprop:Generator_UserColumnName="LocationDescription" msprop:Generator_ColumnPropNameInRow="LocationDescription" msprop:Generator_ColumnVarNameInTable="columnLocationDescription" msprop:Generator_ColumnPropNameInTable="LocationDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

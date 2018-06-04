@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F29660TIFEventData" targetNamespace="http://tempuri.org/F29660TIFEventData.xsd" xmlns:mstns="http://tempuri.org/F29660TIFEventData.xsd" xmlns="http://tempuri.org/F29660TIFEventData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F29660TIFEventData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F29660TIFEventData" msprop:Generator_DataSetName="F29660TIFEventData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F29660TIFEventDataTable" msprop:Generator_UserTableName="F29660TIFEventDataTable" msprop:Generator_RowDeletedName="F29660TIFEventDataTableRowDeleted" msprop:Generator_RowChangedName="F29660TIFEventDataTableRowChanged" msprop:Generator_RowClassName="F29660TIFEventDataTableRow" msprop:Generator_RowChangingName="F29660TIFEventDataTableRowChanging" msprop:Generator_RowEvArgName="F29660TIFEventDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="F29660TIFEventDataTableRowChangeEventHandler" msprop:Generator_TableClassName="F29660TIFEventDataTableDataTable" msprop:Generator_TableVarName="tableF29660TIFEventDataTable" msprop:Generator_RowDeletingName="F29660TIFEventDataTableRowDeleting" msprop:Generator_TablePropName="F29660TIFEventDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" />
+              <xs:element name="ParcelID" msprop:Generator_UserColumnName="ParcelID" msprop:Generator_ColumnVarNameInTable="columnParcelID" msprop:Generator_ColumnPropNameInRow="ParcelID" msprop:Generator_ColumnPropNameInTable="ParcelIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RollYear" msdata:ReadOnly="true" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="TIFID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TIFID" msprop:Generator_ColumnVarNameInTable="columnTIFID" msprop:Generator_ColumnPropNameInRow="TIFID" msprop:Generator_ColumnPropNameInTable="TIFIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TIFDistrict" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TIFDistrict" msprop:Generator_ColumnVarNameInTable="columnTIFDistrict" msprop:Generator_ColumnPropNameInRow="TIFDistrict" msprop:Generator_ColumnPropNameInTable="TIFDistrictColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="153" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubFund" msprop:Generator_UserColumnName="SubFund" msprop:Generator_ColumnVarNameInTable="columnSubFund" msprop:Generator_ColumnPropNameInRow="SubFund" msprop:Generator_ColumnPropNameInTable="SubFundColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnPropNameInTable="CityColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CurrentAssessedValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CurrentAssessedValue" msprop:Generator_ColumnVarNameInTable="columnCurrentAssessedValue" msprop:Generator_ColumnPropNameInRow="CurrentAssessedValue" msprop:Generator_ColumnPropNameInTable="CurrentAssessedValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BaseValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="BaseValue" msprop:Generator_ColumnVarNameInTable="columnBaseValue" msprop:Generator_ColumnPropNameInRow="BaseValue" msprop:Generator_ColumnPropNameInTable="BaseValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ExcessValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ExcessValue" msprop:Generator_ColumnVarNameInTable="columnExcessValue" msprop:Generator_ColumnPropNameInRow="ExcessValue" msprop:Generator_ColumnPropNameInTable="ExcessValueColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DistrictComboboxDataTable" msprop:Generator_UserTableName="DistrictComboboxDataTable" msprop:Generator_RowDeletedName="DistrictComboboxDataTableRowDeleted" msprop:Generator_TableClassName="DistrictComboboxDataTableDataTable" msprop:Generator_RowChangedName="DistrictComboboxDataTableRowChanged" msprop:Generator_RowClassName="DistrictComboboxDataTableRow" msprop:Generator_RowChangingName="DistrictComboboxDataTableRowChanging" msprop:Generator_RowEvArgName="DistrictComboboxDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="DistrictComboboxDataTableRowChangeEventHandler" msprop:Generator_TablePropName="DistrictComboboxDataTable" msprop:Generator_TableVarName="tableDistrictComboboxDataTable" msprop:Generator_RowDeletingName="DistrictComboboxDataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TIFID" msprop:Generator_UserColumnName="TIFID" msprop:Generator_ColumnPropNameInRow="TIFID" msprop:Generator_ColumnVarNameInTable="columnTIFID" msprop:Generator_ColumnPropNameInTable="TIFIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="153" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubFund" msprop:Generator_UserColumnName="SubFund" msprop:Generator_ColumnPropNameInRow="SubFund" msprop:Generator_ColumnVarNameInTable="columnSubFund" msprop:Generator_ColumnPropNameInTable="SubFundColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInTable="CityColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:F29660TIFEventDataTable" />
+      <xs:field xpath="mstns:EventID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

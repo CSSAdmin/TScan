@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9033QueryEngineData" targetNamespace="http://tempuri.org/F9033QueryEngineData.xsd" xmlns:mstns="http://tempuri.org/F9033QueryEngineData.xsd" xmlns="http://tempuri.org/F9033QueryEngineData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9033QueryEngineData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F9033QueryEngineData" msprop:Generator_DataSetName="F9033QueryEngineData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetDefaultLayoutXML" msprop:Generator_UserTableName="GetDefaultLayoutXML" msprop:Generator_RowDeletedName="GetDefaultLayoutXMLRowDeleted" msprop:Generator_RowChangedName="GetDefaultLayoutXMLRowChanged" msprop:Generator_RowClassName="GetDefaultLayoutXMLRow" msprop:Generator_RowChangingName="GetDefaultLayoutXMLRowChanging" msprop:Generator_RowEvArgName="GetDefaultLayoutXMLRowChangeEvent" msprop:Generator_RowEvHandlerName="GetDefaultLayoutXMLRowChangeEventHandler" msprop:Generator_TableClassName="GetDefaultLayoutXMLDataTable" msprop:Generator_TableVarName="tableGetDefaultLayoutXML" msprop:Generator_RowDeletingName="GetDefaultLayoutXMLRowDeleting" msprop:Generator_TablePropName="GetDefaultLayoutXML">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LayoutXML" msprop:Generator_UserColumnName="LayoutXML" msprop:Generator_ColumnPropNameInRow="LayoutXML" msprop:Generator_ColumnVarNameInTable="columnLayoutXML" msprop:Generator_ColumnPropNameInTable="LayoutXMLColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListQueryView" msprop:Generator_UserTableName="ListQueryView" msprop:Generator_RowDeletedName="ListQueryViewRowDeleted" msprop:Generator_RowChangedName="ListQueryViewRowChanged" msprop:Generator_RowClassName="ListQueryViewRow" msprop:Generator_RowChangingName="ListQueryViewRowChanging" msprop:Generator_RowEvArgName="ListQueryViewRowChangeEvent" msprop:Generator_RowEvHandlerName="ListQueryViewRowChangeEventHandler" msprop:Generator_TableClassName="ListQueryViewDataTable" msprop:Generator_TableVarName="tableListQueryView" msprop:Generator_RowDeletingName="ListQueryViewRowDeleting" msprop:Generator_TablePropName="ListQueryView">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QueryViewID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="QueryViewID" msprop:Generator_ColumnPropNameInRow="QueryViewID" msprop:Generator_ColumnVarNameInTable="columnQueryViewID" msprop:Generator_ColumnPropNameInTable="QueryViewIDColumn" type="xs:int" />
+              <xs:element name="Form" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" />
+              <xs:element name="QueryView" msprop:Generator_UserColumnName="QueryView" msprop:Generator_ColumnPropNameInRow="QueryView" msprop:Generator_ColumnVarNameInTable="columnQueryView" msprop:Generator_ColumnPropNameInTable="QueryViewColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QueryViewName" msprop:Generator_UserColumnName="QueryViewName" msprop:Generator_ColumnPropNameInRow="QueryViewName" msprop:Generator_ColumnVarNameInTable="columnQueryViewName" msprop:Generator_ColumnPropNameInTable="QueryViewNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KeyField" msdata:ReadOnly="true" msprop:Generator_UserColumnName="KeyField" msprop:Generator_ColumnPropNameInRow="KeyField" msprop:Generator_ColumnVarNameInTable="columnKeyField" msprop:Generator_ColumnPropNameInTable="KeyFieldColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QueryLayoutID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="QueryLayoutID" msprop:Generator_ColumnPropNameInRow="QueryLayoutID" msprop:Generator_ColumnVarNameInTable="columnQueryLayoutID" msprop:Generator_ColumnPropNameInTable="QueryLayoutIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LayoutName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LayoutName" msprop:Generator_ColumnPropNameInRow="LayoutName" msprop:Generator_ColumnVarNameInTable="columnLayoutName" msprop:Generator_ColumnPropNameInTable="LayoutNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LayoutXML" msprop:Generator_UserColumnName="LayoutXML" msprop:Generator_ColumnPropNameInRow="LayoutXML" msprop:Generator_ColumnVarNameInTable="columnLayoutXML" msprop:Generator_ColumnPropNameInTable="LayoutXMLColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ForeignKeyName" msprop:Generator_UserColumnName="ForeignKeyName" msprop:Generator_ColumnPropNameInRow="ForeignKeyName" msprop:Generator_ColumnVarNameInTable="columnForeignKeyName" msprop:Generator_ColumnPropNameInTable="ForeignKeyNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListQueryLayout" msprop:Generator_UserTableName="ListQueryLayout" msprop:Generator_RowDeletedName="ListQueryLayoutRowDeleted" msprop:Generator_RowChangedName="ListQueryLayoutRowChanged" msprop:Generator_RowClassName="ListQueryLayoutRow" msprop:Generator_RowChangingName="ListQueryLayoutRowChanging" msprop:Generator_RowEvArgName="ListQueryLayoutRowChangeEvent" msprop:Generator_RowEvHandlerName="ListQueryLayoutRowChangeEventHandler" msprop:Generator_TableClassName="ListQueryLayoutDataTable" msprop:Generator_TableVarName="tableListQueryLayout" msprop:Generator_RowDeletingName="ListQueryLayoutRowDeleting" msprop:Generator_TablePropName="ListQueryLayout">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QueryLayoutID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="QueryLayoutID" msprop:Generator_ColumnVarNameInTable="columnQueryLayoutID" msprop:Generator_ColumnPropNameInRow="QueryLayoutID" msprop:Generator_ColumnPropNameInTable="QueryLayoutIDColumn" type="xs:int" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" />
+              <xs:element name="Name_Display" msprop:Generator_UserColumnName="Name_Display" msprop:Generator_ColumnVarNameInTable="columnName_Display" msprop:Generator_ColumnPropNameInRow="Name_Display" msprop:Generator_ColumnPropNameInTable="Name_DisplayColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsAllUsers" msprop:Generator_UserColumnName="IsAllUsers" msprop:Generator_ColumnVarNameInTable="columnIsAllUsers" msprop:Generator_ColumnPropNameInRow="IsAllUsers" msprop:Generator_ColumnPropNameInTable="IsAllUsersColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsDefault" msprop:Generator_UserColumnName="IsDefault" msprop:Generator_ColumnVarNameInTable="columnIsDefault" msprop:Generator_ColumnPropNameInRow="IsDefault" msprop:Generator_ColumnPropNameInTable="IsDefaultColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsTSOnly" msprop:Generator_UserColumnName="IsTSOnly" msprop:Generator_ColumnVarNameInTable="columnIsTSOnly" msprop:Generator_ColumnPropNameInRow="IsTSOnly" msprop:Generator_ColumnPropNameInTable="IsTSOnlyColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsDefault1" msprop:Generator_UserColumnName="IsDefault1" msprop:Generator_ColumnVarNameInTable="columnIsDefault1" msprop:Generator_ColumnPropNameInRow="IsDefault1" msprop:Generator_ColumnPropNameInTable="IsDefault1Column" type="xs:boolean" minOccurs="0" />
+              <xs:element name="QueryView" msprop:Generator_UserColumnName="QueryView" msprop:Generator_ColumnVarNameInTable="columnQueryView" msprop:Generator_ColumnPropNameInRow="QueryView" msprop:Generator_ColumnPropNameInTable="QueryViewColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LayoutName" msprop:Generator_UserColumnName="LayoutName" msprop:Generator_ColumnVarNameInTable="columnLayoutName" msprop:Generator_ColumnPropNameInRow="LayoutName" msprop:Generator_ColumnPropNameInTable="LayoutNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LayoutXML" msprop:Generator_UserColumnName="LayoutXML" msprop:Generator_ColumnVarNameInTable="columnLayoutXML" msprop:Generator_ColumnPropNameInRow="LayoutXML" msprop:Generator_ColumnPropNameInTable="LayoutXMLColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListQuerySnapShot" msprop:Generator_UserTableName="ListQuerySnapShot" msprop:Generator_RowDeletedName="ListQuerySnapShotRowDeleted" msprop:Generator_RowChangedName="ListQuerySnapShotRowChanged" msprop:Generator_RowClassName="ListQuerySnapShotRow" msprop:Generator_RowChangingName="ListQuerySnapShotRowChanging" msprop:Generator_RowEvArgName="ListQuerySnapShotRowChangeEvent" msprop:Generator_RowEvHandlerName="ListQuerySnapShotRowChangeEventHandler" msprop:Generator_TableClassName="ListQuerySnapShotDataTable" msprop:Generator_TableVarName="tableListQuerySnapShot" msprop:Generator_RowDeletingName="ListQuerySnapShotRowDeleting" msprop:Generator_TablePropName="ListQuerySnapShot">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SnapshotID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="SnapshotID" msprop:Generator_ColumnPropNameInRow="SnapshotID" msprop:Generator_ColumnVarNameInTable="columnSnapshotID" msprop:Generator_ColumnPropNameInTable="SnapshotIDColumn" type="xs:int" />
+              <xs:element name="SnapshotName" msprop:Generator_UserColumnName="SnapshotName" msprop:Generator_ColumnPropNameInRow="SnapshotName" msprop:Generator_ColumnVarNameInTable="columnSnapshotName" msprop:Generator_ColumnPropNameInTable="SnapshotNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QueryViewID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="QueryViewID" msprop:Generator_ColumnPropNameInRow="QueryViewID" msprop:Generator_ColumnVarNameInTable="columnQueryViewID" msprop:Generator_ColumnPropNameInTable="QueryViewIDColumn" type="xs:int" />
+              <xs:element name="RecordCount" msprop:Generator_UserColumnName="RecordCount" msprop:Generator_ColumnPropNameInRow="RecordCount" msprop:Generator_ColumnVarNameInTable="columnRecordCount" msprop:Generator_ColumnPropNameInTable="RecordCountColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetSystemSnapshotCount" msprop:Generator_UserTableName="GetSystemSnapshotCount" msprop:Generator_RowDeletedName="GetSystemSnapshotCountRowDeleted" msprop:Generator_RowChangedName="GetSystemSnapshotCountRowChanged" msprop:Generator_RowClassName="GetSystemSnapshotCountRow" msprop:Generator_RowChangingName="GetSystemSnapshotCountRowChanging" msprop:Generator_RowEvArgName="GetSystemSnapshotCountRowChangeEvent" msprop:Generator_RowEvHandlerName="GetSystemSnapshotCountRowChangeEventHandler" msprop:Generator_TableClassName="GetSystemSnapshotCountDataTable" msprop:Generator_TableVarName="tableGetSystemSnapshotCount" msprop:Generator_RowDeletingName="GetSystemSnapshotCountRowDeleting" msprop:Generator_TablePropName="GetSystemSnapshotCount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SystemSnapshotItemCount" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SystemSnapshotItemCount" msprop:Generator_ColumnVarNameInTable="columnSystemSnapshotItemCount" msprop:Generator_ColumnPropNameInRow="SystemSnapshotItemCount" msprop:Generator_ColumnPropNameInTable="SystemSnapshotItemCountColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F81003SelectionCatalogData" targetNamespace="http://tempuri.org/F81003SelectionCatalogData.xsd" xmlns:mstns="http://tempuri.org/F81003SelectionCatalogData.xsd" xmlns="http://tempuri.org/F81003SelectionCatalogData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F81003SelectionCatalogData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F81003SelectionCatalogData" msprop:Generator_DataSetName="F81003SelectionCatalogData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetSelectionCatalog" msprop:Generator_UserTableName="GetSelectionCatalog" msprop:Generator_RowDeletedName="GetSelectionCatalogRowDeleted" msprop:Generator_RowChangedName="GetSelectionCatalogRowChanged" msprop:Generator_RowClassName="GetSelectionCatalogRow" msprop:Generator_RowChangingName="GetSelectionCatalogRowChanging" msprop:Generator_RowEvArgName="GetSelectionCatalogRowChangeEvent" msprop:Generator_RowEvHandlerName="GetSelectionCatalogRowChangeEventHandler" msprop:Generator_TableClassName="GetSelectionCatalogDataTable" msprop:Generator_TableVarName="tableGetSelectionCatalog" msprop:Generator_RowDeletingName="GetSelectionCatalogRowDeleting" msprop:Generator_TablePropName="GetSelectionCatalog">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CatalogID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CatalogID" msprop:Generator_ColumnVarNameInTable="columnCatalogID" msprop:Generator_ColumnPropNameInRow="CatalogID" msprop:Generator_ColumnPropNameInTable="CatalogIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Selection" msprop:Generator_UserColumnName="Selection" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnSelection" msprop:Generator_ColumnPropNameInTable="SelectionColumn" msprop:Generator_ColumnPropNameInRow="Selection" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EffectiveDate" msprop:Generator_UserColumnName="EffectiveDate" msprop:Generator_ColumnVarNameInTable="columnEffectiveDate" msprop:Generator_ColumnPropNameInRow="EffectiveDate" msprop:Generator_ColumnPropNameInTable="EffectiveDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Units" msprop:Generator_UserColumnName="Units" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnUnits" msprop:Generator_ColumnPropNameInTable="UnitsColumn" msprop:Generator_ColumnPropNameInRow="Units" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Multiply" msprop:Generator_UserColumnName="Multiply" msprop:Generator_ColumnVarNameInTable="columnMultiply" msprop:Generator_ColumnPropNameInRow="Multiply" msprop:Generator_ColumnPropNameInTable="MultiplyColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="UnitFee" msprop:Generator_UserColumnName="UnitFee" msprop:Generator_ColumnVarNameInTable="columnUnitFee" msprop:Generator_ColumnPropNameInRow="UnitFee" msprop:Generator_ColumnPropNameInTable="UnitFeeColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FeeCalc" msprop:Generator_UserColumnName="FeeCalc" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnFeeCalc" msprop:Generator_ColumnPropNameInTable="FeeCalcColumn" msprop:Generator_ColumnPropNameInRow="FeeCalc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="550" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CategoryID" msprop:Generator_UserColumnName="CategoryID" msprop:Generator_ColumnVarNameInTable="columnCategoryID" msprop:Generator_ColumnPropNameInRow="CategoryID" msprop:Generator_ColumnPropNameInTable="CategoryIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CategoryName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CategoryName" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnCategoryName" msprop:Generator_ColumnPropNameInTable="CategoryNameColumn" msprop:Generator_ColumnPropNameInRow="CategoryName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="63" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListSelectionCategory" msprop:Generator_UserTableName="ListSelectionCategory" msprop:Generator_RowDeletedName="ListSelectionCategoryRowDeleted" msprop:Generator_RowChangedName="ListSelectionCategoryRowChanged" msprop:Generator_RowClassName="ListSelectionCategoryRow" msprop:Generator_RowChangingName="ListSelectionCategoryRowChanging" msprop:Generator_RowEvArgName="ListSelectionCategoryRowChangeEvent" msprop:Generator_RowEvHandlerName="ListSelectionCategoryRowChangeEventHandler" msprop:Generator_TableClassName="ListSelectionCategoryDataTable" msprop:Generator_TableVarName="tableListSelectionCategory" msprop:Generator_RowDeletingName="ListSelectionCategoryRowDeleting" msprop:Generator_TablePropName="ListSelectionCategory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CategoryID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CategoryID" msprop:Generator_ColumnVarNameInTable="columnCategoryID" msprop:Generator_ColumnPropNameInRow="CategoryID" msprop:Generator_ColumnPropNameInTable="CategoryIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="VCategory" msdata:ReadOnly="true" msprop:Generator_UserColumnName="VCategory" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnVCategory" msprop:Generator_ColumnPropNameInTable="VCategoryColumn" msprop:Generator_ColumnPropNameInRow="VCategory" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="63" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

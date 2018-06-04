@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CommonData" targetNamespace="http://tempuri.org/CommonData.xsd" xmlns:mstns="http://tempuri.org/CommonData.xsd" xmlns="http://tempuri.org/CommonData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CommonData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CommonData" msprop:Generator_DataSetName="CommonData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ComboBoxDataTable" msprop:Generator_UserTableName="ComboBoxDataTable" msprop:Generator_RowDeletedName="ComboBoxDataTableRowDeleted" msprop:Generator_RowChangedName="ComboBoxDataTableRowChanged" msprop:Generator_RowClassName="ComboBoxDataTableRow" msprop:Generator_RowChangingName="ComboBoxDataTableRowChanging" msprop:Generator_RowEvArgName="ComboBoxDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ComboBoxDataTableRowChangeEventHandler" msprop:Generator_TableClassName="ComboBoxDataTableDataTable" msprop:Generator_TableVarName="tableComboBoxDataTable" msprop:Generator_RowDeletingName="ComboBoxDataTableRowDeleting" msprop:Generator_TablePropName="ComboBoxDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyId" msprop:Generator_UserColumnName="KeyId" msprop:Generator_ColumnVarNameInTable="columnKeyId" msprop:Generator_ColumnPropNameInRow="KeyId" msprop:Generator_ColumnPropNameInTable="KeyIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="KeyName" msprop:Generator_UserColumnName="KeyName" msprop:Generator_ColumnVarNameInTable="columnKeyName" msprop:Generator_ColumnPropNameInRow="KeyName" msprop:Generator_ColumnPropNameInTable="KeyNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ComboKeyStringDataTable" msprop:Generator_UserTableName="ComboKeyStringDataTable" msprop:Generator_RowDeletedName="ComboKeyStringDataTableRowDeleted" msprop:Generator_RowChangedName="ComboKeyStringDataTableRowChanged" msprop:Generator_RowClassName="ComboKeyStringDataTableRow" msprop:Generator_RowChangingName="ComboKeyStringDataTableRowChanging" msprop:Generator_RowEvArgName="ComboKeyStringDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ComboKeyStringDataTableRowChangeEventHandler" msprop:Generator_TableClassName="ComboKeyStringDataTableDataTable" msprop:Generator_TableVarName="tableComboKeyStringDataTable" msprop:Generator_RowDeletingName="ComboKeyStringDataTableRowDeleting" msprop:Generator_TablePropName="ComboKeyStringDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyId" msprop:Generator_UserColumnName="KeyId" msprop:Generator_ColumnPropNameInRow="KeyId" msprop:Generator_ColumnVarNameInTable="columnKeyId" msprop:Generator_ColumnPropNameInTable="KeyIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="KeyName" msprop:Generator_UserColumnName="KeyName" msprop:Generator_ColumnPropNameInRow="KeyName" msprop:Generator_ColumnVarNameInTable="columnKeyName" msprop:Generator_ColumnPropNameInTable="KeyNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ConnectionStringDataTable" msprop:Generator_UserTableName="ConnectionStringDataTable" msprop:Generator_RowDeletedName="ConnectionStringDataTableRowDeleted" msprop:Generator_TableClassName="ConnectionStringDataTableDataTable" msprop:Generator_RowChangedName="ConnectionStringDataTableRowChanged" msprop:Generator_RowClassName="ConnectionStringDataTableRow" msprop:Generator_RowChangingName="ConnectionStringDataTableRowChanging" msprop:Generator_RowEvArgName="ConnectionStringDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ConnectionStringDataTableRowChangeEventHandler" msprop:Generator_TablePropName="ConnectionStringDataTable" msprop:Generator_TableVarName="tableConnectionStringDataTable" msprop:Generator_RowDeletingName="ConnectionStringDataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ConnectionString" msprop:Generator_UserColumnName="ConnectionString" msprop:Generator_ColumnPropNameInRow="ConnectionString" msprop:Generator_ColumnVarNameInTable="columnConnectionString" msprop:Generator_ColumnPropNameInTable="ConnectionStringColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

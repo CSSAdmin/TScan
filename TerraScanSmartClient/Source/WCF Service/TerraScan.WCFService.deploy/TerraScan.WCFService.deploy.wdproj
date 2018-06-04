@@ -1,0 +1,76 @@
+﻿<!-- 
+  Microsoft Visual Studio 2008 Web Deployment Project 
+  http://go.microsoft.com/fwlink/?LinkID=104956
+
+-->
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E1F388CC-DABC-4F2B-B4C9-42076E60193D}</ProjectGuid>
+    <SourceWebPhysicalPath>..\TerraScan.WCFService</SourceWebPhysicalPath>
+    <SourceWebProject>{3FD82A94-F195-4676-876B-A6A30EDB9E8D}|C:\TerrascanWorkArea_VS2008\TerraScanSmartClient\Source\WCF Service\TerraScan.WCFService</SourceWebProject>
+    <SourceWebVirtualPath>/TerraScan.WCFService</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\Debug</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>TerraScan.WCFService.deploy</SingleAssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\Release</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>TerraScan.WCFService.deploy</SingleAssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.BusinessEntities\TerraScan.BusinessEntities.csproj">
+      <Project>{35675EC3-DE95-4247-B004-42C3C0D3BAC8}</Project>
+      <Name>TerraScan.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.DALHelper\TerraScan.DALHelper.csproj">
+      <Project>{BB87A922-940B-4D27-87B3-D16D81F11762}</Project>
+      <Name>TerraScan.DALHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.DAL\TerraScan.DAL.csproj">
+      <Project>{2570B039-E48D-44A8-92F7-F7E82EB1B89B}</Project>
+      <Name>TerraScan.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\TerraScan.DataLayer\TerraScan.DataLayer.csproj">
+      <Project>{68D655C0-80D7-4F8D-B7DA-DC1C1F892A6D}</Project>
+      <Name>TerraScan.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerraScan.ServiceContracts\TerraScan.ServiceContracts.csproj">
+      <Project>{48D9B07A-5CDA-42A1-A081-AFE35D901EA5}</Project>
+      <Name>TerraScan.ServiceContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TerraScan.ServiceImplementation\TerraScan.ServiceImplementation.csproj">
+      <Project>{549B6955-1105-4A6F-9181-36EC4FEE9658}</Project>
+      <Name>TerraScan.ServiceImplementation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WebDeployment\v9.0\Microsoft.WebDeployment.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.WebDeployment.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="BeforeMerge">
+  </Target>
+  <Target Name="AfterMerge">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

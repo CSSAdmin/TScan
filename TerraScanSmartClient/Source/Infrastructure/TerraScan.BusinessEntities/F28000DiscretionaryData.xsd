@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F28000DiscretionaryData" targetNamespace="http://tempuri.org/F28000DiscretionaryData.xsd" xmlns:mstns="http://tempuri.org/F28000DiscretionaryData.xsd" xmlns="http://tempuri.org/F28000DiscretionaryData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F28000DiscretionaryData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F28000DiscretionaryData" msprop:Generator_DataSetName="F28000DiscretionaryData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ClassDetail" msprop:Generator_UserTableName="ClassDetail" msprop:Generator_RowDeletedName="ClassDetailRowDeleted" msprop:Generator_RowChangedName="ClassDetailRowChanged" msprop:Generator_RowClassName="ClassDetailRow" msprop:Generator_RowChangingName="ClassDetailRowChanging" msprop:Generator_RowEvArgName="ClassDetailRowChangeEvent" msprop:Generator_RowEvHandlerName="ClassDetailRowChangeEventHandler" msprop:Generator_TableClassName="ClassDetailDataTable" msprop:Generator_TableVarName="tableClassDetail" msprop:Generator_RowDeletingName="ClassDetailRowDeleting" msprop:Generator_TablePropName="ClassDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Class" msprop:Generator_UserColumnName="Class" msprop:Generator_ColumnPropNameInRow="Class" msprop:Generator_ColumnVarNameInTable="columnClass" msprop:Generator_ColumnPropNameInTable="ClassColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Discretionary" msprop:Generator_UserTableName="Discretionary" msprop:Generator_RowDeletedName="DiscretionaryRowDeleted" msprop:Generator_RowChangedName="DiscretionaryRowChanged" msprop:Generator_RowClassName="DiscretionaryRow" msprop:Generator_RowChangingName="DiscretionaryRowChanging" msprop:Generator_RowEvArgName="DiscretionaryRowChangeEvent" msprop:Generator_RowEvHandlerName="DiscretionaryRowChangeEventHandler" msprop:Generator_TableClassName="DiscretionaryDataTable" msprop:Generator_TableVarName="tableDiscretionary" msprop:Generator_RowDeletingName="DiscretionaryRowDeleting" msprop:Generator_TablePropName="Discretionary">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Rollyear" msprop:Generator_UserColumnName="Rollyear" msprop:Generator_ColumnPropNameInRow="Rollyear" msprop:Generator_ColumnVarNameInTable="columnRollyear" msprop:Generator_ColumnPropNameInTable="RollyearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="DiscretionaryID" msprop:Generator_UserColumnName="DiscretionaryID" msprop:Generator_ColumnPropNameInRow="DiscretionaryID" msprop:Generator_ColumnVarNameInTable="columnDiscretionaryID" msprop:Generator_ColumnPropNameInTable="DiscretionaryIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PriorAgExemptionAmount" msprop:Generator_UserColumnName="PriorAgExemptionAmount" msprop:Generator_ColumnPropNameInRow="PriorAgExemptionAmount" msprop:Generator_ColumnVarNameInTable="columnPriorAgExemptionAmount" msprop:Generator_ColumnPropNameInTable="PriorAgExemptionAmountColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PriorNonAgExemptionAmount" msprop:Generator_UserColumnName="PriorNonAgExemptionAmount" msprop:Generator_ColumnPropNameInRow="PriorNonAgExemptionAmount" msprop:Generator_ColumnVarNameInTable="columnPriorNonAgExemptionAmount" msprop:Generator_ColumnPropNameInTable="PriorNonAgExemptionAmountColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ExemptionAmount" msprop:Generator_UserTableName="ExemptionAmount" msprop:Generator_RowDeletedName="ExemptionAmountRowDeleted" msprop:Generator_RowChangedName="ExemptionAmountRowChanged" msprop:Generator_RowClassName="ExemptionAmountRow" msprop:Generator_RowChangingName="ExemptionAmountRowChanging" msprop:Generator_RowEvArgName="ExemptionAmountRowChangeEvent" msprop:Generator_RowEvHandlerName="ExemptionAmountRowChangeEventHandler" msprop:Generator_TableClassName="ExemptionAmountDataTable" msprop:Generator_TableVarName="tableExemptionAmount" msprop:Generator_RowDeletingName="ExemptionAmountRowDeleting" msprop:Generator_TablePropName="ExemptionAmount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ExemptionAmount" msprop:Generator_UserColumnName="ExemptionAmount" msprop:Generator_ColumnPropNameInRow="ExemptionAmount" msprop:Generator_ColumnVarNameInTable="columnExemptionAmount" msprop:Generator_ColumnPropNameInTable="ExemptionAmountColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DiscretionaryDetails" msprop:Generator_UserTableName="DiscretionaryDetails" msprop:Generator_RowDeletedName="DiscretionaryDetailsRowDeleted" msprop:Generator_RowChangedName="DiscretionaryDetailsRowChanged" msprop:Generator_RowClassName="DiscretionaryDetailsRow" msprop:Generator_RowChangingName="DiscretionaryDetailsRowChanging" msprop:Generator_RowEvArgName="DiscretionaryDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="DiscretionaryDetailsRowChangeEventHandler" msprop:Generator_TableClassName="DiscretionaryDetailsDataTable" msprop:Generator_TableVarName="tableDiscretionaryDetails" msprop:Generator_RowDeletingName="DiscretionaryDetailsRowDeleting" msprop:Generator_TablePropName="DiscretionaryDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DetailID" msprop:Generator_UserColumnName="DetailID" msprop:Generator_ColumnVarNameInTable="columnDetailID" msprop:Generator_ColumnPropNameInRow="DetailID" msprop:Generator_ColumnPropNameInTable="DetailIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ExemptionYear" msprop:Generator_UserColumnName="ExemptionYear" msprop:Generator_ColumnVarNameInTable="columnExemptionYear" msprop:Generator_ColumnPropNameInRow="ExemptionYear" msprop:Generator_ColumnPropNameInTable="ExemptionYearColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="State" msprop:Generator_UserColumnName="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Class" msprop:Generator_UserColumnName="Class" msprop:Generator_ColumnVarNameInTable="columnClass" msprop:Generator_ColumnPropNameInRow="Class" msprop:Generator_ColumnPropNameInTable="ClassColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubjectAmount" msprop:Generator_UserColumnName="SubjectAmount" msprop:Generator_ColumnVarNameInTable="columnSubjectAmount" msprop:Generator_ColumnPropNameInRow="SubjectAmount" msprop:Generator_ColumnPropNameInTable="SubjectAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ExemptionAmount" msprop:Generator_UserColumnName="ExemptionAmount" msprop:Generator_ColumnVarNameInTable="columnExemptionAmount" msprop:Generator_ColumnPropNameInRow="ExemptionAmount" msprop:Generator_ColumnPropNameInTable="ExemptionAmountColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StateList" msprop:Generator_UserTableName="StateList" msprop:Generator_RowDeletedName="StateListRowDeleted" msprop:Generator_RowChangedName="StateListRowChanged" msprop:Generator_RowClassName="StateListRow" msprop:Generator_RowChangingName="StateListRowChanging" msprop:Generator_RowEvArgName="StateListRowChangeEvent" msprop:Generator_RowEvHandlerName="StateListRowChangeEventHandler" msprop:Generator_TableClassName="StateListDataTable" msprop:Generator_TableVarName="tableStateList" msprop:Generator_RowDeletingName="StateListRowDeleting" msprop:Generator_TablePropName="StateList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="State" msprop:Generator_UserColumnName="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="StateDescription" msprop:Generator_UserColumnName="StateDescription" msprop:Generator_ColumnVarNameInTable="columnStateDescription" msprop:Generator_ColumnPropNameInRow="StateDescription" msprop:Generator_ColumnPropNameInTable="StateDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

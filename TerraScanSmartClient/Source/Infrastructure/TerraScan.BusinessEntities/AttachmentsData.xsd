@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AttachmentsData" targetNamespace="http://tempuri.org/AttachmentsData.xsd" xmlns:mstns="http://tempuri.org/AttachmentsData.xsd" xmlns="http://tempuri.org/AttachmentsData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="2" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanTesting7ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanTesting7ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanTesting7ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AttachmentsData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="AttachmentsData" msprop:Generator_DataSetName="AttachmentsData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetAttachmentCount" msprop:Generator_UserTableName="GetAttachmentCount" msprop:Generator_RowDeletedName="GetAttachmentCountRowDeleted" msprop:Generator_RowChangedName="GetAttachmentCountRowChanged" msprop:Generator_RowClassName="GetAttachmentCountRow" msprop:Generator_RowChangingName="GetAttachmentCountRowChanging" msprop:Generator_RowEvArgName="GetAttachmentCountRowChangeEvent" msprop:Generator_RowEvHandlerName="GetAttachmentCountRowChangeEventHandler" msprop:Generator_TableClassName="GetAttachmentCountDataTable" msprop:Generator_TableVarName="tableGetAttachmentCount" msprop:Generator_RowDeletingName="GetAttachmentCountRowDeleting" msprop:Generator_TablePropName="GetAttachmentCount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Column1" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Column1" msprop:Generator_ColumnVarNameInTable="columnColumn1" msprop:Generator_ColumnPropNameInRow="Column1" msprop:Generator_ColumnPropNameInTable="Column1Column" type="xs:integer" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetProgramId" msprop:Generator_UserTableName="GetProgramId" msprop:Generator_RowDeletedName="GetProgramIdRowDeleted" msprop:Generator_RowChangedName="GetProgramIdRowChanged" msprop:Generator_RowClassName="GetProgramIdRow" msprop:Generator_RowChangingName="GetProgramIdRowChanging" msprop:Generator_RowEvArgName="GetProgramIdRowChangeEvent" msprop:Generator_RowEvHandlerName="GetProgramIdRowChangeEventHandler" msprop:Generator_TableClassName="GetProgramIdDataTable" msprop:Generator_TableVarName="tableGetProgramId" msprop:Generator_RowDeletingName="GetProgramIdRowDeleting" msprop:Generator_TablePropName="GetProgramId">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FunctionName" msprop:Generator_UserColumnName="FunctionName" msprop:Generator_ColumnVarNameInTable="columnFunctionName" msprop:Generator_ColumnPropNameInRow="FunctionName" msprop:Generator_ColumnPropNameInTable="FunctionNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProgramType" msprop:Generator_UserColumnName="ProgramType" msprop:Generator_ColumnVarNameInTable="columnProgramType" msprop:Generator_ColumnPropNameInRow="ProgramType" msprop:Generator_ColumnPropNameInTable="ProgramTypeColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="Program" msprop:Generator_UserColumnName="Program" msprop:Generator_ColumnVarNameInTable="columnProgram" msprop:Generator_ColumnPropNameInRow="Program" msprop:Generator_ColumnPropNameInTable="ProgramColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetFilePath" msprop:Generator_UserTableName="GetFilePath" msprop:Generator_RowDeletedName="GetFilePathRowDeleted" msprop:Generator_RowChangedName="GetFilePathRowChanged" msprop:Generator_RowClassName="GetFilePathRow" msprop:Generator_RowChangingName="GetFilePathRowChanging" msprop:Generator_RowEvArgName="GetFilePathRowChangeEvent" msprop:Generator_RowEvHandlerName="GetFilePathRowChangeEventHandler" msprop:Generator_TableClassName="GetFilePathDataTable" msprop:Generator_TableVarName="tableGetFilePath" msprop:Generator_RowDeletingName="GetFilePathRowDeleting" msprop:Generator_TablePropName="GetFilePath">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FileID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FileID" msprop:Generator_ColumnVarNameInTable="columnFileID" msprop:Generator_ColumnPropNameInRow="FileID" msprop:Generator_ColumnPropNameInTable="FileIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FileName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FilePath" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FilePath" msprop:Generator_ColumnVarNameInTable="columnFilePath" msprop:Generator_ColumnPropNameInRow="FilePath" msprop:Generator_ColumnPropNameInTable="FilePathColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1086" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetAttachementFunctionName" msprop:Generator_UserTableName="GetAttachementFunctionName" msprop:Generator_RowDeletedName="GetAttachementFunctionNameRowDeleted" msprop:Generator_RowChangedName="GetAttachementFunctionNameRowChanged" msprop:Generator_RowClassName="GetAttachementFunctionNameRow" msprop:Generator_RowChangingName="GetAttachementFunctionNameRowChanging" msprop:Generator_RowEvArgName="GetAttachementFunctionNameRowChangeEvent" msprop:Generator_RowEvHandlerName="GetAttachementFunctionNameRowChangeEventHandler" msprop:Generator_TableClassName="GetAttachementFunctionNameDataTable" msprop:Generator_TableVarName="tableGetAttachementFunctionName" msprop:Generator_RowDeletingName="GetAttachementFunctionNameRowDeleting" msprop:Generator_TablePropName="GetAttachementFunctionName">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FileTypeID" msprop:Generator_UserColumnName="FileTypeID" msprop:Generator_ColumnVarNameInTable="columnFileTypeID" msprop:Generator_ColumnPropNameInRow="FileTypeID" msprop:Generator_ColumnPropNameInTable="FileTypeIDColumn" type="xs:int" />
+              <xs:element name="FunctionName" msprop:Generator_UserColumnName="FunctionName" msprop:Generator_ColumnVarNameInTable="columnFunctionName" msprop:Generator_ColumnPropNameInRow="FunctionName" msprop:Generator_ColumnPropNameInTable="FunctionNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetAttachmentItems" msprop:Generator_UserTableName="GetAttachmentItems" msprop:Generator_RowDeletedName="GetAttachmentItemsRowDeleted" msprop:Generator_RowChangedName="GetAttachmentItemsRowChanged" msprop:Generator_RowClassName="GetAttachmentItemsRow" msprop:Generator_RowChangingName="GetAttachmentItemsRowChanging" msprop:Generator_RowEvArgName="GetAttachmentItemsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetAttachmentItemsRowChangeEventHandler" msprop:Generator_TableClassName="GetAttachmentItemsDataTable" msprop:Generator_TableVarName="tableGetAttachmentItems" msprop:Generator_RowDeletingName="GetAttachmentItemsRowDeleting" msprop:Generator_TablePropName="GetAttachmentItems">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="EventDate" msprop:Generator_ColumnPropNameInRow="EventDate" msprop:Generator_ColumnVarNameInTable="columnEventDate" msprop:Generator_ColumnPropNameInTable="EventDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FunctionName" msprop:Generator_UserColumnName="FunctionName" msprop:Generator_ColumnPropNameInRow="FunctionName" msprop:Generator_ColumnVarNameInTable="columnFunctionName" msprop:Generator_ColumnPropNameInTable="FunctionNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FileTypeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="FileTypeID" msprop:Generator_ColumnPropNameInRow="FileTypeID" msprop:Generator_ColumnVarNameInTable="columnFileTypeID" msprop:Generator_ColumnPropNameInTable="FileTypeIDColumn" type="xs:short" />
+              <xs:element name="ProgramType" msprop:Generator_UserColumnName="ProgramType" msprop:Generator_ColumnPropNameInRow="ProgramType" msprop:Generator_ColumnVarNameInTable="columnProgramType" msprop:Generator_ColumnPropNameInTable="ProgramTypeColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="IsRoll" msprop:Generator_UserColumnName="IsRoll" msprop:Generator_ColumnPropNameInRow="IsRoll" msprop:Generator_ColumnVarNameInTable="columnIsRoll" msprop:Generator_ColumnPropNameInTable="IsRollColumn" type="xs:boolean" />
+              <xs:element name="IsPublic" msprop:Generator_UserColumnName="IsPublic" msprop:Generator_ColumnPropNameInRow="IsPublic" msprop:Generator_ColumnVarNameInTable="columnIsPublic" msprop:Generator_ColumnPropNameInTable="IsPublicColumn" type="xs:boolean" />
+              <xs:element name="Primary" msprop:Generator_UserColumnName="Primary" msprop:Generator_ColumnPropNameInRow="Primary" msprop:Generator_ColumnVarNameInTable="columnPrimary" msprop:Generator_ColumnPropNameInTable="PrimaryColumn" type="xs:boolean" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" />
+              <xs:element name="Source" msprop:Generator_UserColumnName="Source" msprop:Generator_ColumnPropNameInRow="Source" msprop:Generator_ColumnVarNameInTable="columnSource" msprop:Generator_ColumnPropNameInTable="SourceColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FileID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FileID" msprop:Generator_ColumnPropNameInRow="FileID" msprop:Generator_ColumnVarNameInTable="columnFileID" msprop:Generator_ColumnPropNameInTable="FileIDColumn" type="xs:int" />
+              <xs:element name="Extension" msprop:Generator_UserColumnName="Extension" msprop:Generator_ColumnPropNameInRow="Extension" msprop:Generator_ColumnVarNameInTable="columnExtension" msprop:Generator_ColumnPropNameInTable="ExtensionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UserName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="UserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Form" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" />
+              <xs:element name="KeyID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="KeyID" msprop:Generator_ColumnPropNameInRow="KeyID" msprop:Generator_ColumnVarNameInTable="columnKeyID" msprop:Generator_ColumnPropNameInTable="KeyIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="File" msdata:ReadOnly="true" msprop:Generator_UserColumnName="File" msprop:Generator_ColumnPropNameInRow="File" msprop:Generator_ColumnVarNameInTable="columnFile" msprop:Generator_ColumnPropNameInTable="FileColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LinkType" msprop:Generator_UserColumnName="LinkType" msprop:Generator_ColumnPropNameInRow="LinkType" msprop:Generator_ColumnVarNameInTable="columnLinkType" msprop:Generator_ColumnPropNameInTable="LinkTypeColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="AURL" msprop:Generator_UserColumnName="AURL" msprop:Generator_ColumnPropNameInRow="AURL" msprop:Generator_ColumnVarNameInTable="columnAURL" msprop:Generator_ColumnPropNameInTable="AURLColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PFileID" msprop:Generator_UserColumnName="PFileID" msprop:Generator_ColumnPropNameInRow="PFileID" msprop:Generator_ColumnVarNameInTable="columnPFileID" msprop:Generator_ColumnPropNameInTable="PFileIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SaveFilePath" msprop:Generator_UserTableName="SaveFilePath" msprop:Generator_RowDeletedName="SaveFilePathRowDeleted" msprop:Generator_RowChangedName="SaveFilePathRowChanged" msprop:Generator_RowClassName="SaveFilePathRow" msprop:Generator_RowChangingName="SaveFilePathRowChanging" msprop:Generator_RowEvArgName="SaveFilePathRowChangeEvent" msprop:Generator_RowEvHandlerName="SaveFilePathRowChangeEventHandler" msprop:Generator_TableClassName="SaveFilePathDataTable" msprop:Generator_TableVarName="tableSaveFilePath" msprop:Generator_RowDeletingName="SaveFilePathRowDeleting" msprop:Generator_TablePropName="SaveFilePath">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FileID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FileID" msprop:Generator_ColumnVarNameInTable="columnFileID" msprop:Generator_ColumnPropNameInRow="FileID" msprop:Generator_ColumnPropNameInTable="FileIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FileName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FileName" msprop:Generator_ColumnVarNameInTable="columnFileName" msprop:Generator_ColumnPropNameInRow="FileName" msprop:Generator_ColumnPropNameInTable="FileNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FilePath" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FilePath" msprop:Generator_ColumnVarNameInTable="columnFilePath" msprop:Generator_ColumnPropNameInRow="FilePath" msprop:Generator_ColumnPropNameInTable="FilePathColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GetAttachmentItems" />
+      <xs:field xpath="mstns:FileTypeID" />
+      <xs:field xpath="mstns:FileID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

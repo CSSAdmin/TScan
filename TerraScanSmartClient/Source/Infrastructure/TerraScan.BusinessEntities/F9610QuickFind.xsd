@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9610QuickFind" targetNamespace="http://tempuri.org/F9610QuickFind.xsd" xmlns:mstns="http://tempuri.org/F9610QuickFind.xsd" xmlns="http://tempuri.org/F9610QuickFind.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9610QuickFind" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F9610QuickFind" msprop:Generator_DataSetName="F9610QuickFind">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F9610_GetQuickFindItem" msprop:Generator_UserTableName="F9610_GetQuickFindItem" msprop:Generator_RowDeletedName="F9610_GetQuickFindItemRowDeleted" msprop:Generator_RowChangedName="F9610_GetQuickFindItemRowChanged" msprop:Generator_RowClassName="F9610_GetQuickFindItemRow" msprop:Generator_RowChangingName="F9610_GetQuickFindItemRowChanging" msprop:Generator_RowEvArgName="F9610_GetQuickFindItemRowChangeEvent" msprop:Generator_RowEvHandlerName="F9610_GetQuickFindItemRowChangeEventHandler" msprop:Generator_TableClassName="F9610_GetQuickFindItemDataTable" msprop:Generator_TableVarName="tableF9610_GetQuickFindItem" msprop:Generator_RowDeletingName="F9610_GetQuickFindItemRowDeleting" msprop:Generator_TablePropName="F9610_GetQuickFindItem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="KeyID" msprop:Generator_ColumnPropNameInRow="KeyID" msprop:Generator_ColumnVarNameInTable="columnKeyID" msprop:Generator_ColumnPropNameInTable="KeyIDColumn" type="xs:int" />
+              <xs:element name="Item" msprop:Generator_UserColumnName="Item" msprop:Generator_ColumnPropNameInRow="Item" msprop:Generator_ColumnVarNameInTable="columnItem" msprop:Generator_ColumnPropNameInTable="ItemColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="F9610_GetQuickFindRows" msprop:Generator_UserTableName="F9610_GetQuickFindRows" msprop:Generator_RowDeletedName="F9610_GetQuickFindRowsRowDeleted" msprop:Generator_RowChangedName="F9610_GetQuickFindRowsRowChanged" msprop:Generator_RowClassName="F9610_GetQuickFindRowsRow" msprop:Generator_RowChangingName="F9610_GetQuickFindRowsRowChanging" msprop:Generator_RowEvArgName="F9610_GetQuickFindRowsRowChangeEvent" msprop:Generator_RowEvHandlerName="F9610_GetQuickFindRowsRowChangeEventHandler" msprop:Generator_TableClassName="F9610_GetQuickFindRowsDataTable" msprop:Generator_TableVarName="tableF9610_GetQuickFindRows" msprop:Generator_RowDeletingName="F9610_GetQuickFindRowsRowDeleting" msprop:Generator_TablePropName="F9610_GetQuickFindRows">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NoOFRows" msdata:ReadOnly="true" msprop:Generator_UserColumnName="NoOFRows" msprop:Generator_ColumnPropNameInRow="NoOFRows" msprop:Generator_ColumnVarNameInTable="columnNoOFRows" msprop:Generator_ColumnPropNameInTable="NoOFRowsColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F25003SitusManagementData" targetNamespace="http://tempuri.org/F25003SitusManagementData.xsd" xmlns:mstns="http://tempuri.org/F25003SitusManagementData.xsd" xmlns="http://tempuri.org/F25003SitusManagementData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F25003SitusManagementData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F25003SitusManagementData" msprop:Generator_DataSetName="F25003SitusManagementData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListUnitType" msprop:Generator_UserTableName="ListUnitType" msprop:Generator_RowDeletedName="ListUnitTypeRowDeleted" msprop:Generator_RowChangedName="ListUnitTypeRowChanged" msprop:Generator_RowClassName="ListUnitTypeRow" msprop:Generator_RowChangingName="ListUnitTypeRowChanging" msprop:Generator_RowEvArgName="ListUnitTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="ListUnitTypeRowChangeEventHandler" msprop:Generator_TableClassName="ListUnitTypeDataTable" msprop:Generator_TableVarName="tableListUnitType" msprop:Generator_RowDeletingName="ListUnitTypeRowDeleting" msprop:Generator_TablePropName="ListUnitType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UnitID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="UnitID" msprop:Generator_ColumnPropNameInRow="UnitID" msprop:Generator_ColumnVarNameInTable="columnUnitID" msprop:Generator_ColumnPropNameInTable="UnitIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Unit" msprop:Generator_UserColumnName="Unit" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Unit" msprop:Generator_ColumnPropNameInTable="UnitColumn" msprop:Generator_ColumnVarNameInTable="columnUnit" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListStreet" msprop:Generator_UserTableName="ListStreet" msprop:Generator_RowDeletedName="ListStreetRowDeleted" msprop:Generator_RowChangedName="ListStreetRowChanged" msprop:Generator_RowClassName="ListStreetRow" msprop:Generator_RowChangingName="ListStreetRowChanging" msprop:Generator_RowEvArgName="ListStreetRowChangeEvent" msprop:Generator_RowEvHandlerName="ListStreetRowChangeEventHandler" msprop:Generator_TableClassName="ListStreetDataTable" msprop:Generator_TableVarName="tableListStreet" msprop:Generator_RowDeletingName="ListStreetRowDeleting" msprop:Generator_TablePropName="ListStreet">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StreetID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StreetID" msprop:Generator_ColumnPropNameInRow="StreetID" msprop:Generator_ColumnVarNameInTable="columnStreetID" msprop:Generator_ColumnPropNameInTable="StreetIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RootName" msprop:Generator_UserColumnName="RootName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="RootName" msprop:Generator_ColumnPropNameInTable="RootNameColumn" msprop:Generator_ColumnVarNameInTable="columnRootName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Suffix" msprop:Generator_UserColumnName="Suffix" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Suffix" msprop:Generator_ColumnPropNameInTable="SuffixColumn" msprop:Generator_ColumnVarNameInTable="columnSuffix" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Directional" msprop:Generator_UserColumnName="Directional" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Directional" msprop:Generator_ColumnPropNameInTable="DirectionalColumn" msprop:Generator_ColumnVarNameInTable="columnDirectional" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StreetName" msprop:Generator_UserColumnName="StreetName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="StreetName" msprop:Generator_ColumnPropNameInTable="StreetNameColumn" msprop:Generator_ColumnVarNameInTable="columnStreetName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnPropNameInTable="CityColumn" msprop:Generator_ColumnVarNameInTable="columnCity" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ZipCode" msprop:Generator_UserColumnName="ZipCode" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ZipCode" msprop:Generator_ColumnPropNameInTable="ZipCodeColumn" msprop:Generator_ColumnVarNameInTable="columnZipCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullStreetName" msprop:Generator_UserColumnName="FullStreetName" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnFullStreetName" msprop:Generator_ColumnPropNameInTable="FullStreetNameColumn" msprop:Generator_ColumnPropNameInRow="FullStreetName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListSitusManagement" msprop:Generator_UserTableName="ListSitusManagement" msprop:Generator_RowDeletedName="ListSitusManagementRowDeleted" msprop:Generator_RowChangedName="ListSitusManagementRowChanged" msprop:Generator_RowClassName="ListSitusManagementRow" msprop:Generator_RowChangingName="ListSitusManagementRowChanging" msprop:Generator_RowEvArgName="ListSitusManagementRowChangeEvent" msprop:Generator_RowEvHandlerName="ListSitusManagementRowChangeEventHandler" msprop:Generator_TableClassName="ListSitusManagementDataTable" msprop:Generator_TableVarName="tableListSitusManagement" msprop:Generator_RowDeletingName="ListSitusManagementRowDeleting" msprop:Generator_TablePropName="ListSitusManagement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SitusID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SitusID" msprop:Generator_ColumnPropNameInRow="SitusID" msprop:Generator_ColumnVarNameInTable="columnSitusID" msprop:Generator_ColumnPropNameInTable="SitusIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParcelID" msprop:Generator_UserColumnName="ParcelID" msprop:Generator_ColumnPropNameInRow="ParcelID" msprop:Generator_ColumnVarNameInTable="columnParcelID" msprop:Generator_ColumnPropNameInTable="ParcelIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AddressID" msprop:Generator_UserColumnName="AddressID" msprop:Generator_ColumnPropNameInRow="AddressID" msprop:Generator_ColumnVarNameInTable="columnAddressID" msprop:Generator_ColumnPropNameInTable="AddressIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StreetID" msprop:Generator_UserColumnName="StreetID" msprop:Generator_ColumnPropNameInRow="StreetID" msprop:Generator_ColumnVarNameInTable="columnStreetID" msprop:Generator_ColumnPropNameInTable="StreetIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="HouseNumber" msprop:Generator_UserColumnName="HouseNumber" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="HouseNumber" msprop:Generator_ColumnPropNameInTable="HouseNumberColumn" msprop:Generator_ColumnVarNameInTable="columnHouseNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="35" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StreetName" msprop:Generator_UserColumnName="StreetName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="StreetName" msprop:Generator_ColumnPropNameInTable="StreetNameColumn" msprop:Generator_ColumnVarNameInTable="columnStreetName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInTable="CityColumn" msprop:Generator_ColumnPropNameInRow="City" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ZipCode" msprop:Generator_UserColumnName="ZipCode" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="ZipCode" msprop:Generator_ColumnPropNameInTable="ZipCodeColumn" msprop:Generator_ColumnVarNameInTable="columnZipCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Situs" msprop:Generator_UserColumnName="Situs" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Situs" msprop:Generator_ColumnPropNameInTable="SitusColumn" msprop:Generator_ColumnVarNameInTable="columnSitus" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="400" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UnitType" msprop:Generator_UserColumnName="UnitType" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="UnitType" msprop:Generator_ColumnPropNameInTable="UnitTypeColumn" msprop:Generator_ColumnVarNameInTable="columnUnitType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UnitNumber" msprop:Generator_UserColumnName="UnitNumber" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="UnitNumber" msprop:Generator_ColumnPropNameInTable="UnitNumberColumn" msprop:Generator_ColumnVarNameInTable="columnUnitNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="X_Coord" msprop:Generator_UserColumnName="X_Coord" msprop:Generator_ColumnPropNameInRow="X_Coord" msprop:Generator_ColumnVarNameInTable="columnX_Coord" msprop:Generator_ColumnPropNameInTable="X_CoordColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Y_Coord" msprop:Generator_UserColumnName="Y_Coord" msprop:Generator_ColumnPropNameInRow="Y_Coord" msprop:Generator_ColumnVarNameInTable="columnY_Coord" msprop:Generator_ColumnPropNameInTable="Y_CoordColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UnitID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="UnitID" msprop:Generator_ColumnVarNameInTable="columnUnitID" msprop:Generator_ColumnPropNameInRow="UnitID" msprop:Generator_ColumnPropNameInTable="UnitIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListParcelValidID" msprop:Generator_UserTableName="ListParcelValidID" msprop:Generator_RowDeletedName="ListParcelValidIDRowDeleted" msprop:Generator_RowChangedName="ListParcelValidIDRowChanged" msprop:Generator_RowClassName="ListParcelValidIDRow" msprop:Generator_RowChangingName="ListParcelValidIDRowChanging" msprop:Generator_RowEvArgName="ListParcelValidIDRowChangeEvent" msprop:Generator_RowEvHandlerName="ListParcelValidIDRowChangeEventHandler" msprop:Generator_TableClassName="ListParcelValidIDDataTable" msprop:Generator_TableVarName="tableListParcelValidID" msprop:Generator_RowDeletingName="ListParcelValidIDRowDeleting" msprop:Generator_TablePropName="ListParcelValidID">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="KeyID" msprop:Generator_ColumnPropNameInRow="KeyID" msprop:Generator_ColumnVarNameInTable="columnKeyID" msprop:Generator_ColumnPropNameInTable="KeyIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

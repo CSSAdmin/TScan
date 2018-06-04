@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9045GenericSearchData" targetNamespace="http://tempuri.org/F9045GenericSearchData.xsd" xmlns:mstns="http://tempuri.org/F9045GenericSearchData.xsd" xmlns="http://tempuri.org/F9045GenericSearchData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Terrascan23May2011ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Terrascan23May2011ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.Terrascan23May2011ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9045GenericSearchData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="F9045GenericSearchData" msprop:Generator_UserDSName="F9045GenericSearchData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ConfigurationData" msprop:Generator_UserTableName="ConfigurationData" msprop:Generator_RowDeletedName="ConfigurationDataRowDeleted" msprop:Generator_TableClassName="ConfigurationDataDataTable" msprop:Generator_RowChangedName="ConfigurationDataRowChanged" msprop:Generator_RowClassName="ConfigurationDataRow" msprop:Generator_RowChangingName="ConfigurationDataRowChanging" msprop:Generator_RowEvArgName="ConfigurationDataRowChangeEvent" msprop:Generator_RowEvHandlerName="ConfigurationDataRowChangeEventHandler" msprop:Generator_TablePropName="ConfigurationData" msprop:Generator_TableVarName="tableConfigurationData" msprop:Generator_RowDeletingName="ConfigurationDataRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GenericSearchID" msprop:Generator_UserColumnName="GenericSearchID" msprop:Generator_ColumnPropNameInRow="GenericSearchID" msprop:Generator_ColumnVarNameInTable="columnGenericSearchID" msprop:Generator_ColumnPropNameInTable="GenericSearchIDColumn" type="xs:int" />
+              <xs:element name="FormTitle" msprop:Generator_UserColumnName="FormTitle" msprop:Generator_ColumnPropNameInRow="FormTitle" msprop:Generator_ColumnVarNameInTable="columnFormTitle" msprop:Generator_ColumnPropNameInTable="FormTitleColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SearchTitle" msprop:Generator_UserColumnName="SearchTitle" msprop:Generator_ColumnPropNameInRow="SearchTitle" msprop:Generator_ColumnVarNameInTable="columnSearchTitle" msprop:Generator_ColumnPropNameInTable="SearchTitleColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GridTitle" msprop:Generator_UserColumnName="GridTitle" msprop:Generator_ColumnPropNameInRow="GridTitle" msprop:Generator_ColumnVarNameInTable="columnGridTitle" msprop:Generator_ColumnPropNameInTable="GridTitleColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsReturnKey" msprop:Generator_UserColumnName="IsReturnKey" msprop:Generator_ColumnPropNameInRow="IsReturnKey" msprop:Generator_ColumnVarNameInTable="columnIsReturnKey" msprop:Generator_ColumnPropNameInTable="IsReturnKeyColumn" type="xs:boolean" />
+              <xs:element name="IsSearchOnLoad" msprop:Generator_UserColumnName="IsSearchOnLoad" msprop:Generator_ColumnPropNameInRow="IsSearchOnLoad" msprop:Generator_ColumnVarNameInTable="columnIsSearchOnLoad" msprop:Generator_ColumnPropNameInTable="IsSearchOnLoadColumn" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SearchResults" msprop:Generator_UserTableName="SearchResults" msprop:Generator_RowDeletedName="SearchResultsRowDeleted" msprop:Generator_TableClassName="SearchResultsDataTable" msprop:Generator_RowChangedName="SearchResultsRowChanged" msprop:Generator_RowClassName="SearchResultsRow" msprop:Generator_RowChangingName="SearchResultsRowChanging" msprop:Generator_RowEvArgName="SearchResultsRowChangeEvent" msprop:Generator_RowEvHandlerName="SearchResultsRowChangeEventHandler" msprop:Generator_TablePropName="SearchResults" msprop:Generator_TableVarName="tableSearchResults" msprop:Generator_RowDeletingName="SearchResultsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyID" msprop:Generator_UserColumnName="KeyID" msprop:Generator_ColumnPropNameInRow="KeyID" msprop:Generator_ColumnVarNameInTable="columnKeyID" msprop:Generator_ColumnPropNameInTable="KeyIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Data" msprop:Generator_UserColumnName="Data" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInTable="DataColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

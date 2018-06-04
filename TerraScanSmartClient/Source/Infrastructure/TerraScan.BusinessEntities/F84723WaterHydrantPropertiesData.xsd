@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F84723WaterHydrantPropertiesData" targetNamespace="http://tempuri.org/F84723WaterHydrantPropertiesData.xsd" xmlns:mstns="http://tempuri.org/F84723WaterHydrantPropertiesData.xsd" xmlns="http://tempuri.org/F84723WaterHydrantPropertiesData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F84723WaterHydrantPropertiesData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F84723WaterHydrantPropertiesData" msprop:Generator_DataSetName="F84723WaterHydrantPropertiesData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetWaterHydrantPropertiesDataTable" msprop:Generator_UserTableName="GetWaterHydrantPropertiesDataTable" msprop:Generator_RowDeletedName="GetWaterHydrantPropertiesDataTableRowDeleted" msprop:Generator_RowChangedName="GetWaterHydrantPropertiesDataTableRowChanged" msprop:Generator_RowClassName="GetWaterHydrantPropertiesDataTableRow" msprop:Generator_RowChangingName="GetWaterHydrantPropertiesDataTableRowChanging" msprop:Generator_RowEvArgName="GetWaterHydrantPropertiesDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="GetWaterHydrantPropertiesDataTableRowChangeEventHandler" msprop:Generator_TableClassName="GetWaterHydrantPropertiesDataTableDataTable" msprop:Generator_TableVarName="tableGetWaterHydrantPropertiesDataTable" msprop:Generator_RowDeletingName="GetWaterHydrantPropertiesDataTableRowDeleting" msprop:Generator_TablePropName="GetWaterHydrantPropertiesDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeatureID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="FeatureID" msprop:Generator_ColumnVarNameInTable="columnFeatureID" msprop:Generator_ColumnPropNameInRow="FeatureID" msprop:Generator_ColumnPropNameInTable="FeatureIDColumn" type="xs:int" />
+              <xs:element name="CID" msprop:Generator_UserColumnName="CID" msprop:Generator_ColumnVarNameInTable="columnCID" msprop:Generator_ColumnPropNameInRow="CID" msprop:Generator_ColumnPropNameInTable="CIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsEnabled" msprop:Generator_UserColumnName="IsEnabled" msprop:Generator_ColumnVarNameInTable="columnIsEnabled" msprop:Generator_ColumnPropNameInRow="IsEnabled" msprop:Generator_ColumnPropNameInTable="IsEnabledColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPrivate" msprop:Generator_UserColumnName="IsPrivate" msprop:Generator_ColumnVarNameInTable="columnIsPrivate" msprop:Generator_ColumnPropNameInRow="IsPrivate" msprop:Generator_ColumnPropNameInTable="IsPrivateColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BusinessID" msprop:Generator_UserColumnName="BusinessID" msprop:Generator_ColumnVarNameInTable="columnBusinessID" msprop:Generator_ColumnPropNameInRow="BusinessID" msprop:Generator_ColumnPropNameInTable="BusinessIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ManufacturerID" msprop:Generator_UserColumnName="ManufacturerID" msprop:Generator_ColumnVarNameInTable="columnManufacturerID" msprop:Generator_ColumnPropNameInRow="ManufacturerID" msprop:Generator_ColumnPropNameInTable="ManufacturerIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ModelNumber" msprop:Generator_UserColumnName="ModelNumber" msprop:Generator_ColumnVarNameInTable="columnModelNumber" msprop:Generator_ColumnPropNameInRow="ModelNumber" msprop:Generator_ColumnPropNameInTable="ModelNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SerialNumber" msprop:Generator_UserColumnName="SerialNumber" msprop:Generator_ColumnVarNameInTable="columnSerialNumber" msprop:Generator_ColumnPropNameInRow="SerialNumber" msprop:Generator_ColumnPropNameInTable="SerialNumberColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MainValveID" msprop:Generator_UserColumnName="MainValveID" msprop:Generator_ColumnVarNameInTable="columnMainValveID" msprop:Generator_ColumnPropNameInRow="MainValveID" msprop:Generator_ColumnPropNameInTable="MainValveIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsDeadend" msprop:Generator_UserColumnName="IsDeadend" msprop:Generator_ColumnVarNameInTable="columnIsDeadend" msprop:Generator_ColumnPropNameInRow="IsDeadend" msprop:Generator_ColumnPropNameInTable="IsDeadendColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PressureSetting" msprop:Generator_UserColumnName="PressureSetting" msprop:Generator_ColumnVarNameInTable="columnPressureSetting" msprop:Generator_ColumnPropNameInRow="PressureSetting" msprop:Generator_ColumnPropNameInTable="PressureSettingColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HydrostaticPressue" msprop:Generator_UserColumnName="HydrostaticPressue" msprop:Generator_ColumnVarNameInTable="columnHydrostaticPressue" msprop:Generator_ColumnPropNameInRow="HydrostaticPressue" msprop:Generator_ColumnPropNameInTable="HydrostaticPressueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Nozzles" msprop:Generator_UserColumnName="Nozzles" msprop:Generator_ColumnVarNameInTable="columnNozzles" msprop:Generator_ColumnPropNameInRow="Nozzles" msprop:Generator_ColumnPropNameInTable="NozzlesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ValveOpening" msprop:Generator_UserColumnName="ValveOpening" msprop:Generator_ColumnVarNameInTable="columnValveOpening" msprop:Generator_ColumnPropNameInRow="ValveOpening" msprop:Generator_ColumnPropNameInTable="ValveOpeningColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IsClockwiseToClose" msprop:Generator_UserColumnName="IsClockwiseToClose" msprop:Generator_ColumnVarNameInTable="columnIsClockwiseToClose" msprop:Generator_ColumnPropNameInRow="IsClockwiseToClose" msprop:Generator_ColumnPropNameInTable="IsClockwiseToCloseColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="TurnsToClose" msprop:Generator_UserColumnName="TurnsToClose" msprop:Generator_ColumnVarNameInTable="columnTurnsToClose" msprop:Generator_ColumnPropNameInRow="TurnsToClose" msprop:Generator_ColumnPropNameInTable="TurnsToCloseColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Diameter" msprop:Generator_UserColumnName="Diameter" msprop:Generator_ColumnVarNameInTable="columnDiameter" msprop:Generator_ColumnPropNameInRow="Diameter" msprop:Generator_ColumnPropNameInTable="DiameterColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BarrelDiameter" msprop:Generator_UserColumnName="BarrelDiameter" msprop:Generator_ColumnVarNameInTable="columnBarrelDiameter" msprop:Generator_ColumnPropNameInRow="BarrelDiameter" msprop:Generator_ColumnPropNameInTable="BarrelDiameterColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="WaterTypeID" msprop:Generator_UserColumnName="WaterTypeID" msprop:Generator_ColumnVarNameInTable="columnWaterTypeID" msprop:Generator_ColumnPropNameInRow="WaterTypeID" msprop:Generator_ColumnPropNameInTable="WaterTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LifecycleStatusID" msprop:Generator_UserColumnName="LifecycleStatusID" msprop:Generator_ColumnVarNameInTable="columnLifecycleStatusID" msprop:Generator_ColumnPropNameInRow="LifecycleStatusID" msprop:Generator_ColumnPropNameInTable="LifecycleStatusIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NozzleDiameter1" msprop:Generator_UserColumnName="NozzleDiameter1" msprop:Generator_ColumnVarNameInTable="columnNozzleDiameter1" msprop:Generator_ColumnPropNameInRow="NozzleDiameter1" msprop:Generator_ColumnPropNameInTable="NozzleDiameter1Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NozzleDiameter2" msprop:Generator_UserColumnName="NozzleDiameter2" msprop:Generator_ColumnVarNameInTable="columnNozzleDiameter2" msprop:Generator_ColumnPropNameInRow="NozzleDiameter2" msprop:Generator_ColumnPropNameInTable="NozzleDiameter2Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NozzleDiameter3" msprop:Generator_UserColumnName="NozzleDiameter3" msprop:Generator_ColumnVarNameInTable="columnNozzleDiameter3" msprop:Generator_ColumnPropNameInRow="NozzleDiameter3" msprop:Generator_ColumnPropNameInTable="NozzleDiameter3Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NozzleDiameter4" msprop:Generator_UserColumnName="NozzleDiameter4" msprop:Generator_ColumnVarNameInTable="columnNozzleDiameter4" msprop:Generator_ColumnPropNameInRow="NozzleDiameter4" msprop:Generator_ColumnPropNameInTable="NozzleDiameter4Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

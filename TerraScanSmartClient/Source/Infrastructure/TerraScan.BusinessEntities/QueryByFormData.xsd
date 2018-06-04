@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QueryByFormData" targetNamespace="http://tempuri.org/QueryByFormData.xsd" xmlns:mstns="http://tempuri.org/QueryByFormData.xsd" xmlns="http://tempuri.org/QueryByFormData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QueryByFormData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="QueryByFormData" msprop:Generator_DataSetName="QueryByFormData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListStatementId" msprop:Generator_UserTableName="ListStatementId" msprop:Generator_RowDeletedName="ListStatementIdRowDeleted" msprop:Generator_RowChangedName="ListStatementIdRowChanged" msprop:Generator_RowClassName="ListStatementIdRow" msprop:Generator_RowChangingName="ListStatementIdRowChanging" msprop:Generator_RowEvArgName="ListStatementIdRowChangeEvent" msprop:Generator_RowEvHandlerName="ListStatementIdRowChangeEventHandler" msprop:Generator_TableClassName="ListStatementIdDataTable" msprop:Generator_TableVarName="tableListStatementId" msprop:Generator_RowDeletingName="ListStatementIdRowDeleting" msprop:Generator_TablePropName="ListStatementId">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StatementId" msprop:Generator_UserColumnName="StatementId" msprop:Generator_ColumnVarNameInTable="columnStatementId" msprop:Generator_ColumnPropNameInRow="StatementId" msprop:Generator_ColumnPropNameInTable="StatementIdColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListRecordCount" msprop:Generator_UserTableName="ListRecordCount" msprop:Generator_RowDeletedName="ListRecordCountRowDeleted" msprop:Generator_RowChangedName="ListRecordCountRowChanged" msprop:Generator_RowClassName="ListRecordCountRow" msprop:Generator_RowChangingName="ListRecordCountRowChanging" msprop:Generator_RowEvArgName="ListRecordCountRowChangeEvent" msprop:Generator_RowEvHandlerName="ListRecordCountRowChangeEventHandler" msprop:Generator_TableClassName="ListRecordCountDataTable" msprop:Generator_TableVarName="tableListRecordCount" msprop:Generator_RowDeletingName="ListRecordCountRowDeleting" msprop:Generator_TablePropName="ListRecordCount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Recordsearched" msprop:Generator_UserColumnName="Recordsearched" msprop:Generator_ColumnVarNameInTable="columnRecordsearched" msprop:Generator_ColumnPropNameInRow="Recordsearched" msprop:Generator_ColumnPropNameInTable="RecordsearchedColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MatchesFound" msprop:Generator_UserColumnName="MatchesFound" msprop:Generator_ColumnVarNameInTable="columnMatchesFound" msprop:Generator_ColumnPropNameInRow="MatchesFound" msprop:Generator_ColumnPropNameInTable="MatchesFoundColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

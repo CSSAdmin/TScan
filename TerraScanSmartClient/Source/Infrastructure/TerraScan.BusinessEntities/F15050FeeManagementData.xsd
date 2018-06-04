@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F15050FeeManagementData" targetNamespace="http://tempuri.org/F15050FeeManagementData.xsd" xmlns:mstns="http://tempuri.org/F15050FeeManagementData.xsd" xmlns="http://tempuri.org/F15050FeeManagementData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F15050FeeManagementData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F15050FeeManagementData" msprop:Generator_DataSetName="F15050FeeManagementData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="f15050_pclst_Fee" msprop:Generator_UserTableName="f15050_pclst_Fee" msprop:Generator_RowDeletedName="f15050_pclst_FeeRowDeleted" msprop:Generator_RowChangedName="f15050_pclst_FeeRowChanged" msprop:Generator_RowClassName="f15050_pclst_FeeRow" msprop:Generator_RowChangingName="f15050_pclst_FeeRowChanging" msprop:Generator_RowEvArgName="f15050_pclst_FeeRowChangeEvent" msprop:Generator_RowEvHandlerName="f15050_pclst_FeeRowChangeEventHandler" msprop:Generator_TableClassName="f15050_pclst_FeeDataTable" msprop:Generator_TableVarName="tablef15050_pclst_Fee" msprop:Generator_RowDeletingName="f15050_pclst_FeeRowDeleting" msprop:Generator_TablePropName="f15050_pclst_Fee">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FeeID" msprop:Generator_ColumnPropNameInRow="FeeID" msprop:Generator_ColumnVarNameInTable="columnFeeID" msprop:Generator_ColumnPropNameInTable="FeeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="getFeeOld" msprop:Generator_UserTableName="getFeeOld" msprop:Generator_RowDeletedName="getFeeOldRowDeleted" msprop:Generator_RowChangedName="getFeeOldRowChanged" msprop:Generator_RowClassName="getFeeOldRow" msprop:Generator_RowChangingName="getFeeOldRowChanging" msprop:Generator_RowEvArgName="getFeeOldRowChangeEvent" msprop:Generator_RowEvHandlerName="getFeeOldRowChangeEventHandler" msprop:Generator_TableClassName="getFeeOldDataTable" msprop:Generator_TableVarName="tablegetFeeOld" msprop:Generator_RowDeletingName="getFeeOldRowDeleting" msprop:Generator_TablePropName="getFeeOld">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="FeeID" msprop:Generator_ColumnVarNameInTable="columnFeeID" msprop:Generator_ColumnPropNameInRow="FeeID" msprop:Generator_ColumnPropNameInTable="FeeIDColumn" type="xs:int" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID" msprop:Generator_UserColumnName="AccountID" msprop:Generator_ColumnVarNameInTable="columnAccountID" msprop:Generator_ColumnPropNameInRow="AccountID" msprop:Generator_ColumnPropNameInTable="AccountIDColumn" type="xs:int" />
+              <xs:element name="AccountName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="AccountName" msprop:Generator_ColumnVarNameInTable="columnAccountName" msprop:Generator_ColumnPropNameInRow="AccountName" msprop:Generator_ColumnPropNameInTable="AccountNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetISValidKey" msprop:Generator_UserTableName="GetISValidKey" msprop:Generator_RowDeletedName="GetISValidKeyRowDeleted" msprop:Generator_RowChangedName="GetISValidKeyRowChanged" msprop:Generator_RowClassName="GetISValidKeyRow" msprop:Generator_RowChangingName="GetISValidKeyRowChanging" msprop:Generator_RowEvArgName="GetISValidKeyRowChangeEvent" msprop:Generator_RowEvHandlerName="GetISValidKeyRowChangeEventHandler" msprop:Generator_TableClassName="GetISValidKeyDataTable" msprop:Generator_TableVarName="tableGetISValidKey" msprop:Generator_RowDeletingName="GetISValidKeyRowDeleting" msprop:Generator_TablePropName="GetISValidKey">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CheckRecord" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CheckRecord" msprop:Generator_ColumnPropNameInRow="CheckRecord" msprop:Generator_ColumnVarNameInTable="columnCheckRecord" msprop:Generator_ColumnPropNameInTable="CheckRecordColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListFeeTypes" msprop:Generator_UserTableName="ListFeeTypes" msprop:Generator_RowDeletedName="ListFeeTypesRowDeleted" msprop:Generator_RowChangedName="ListFeeTypesRowChanged" msprop:Generator_RowClassName="ListFeeTypesRow" msprop:Generator_RowChangingName="ListFeeTypesRowChanging" msprop:Generator_RowEvArgName="ListFeeTypesRowChangeEvent" msprop:Generator_RowEvHandlerName="ListFeeTypesRowChangeEventHandler" msprop:Generator_TableClassName="ListFeeTypesDataTable" msprop:Generator_TableVarName="tableListFeeTypes" msprop:Generator_RowDeletingName="ListFeeTypesRowDeleting" msprop:Generator_TablePropName="ListFeeTypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeeTypeID" msprop:Generator_UserColumnName="FeeTypeID" msprop:Generator_ColumnVarNameInTable="columnFeeTypeID" msprop:Generator_ColumnPropNameInRow="FeeTypeID" msprop:Generator_ColumnPropNameInTable="FeeTypeIDColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="FeeType" msprop:Generator_UserColumnName="FeeType" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnFeeType" msprop:Generator_ColumnPropNameInTable="FeeTypeColumn" msprop:Generator_ColumnPropNameInRow="FeeType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetFeeDetails" msprop:Generator_UserTableName="GetFeeDetails" msprop:Generator_RowDeletedName="GetFeeDetailsRowDeleted" msprop:Generator_TableClassName="GetFeeDetailsDataTable" msprop:Generator_RowChangedName="GetFeeDetailsRowChanged" msprop:Generator_RowClassName="GetFeeDetailsRow" msprop:Generator_RowChangingName="GetFeeDetailsRowChanging" msprop:Generator_RowEvArgName="GetFeeDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetFeeDetailsRowChangeEventHandler" msprop:Generator_TablePropName="GetFeeDetails" msprop:Generator_TableVarName="tableGetFeeDetails" msprop:Generator_RowDeletingName="GetFeeDetailsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FeeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FeeID" msprop:Generator_ColumnPropNameInRow="FeeID" msprop:Generator_ColumnVarNameInTable="columnFeeID" msprop:Generator_ColumnPropNameInTable="FeeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AccountID" msprop:Generator_UserColumnName="AccountID" msprop:Generator_ColumnPropNameInRow="AccountID" msprop:Generator_ColumnVarNameInTable="columnAccountID" msprop:Generator_ColumnPropNameInTable="AccountIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AccountName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="AccountName" msprop:Generator_ColumnPropNameInRow="AccountName" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnAccountName" msprop:Generator_ColumnPropNameInTable="AccountNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="262" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeeTypeID" msprop:Generator_UserColumnName="FeeTypeID" msprop:Generator_ColumnPropNameInRow="FeeTypeID" msprop:Generator_ColumnVarNameInTable="columnFeeTypeID" msprop:Generator_ColumnPropNameInTable="FeeTypeIDColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="FeeType" msprop:Generator_UserColumnName="FeeType" msprop:Generator_ColumnPropNameInRow="FeeType" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnFeeType" msprop:Generator_ColumnPropNameInTable="FeeTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

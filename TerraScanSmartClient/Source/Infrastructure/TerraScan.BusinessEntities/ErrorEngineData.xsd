@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ErrorEngineData" targetNamespace="http://tempuri.org/ErrorEngineData.xsd" xmlns:mstns="http://tempuri.org/ErrorEngineData.xsd" xmlns="http://tempuri.org/ErrorEngineData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString3" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ErrorEngineData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ErrorEngineData" msprop:Generator_DataSetName="ErrorEngineData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ErrorEngineTable" msprop:Generator_UserTableName="ErrorEngineTable" msprop:Generator_RowDeletedName="ErrorEngineTableRowDeleted" msprop:Generator_TableClassName="ErrorEngineTableDataTable" msprop:Generator_RowChangedName="ErrorEngineTableRowChanged" msprop:Generator_RowClassName="ErrorEngineTableRow" msprop:Generator_RowChangingName="ErrorEngineTableRowChanging" msprop:Generator_RowEvArgName="ErrorEngineTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ErrorEngineTableRowChangeEventHandler" msprop:Generator_TablePropName="ErrorEngineTable" msprop:Generator_TableVarName="tableErrorEngineTable" msprop:Generator_RowDeletingName="ErrorEngineTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ErrorTypeID" msprop:Generator_UserColumnName="ErrorTypeID" msprop:Generator_ColumnPropNameInRow="ErrorTypeID" msprop:Generator_ColumnVarNameInTable="columnErrorTypeID" msprop:Generator_ColumnPropNameInTable="ErrorTypeIDColumn" type="xs:short" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BeforeText" msprop:Generator_UserColumnName="BeforeText" msprop:Generator_ColumnPropNameInRow="BeforeText" msprop:Generator_ColumnVarNameInTable="columnBeforeText" msprop:Generator_ColumnPropNameInTable="BeforeTextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AfterText" msprop:Generator_UserColumnName="AfterText" msprop:Generator_ColumnPropNameInRow="AfterText" msprop:Generator_ColumnVarNameInTable="columnAfterText" msprop:Generator_ColumnPropNameInTable="AfterTextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Syntax" msprop:Generator_UserColumnName="Syntax" msprop:Generator_ColumnPropNameInRow="Syntax" msprop:Generator_ColumnVarNameInTable="columnSyntax" msprop:Generator_ColumnPropNameInTable="SyntaxColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Forms" msprop:Generator_UserColumnName="Forms" msprop:Generator_ColumnPropNameInRow="Forms" msprop:Generator_ColumnVarNameInTable="columnForms" msprop:Generator_ColumnPropNameInTable="FormsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

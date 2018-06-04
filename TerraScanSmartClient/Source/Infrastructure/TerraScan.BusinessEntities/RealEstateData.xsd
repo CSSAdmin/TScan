@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RealEstateData" targetNamespace="http://tempuri.org/RealEstateData.xsd" xmlns:mstns="http://tempuri.org/RealEstateData.xsd" xmlns="http://tempuri.org/RealEstateData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerraScanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerraScanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerraScanConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RealEstateData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RealEstateData" msprop:Generator_DataSetName="RealEstateData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetRealPropertyStatementDetails" msprop:Generator_UserTableName="GetRealPropertyStatementDetails" msprop:Generator_RowDeletedName="GetRealPropertyStatementDetailsRowDeleted" msprop:Generator_RowChangedName="GetRealPropertyStatementDetailsRowChanged" msprop:Generator_RowClassName="GetRealPropertyStatementDetailsRow" msprop:Generator_RowChangingName="GetRealPropertyStatementDetailsRowChanging" msprop:Generator_RowEvArgName="GetRealPropertyStatementDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetRealPropertyStatementDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetRealPropertyStatementDetailsDataTable" msprop:Generator_TableVarName="tableGetRealPropertyStatementDetails" msprop:Generator_RowDeletingName="GetRealPropertyStatementDetailsRowDeleting" msprop:Generator_TablePropName="GetRealPropertyStatementDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StatementID" msprop:Generator_UserColumnName="StatementID" msprop:Generator_ColumnVarNameInTable="columnStatementID" msprop:Generator_ColumnPropNameInRow="StatementID" msprop:Generator_ColumnPropNameInTable="StatementIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StatementNumber" msprop:Generator_UserColumnName="StatementNumber" msprop:Generator_ColumnVarNameInTable="columnStatementNumber" msprop:Generator_ColumnPropNameInRow="StatementNumber" msprop:Generator_ColumnPropNameInTable="StatementNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LevyYear" msprop:Generator_UserColumnName="LevyYear" msprop:Generator_ColumnVarNameInTable="columnLevyYear" msprop:Generator_ColumnPropNameInRow="LevyYear" msprop:Generator_ColumnPropNameInTable="LevyYearColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="District" msprop:Generator_UserColumnName="District" msprop:Generator_ColumnVarNameInTable="columnDistrict" msprop:Generator_ColumnPropNameInRow="District" msprop:Generator_ColumnPropNameInTable="DistrictColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalValue" msprop:Generator_ColumnVarNameInTable="columnTotalValue" msprop:Generator_ColumnPropNameInRow="TotalValue" msprop:Generator_ColumnPropNameInTable="TotalValueColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="OriginalTax" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OriginalTax" msprop:Generator_ColumnVarNameInTable="columnOriginalTax" msprop:Generator_ColumnPropNameInRow="OriginalTax" msprop:Generator_ColumnPropNameInTable="OriginalTaxColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Situs" msprop:Generator_UserColumnName="Situs" msprop:Generator_ColumnVarNameInTable="columnSitus" msprop:Generator_ColumnPropNameInRow="Situs" msprop:Generator_ColumnPropNameInTable="SitusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalExemptions" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalExemptions" msprop:Generator_ColumnVarNameInTable="columnTotalExemptions" msprop:Generator_ColumnPropNameInRow="TotalExemptions" msprop:Generator_ColumnPropNameInTable="TotalExemptionsColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalDeductions" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TotalDeductions" msprop:Generator_ColumnVarNameInTable="columnTotalDeductions" msprop:Generator_ColumnPropNameInRow="TotalDeductions" msprop:Generator_ColumnPropNameInTable="TotalDeductionsColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Legal" msprop:Generator_UserColumnName="Legal" msprop:Generator_ColumnVarNameInTable="columnLegal" msprop:Generator_ColumnPropNameInRow="Legal" msprop:Generator_ColumnPropNameInTable="LegalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxableValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TaxableValue" msprop:Generator_ColumnVarNameInTable="columnTaxableValue" msprop:Generator_ColumnPropNameInRow="TaxableValue" msprop:Generator_ColumnPropNameInTable="TaxableValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TaxBilled" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TaxBilled" msprop:Generator_ColumnVarNameInTable="columnTaxBilled" msprop:Generator_ColumnPropNameInRow="TaxBilled" msprop:Generator_ColumnPropNameInTable="TaxBilledColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OwnerName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OwnerName" msprop:Generator_ColumnVarNameInTable="columnOwnerName" msprop:Generator_ColumnPropNameInRow="OwnerName" msprop:Generator_ColumnPropNameInTable="OwnerNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MapNumber" msprop:Generator_UserColumnName="MapNumber" msprop:Generator_ColumnVarNameInTable="columnMapNumber" msprop:Generator_ColumnPropNameInRow="MapNumber" msprop:Generator_ColumnPropNameInTable="MapNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ParcelID" msprop:Generator_UserColumnName="ParcelID" msprop:Generator_ColumnVarNameInTable="columnParcelID" msprop:Generator_ColumnPropNameInRow="ParcelID" msprop:Generator_ColumnPropNameInTable="ParcelIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DelinquentStatus" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DelinquentStatus" msprop:Generator_ColumnVarNameInTable="columnDelinquentStatus" msprop:Generator_ColumnPropNameInRow="DelinquentStatus" msprop:Generator_ColumnPropNameInTable="DelinquentStatusColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DelinquentParcelStatus" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DelinquentParcelStatus" msprop:Generator_ColumnVarNameInTable="columnDelinquentParcelStatus" msprop:Generator_ColumnPropNameInRow="DelinquentParcelStatus" msprop:Generator_ColumnPropNameInTable="DelinquentParcelStatusColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="OwnerStatus" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OwnerStatus" msprop:Generator_ColumnVarNameInTable="columnOwnerStatus" msprop:Generator_ColumnPropNameInRow="OwnerStatus" msprop:Generator_ColumnPropNameInTable="OwnerStatusColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListRealPropertyStatementID" msprop:Generator_UserTableName="ListRealPropertyStatementID" msprop:Generator_RowDeletedName="ListRealPropertyStatementIDRowDeleted" msprop:Generator_RowChangedName="ListRealPropertyStatementIDRowChanged" msprop:Generator_RowClassName="ListRealPropertyStatementIDRow" msprop:Generator_RowChangingName="ListRealPropertyStatementIDRowChanging" msprop:Generator_RowEvArgName="ListRealPropertyStatementIDRowChangeEvent" msprop:Generator_RowEvHandlerName="ListRealPropertyStatementIDRowChangeEventHandler" msprop:Generator_TableClassName="ListRealPropertyStatementIDDataTable" msprop:Generator_TableVarName="tableListRealPropertyStatementID" msprop:Generator_RowDeletingName="ListRealPropertyStatementIDRowDeleting" msprop:Generator_TablePropName="ListRealPropertyStatementID">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyID" msdata:Caption="StatementID" msprop:Generator_UserColumnName="KeyID" msprop:Generator_ColumnVarNameInTable="columnKeyID" msprop:Generator_ColumnPropNameInRow="KeyID" msprop:Generator_ColumnPropNameInTable="KeyIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

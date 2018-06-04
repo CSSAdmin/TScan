@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F36062LandInfluenceData" targetNamespace="http://tempuri.org/F36062LandInfluenceData.xsd" xmlns:mstns="http://tempuri.org/F36062LandInfluenceData.xsd" xmlns="http://tempuri.org/F36062LandInfluenceData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F36062LandInfluenceData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F36062LandInfluenceData" msprop:Generator_DataSetName="F36062LandInfluenceData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetLandDescriptionTitle" msprop:Generator_UserTableName="GetLandDescriptionTitle" msprop:Generator_RowDeletedName="GetLandDescriptionTitleRowDeleted" msprop:Generator_RowChangedName="GetLandDescriptionTitleRowChanged" msprop:Generator_RowClassName="GetLandDescriptionTitleRow" msprop:Generator_RowChangingName="GetLandDescriptionTitleRowChanging" msprop:Generator_RowEvArgName="GetLandDescriptionTitleRowChangeEvent" msprop:Generator_RowEvHandlerName="GetLandDescriptionTitleRowChangeEventHandler" msprop:Generator_TableClassName="GetLandDescriptionTitleDataTable" msprop:Generator_TableVarName="tableGetLandDescriptionTitle" msprop:Generator_RowDeletingName="GetLandDescriptionTitleRowDeleting" msprop:Generator_TablePropName="GetLandDescriptionTitle">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LandTitle" msprop:Generator_UserColumnName="LandTitle" msprop:Generator_ColumnVarNameInTable="columnLandTitle" msprop:Generator_ColumnPropNameInRow="LandTitle" msprop:Generator_ColumnPropNameInTable="LandTitleColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListLandInfluenceTable" msprop:Generator_UserTableName="ListLandInfluenceTable" msprop:Generator_RowDeletedName="ListLandInfluenceTableRowDeleted" msprop:Generator_RowChangedName="ListLandInfluenceTableRowChanged" msprop:Generator_RowClassName="ListLandInfluenceTableRow" msprop:Generator_RowChangingName="ListLandInfluenceTableRowChanging" msprop:Generator_RowEvArgName="ListLandInfluenceTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ListLandInfluenceTableRowChangeEventHandler" msprop:Generator_TableClassName="ListLandInfluenceTableDataTable" msprop:Generator_TableVarName="tableListLandInfluenceTable" msprop:Generator_RowDeletingName="ListLandInfluenceTableRowDeleting" msprop:Generator_TablePropName="ListLandInfluenceTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InfluenceTypeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="InfluenceTypeID" msprop:Generator_ColumnVarNameInTable="columnInfluenceTypeID" msprop:Generator_ColumnPropNameInRow="InfluenceTypeID" msprop:Generator_ColumnPropNameInTable="InfluenceTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="InfluenceType" msprop:Generator_UserColumnName="InfluenceType" msprop:Generator_ColumnVarNameInTable="columnInfluenceType" msprop:Generator_ColumnPropNameInRow="InfluenceType" msprop:Generator_ColumnPropNameInTable="InfluenceTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Influence" msprop:Generator_UserColumnName="Influence" msprop:Generator_ColumnVarNameInTable="columnInfluence" msprop:Generator_ColumnPropNameInRow="Influence" msprop:Generator_ColumnPropNameInTable="InfluenceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsDeleted" msprop:Generator_UserColumnName="IsDeleted" msprop:Generator_ColumnPropNameInRow="IsDeleted" msprop:Generator_ColumnVarNameInTable="columnIsDeleted" msprop:Generator_ColumnPropNameInTable="IsDeletedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsModified" msprop:Generator_UserColumnName="IsModified" msprop:Generator_ColumnPropNameInRow="IsModified" msprop:Generator_ColumnVarNameInTable="columnIsModified" msprop:Generator_ColumnPropNameInTable="IsModifiedColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TypeComboboxTable" msprop:Generator_UserTableName="TypeComboboxTable" msprop:Generator_RowDeletedName="TypeComboboxTableRowDeleted" msprop:Generator_RowChangedName="TypeComboboxTableRowChanged" msprop:Generator_RowClassName="TypeComboboxTableRow" msprop:Generator_RowChangingName="TypeComboboxTableRowChanging" msprop:Generator_RowEvArgName="TypeComboboxTableRowChangeEvent" msprop:Generator_RowEvHandlerName="TypeComboboxTableRowChangeEventHandler" msprop:Generator_TableClassName="TypeComboboxTableDataTable" msprop:Generator_TableVarName="tableTypeComboboxTable" msprop:Generator_RowDeletingName="TypeComboboxTableRowDeleting" msprop:Generator_TablePropName="TypeComboboxTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TypeName" msprop:Generator_UserColumnName="TypeName" msprop:Generator_ColumnVarNameInTable="columnTypeName" msprop:Generator_ColumnPropNameInRow="TypeName" msprop:Generator_ColumnPropNameInTable="TypeNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

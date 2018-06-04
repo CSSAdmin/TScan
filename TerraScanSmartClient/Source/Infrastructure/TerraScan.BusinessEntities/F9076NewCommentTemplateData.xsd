@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9076NewCommentTemplateData" targetNamespace="http://tempuri.org/F9076NewCommentTemplateData.xsd" xmlns:mstns="http://tempuri.org/F9076NewCommentTemplateData.xsd" xmlns="http://tempuri.org/F9076NewCommentTemplateData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9076NewCommentTemplateData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F9076NewCommentTemplateData" msprop:Generator_DataSetName="F9076NewCommentTemplateData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetCommentTemplate" msprop:Generator_UserTableName="GetCommentTemplate" msprop:Generator_RowDeletedName="GetCommentTemplateRowDeleted" msprop:Generator_RowChangedName="GetCommentTemplateRowChanged" msprop:Generator_RowClassName="GetCommentTemplateRow" msprop:Generator_RowChangingName="GetCommentTemplateRowChanging" msprop:Generator_RowEvArgName="GetCommentTemplateRowChangeEvent" msprop:Generator_RowEvHandlerName="GetCommentTemplateRowChangeEventHandler" msprop:Generator_TableClassName="GetCommentTemplateDataTable" msprop:Generator_TableVarName="tableGetCommentTemplate" msprop:Generator_RowDeletingName="GetCommentTemplateRowDeleting" msprop:Generator_TablePropName="GetCommentTemplate">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Form" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Template" msprop:Generator_UserColumnName="Template" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Template" msprop:Generator_ColumnPropNameInTable="TemplateColumn" msprop:Generator_ColumnVarNameInTable="columnTemplate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnPropNameInTable="CommentColumn" msprop:Generator_ColumnVarNameInTable="columnComment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsPublic" msprop:Generator_UserColumnName="IsPublic" msprop:Generator_ColumnPropNameInRow="IsPublic" msprop:Generator_ColumnVarNameInTable="columnIsPublic" msprop:Generator_ColumnPropNameInTable="IsPublicColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="WillPrint" msprop:Generator_UserColumnName="WillPrint" msprop:Generator_ColumnPropNameInRow="WillPrint" msprop:Generator_ColumnVarNameInTable="columnWillPrint" msprop:Generator_ColumnPropNameInTable="WillPrintColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsHighPriority" msprop:Generator_UserColumnName="IsHighPriority" msprop:Generator_ColumnPropNameInRow="IsHighPriority" msprop:Generator_ColumnVarNameInTable="columnIsHighPriority" msprop:Generator_ColumnPropNameInTable="IsHighPriorityColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="WillRoll" msprop:Generator_UserColumnName="WillRoll" msprop:Generator_ColumnVarNameInTable="columnWillRoll" msprop:Generator_ColumnPropNameInRow="WillRoll" msprop:Generator_ColumnPropNameInTable="WillRollColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="CommentPriorityID" msprop:Generator_UserColumnName="CommentPriorityID" msprop:Generator_ColumnPropNameInRow="CommentPriorityID" msprop:Generator_ColumnVarNameInTable="columnCommentPriorityID" msprop:Generator_ColumnPropNameInTable="CommentPriorityIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

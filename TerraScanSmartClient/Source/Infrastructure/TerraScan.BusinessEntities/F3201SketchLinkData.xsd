@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F3201SketchLinkData" targetNamespace="http://tempuri.org/F3201SketchLinkData.xsd" xmlns:mstns="http://tempuri.org/F3201SketchLinkData.xsd" xmlns="http://tempuri.org/F3201SketchLinkData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Terrascan23May2011ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Terrascan23May2011ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.Terrascan23May2011ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F3201SketchLinkData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F3201SketchLinkData" msprop:Generator_DataSetName="F3201SketchLinkData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TerragonData" msprop:Generator_UserTableName="TerragonData" msprop:Generator_RowDeletedName="TerragonDataRowDeleted" msprop:Generator_RowChangedName="TerragonDataRowChanged" msprop:Generator_RowClassName="TerragonDataRow" msprop:Generator_RowChangingName="TerragonDataRowChanging" msprop:Generator_RowEvArgName="TerragonDataRowChangeEvent" msprop:Generator_RowEvHandlerName="TerragonDataRowChangeEventHandler" msprop:Generator_TableClassName="TerragonDataDataTable" msprop:Generator_TableVarName="tableTerragonData" msprop:Generator_RowDeletingName="TerragonDataRowDeleting" msprop:Generator_TablePropName="TerragonData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TerragonID" msprop:Generator_UserColumnName="TerragonID" msprop:Generator_ColumnVarNameInTable="columnTerragonID" msprop:Generator_ColumnPropNameInRow="TerragonID" msprop:Generator_ColumnPropNameInTable="TerragonIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TypeID" msprop:Generator_UserColumnName="TypeID" msprop:Generator_ColumnVarNameInTable="columnTypeID" msprop:Generator_ColumnPropNameInRow="TypeID" msprop:Generator_ColumnPropNameInTable="TypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GroupID" msprop:Generator_UserColumnName="GroupID" msprop:Generator_ColumnVarNameInTable="columnGroupID" msprop:Generator_ColumnPropNameInRow="GroupID" msprop:Generator_ColumnPropNameInTable="GroupIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PolygonData" msprop:Generator_UserTableName="PolygonData" msprop:Generator_RowDeletedName="PolygonDataRowDeleted" msprop:Generator_RowChangedName="PolygonDataRowChanged" msprop:Generator_RowClassName="PolygonDataRow" msprop:Generator_RowChangingName="PolygonDataRowChanging" msprop:Generator_RowEvArgName="PolygonDataRowChangeEvent" msprop:Generator_RowEvHandlerName="PolygonDataRowChangeEventHandler" msprop:Generator_TableClassName="PolygonDataDataTable" msprop:Generator_TableVarName="tablePolygonData" msprop:Generator_RowDeletingName="PolygonDataRowDeleting" msprop:Generator_TablePropName="PolygonData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PolygonID" msprop:Generator_UserColumnName="PolygonID" msprop:Generator_ColumnVarNameInTable="columnPolygonID" msprop:Generator_ColumnPropNameInRow="PolygonID" msprop:Generator_ColumnPropNameInTable="PolygonIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TypeID" msprop:Generator_UserColumnName="TypeID" msprop:Generator_ColumnVarNameInTable="columnTypeID" msprop:Generator_ColumnPropNameInRow="TypeID" msprop:Generator_ColumnPropNameInTable="TypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GroupID" msprop:Generator_UserColumnName="GroupID" msprop:Generator_ColumnVarNameInTable="columnGroupID" msprop:Generator_ColumnPropNameInRow="GroupID" msprop:Generator_ColumnPropNameInTable="GroupIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HeaderDetails" msprop:Generator_UserTableName="HeaderDetails" msprop:Generator_RowDeletedName="HeaderDetailsRowDeleted" msprop:Generator_RowChangedName="HeaderDetailsRowChanged" msprop:Generator_RowClassName="HeaderDetailsRow" msprop:Generator_RowChangingName="HeaderDetailsRowChanging" msprop:Generator_RowEvArgName="HeaderDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="HeaderDetailsRowChangeEventHandler" msprop:Generator_TableClassName="HeaderDetailsDataTable" msprop:Generator_TableVarName="tableHeaderDetails" msprop:Generator_RowDeletingName="HeaderDetailsRowDeleting" msprop:Generator_TablePropName="HeaderDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubTitle" msprop:Generator_UserColumnName="SubTitle" msprop:Generator_ColumnVarNameInTable="columnSubTitle" msprop:Generator_ColumnPropNameInRow="SubTitle" msprop:Generator_ColumnPropNameInTable="SubTitleColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LinkedData" msprop:Generator_UserTableName="LinkedData" msprop:Generator_RowDeletedName="LinkedDataRowDeleted" msprop:Generator_TableClassName="LinkedDataDataTable" msprop:Generator_RowChangedName="LinkedDataRowChanged" msprop:Generator_RowClassName="LinkedDataRow" msprop:Generator_RowChangingName="LinkedDataRowChanging" msprop:Generator_RowEvArgName="LinkedDataRowChangeEvent" msprop:Generator_RowEvHandlerName="LinkedDataRowChangeEventHandler" msprop:Generator_TablePropName="LinkedData" msprop:Generator_TableVarName="tableLinkedData" msprop:Generator_RowDeletingName="LinkedDataRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TerragonID" msprop:Generator_UserColumnName="TerragonID" msprop:Generator_ColumnPropNameInRow="TerragonID" msprop:Generator_ColumnVarNameInTable="columnTerragonID" msprop:Generator_ColumnPropNameInTable="TerragonIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TerragonTypeID" msprop:Generator_UserColumnName="TerragonTypeID" msprop:Generator_ColumnPropNameInRow="TerragonTypeID" msprop:Generator_ColumnVarNameInTable="columnTerragonTypeID" msprop:Generator_ColumnPropNameInTable="TerragonTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TerragonDescription" msprop:Generator_UserColumnName="TerragonDescription" msprop:Generator_ColumnPropNameInRow="TerragonDescription" msprop:Generator_ColumnVarNameInTable="columnTerragonDescription" msprop:Generator_ColumnPropNameInTable="TerragonDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TerragonGroupID" msprop:Generator_UserColumnName="TerragonGroupID" msprop:Generator_ColumnPropNameInRow="TerragonGroupID" msprop:Generator_ColumnVarNameInTable="columnTerragonGroupID" msprop:Generator_ColumnPropNameInTable="TerragonGroupIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PolygonID" msprop:Generator_UserColumnName="PolygonID" msprop:Generator_ColumnPropNameInRow="PolygonID" msprop:Generator_ColumnVarNameInTable="columnPolygonID" msprop:Generator_ColumnPropNameInTable="PolygonIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PolygonTypeID" msprop:Generator_UserColumnName="PolygonTypeID" msprop:Generator_ColumnPropNameInRow="PolygonTypeID" msprop:Generator_ColumnVarNameInTable="columnPolygonTypeID" msprop:Generator_ColumnPropNameInTable="PolygonTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PolygonDescription" msprop:Generator_UserColumnName="PolygonDescription" msprop:Generator_ColumnPropNameInRow="PolygonDescription" msprop:Generator_ColumnVarNameInTable="columnPolygonDescription" msprop:Generator_ColumnPropNameInTable="PolygonDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PolygonGroupID" msprop:Generator_UserColumnName="PolygonGroupID" msprop:Generator_ColumnPropNameInRow="PolygonGroupID" msprop:Generator_ColumnVarNameInTable="columnPolygonGroupID" msprop:Generator_ColumnPropNameInTable="PolygonGroupIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

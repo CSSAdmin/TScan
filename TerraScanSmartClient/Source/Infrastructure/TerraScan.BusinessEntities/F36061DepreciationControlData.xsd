@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F36061DepreciationControlData" targetNamespace="http://tempuri.org/F36061DepreciationControlData.xsd" xmlns:mstns="http://tempuri.org/F36061DepreciationControlData.xsd" xmlns="http://tempuri.org/F36061DepreciationControlData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F36061DepreciationControlData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F36061DepreciationControlData" msprop:Generator_DataSetName="F36061DepreciationControlData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetDeprDescriptionTitle" msprop:Generator_UserTableName="GetDeprDescriptionTitle" msprop:Generator_RowDeletedName="GetDeprDescriptionTitleRowDeleted" msprop:Generator_RowChangedName="GetDeprDescriptionTitleRowChanged" msprop:Generator_RowClassName="GetDeprDescriptionTitleRow" msprop:Generator_RowChangingName="GetDeprDescriptionTitleRowChanging" msprop:Generator_RowEvArgName="GetDeprDescriptionTitleRowChangeEvent" msprop:Generator_RowEvHandlerName="GetDeprDescriptionTitleRowChangeEventHandler" msprop:Generator_TableClassName="GetDeprDescriptionTitleDataTable" msprop:Generator_TableVarName="tableGetDeprDescriptionTitle" msprop:Generator_RowDeletingName="GetDeprDescriptionTitleRowDeleting" msprop:Generator_TablePropName="GetDeprDescriptionTitle">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DeprTitle" msprop:Generator_UserColumnName="DeprTitle" msprop:Generator_ColumnVarNameInTable="columnDeprTitle" msprop:Generator_ColumnPropNameInRow="DeprTitle" msprop:Generator_ColumnPropNameInTable="DeprTitleColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="95" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListDepr" msprop:Generator_UserTableName="ListDepr" msprop:Generator_RowDeletedName="ListDeprRowDeleted" msprop:Generator_RowChangedName="ListDeprRowChanged" msprop:Generator_RowClassName="ListDeprRow" msprop:Generator_RowChangingName="ListDeprRowChanging" msprop:Generator_RowEvArgName="ListDeprRowChangeEvent" msprop:Generator_RowEvHandlerName="ListDeprRowChangeEventHandler" msprop:Generator_TableClassName="ListDeprDataTable" msprop:Generator_TableVarName="tableListDepr" msprop:Generator_RowDeletingName="ListDeprRowDeleting" msprop:Generator_TablePropName="ListDepr">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Text" msprop:Generator_UserColumnName="Text" msprop:Generator_ColumnVarNameInTable="columnText" msprop:Generator_ColumnPropNameInRow="Text" msprop:Generator_ColumnPropNameInTable="TextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListDeprControlItems" msprop:Generator_UserTableName="ListDeprControlItems" msprop:Generator_RowDeletedName="ListDeprControlItemsRowDeleted" msprop:Generator_RowChangedName="ListDeprControlItemsRowChanged" msprop:Generator_RowClassName="ListDeprControlItemsRow" msprop:Generator_RowChangingName="ListDeprControlItemsRowChanging" msprop:Generator_RowEvArgName="ListDeprControlItemsRowChangeEvent" msprop:Generator_RowEvHandlerName="ListDeprControlItemsRowChangeEventHandler" msprop:Generator_TableClassName="ListDeprControlItemsDataTable" msprop:Generator_TableVarName="tableListDeprControlItems" msprop:Generator_RowDeletingName="ListDeprControlItemsRowDeleting" msprop:Generator_TablePropName="ListDeprControlItems">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DeprControlID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DeprControlID" msprop:Generator_ColumnVarNameInTable="columnDeprControlID" msprop:Generator_ColumnPropNameInRow="DeprControlID" msprop:Generator_ColumnPropNameInTable="DeprControlIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ObjectTypeID" msprop:Generator_UserColumnName="ObjectTypeID" msprop:Generator_ColumnVarNameInTable="columnObjectTypeID" msprop:Generator_ColumnPropNameInRow="ObjectTypeID" msprop:Generator_ColumnPropNameInTable="ObjectTypeIDColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="ObjectType" msprop:Generator_UserColumnName="ObjectType" msprop:Generator_ColumnVarNameInTable="columnObjectType" msprop:Generator_ColumnPropNameInRow="ObjectType" msprop:Generator_ColumnPropNameInTable="ObjectTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NBHDID" msprop:Generator_UserColumnName="NBHDID" msprop:Generator_ColumnVarNameInTable="columnNBHDID" msprop:Generator_ColumnPropNameInRow="NBHDID" msprop:Generator_ColumnPropNameInTable="NBHDIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Low1" msprop:Generator_UserColumnName="Low1" msprop:Generator_ColumnVarNameInTable="columnLow1" msprop:Generator_ColumnPropNameInRow="Low1" msprop:Generator_ColumnPropNameInTable="Low1Column" type="xs:int" minOccurs="0" />
+              <xs:element name="Low2" msprop:Generator_UserColumnName="Low2" msprop:Generator_ColumnVarNameInTable="columnLow2" msprop:Generator_ColumnPropNameInRow="Low2" msprop:Generator_ColumnPropNameInTable="Low2Column" type="xs:int" minOccurs="0" />
+              <xs:element name="Low3" msprop:Generator_UserColumnName="Low3" msprop:Generator_ColumnVarNameInTable="columnLow3" msprop:Generator_ColumnPropNameInRow="Low3" msprop:Generator_ColumnPropNameInTable="Low3Column" type="xs:int" minOccurs="0" />
+              <xs:element name="Low4" msprop:Generator_UserColumnName="Low4" msprop:Generator_ColumnVarNameInTable="columnLow4" msprop:Generator_ColumnPropNameInRow="Low4" msprop:Generator_ColumnPropNameInTable="Low4Column" type="xs:int" minOccurs="0" />
+              <xs:element name="Low5" msprop:Generator_UserColumnName="Low5" msprop:Generator_ColumnVarNameInTable="columnLow5" msprop:Generator_ColumnPropNameInRow="Low5" msprop:Generator_ColumnPropNameInTable="Low5Column" type="xs:int" minOccurs="0" />
+              <xs:element name="Low6" msprop:Generator_UserColumnName="Low6" msprop:Generator_ColumnVarNameInTable="columnLow6" msprop:Generator_ColumnPropNameInRow="Low6" msprop:Generator_ColumnPropNameInTable="Low6Column" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

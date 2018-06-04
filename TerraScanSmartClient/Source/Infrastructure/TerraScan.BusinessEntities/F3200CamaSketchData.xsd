@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F3200CamaSketchData" targetNamespace="http://tempuri.org/F3200CamaSketchData.xsd" xmlns:mstns="http://tempuri.org/F3200CamaSketchData.xsd" xmlns="http://tempuri.org/F3200CamaSketchData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F3200CamaSketchData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F3200CamaSketchData" msprop:Generator_DataSetName="F3200CamaSketchData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ParcelXML" msprop:Generator_UserTableName="ParcelXML" msprop:Generator_RowDeletedName="ParcelXMLRowDeleted" msprop:Generator_TableClassName="ParcelXMLDataTable" msprop:Generator_RowChangedName="ParcelXMLRowChanged" msprop:Generator_RowClassName="ParcelXMLRow" msprop:Generator_RowChangingName="ParcelXMLRowChanging" msprop:Generator_RowEvArgName="ParcelXMLRowChangeEvent" msprop:Generator_RowEvHandlerName="ParcelXMLRowChangeEventHandler" msprop:Generator_TablePropName="ParcelXML" msprop:Generator_TableVarName="tableParcelXML" msprop:Generator_RowDeletingName="ParcelXMLRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParcelXml" msprop:Generator_UserColumnName="ParcelXml" msprop:Generator_ColumnPropNameInRow="ParcelXml" msprop:Generator_ColumnVarNameInTable="columnParcelXml" msprop:Generator_ColumnPropNameInTable="ParcelXmlColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ConfigXML" msprop:Generator_UserTableName="ConfigXML" msprop:Generator_RowDeletedName="ConfigXMLRowDeleted" msprop:Generator_TableClassName="ConfigXMLDataTable" msprop:Generator_RowChangedName="ConfigXMLRowChanged" msprop:Generator_RowClassName="ConfigXMLRow" msprop:Generator_RowChangingName="ConfigXMLRowChanging" msprop:Generator_RowEvArgName="ConfigXMLRowChangeEvent" msprop:Generator_RowEvHandlerName="ConfigXMLRowChangeEventHandler" msprop:Generator_TablePropName="ConfigXML" msprop:Generator_TableVarName="tableConfigXML" msprop:Generator_RowDeletingName="ConfigXMLRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ConfigXml" msprop:Generator_UserColumnName="ConfigXml" msprop:Generator_ColumnPropNameInRow="ConfigXml" msprop:Generator_ColumnVarNameInTable="columnConfigXml" msprop:Generator_ColumnPropNameInTable="ConfigXmlColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CatalogXML" msprop:Generator_UserTableName="CatalogXML" msprop:Generator_RowDeletedName="CatalogXMLRowDeleted" msprop:Generator_TableClassName="CatalogXMLDataTable" msprop:Generator_RowChangedName="CatalogXMLRowChanged" msprop:Generator_RowClassName="CatalogXMLRow" msprop:Generator_RowChangingName="CatalogXMLRowChanging" msprop:Generator_RowEvArgName="CatalogXMLRowChangeEvent" msprop:Generator_RowEvHandlerName="CatalogXMLRowChangeEventHandler" msprop:Generator_TablePropName="CatalogXML" msprop:Generator_TableVarName="tableCatalogXML" msprop:Generator_RowDeletingName="CatalogXMLRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CatalogXml" msprop:Generator_UserColumnName="CatalogXml" msprop:Generator_ColumnPropNameInRow="CatalogXml" msprop:Generator_ColumnVarNameInTable="columnCatalogXml" msprop:Generator_ColumnPropNameInTable="CatalogXmlColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ConfigurationValue" msprop:Generator_UserTableName="ConfigurationValue" msprop:Generator_RowDeletedName="ConfigurationValueRowDeleted" msprop:Generator_TableClassName="ConfigurationValueDataTable" msprop:Generator_RowChangedName="ConfigurationValueRowChanged" msprop:Generator_RowClassName="ConfigurationValueRow" msprop:Generator_RowChangingName="ConfigurationValueRowChanging" msprop:Generator_RowEvArgName="ConfigurationValueRowChangeEvent" msprop:Generator_RowEvHandlerName="ConfigurationValueRowChangeEventHandler" msprop:Generator_TablePropName="ConfigurationValue" msprop:Generator_TableVarName="tableConfigurationValue" msprop:Generator_RowDeletingName="ConfigurationValueRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ConfigurationValue" msprop:Generator_UserColumnName="ConfigurationValue" msprop:Generator_ColumnPropNameInRow="ConfigurationValue" msprop:Generator_ColumnVarNameInTable="columnConfigurationValue" msprop:Generator_ColumnPropNameInTable="ConfigurationValueColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HtcXML" msprop:Generator_UserTableName="HtcXML" msprop:Generator_RowDeletedName="HtcXMLRowDeleted" msprop:Generator_TableClassName="HtcXMLDataTable" msprop:Generator_RowChangedName="HtcXMLRowChanged" msprop:Generator_RowClassName="HtcXMLRow" msprop:Generator_RowChangingName="HtcXMLRowChanging" msprop:Generator_RowEvArgName="HtcXMLRowChangeEvent" msprop:Generator_RowEvHandlerName="HtcXMLRowChangeEventHandler" msprop:Generator_TablePropName="HtcXML" msprop:Generator_TableVarName="tableHtcXML" msprop:Generator_RowDeletingName="HtcXMLRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HtcXml" msprop:Generator_UserColumnName="HtcXml" msprop:Generator_ColumnPropNameInRow="HtcXml" msprop:Generator_ColumnVarNameInTable="columnHtcXml" msprop:Generator_ColumnPropNameInTable="HtcXmlColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

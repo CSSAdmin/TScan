@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F15103ReceiptOwnersData" targetNamespace="http://tempuri.org/F15103ReceiptOwnersData.xsd" xmlns:mstns="http://tempuri.org/F15103ReceiptOwnersData.xsd" xmlns="http://tempuri.org/F15103ReceiptOwnersData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F15103ReceiptOwnersData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F15103ReceiptOwnersData" msprop:Generator_DataSetName="F15103ReceiptOwnersData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListReceiptOwners" msprop:Generator_UserTableName="ListReceiptOwners" msprop:Generator_RowDeletedName="ListReceiptOwnersRowDeleted" msprop:Generator_RowChangedName="ListReceiptOwnersRowChanged" msprop:Generator_RowClassName="ListReceiptOwnersRow" msprop:Generator_RowChangingName="ListReceiptOwnersRowChanging" msprop:Generator_RowEvArgName="ListReceiptOwnersRowChangeEvent" msprop:Generator_RowEvHandlerName="ListReceiptOwnersRowChangeEventHandler" msprop:Generator_TableClassName="ListReceiptOwnersDataTable" msprop:Generator_TableVarName="tableListReceiptOwners" msprop:Generator_RowDeletingName="ListReceiptOwnersRowDeleting" msprop:Generator_TablePropName="ListReceiptOwners">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StatementID" msprop:Generator_UserColumnName="StatementID" msprop:Generator_ColumnVarNameInTable="columnStatementID" msprop:Generator_ColumnPropNameInRow="StatementID" msprop:Generator_ColumnPropNameInTable="StatementIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ReceiptID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ReceiptID" msprop:Generator_ColumnVarNameInTable="columnReceiptID" msprop:Generator_ColumnPropNameInRow="ReceiptID" msprop:Generator_ColumnPropNameInTable="ReceiptIDColumn" type="xs:int" />
+              <xs:element name="OwnerID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OwnerID" msprop:Generator_ColumnVarNameInTable="columnOwnerID" msprop:Generator_ColumnPropNameInRow="OwnerID" msprop:Generator_ColumnPropNameInTable="OwnerIDColumn" type="xs:int" />
+              <xs:element name="OwnerName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OwnerName" msprop:Generator_ColumnVarNameInTable="columnOwnerName" msprop:Generator_ColumnPropNameInRow="OwnerName" msprop:Generator_ColumnPropNameInTable="OwnerNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MOwnerID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="MOwnerID" msprop:Generator_ColumnVarNameInTable="columnMOwnerID" msprop:Generator_ColumnPropNameInRow="MOwnerID" msprop:Generator_ColumnPropNameInTable="MOwnerIDColumn" type="xs:int" />
+              <xs:element name="OwnerPercent" msdata:ReadOnly="true" msprop:Generator_UserColumnName="OwnerPercent" msprop:Generator_ColumnVarNameInTable="columnOwnerPercent" msprop:Generator_ColumnPropNameInRow="OwnerPercent" msprop:Generator_ColumnPropNameInTable="OwnerPercentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="22" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsBilled" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsBilled" msprop:Generator_ColumnVarNameInTable="columnIsBilled" msprop:Generator_ColumnPropNameInRow="IsBilled" msprop:Generator_ColumnPropNameInTable="IsBilledColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsProrated" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsProrated" msprop:Generator_ColumnVarNameInTable="columnIsProrated" msprop:Generator_ColumnPropNameInRow="IsProrated" msprop:Generator_ColumnPropNameInTable="IsProratedColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OwnerOrder" msprop:Generator_UserColumnName="OwnerOrder" msprop:Generator_ColumnVarNameInTable="columnOwnerOrder" msprop:Generator_ColumnPropNameInRow="OwnerOrder" msprop:Generator_ColumnPropNameInTable="OwnerOrderColumn" type="xs:unsignedByte" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ValidRecord" msprop:Generator_UserTableName="ValidRecord" msprop:Generator_RowDeletedName="ValidRecordRowDeleted" msprop:Generator_TableClassName="ValidRecordDataTable" msprop:Generator_RowChangedName="ValidRecordRowChanged" msprop:Generator_RowClassName="ValidRecordRow" msprop:Generator_RowChangingName="ValidRecordRowChanging" msprop:Generator_RowEvArgName="ValidRecordRowChangeEvent" msprop:Generator_RowEvHandlerName="ValidRecordRowChangeEventHandler" msprop:Generator_TablePropName="ValidRecord" msprop:Generator_TableVarName="tableValidRecord" msprop:Generator_RowDeletingName="ValidRecordRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IsValid" msprop:Generator_UserColumnName="IsValid" msprop:Generator_ColumnPropNameInRow="IsValid" msprop:Generator_ColumnVarNameInTable="columnIsValid" msprop:Generator_ColumnPropNameInTable="IsValidColumn" type="xs:int" default="1" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ListReceiptOwners" />
+      <xs:field xpath="mstns:ReceiptID" />
+      <xs:field xpath="mstns:OwnerID" />
+      <xs:field xpath="mstns:MOwnerID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

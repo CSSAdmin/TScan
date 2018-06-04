@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GDocCommonData" targetNamespace="http://tempuri.org/GDocCommonData.xsd" xmlns:mstns="http://tempuri.org/GDocCommonData.xsd" xmlns="http://tempuri.org/GDocCommonData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GDocCommonData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GDocCommonData" msprop:Generator_DataSetName="GDocCommonData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListGDocBusiness" msprop:Generator_UserTableName="ListGDocBusiness" msprop:Generator_RowDeletedName="ListGDocBusinessRowDeleted" msprop:Generator_RowChangedName="ListGDocBusinessRowChanged" msprop:Generator_RowClassName="ListGDocBusinessRow" msprop:Generator_RowChangingName="ListGDocBusinessRowChanging" msprop:Generator_RowEvArgName="ListGDocBusinessRowChangeEvent" msprop:Generator_RowEvHandlerName="ListGDocBusinessRowChangeEventHandler" msprop:Generator_TableClassName="ListGDocBusinessDataTable" msprop:Generator_TableVarName="tableListGDocBusiness" msprop:Generator_RowDeletingName="ListGDocBusinessRowDeleting" msprop:Generator_TablePropName="ListGDocBusiness">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BusinessID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="BusinessID" msprop:Generator_ColumnPropNameInRow="BusinessID" msprop:Generator_ColumnVarNameInTable="columnBusinessID" msprop:Generator_ColumnPropNameInTable="BusinessIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="BusinessName" msprop:Generator_UserColumnName="BusinessName" msprop:Generator_ColumnPropNameInRow="BusinessName" msprop:Generator_ColumnVarNameInTable="columnBusinessName" msprop:Generator_ColumnPropNameInTable="BusinessNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListGDocDiameter" msprop:Generator_UserTableName="ListGDocDiameter" msprop:Generator_RowDeletedName="ListGDocDiameterRowDeleted" msprop:Generator_RowChangedName="ListGDocDiameterRowChanged" msprop:Generator_RowClassName="ListGDocDiameterRow" msprop:Generator_RowChangingName="ListGDocDiameterRowChanging" msprop:Generator_RowEvArgName="ListGDocDiameterRowChangeEvent" msprop:Generator_RowEvHandlerName="ListGDocDiameterRowChangeEventHandler" msprop:Generator_TableClassName="ListGDocDiameterDataTable" msprop:Generator_TableVarName="tableListGDocDiameter" msprop:Generator_RowDeletingName="ListGDocDiameterRowDeleting" msprop:Generator_TablePropName="ListGDocDiameter">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DiameterID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="DiameterID" msprop:Generator_ColumnPropNameInRow="DiameterID" msprop:Generator_ColumnVarNameInTable="columnDiameterID" msprop:Generator_ColumnPropNameInTable="DiameterIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Diameter" msprop:Generator_UserColumnName="Diameter" msprop:Generator_ColumnPropNameInRow="Diameter" msprop:Generator_ColumnVarNameInTable="columnDiameter" msprop:Generator_ColumnPropNameInTable="DiameterColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListGDocPropertyReference" msprop:Generator_UserTableName="ListGDocPropertyReference" msprop:Generator_RowDeletedName="ListGDocPropertyReferenceRowDeleted" msprop:Generator_RowChangedName="ListGDocPropertyReferenceRowChanged" msprop:Generator_RowClassName="ListGDocPropertyReferenceRow" msprop:Generator_RowChangingName="ListGDocPropertyReferenceRowChanging" msprop:Generator_RowEvArgName="ListGDocPropertyReferenceRowChangeEvent" msprop:Generator_RowEvHandlerName="ListGDocPropertyReferenceRowChangeEventHandler" msprop:Generator_TableClassName="ListGDocPropertyReferenceDataTable" msprop:Generator_TableVarName="tableListGDocPropertyReference" msprop:Generator_RowDeletingName="ListGDocPropertyReferenceRowDeleting" msprop:Generator_TablePropName="ListGDocPropertyReference">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ItemID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ItemID" msprop:Generator_ColumnPropNameInRow="ItemID" msprop:Generator_ColumnVarNameInTable="columnItemID" msprop:Generator_ColumnPropNameInTable="ItemIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInTable="ValueColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListGDocStreet" msprop:Generator_UserTableName="ListGDocStreet" msprop:Generator_RowDeletedName="ListGDocStreetRowDeleted" msprop:Generator_RowChangedName="ListGDocStreetRowChanged" msprop:Generator_RowClassName="ListGDocStreetRow" msprop:Generator_RowChangingName="ListGDocStreetRowChanging" msprop:Generator_RowEvArgName="ListGDocStreetRowChangeEvent" msprop:Generator_RowEvHandlerName="ListGDocStreetRowChangeEventHandler" msprop:Generator_TableClassName="ListGDocStreetDataTable" msprop:Generator_TableVarName="tableListGDocStreet" msprop:Generator_RowDeletingName="ListGDocStreetRowDeleting" msprop:Generator_TablePropName="ListGDocStreet">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StreetID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="StreetID" msprop:Generator_ColumnPropNameInRow="StreetID" msprop:Generator_ColumnVarNameInTable="columnStreetID" msprop:Generator_ColumnPropNameInTable="StreetIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StreetName" msprop:Generator_UserColumnName="StreetName" msprop:Generator_ColumnPropNameInRow="StreetName" msprop:Generator_ColumnVarNameInTable="columnStreetName" msprop:Generator_ColumnPropNameInTable="StreetNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListGDocUser" msprop:Generator_UserTableName="ListGDocUser" msprop:Generator_RowDeletedName="ListGDocUserRowDeleted" msprop:Generator_RowChangedName="ListGDocUserRowChanged" msprop:Generator_RowClassName="ListGDocUserRow" msprop:Generator_RowChangingName="ListGDocUserRowChanging" msprop:Generator_RowEvArgName="ListGDocUserRowChangeEvent" msprop:Generator_RowEvHandlerName="ListGDocUserRowChangeEventHandler" msprop:Generator_TableClassName="ListGDocUserDataTable" msprop:Generator_TableVarName="tableListGDocUser" msprop:Generator_RowDeletingName="ListGDocUserRowDeleting" msprop:Generator_TablePropName="ListGDocUser">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NameDisplay" msprop:Generator_UserColumnName="NameDisplay" msprop:Generator_ColumnPropNameInRow="NameDisplay" msprop:Generator_ColumnVarNameInTable="columnNameDisplay" msprop:Generator_ColumnPropNameInTable="NameDisplayColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

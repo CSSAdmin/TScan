@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ExciseDistrictCopyData" targetNamespace="http://tempuri.org/ExciseDistrictCopyData.xsd" xmlns:mstns="http://tempuri.org/ExciseDistrictCopyData.xsd" xmlns="http://tempuri.org/ExciseDistrictCopyData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerraScanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerraScanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerraScanConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ExciseDistrictCopyData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ExciseDistrictCopyData" msprop:Generator_DataSetName="ExciseDistrictCopyData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetExciseRateDistrict" msprop:Generator_UserTableName="GetExciseRateDistrict" msprop:Generator_RowDeletedName="GetExciseRateDistrictRowDeleted" msprop:Generator_RowChangedName="GetExciseRateDistrictRowChanged" msprop:Generator_RowClassName="GetExciseRateDistrictRow" msprop:Generator_RowChangingName="GetExciseRateDistrictRowChanging" msprop:Generator_RowEvArgName="GetExciseRateDistrictRowChangeEvent" msprop:Generator_RowEvHandlerName="GetExciseRateDistrictRowChangeEventHandler" msprop:Generator_TableClassName="GetExciseRateDistrictDataTable" msprop:Generator_TableVarName="tableGetExciseRateDistrict" msprop:Generator_RowDeletingName="GetExciseRateDistrictRowDeleting" msprop:Generator_TablePropName="GetExciseRateDistrict">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="District" msprop:Generator_UserColumnName="District" msprop:Generator_ColumnVarNameInTable="columnDistrict" msprop:Generator_ColumnPropNameInRow="District" msprop:Generator_ColumnPropNameInTable="DistrictColumn" type="xs:int" />
+              <xs:element name="BaseYear" msprop:Generator_UserColumnName="BaseYear" msprop:Generator_ColumnVarNameInTable="columnBaseYear" msprop:Generator_ColumnPropNameInRow="BaseYear" msprop:Generator_ColumnPropNameInTable="BaseYearColumn" type="xs:short" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

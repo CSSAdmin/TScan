@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ExciseIndividualType" targetNamespace="http://tempuri.org/ExciseIndividualType.xsd" xmlns:mstns="http://tempuri.org/ExciseIndividualType.xsd" xmlns="http://tempuri.org/ExciseIndividualType.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerraScanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerraScanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerraScanConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ExciseIndividualType" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ExciseIndividualType" msprop:Generator_DataSetName="ExciseIndividualType">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ExciseIndividualType" msprop:Generator_UserTableName="ExciseIndividualType" msprop:Generator_RowDeletedName="ExciseIndividualTypeRowDeleted" msprop:Generator_RowChangedName="ExciseIndividualTypeRowChanged" msprop:Generator_RowClassName="ExciseIndividualTypeRow" msprop:Generator_RowChangingName="ExciseIndividualTypeRowChanging" msprop:Generator_RowEvArgName="ExciseIndividualTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="ExciseIndividualTypeRowChangeEventHandler" msprop:Generator_TableClassName="ExciseIndividualTypeDataTable" msprop:Generator_TableVarName="tableExciseIndividualType" msprop:Generator_RowDeletingName="ExciseIndividualTypeRowDeleting" msprop:Generator_TablePropName="_ExciseIndividualType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IndividualTypeID" msprop:Generator_UserColumnName="IndividualTypeID" msprop:Generator_ColumnVarNameInTable="columnIndividualTypeID" msprop:Generator_ColumnPropNameInRow="IndividualTypeID" msprop:Generator_ColumnPropNameInTable="IndividualTypeIDColumn" type="xs:unsignedByte" />
+              <xs:element name="IndividualType" msprop:Generator_UserColumnName="IndividualType" msprop:Generator_ColumnVarNameInTable="columnIndividualType" msprop:Generator_ColumnPropNameInRow="IndividualType" msprop:Generator_ColumnPropNameInTable="IndividualTypeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ExciseIndividualType" />
+      <xs:field xpath="mstns:IndividualTypeID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

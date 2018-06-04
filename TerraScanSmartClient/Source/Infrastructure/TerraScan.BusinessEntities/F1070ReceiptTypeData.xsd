@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F1070ReceiptTypeData" targetNamespace="http://tempuri.org/F1070ReceiptTypeData.xsd" xmlns:mstns="http://tempuri.org/F1070ReceiptTypeData.xsd" xmlns="http://tempuri.org/F1070ReceiptTypeData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F1070ReceiptTypeData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="F1070ReceiptTypeData" msprop:Generator_UserDSName="F1070ReceiptTypeData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReceiptTypes" msprop:Generator_UserTableName="ReceiptTypes" msprop:Generator_RowDeletedName="ReceiptTypesRowDeleted" msprop:Generator_TableClassName="ReceiptTypesDataTable" msprop:Generator_RowChangedName="ReceiptTypesRowChanged" msprop:Generator_RowClassName="ReceiptTypesRow" msprop:Generator_RowChangingName="ReceiptTypesRowChanging" msprop:Generator_RowEvArgName="ReceiptTypesRowChangeEvent" msprop:Generator_RowEvHandlerName="ReceiptTypesRowChangeEventHandler" msprop:Generator_TablePropName="ReceiptTypes" msprop:Generator_TableVarName="tableReceiptTypes" msprop:Generator_RowDeletingName="ReceiptTypesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReceiptTypeID" msprop:Generator_UserColumnName="ReceiptTypeID" msprop:Generator_ColumnPropNameInRow="ReceiptTypeID" msprop:Generator_ColumnVarNameInTable="columnReceiptTypeID" msprop:Generator_ColumnPropNameInTable="ReceiptTypeIDColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="ReceiptType" msprop:Generator_UserColumnName="ReceiptType" msprop:Generator_ColumnPropNameInRow="ReceiptType" msprop:Generator_ColumnVarNameInTable="columnReceiptType" msprop:Generator_ColumnPropNameInTable="ReceiptTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Form" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

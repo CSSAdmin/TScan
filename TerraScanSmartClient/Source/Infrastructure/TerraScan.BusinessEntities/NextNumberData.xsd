@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NextNumberData" targetNamespace="http://tempuri.org/NextNumberData.xsd" xmlns:mstns="http://tempuri.org/NextNumberData.xsd" xmlns="http://tempuri.org/NextNumberData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerraScanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerraScanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerraScanConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="NextNumberData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="NextNumberData" msprop:Generator_DataSetName="NextNumberData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListNextNumber" msprop:Generator_UserTableName="ListNextNumber" msprop:Generator_RowDeletedName="ListNextNumberRowDeleted" msprop:Generator_RowChangedName="ListNextNumberRowChanged" msprop:Generator_RowClassName="ListNextNumberRow" msprop:Generator_RowChangingName="ListNextNumberRowChanging" msprop:Generator_RowEvArgName="ListNextNumberRowChangeEvent" msprop:Generator_RowEvHandlerName="ListNextNumberRowChangeEventHandler" msprop:Generator_TableClassName="ListNextNumberDataTable" msprop:Generator_TableVarName="tableListNextNumber" msprop:Generator_RowDeletingName="ListNextNumberRowDeleting" msprop:Generator_TablePropName="ListNextNumber">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NextNumID" msprop:Generator_UserColumnName="NextNumID" msprop:Generator_ColumnVarNameInTable="columnNextNumID" msprop:Generator_ColumnPropNameInRow="NextNumID" msprop:Generator_ColumnPropNameInTable="NextNumIDColumn" type="xs:int" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" />
+              <xs:element name="PostTypeID" msprop:Generator_UserColumnName="PostTypeID" msprop:Generator_ColumnVarNameInTable="columnPostTypeID" msprop:Generator_ColumnPropNameInRow="PostTypeID" msprop:Generator_ColumnPropNameInTable="PostTypeIDColumn" type="xs:unsignedByte" />
+              <xs:element name="PostName" msprop:Generator_UserColumnName="PostName" msprop:Generator_ColumnVarNameInTable="columnPostName" msprop:Generator_ColumnPropNameInRow="PostName" msprop:Generator_ColumnPropNameInTable="PostNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NextNum" msprop:Generator_UserColumnName="NextNum" msprop:Generator_ColumnVarNameInTable="columnNextNum" msprop:Generator_ColumnPropNameInRow="NextNum" msprop:Generator_ColumnPropNameInTable="NextNumColumn" type="xs:int" />
+              <xs:element name="Formula" msprop:Generator_UserColumnName="Formula" msprop:Generator_ColumnVarNameInTable="columnFormula" msprop:Generator_ColumnPropNameInRow="Formula" msprop:Generator_ColumnPropNameInTable="FormulaColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F2015StateCodeSelection" targetNamespace="http://tempuri.org/F2015StateCodeSelection.xsd" xmlns:mstns="http://tempuri.org/F2015StateCodeSelection.xsd" xmlns="http://tempuri.org/F2015StateCodeSelection.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F2015StateCodeSelection" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F2015StateCodeSelection" msprop:Generator_DataSetName="F2015StateCodeSelection">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F2010_ListStateCode" msprop:Generator_UserTableName="F2010_ListStateCode" msprop:Generator_RowDeletedName="F2010_ListStateCodeRowDeleted" msprop:Generator_RowChangedName="F2010_ListStateCodeRowChanged" msprop:Generator_RowClassName="F2010_ListStateCodeRow" msprop:Generator_RowChangingName="F2010_ListStateCodeRowChanging" msprop:Generator_RowEvArgName="F2010_ListStateCodeRowChangeEvent" msprop:Generator_RowEvHandlerName="F2010_ListStateCodeRowChangeEventHandler" msprop:Generator_TableClassName="F2010_ListStateCodeDataTable" msprop:Generator_TableVarName="tableF2010_ListStateCode" msprop:Generator_RowDeletingName="F2010_ListStateCodeRowDeleting" msprop:Generator_TablePropName="F2010_ListStateCode">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateCodeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="StateCodeID" msprop:Generator_ColumnVarNameInTable="columnStateCodeID" msprop:Generator_ColumnPropNameInRow="StateCodeID" msprop:Generator_ColumnPropNameInTable="StateCodeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="State" msprop:Generator_UserColumnName="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StateCode" msprop:Generator_UserColumnName="StateCode" msprop:Generator_ColumnVarNameInTable="columnStateCode" msprop:Generator_ColumnPropNameInRow="StateCode" msprop:Generator_ColumnPropNameInTable="StateCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

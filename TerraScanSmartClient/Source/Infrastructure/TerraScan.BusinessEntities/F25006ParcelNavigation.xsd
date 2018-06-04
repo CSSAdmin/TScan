@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F25006ParcelNavigation" targetNamespace="http://tempuri.org/F25006ParcelNavigation.xsd" xmlns:mstns="http://tempuri.org/F25006ParcelNavigation.xsd" xmlns="http://tempuri.org/F25006ParcelNavigation.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanClient20121210ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanClient20121210ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanClient20121210ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanClientDevDB20121210ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanClientDevDB20121210ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanClientDevDB20121210ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F25006ParcelNavigation" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F25006ParcelNavigation" msprop:Generator_DataSetName="F25006ParcelNavigation" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="f25006_ParcelNavigation" msprop:Generator_UserTableName="f25006_ParcelNavigation" msprop:Generator_RowDeletedName="f25006_ParcelNavigationRowDeleted" msprop:Generator_TableClassName="f25006_ParcelNavigationDataTable" msprop:Generator_RowChangedName="f25006_ParcelNavigationRowChanged" msprop:Generator_RowClassName="f25006_ParcelNavigationRow" msprop:Generator_RowChangingName="f25006_ParcelNavigationRowChanging" msprop:Generator_RowEvArgName="f25006_ParcelNavigationRowChangeEvent" msprop:Generator_RowEvHandlerName="f25006_ParcelNavigationRowChangeEventHandler" msprop:Generator_TablePropName="f25006_ParcelNavigation" msprop:Generator_TableVarName="tablef25006_ParcelNavigation" msprop:Generator_RowDeletingName="f25006_ParcelNavigationRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParcelID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ParcelID" msprop:Generator_ColumnPropNameInRow="ParcelID" msprop:Generator_ColumnVarNameInTable="columnParcelID" msprop:Generator_ColumnPropNameInTable="ParcelIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

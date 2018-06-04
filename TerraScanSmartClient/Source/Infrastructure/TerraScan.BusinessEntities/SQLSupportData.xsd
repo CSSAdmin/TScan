@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SQLSupportData" targetNamespace="http://tempuri.org/SQLSupportData.xsd" xmlns:mstns="http://tempuri.org/SQLSupportData.xsd" xmlns="http://tempuri.org/SQLSupportData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient">
+          </Connection>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SQLSupportData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False" msprop:Generator_UserDSName="SQLSupportData" msprop:Generator_DataSetName="SQLSupportData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SaveSQLQuery" msprop:Generator_UserTableName="SaveSQLQuery" msprop:Generator_RowDeletedName="SaveSQLQueryRowDeleted" msprop:Generator_RowChangedName="SaveSQLQueryRowChanged" msprop:Generator_RowClassName="SaveSQLQueryRow" msprop:Generator_RowChangingName="SaveSQLQueryRowChanging" msprop:Generator_RowEvArgName="SaveSQLQueryRowChangeEvent" msprop:Generator_RowEvHandlerName="SaveSQLQueryRowChangeEventHandler" msprop:Generator_TableClassName="SaveSQLQueryDataTable" msprop:Generator_TableVarName="tableSaveSQLQuery" msprop:Generator_RowDeletingName="SaveSQLQueryRowDeleting" msprop:Generator_TablePropName="SaveSQLQuery">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Category" msprop:Generator_UserColumnName="Category" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnPropNameInTable="CategoryColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Statement" msprop:Generator_UserColumnName="Statement" msprop:Generator_ColumnVarNameInTable="columnStatement" msprop:Generator_ColumnPropNameInRow="Statement" msprop:Generator_ColumnPropNameInTable="StatementColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ModuleID" msprop:Generator_UserColumnName="ModuleID" msprop:Generator_ColumnVarNameInTable="columnModuleID" msprop:Generator_ColumnPropNameInRow="ModuleID" msprop:Generator_ColumnPropNameInTable="ModuleIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SQLID" msprop:Generator_UserColumnName="SQLID" msprop:Generator_ColumnVarNameInTable="columnSQLID" msprop:Generator_ColumnPropNameInRow="SQLID" msprop:Generator_ColumnPropNameInTable="SQLIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListSqlCategory" msprop:Generator_UserTableName="ListSqlCategory" msprop:Generator_RowDeletedName="ListSqlCategoryRowDeleted" msprop:Generator_RowChangedName="ListSqlCategoryRowChanged" msprop:Generator_RowClassName="ListSqlCategoryRow" msprop:Generator_RowChangingName="ListSqlCategoryRowChanging" msprop:Generator_RowEvArgName="ListSqlCategoryRowChangeEvent" msprop:Generator_RowEvHandlerName="ListSqlCategoryRowChangeEventHandler" msprop:Generator_TableClassName="ListSqlCategoryDataTable" msprop:Generator_TableVarName="tableListSqlCategory" msprop:Generator_RowDeletingName="ListSqlCategoryRowDeleting" msprop:Generator_TablePropName="ListSqlCategory">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Category" msprop:Generator_UserColumnName="Category" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_ColumnPropNameInTable="CategoryColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CategoryID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CategoryID" msprop:Generator_ColumnPropNameInRow="CategoryID" msprop:Generator_ColumnVarNameInTable="columnCategoryID" msprop:Generator_ColumnPropNameInTable="CategoryIDColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListSqlDescription" msprop:Generator_UserTableName="ListSqlDescription" msprop:Generator_RowDeletedName="ListSqlDescriptionRowDeleted" msprop:Generator_RowChangedName="ListSqlDescriptionRowChanged" msprop:Generator_RowClassName="ListSqlDescriptionRow" msprop:Generator_RowChangingName="ListSqlDescriptionRowChanging" msprop:Generator_RowEvArgName="ListSqlDescriptionRowChangeEvent" msprop:Generator_RowEvHandlerName="ListSqlDescriptionRowChangeEventHandler" msprop:Generator_TableClassName="ListSqlDescriptionDataTable" msprop:Generator_TableVarName="tableListSqlDescription" msprop:Generator_RowDeletingName="ListSqlDescriptionRowDeleting" msprop:Generator_TablePropName="ListSqlDescription">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SQLID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SQLID" msprop:Generator_ColumnPropNameInRow="SQLID" msprop:Generator_ColumnVarNameInTable="columnSQLID" msprop:Generator_ColumnPropNameInTable="SQLIDColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetSqlString" msprop:Generator_UserTableName="GetSqlString" msprop:Generator_RowDeletedName="GetSqlStringRowDeleted" msprop:Generator_RowChangedName="GetSqlStringRowChanged" msprop:Generator_RowClassName="GetSqlStringRow" msprop:Generator_RowChangingName="GetSqlStringRowChanging" msprop:Generator_RowEvArgName="GetSqlStringRowChangeEvent" msprop:Generator_RowEvHandlerName="GetSqlStringRowChangeEventHandler" msprop:Generator_TableClassName="GetSqlStringDataTable" msprop:Generator_TableVarName="tableGetSqlString" msprop:Generator_RowDeletingName="GetSqlStringRowDeleting" msprop:Generator_TablePropName="GetSqlString">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SQLString" msprop:Generator_UserColumnName="SQLString" msprop:Generator_ColumnVarNameInTable="columnSQLString" msprop:Generator_ColumnPropNameInRow="SQLString" msprop:Generator_ColumnPropNameInTable="SQLStringColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ListSqlCategory" />
+      <xs:field xpath="mstns:CategoryID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

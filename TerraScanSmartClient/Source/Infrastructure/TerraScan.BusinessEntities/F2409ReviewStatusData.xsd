@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F2409ReviewStatusData" targetNamespace="http://tempuri.org/F2409ReviewStatusData.xsd" xmlns:mstns="http://tempuri.org/F2409ReviewStatusData.xsd" xmlns="http://tempuri.org/F2409ReviewStatusData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Terrascan23May2011ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Terrascan23May2011ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.Terrascan23May2011ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F2409ReviewStatusData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F2409ReviewStatusData" msprop:Generator_DataSetName="F2409ReviewStatusData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F2409_ListInspectedByUser" msprop:Generator_UserTableName="F2409_ListInspectedByUser" msprop:Generator_RowDeletedName="F2409_ListInspectedByUserRowDeleted" msprop:Generator_RowChangedName="F2409_ListInspectedByUserRowChanged" msprop:Generator_RowClassName="F2409_ListInspectedByUserRow" msprop:Generator_RowChangingName="F2409_ListInspectedByUserRowChanging" msprop:Generator_RowEvArgName="F2409_ListInspectedByUserRowChangeEvent" msprop:Generator_RowEvHandlerName="F2409_ListInspectedByUserRowChangeEventHandler" msprop:Generator_TableClassName="F2409_ListInspectedByUserDataTable" msprop:Generator_TableVarName="tableF2409_ListInspectedByUser" msprop:Generator_RowDeletingName="F2409_ListInspectedByUserRowDeleting" msprop:Generator_TablePropName="F2409_ListInspectedByUser">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name_DIsplay" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="Name_DIsplay" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnName_DIsplay" msprop:Generator_ColumnPropNameInTable="Name_DIsplayColumn" msprop:Generator_ColumnPropNameInRow="Name_DIsplay" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="F2409_InspectedType" msprop:Generator_UserTableName="F2409_InspectedType" msprop:Generator_RowDeletedName="F2409_InspectedTypeRowDeleted" msprop:Generator_RowChangedName="F2409_InspectedTypeRowChanged" msprop:Generator_RowClassName="F2409_InspectedTypeRow" msprop:Generator_RowChangingName="F2409_InspectedTypeRowChanging" msprop:Generator_RowEvArgName="F2409_InspectedTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="F2409_InspectedTypeRowChangeEventHandler" msprop:Generator_TableClassName="F2409_InspectedTypeDataTable" msprop:Generator_TableVarName="tableF2409_InspectedType" msprop:Generator_RowDeletingName="F2409_InspectedTypeRowDeleting" msprop:Generator_TablePropName="F2409_InspectedType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InspectionTypeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="InspectionTypeID" msprop:Generator_ColumnVarNameInTable="columnInspectionTypeID" msprop:Generator_ColumnPropNameInRow="InspectionTypeID" msprop:Generator_ColumnPropNameInTable="InspectionTypeIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InspectionType" msprop:Generator_UserColumnName="InspectionType" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="InspectionType" msprop:Generator_ColumnPropNameInTable="InspectionTypeColumn" msprop:Generator_ColumnVarNameInTable="columnInspectionType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="F2409_ListReviewStatus" msprop:Generator_UserTableName="F2409_ListReviewStatus" msprop:Generator_RowDeletedName="F2409_ListReviewStatusRowDeleted" msprop:Generator_RowChangedName="F2409_ListReviewStatusRowChanged" msprop:Generator_RowClassName="F2409_ListReviewStatusRow" msprop:Generator_RowChangingName="F2409_ListReviewStatusRowChanging" msprop:Generator_RowEvArgName="F2409_ListReviewStatusRowChangeEvent" msprop:Generator_RowEvHandlerName="F2409_ListReviewStatusRowChangeEventHandler" msprop:Generator_TableClassName="F2409_ListReviewStatusDataTable" msprop:Generator_TableVarName="tableF2409_ListReviewStatus" msprop:Generator_RowDeletingName="F2409_ListReviewStatusRowDeleting" msprop:Generator_TablePropName="F2409_ListReviewStatus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InspectedByUserID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="InspectedByUserID" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnInspectedByUserID" msprop:Generator_ColumnPropNameInTable="InspectedByUserIDColumn" msprop:Generator_ColumnPropNameInRow="InspectedByUserID" type="xs:string" minOccurs="0" />
+              <xs:element name="InspectionUser" msprop:Generator_UserColumnName="InspectionUser" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnInspectionUser" msprop:Generator_ColumnPropNameInTable="InspectionUserColumn" msprop:Generator_ColumnPropNameInRow="InspectionUser" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DateInspected" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DateInspected" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnDateInspected" msprop:Generator_ColumnPropNameInTable="DateInspectedColumn" msprop:Generator_ColumnPropNameInRow="DateInspected" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InspectionTypeID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="InspectionTypeID" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnInspectionTypeID" msprop:Generator_ColumnPropNameInTable="InspectionTypeIDColumn" msprop:Generator_ColumnPropNameInRow="InspectionTypeID" type="xs:string" minOccurs="0" />
+              <xs:element name="InspectionType" msprop:Generator_UserColumnName="InspectionType" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnInspectionType" msprop:Generator_ColumnPropNameInTable="InspectionTypeColumn" msprop:Generator_ColumnPropNameInRow="InspectionType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReviewedByUserID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ReviewedByUserID" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnReviewedByUserID" msprop:Generator_ColumnPropNameInTable="ReviewedByUserIDColumn" msprop:Generator_ColumnPropNameInRow="ReviewedByUserID" type="xs:string" minOccurs="0" />
+              <xs:element name="ReviewUser" msprop:Generator_UserColumnName="ReviewUser" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnReviewUser" msprop:Generator_ColumnPropNameInTable="ReviewUserColumn" msprop:Generator_ColumnPropNameInRow="ReviewUser" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReviewDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ReviewDate" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnReviewDate" msprop:Generator_ColumnPropNameInTable="ReviewDateColumn" msprop:Generator_ColumnPropNameInRow="ReviewDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ReviewStatusID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ReviewStatusID" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnReviewStatusID" msprop:Generator_ColumnPropNameInTable="ReviewStatusIDColumn" msprop:Generator_ColumnPropNameInRow="ReviewStatusID" type="xs:string" minOccurs="0" />
+              <xs:element name="EnteredByUser" msprop:Generator_UserColumnName="EnteredByUser" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnEnteredByUser" msprop:Generator_ColumnPropNameInTable="EnteredByUserColumn" msprop:Generator_ColumnPropNameInRow="EnteredByUser" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EnteredByUserID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="EnteredByUserID" msprop:Generator_ColumnPropNameInRow="EnteredByUserID" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnEnteredByUserID" msprop:Generator_ColumnPropNameInTable="EnteredByUserIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EnteredByDate" msdata:ReadOnly="true" msprop:Generator_UserColumnName="EnteredByDate" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnEnteredByDate" msprop:Generator_ColumnPropNameInTable="EnteredByDateColumn" msprop:Generator_ColumnPropNameInRow="EnteredByDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="F2409_ReviewStatus" msprop:Generator_UserTableName="F2409_ReviewStatus" msprop:Generator_RowDeletedName="F2409_ReviewStatusRowDeleted" msprop:Generator_RowChangedName="F2409_ReviewStatusRowChanged" msprop:Generator_RowClassName="F2409_ReviewStatusRow" msprop:Generator_RowChangingName="F2409_ReviewStatusRowChanging" msprop:Generator_RowEvArgName="F2409_ReviewStatusRowChangeEvent" msprop:Generator_RowEvHandlerName="F2409_ReviewStatusRowChangeEventHandler" msprop:Generator_TableClassName="F2409_ReviewStatusDataTable" msprop:Generator_TableVarName="tableF2409_ReviewStatus" msprop:Generator_RowDeletingName="F2409_ReviewStatusRowDeleting" msprop:Generator_TablePropName="F2409_ReviewStatus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReviewStatusID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ReviewStatusID" msprop:Generator_ColumnVarNameInTable="columnReviewStatusID" msprop:Generator_ColumnPropNameInRow="ReviewStatusID" msprop:Generator_ColumnPropNameInTable="ReviewStatusIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ReviewStatus" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ReviewStatus" msprop:Generator_ColumnVarNameInTable="columnReviewStatus" msprop:Generator_ColumnPropNameInRow="ReviewStatus" msprop:Generator_ColumnPropNameInTable="ReviewStatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

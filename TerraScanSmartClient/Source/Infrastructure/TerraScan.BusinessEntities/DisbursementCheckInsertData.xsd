@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DisbursementCheckInsertData" targetNamespace="http://tempuri.org/DisbursementCheckInsertData.xsd" xmlns:mstns="http://tempuri.org/DisbursementCheckInsertData.xsd" xmlns="http://tempuri.org/DisbursementCheckInsertData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DisbursementCheckInsertData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DisbursementCheckInsertData" msprop:Generator_DataSetName="DisbursementCheckInsertData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="InsertCheckStaging" msprop:Generator_UserTableName="InsertCheckStaging" msprop:Generator_RowDeletedName="InsertCheckStagingRowDeleted" msprop:Generator_RowChangedName="InsertCheckStagingRowChanged" msprop:Generator_RowClassName="InsertCheckStagingRow" msprop:Generator_RowChangingName="InsertCheckStagingRowChanging" msprop:Generator_RowEvArgName="InsertCheckStagingRowChangeEvent" msprop:Generator_RowEvHandlerName="InsertCheckStagingRowChangeEventHandler" msprop:Generator_TableClassName="InsertCheckStagingDataTable" msprop:Generator_TableVarName="tableInsertCheckStaging" msprop:Generator_RowDeletingName="InsertCheckStagingRowDeleting" msprop:Generator_TablePropName="InsertCheckStaging">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RegisterID" msprop:Generator_UserColumnName="RegisterID" msprop:Generator_ColumnPropNameInRow="RegisterID" msprop:Generator_ColumnVarNameInTable="columnRegisterID" msprop:Generator_ColumnPropNameInTable="RegisterIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CheckDate" msprop:Generator_UserColumnName="CheckDate" msprop:Generator_ColumnPropNameInRow="CheckDate" msprop:Generator_ColumnVarNameInTable="columnCheckDate" msprop:Generator_ColumnPropNameInTable="CheckDateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address1" msprop:Generator_UserColumnName="Address1" msprop:Generator_ColumnPropNameInRow="Address1" msprop:Generator_ColumnVarNameInTable="columnAddress1" msprop:Generator_ColumnPropNameInTable="Address1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address2" msprop:Generator_UserColumnName="Address2" msprop:Generator_ColumnPropNameInRow="Address2" msprop:Generator_ColumnVarNameInTable="columnAddress2" msprop:Generator_ColumnPropNameInTable="Address2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInTable="CityColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State" msprop:Generator_UserColumnName="State" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInTable="StateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Zip" msprop:Generator_UserColumnName="Zip" msprop:Generator_ColumnPropNameInRow="Zip" msprop:Generator_ColumnVarNameInTable="columnZip" msprop:Generator_ColumnPropNameInTable="ZipColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Memo" msprop:Generator_UserColumnName="Memo" msprop:Generator_ColumnPropNameInRow="Memo" msprop:Generator_ColumnVarNameInTable="columnMemo" msprop:Generator_ColumnPropNameInTable="MemoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UpdateisValidStatusTable" msprop:Generator_UserTableName="UpdateisValidStatusTable" msprop:Generator_RowDeletedName="UpdateisValidStatusTableRowDeleted" msprop:Generator_RowChangedName="UpdateisValidStatusTableRowChanged" msprop:Generator_RowClassName="UpdateisValidStatusTableRow" msprop:Generator_RowChangingName="UpdateisValidStatusTableRowChanging" msprop:Generator_RowEvArgName="UpdateisValidStatusTableRowChangeEvent" msprop:Generator_RowEvHandlerName="UpdateisValidStatusTableRowChangeEventHandler" msprop:Generator_TableClassName="UpdateisValidStatusTableDataTable" msprop:Generator_TableVarName="tableUpdateisValidStatusTable" msprop:Generator_RowDeletingName="UpdateisValidStatusTableRowDeleting" msprop:Generator_TablePropName="UpdateisValidStatusTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TCLID" msprop:Generator_UserColumnName="TCLID" msprop:Generator_ColumnVarNameInTable="columnTCLID" msprop:Generator_ColumnPropNameInRow="TCLID" msprop:Generator_ColumnPropNameInTable="TCLIDColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

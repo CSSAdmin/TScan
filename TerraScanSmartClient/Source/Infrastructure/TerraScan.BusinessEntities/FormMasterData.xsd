@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FormMasterData" targetNamespace="http://tempuri.org/FormMasterData.xsd" xmlns:mstns="http://tempuri.org/FormMasterData.xsd" xmlns="http://tempuri.org/FormMasterData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString2" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FormMasterData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="FormMasterData" msprop:Generator_DataSetName="FormMasterData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FormSandwichDetails" msprop:Generator_UserTableName="FormSandwichDetails" msprop:Generator_RowDeletedName="FormSandwichDetailsRowDeleted" msprop:Generator_RowChangedName="FormSandwichDetailsRowChanged" msprop:Generator_RowClassName="FormSandwichDetailsRow" msprop:Generator_RowChangingName="FormSandwichDetailsRowChanging" msprop:Generator_RowEvArgName="FormSandwichDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="FormSandwichDetailsRowChangeEventHandler" msprop:Generator_TableClassName="FormSandwichDetailsDataTable" msprop:Generator_TableVarName="tableFormSandwichDetails" msprop:Generator_RowDeletingName="FormSandwichDetailsRowDeleting" msprop:Generator_TablePropName="FormSandwichDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Form" msprop:Generator_UserColumnName="Form" msprop:Generator_ColumnPropNameInRow="Form" msprop:Generator_ColumnVarNameInTable="columnForm" msprop:Generator_ColumnPropNameInTable="FormColumn" type="xs:int" />
+              <xs:element name="FormFile" msprop:Generator_UserColumnName="FormFile" msprop:Generator_ColumnPropNameInRow="FormFile" msprop:Generator_ColumnVarNameInTable="columnFormFile" msprop:Generator_ColumnPropNameInTable="FormFileColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MenuName" msprop:Generator_UserColumnName="MenuName" msprop:Generator_ColumnPropNameInRow="MenuName" msprop:Generator_ColumnVarNameInTable="columnMenuName" msprop:Generator_ColumnPropNameInTable="MenuNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubTitle1" msprop:Generator_UserColumnName="SubTitle1" msprop:Generator_ColumnPropNameInRow="SubTitle1" msprop:Generator_ColumnVarNameInTable="columnSubTitle1" msprop:Generator_ColumnPropNameInTable="SubTitle1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SubTitle2" msprop:Generator_UserColumnName="SubTitle2" msprop:Generator_ColumnPropNameInRow="SubTitle2" msprop:Generator_ColumnVarNameInTable="columnSubTitle2" msprop:Generator_ColumnPropNameInTable="SubTitle2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsPrintVisible" msprop:Generator_UserColumnName="IsPrintVisible" msprop:Generator_ColumnPropNameInRow="IsPrintVisible" msprop:Generator_ColumnVarNameInTable="columnIsPrintVisible" msprop:Generator_ColumnPropNameInTable="IsPrintVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPreviewVisible" msprop:Generator_UserColumnName="IsPreviewVisible" msprop:Generator_ColumnPropNameInRow="IsPreviewVisible" msprop:Generator_ColumnVarNameInTable="columnIsPreviewVisible" msprop:Generator_ColumnPropNameInTable="IsPreviewVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsEmailVisible" msprop:Generator_UserColumnName="IsEmailVisible" msprop:Generator_ColumnPropNameInRow="IsEmailVisible" msprop:Generator_ColumnVarNameInTable="columnIsEmailVisible" msprop:Generator_ColumnPropNameInTable="IsEmailVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsNewVisible" msprop:Generator_UserColumnName="IsNewVisible" msprop:Generator_ColumnPropNameInRow="IsNewVisible" msprop:Generator_ColumnVarNameInTable="columnIsNewVisible" msprop:Generator_ColumnPropNameInTable="IsNewVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsSaveVisible" msprop:Generator_UserColumnName="IsSaveVisible" msprop:Generator_ColumnPropNameInRow="IsSaveVisible" msprop:Generator_ColumnVarNameInTable="columnIsSaveVisible" msprop:Generator_ColumnPropNameInTable="IsSaveVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsCancelVisible" msprop:Generator_UserColumnName="IsCancelVisible" msprop:Generator_ColumnPropNameInRow="IsCancelVisible" msprop:Generator_ColumnVarNameInTable="columnIsCancelVisible" msprop:Generator_ColumnPropNameInTable="IsCancelVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsDeleteVisible" msprop:Generator_UserColumnName="IsDeleteVisible" msprop:Generator_ColumnPropNameInRow="IsDeleteVisible" msprop:Generator_ColumnVarNameInTable="columnIsDeleteVisible" msprop:Generator_ColumnPropNameInTable="IsDeleteVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsAttachmentsVisible" msprop:Generator_UserColumnName="IsAttachmentsVisible" msprop:Generator_ColumnPropNameInRow="IsAttachmentsVisible" msprop:Generator_ColumnVarNameInTable="columnIsAttachmentsVisible" msprop:Generator_ColumnPropNameInTable="IsAttachmentsVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsCommentsVisible" msprop:Generator_UserColumnName="IsCommentsVisible" msprop:Generator_ColumnPropNameInRow="IsCommentsVisible" msprop:Generator_ColumnVarNameInTable="columnIsCommentsVisible" msprop:Generator_ColumnPropNameInTable="IsCommentsVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsAuditVisible" msprop:Generator_UserColumnName="IsAuditVisible" msprop:Generator_ColumnPropNameInRow="IsAuditVisible" msprop:Generator_ColumnVarNameInTable="columnIsAuditVisible" msprop:Generator_ColumnPropNameInTable="IsAuditVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Report" msprop:Generator_UserColumnName="Report" msprop:Generator_ColumnVarNameInTable="columnReport" msprop:Generator_ColumnPropNameInRow="Report" msprop:Generator_ColumnPropNameInTable="ReportColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AuditReport" msprop:Generator_UserColumnName="AuditReport" msprop:Generator_ColumnVarNameInTable="columnAuditReport" msprop:Generator_ColumnPropNameInRow="AuditReport" msprop:Generator_ColumnPropNameInTable="AuditReportColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AttachmentAs" msprop:Generator_UserColumnName="AttachmentAs" msprop:Generator_ColumnVarNameInTable="columnAttachmentAs" msprop:Generator_ColumnPropNameInRow="AttachmentAs" msprop:Generator_ColumnPropNameInTable="AttachmentAsColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CommentAs" msprop:Generator_UserColumnName="CommentAs" msprop:Generator_ColumnVarNameInTable="columnCommentAs" msprop:Generator_ColumnPropNameInRow="CommentAs" msprop:Generator_ColumnPropNameInTable="CommentAsColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AuditLinkLabel" msprop:Generator_UserColumnName="AuditLinkLabel" msprop:Generator_ColumnPropNameInRow="AuditLinkLabel" msprop:Generator_ColumnVarNameInTable="columnAuditLinkLabel" msprop:Generator_ColumnPropNameInTable="AuditLinkLabelColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsQueryVisible" msprop:Generator_UserColumnName="IsQueryVisible" msprop:Generator_ColumnVarNameInTable="columnIsQueryVisible" msprop:Generator_ColumnPropNameInRow="IsQueryVisible" msprop:Generator_ColumnPropNameInTable="IsQueryVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsNavVisible" msprop:Generator_UserColumnName="IsNavVisible" msprop:Generator_ColumnVarNameInTable="columnIsNavVisible" msprop:Generator_ColumnPropNameInRow="IsNavVisible" msprop:Generator_ColumnPropNameInTable="IsNavVisibleColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="keyfield" msprop:Generator_UserColumnName="keyfield" msprop:Generator_ColumnPropNameInRow="keyfield" msprop:Generator_ColumnVarNameInTable="columnkeyfield" msprop:Generator_ColumnPropNameInTable="keyfieldColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UseExtraParameter" msprop:Generator_UserColumnName="UseExtraParameter" msprop:Generator_ColumnVarNameInTable="columnUseExtraParameter" msprop:Generator_ColumnPropNameInRow="UseExtraParameter" msprop:Generator_ColumnPropNameInTable="UseExtraParameterColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="IsQueryLoad" msprop:Generator_UserColumnName="IsQueryLoad" msprop:Generator_ColumnPropNameInRow="IsQueryLoad" msprop:Generator_ColumnVarNameInTable="columnIsQueryLoad" msprop:Generator_ColumnPropNameInTable="IsQueryLoadColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsFindOn" msprop:Generator_UserColumnName="IsFindOn" msprop:Generator_ColumnPropNameInRow="IsFindOn" msprop:Generator_ColumnVarNameInTable="columnIsFindOn" msprop:Generator_ColumnPropNameInTable="IsFindOnColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsAnalytics" msprop:Generator_UserColumnName="IsAnalytics" msprop:Generator_ColumnVarNameInTable="columnIsAnalytics" msprop:Generator_ColumnPropNameInRow="IsAnalytics" msprop:Generator_ColumnPropNameInTable="IsAnalyticsColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsUpdate" msprop:Generator_UserColumnName="IsUpdate" msprop:Generator_ColumnVarNameInTable="columnIsUpdate" msprop:Generator_ColumnPropNameInRow="IsUpdate" msprop:Generator_ColumnPropNameInTable="IsUpdateColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsJerkFree" msprop:Generator_UserColumnName="IsJerkFree" msprop:Generator_ColumnPropNameInRow="IsJerkFree" msprop:Generator_ColumnVarNameInTable="columnIsJerkFree" msprop:Generator_ColumnPropNameInTable="IsJerkFreeColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FormSliceInformationList" msprop:Generator_UserTableName="FormSliceInformationList" msprop:Generator_RowDeletedName="FormSliceInformationListRowDeleted" msprop:Generator_RowChangedName="FormSliceInformationListRowChanged" msprop:Generator_RowClassName="FormSliceInformationListRow" msprop:Generator_RowChangingName="FormSliceInformationListRowChanging" msprop:Generator_RowEvArgName="FormSliceInformationListRowChangeEvent" msprop:Generator_RowEvHandlerName="FormSliceInformationListRowChangeEventHandler" msprop:Generator_TableClassName="FormSliceInformationListDataTable" msprop:Generator_TableVarName="tableFormSliceInformationList" msprop:Generator_RowDeletingName="FormSliceInformationListRowDeleting" msprop:Generator_TablePropName="FormSliceInformationList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubForm" msprop:Generator_UserColumnName="SubForm" msprop:Generator_ColumnVarNameInTable="columnSubForm" msprop:Generator_ColumnPropNameInRow="SubForm" msprop:Generator_ColumnPropNameInTable="SubFormColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FormFile" msprop:Generator_UserColumnName="FormFile" msprop:Generator_ColumnVarNameInTable="columnFormFile" msprop:Generator_ColumnPropNameInRow="FormFile" msprop:Generator_ColumnPropNameInTable="FormFileColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MenuName" msprop:Generator_UserColumnName="MenuName" msprop:Generator_ColumnVarNameInTable="columnMenuName" msprop:Generator_ColumnPropNameInRow="MenuName" msprop:Generator_ColumnPropNameInTable="MenuNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MenuOrder" msprop:Generator_UserColumnName="MenuOrder" msprop:Generator_ColumnVarNameInTable="columnMenuOrder" msprop:Generator_ColumnPropNameInRow="MenuOrder" msprop:Generator_ColumnPropNameInTable="MenuOrderColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FormOrder" msprop:Generator_UserColumnName="FormOrder" msprop:Generator_ColumnVarNameInTable="columnFormOrder" msprop:Generator_ColumnPropNameInRow="FormOrder" msprop:Generator_ColumnPropNameInTable="FormOrderColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsExpanded" msprop:Generator_UserColumnName="IsExpanded" msprop:Generator_ColumnVarNameInTable="columnIsExpanded" msprop:Generator_ColumnPropNameInRow="IsExpanded" msprop:Generator_ColumnPropNameInTable="IsExpandedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="TabColor" msprop:Generator_UserColumnName="TabColor" msprop:Generator_ColumnVarNameInTable="columnTabColor" msprop:Generator_ColumnPropNameInRow="TabColor" msprop:Generator_ColumnPropNameInTable="TabColorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Red" msprop:Generator_UserColumnName="Red" msprop:Generator_ColumnVarNameInTable="columnRed" msprop:Generator_ColumnPropNameInRow="Red" msprop:Generator_ColumnPropNameInTable="RedColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Green" msprop:Generator_UserColumnName="Green" msprop:Generator_ColumnVarNameInTable="columnGreen" msprop:Generator_ColumnPropNameInRow="Green" msprop:Generator_ColumnPropNameInTable="GreenColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Blue" msprop:Generator_UserColumnName="Blue" msprop:Generator_ColumnVarNameInTable="columnBlue" msprop:Generator_ColumnPropNameInRow="Blue" msprop:Generator_ColumnPropNameInTable="BlueColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsPermissionMenu" msprop:Generator_UserColumnName="IsPermissionMenu" msprop:Generator_ColumnVarNameInTable="columnIsPermissionMenu" msprop:Generator_ColumnPropNameInRow="IsPermissionMenu" msprop:Generator_ColumnPropNameInTable="IsPermissionMenuColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPermissionOpen" msprop:Generator_UserColumnName="IsPermissionOpen" msprop:Generator_ColumnVarNameInTable="columnIsPermissionOpen" msprop:Generator_ColumnPropNameInRow="IsPermissionOpen" msprop:Generator_ColumnPropNameInTable="IsPermissionOpenColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPermissionEdit" msprop:Generator_UserColumnName="IsPermissionEdit" msprop:Generator_ColumnVarNameInTable="columnIsPermissionEdit" msprop:Generator_ColumnPropNameInRow="IsPermissionEdit" msprop:Generator_ColumnPropNameInTable="IsPermissionEditColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPermissionAdd" msprop:Generator_UserColumnName="IsPermissionAdd" msprop:Generator_ColumnVarNameInTable="columnIsPermissionAdd" msprop:Generator_ColumnPropNameInRow="IsPermissionAdd" msprop:Generator_ColumnPropNameInTable="IsPermissionAddColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsPermissionDelete" msprop:Generator_UserColumnName="IsPermissionDelete" msprop:Generator_ColumnVarNameInTable="columnIsPermissionDelete" msprop:Generator_ColumnPropNameInRow="IsPermissionDelete" msprop:Generator_ColumnPropNameInTable="IsPermissionDeleteColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="WebHeight" msprop:Generator_UserColumnName="WebHeight" msprop:Generator_ColumnPropNameInRow="WebHeight" msprop:Generator_ColumnVarNameInTable="columnWebHeight" msprop:Generator_ColumnPropNameInTable="WebHeightColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FormSubTitle1" msprop:Generator_UserTableName="FormSubTitle1" msprop:Generator_RowDeletedName="FormSubTitle1RowDeleted" msprop:Generator_RowChangedName="FormSubTitle1RowChanged" msprop:Generator_RowClassName="FormSubTitle1Row" msprop:Generator_RowChangingName="FormSubTitle1RowChanging" msprop:Generator_RowEvArgName="FormSubTitle1RowChangeEvent" msprop:Generator_RowEvHandlerName="FormSubTitle1RowChangeEventHandler" msprop:Generator_TableClassName="FormSubTitle1DataTable" msprop:Generator_TableVarName="tableFormSubTitle1" msprop:Generator_RowDeletingName="FormSubTitle1RowDeleting" msprop:Generator_TablePropName="FormSubTitle1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubTitle1" msprop:Generator_UserColumnName="SubTitle1" msprop:Generator_ColumnPropNameInRow="SubTitle1" msprop:Generator_ColumnVarNameInTable="columnSubTitle1" msprop:Generator_ColumnPropNameInTable="SubTitle1Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FormSubTitle2" msprop:Generator_UserTableName="FormSubTitle2" msprop:Generator_RowDeletedName="FormSubTitle2RowDeleted" msprop:Generator_RowChangedName="FormSubTitle2RowChanged" msprop:Generator_RowClassName="FormSubTitle2Row" msprop:Generator_RowChangingName="FormSubTitle2RowChanging" msprop:Generator_RowEvArgName="FormSubTitle2RowChangeEvent" msprop:Generator_RowEvHandlerName="FormSubTitle2RowChangeEventHandler" msprop:Generator_TableClassName="FormSubTitle2DataTable" msprop:Generator_TableVarName="tableFormSubTitle2" msprop:Generator_RowDeletingName="FormSubTitle2RowDeleting" msprop:Generator_TablePropName="FormSubTitle2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubTitle2" msprop:Generator_UserColumnName="SubTitle2" msprop:Generator_ColumnPropNameInRow="SubTitle2" msprop:Generator_ColumnVarNameInTable="columnSubTitle2" msprop:Generator_ColumnPropNameInTable="SubTitle2Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BackgroundColor" msprop:Generator_UserTableName="BackgroundColor" msprop:Generator_RowDeletedName="BackgroundColorRowDeleted" msprop:Generator_RowChangedName="BackgroundColorRowChanged" msprop:Generator_RowClassName="BackgroundColorRow" msprop:Generator_RowChangingName="BackgroundColorRowChanging" msprop:Generator_RowEvArgName="BackgroundColorRowChangeEvent" msprop:Generator_RowEvHandlerName="BackgroundColorRowChangeEventHandler" msprop:Generator_TableClassName="BackgroundColorDataTable" msprop:Generator_TableVarName="tableBackgroundColor" msprop:Generator_RowDeletingName="BackgroundColorRowDeleting" msprop:Generator_TablePropName="BackgroundColor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BackgroundColor" msprop:Generator_UserColumnName="BackgroundColor" msprop:Generator_ColumnVarNameInTable="columnBackgroundColor" msprop:Generator_ColumnPropNameInRow="BackgroundColor" msprop:Generator_ColumnPropNameInTable="BackgroundColorColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

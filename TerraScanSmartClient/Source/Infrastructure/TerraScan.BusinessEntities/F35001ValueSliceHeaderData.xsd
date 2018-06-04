@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F35001ValueSliceHeaderData" targetNamespace="http://tempuri.org/F35001ValueSliceHeaderData.xsd" xmlns:mstns="http://tempuri.org/F35001ValueSliceHeaderData.xsd" xmlns="http://tempuri.org/F35001ValueSliceHeaderData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F35001ValueSliceHeaderData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F35001ValueSliceHeaderData" msprop:Generator_DataSetName="F35001ValueSliceHeaderData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListAdjustmentType" msprop:Generator_UserTableName="ListAdjustmentType" msprop:Generator_RowDeletedName="ListAdjustmentTypeRowDeleted" msprop:Generator_RowChangedName="ListAdjustmentTypeRowChanged" msprop:Generator_RowClassName="ListAdjustmentTypeRow" msprop:Generator_RowChangingName="ListAdjustmentTypeRowChanging" msprop:Generator_RowEvArgName="ListAdjustmentTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="ListAdjustmentTypeRowChangeEventHandler" msprop:Generator_TableClassName="ListAdjustmentTypeDataTable" msprop:Generator_TableVarName="tableListAdjustmentType" msprop:Generator_RowDeletingName="ListAdjustmentTypeRowDeleting" msprop:Generator_TablePropName="ListAdjustmentType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AdjustmentTypeID" msprop:Generator_UserColumnName="AdjustmentTypeID" msprop:Generator_ColumnVarNameInTable="columnAdjustmentTypeID" msprop:Generator_ColumnPropNameInRow="AdjustmentTypeID" msprop:Generator_ColumnPropNameInTable="AdjustmentTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AdjustmentType" msprop:Generator_UserColumnName="AdjustmentType" msprop:Generator_ColumnVarNameInTable="columnAdjustmentType" msprop:Generator_ColumnPropNameInRow="AdjustmentType" msprop:Generator_ColumnPropNameInTable="AdjustmentTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetValueSliceHeader" msprop:Generator_UserTableName="GetValueSliceHeader" msprop:Generator_RowDeletedName="GetValueSliceHeaderRowDeleted" msprop:Generator_RowChangedName="GetValueSliceHeaderRowChanged" msprop:Generator_RowClassName="GetValueSliceHeaderRow" msprop:Generator_RowChangingName="GetValueSliceHeaderRowChanging" msprop:Generator_RowEvArgName="GetValueSliceHeaderRowChangeEvent" msprop:Generator_RowEvHandlerName="GetValueSliceHeaderRowChangeEventHandler" msprop:Generator_TableClassName="GetValueSliceHeaderDataTable" msprop:Generator_TableVarName="tableGetValueSliceHeader" msprop:Generator_RowDeletingName="GetValueSliceHeaderRowDeleting" msprop:Generator_TablePropName="GetValueSliceHeader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ValueSliceID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ValueSliceID" msprop:Generator_ColumnVarNameInTable="columnValueSliceID" msprop:Generator_ColumnPropNameInRow="ValueSliceID" msprop:Generator_ColumnPropNameInTable="ValueSliceIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ObjectID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ObjectID" msprop:Generator_ColumnVarNameInTable="columnObjectID" msprop:Generator_ColumnPropNameInRow="ObjectID" msprop:Generator_ColumnPropNameInTable="ObjectIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ObjectTypeID" msprop:Generator_UserColumnName="ObjectTypeID" msprop:Generator_ColumnVarNameInTable="columnObjectTypeID" msprop:Generator_ColumnPropNameInRow="ObjectTypeID" msprop:Generator_ColumnPropNameInTable="ObjectTypeIDColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="ObjectType" msprop:Generator_UserColumnName="ObjectType" msprop:Generator_ColumnVarNameInTable="columnObjectType" msprop:Generator_ColumnPropNameInRow="ObjectType" msprop:Generator_ColumnPropNameInTable="ObjectTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParcelID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ParcelID" msprop:Generator_ColumnVarNameInTable="columnParcelID" msprop:Generator_ColumnPropNameInRow="ParcelID" msprop:Generator_ColumnPropNameInTable="ParcelIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SliceTypeID" msprop:Generator_UserColumnName="SliceTypeID" msprop:Generator_ColumnVarNameInTable="columnSliceTypeID" msprop:Generator_ColumnPropNameInRow="SliceTypeID" msprop:Generator_ColumnPropNameInTable="SliceTypeIDColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="SliceType" msprop:Generator_UserColumnName="SliceType" msprop:Generator_ColumnVarNameInTable="columnSliceType" msprop:Generator_ColumnPropNameInRow="SliceType" msprop:Generator_ColumnPropNameInTable="SliceTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInRow="Value" msprop:Generator_ColumnPropNameInTable="ValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amount" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsNewConstruction" msprop:Generator_UserColumnName="IsNewConstruction" msprop:Generator_ColumnVarNameInTable="columnIsNewConstruction" msprop:Generator_ColumnPropNameInRow="IsNewConstruction" msprop:Generator_ColumnPropNameInTable="IsNewConstructionColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsValue" msprop:Generator_UserColumnName="IsValue" msprop:Generator_ColumnVarNameInTable="columnIsValue" msprop:Generator_ColumnPropNameInRow="IsValue" msprop:Generator_ColumnPropNameInTable="IsValueColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsRoll" msprop:Generator_UserColumnName="IsRoll" msprop:Generator_ColumnVarNameInTable="columnIsRoll" msprop:Generator_ColumnPropNameInRow="IsRoll" msprop:Generator_ColumnPropNameInTable="IsRollColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="HighestMaxValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="HighestMaxValue" msprop:Generator_ColumnVarNameInTable="columnHighestMaxValue" msprop:Generator_ColumnPropNameInRow="HighestMaxValue" msprop:Generator_ColumnPropNameInTable="HighestMaxValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LowestMinValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LowestMinValue" msprop:Generator_ColumnVarNameInTable="columnLowestMinValue" msprop:Generator_ColumnPropNameInRow="LowestMinValue" msprop:Generator_ColumnPropNameInTable="LowestMinValueColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NewConstruction" msprop:Generator_UserColumnName="NewConstruction" msprop:Generator_ColumnVarNameInTable="columnNewConstruction" msprop:Generator_ColumnPropNameInRow="NewConstruction" msprop:Generator_ColumnPropNameInTable="NewConstructionColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UpdateNewConst" msprop:Generator_UserColumnName="UpdateNewConst" msprop:Generator_ColumnPropNameInRow="UpdateNewConst" msprop:Generator_ColumnVarNameInTable="columnUpdateNewConst" msprop:Generator_ColumnPropNameInTable="UpdateNewConstColumn" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

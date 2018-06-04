@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F3001ObjectManagementData" targetNamespace="http://tempuri.org/F3001ObjectManagementData.xsd" xmlns:mstns="http://tempuri.org/F3001ObjectManagementData.xsd" xmlns="http://tempuri.org/F3001ObjectManagementData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="2" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Terrascan23May2011ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Terrascan23May2011ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.Terrascan23May2011ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TerrascanDevDB_20140709ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TerrascanDevDB_20140709ConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.TerrascanDevDB_20140709ConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F3001ObjectManagementData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F3001ObjectManagementData" msprop:Generator_DataSetName="F3001ObjectManagementData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ObjectDetailDataTable" msprop:Generator_UserTableName="ObjectDetailDataTable" msprop:Generator_RowDeletedName="ObjectDetailDataTableRowDeleted" msprop:Generator_RowChangedName="ObjectDetailDataTableRowChanged" msprop:Generator_RowClassName="ObjectDetailDataTableRow" msprop:Generator_RowChangingName="ObjectDetailDataTableRowChanging" msprop:Generator_RowEvArgName="ObjectDetailDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ObjectDetailDataTableRowChangeEventHandler" msprop:Generator_TableClassName="ObjectDetailDataTableDataTable" msprop:Generator_TableVarName="tableObjectDetailDataTable" msprop:Generator_RowDeletingName="ObjectDetailDataTableRowDeleting" msprop:Generator_TablePropName="ObjectDetailDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CopyToParcel" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CopyToParcel" msprop:Generator_ColumnVarNameInTable="columnCopyToParcel" msprop:Generator_ColumnPropNameInRow="CopyToParcel" msprop:Generator_ColumnPropNameInTable="CopyToParcelColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="110" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="ParcelNo" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ParcelNo" msprop:Generator_ColumnVarNameInTable="columnParcelNo" msprop:Generator_ColumnPropNameInRow="ParcelNo" msprop:Generator_ColumnPropNameInTable="ParcelNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="57" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParcelID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ParcelID" msprop:Generator_ColumnVarNameInTable="columnParcelID" msprop:Generator_ColumnPropNameInRow="ParcelID" msprop:Generator_ColumnPropNameInTable="ParcelIDColumn" type="xs:int" />
+              <xs:element name="ObjectID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ObjectID" msprop:Generator_ColumnVarNameInTable="columnObjectID" msprop:Generator_ColumnPropNameInRow="ObjectID" msprop:Generator_ColumnPropNameInTable="ObjectIDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsValue" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsValue" msprop:Generator_ColumnVarNameInTable="columnIsValue" msprop:Generator_ColumnPropNameInRow="IsValue" msprop:Generator_ColumnPropNameInTable="IsValueColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsRoll" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsRoll" msprop:Generator_ColumnVarNameInTable="columnIsRoll" msprop:Generator_ColumnPropNameInRow="IsRoll" msprop:Generator_ColumnPropNameInTable="IsRollColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ObjDesc" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ObjDesc" msprop:Generator_ColumnVarNameInTable="columnObjDesc" msprop:Generator_ColumnPropNameInRow="ObjDesc" msprop:Generator_ColumnPropNameInTable="ObjDescColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="208" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StateCode" msprop:Generator_UserColumnName="StateCode" msprop:Generator_ColumnVarNameInTable="columnStateCode" msprop:Generator_ColumnPropNameInRow="StateCode" msprop:Generator_ColumnPropNameInTable="StateCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsAgriculture" msprop:Generator_UserColumnName="IsAgriculture" msprop:Generator_ColumnPropNameInRow="IsAgriculture" msprop:Generator_ColumnVarNameInTable="columnIsAgriculture" msprop:Generator_ColumnPropNameInTable="IsAgricultureColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ClassID" msprop:Generator_UserColumnName="ClassID" msprop:Generator_ColumnPropNameInRow="ClassID" msprop:Generator_ColumnVarNameInTable="columnClassID" msprop:Generator_ColumnPropNameInTable="ClassIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsMobileHome" msprop:Generator_UserColumnName="IsMobileHome" msprop:Generator_ColumnPropNameInRow="IsMobileHome" msprop:Generator_ColumnVarNameInTable="columnIsMobileHome" msprop:Generator_ColumnPropNameInTable="IsMobileHomeColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Manufacturer_x0028_Make_x0029_" msprop:Generator_UserColumnName="Manufacturer(Make)" msprop:Generator_ColumnPropNameInRow="_Manufacturer_Make_" msprop:Generator_ColumnVarNameInTable="_columnManufacturer_Make_" msprop:Generator_ColumnPropNameInTable="_Manufacturer_Make_Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Model" msprop:Generator_UserColumnName="Model" msprop:Generator_ColumnPropNameInRow="Model" msprop:Generator_ColumnVarNameInTable="columnModel" msprop:Generator_ColumnPropNameInTable="ModelColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MobileHomeFile_x0023_" msprop:Generator_UserColumnName="MobileHomeFile#" msprop:Generator_ColumnPropNameInRow="_MobileHomeFile_" msprop:Generator_ColumnVarNameInTable="_columnMobileHomeFile_" msprop:Generator_ColumnPropNameInTable="_MobileHomeFile_Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Decal_x0028_TPO_x0029__x0023_" msprop:Generator_UserColumnName="Decal(TPO)#" msprop:Generator_ColumnPropNameInRow="_Decal_TPO__" msprop:Generator_ColumnVarNameInTable="_columnDecal_TPO__" msprop:Generator_ColumnPropNameInTable="_Decal_TPO__Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Serial_x0028_VIN_x0029__x0023_" msprop:Generator_UserColumnName="Serial(VIN)#" msprop:Generator_ColumnPropNameInRow="_Serial_VIN__" msprop:Generator_ColumnVarNameInTable="_columnSerial_VIN__" msprop:Generator_ColumnPropNameInTable="_Serial_VIN__Column" type="xs:string" minOccurs="0" />
+              <xs:element name="HUDTag_x0023_" msprop:Generator_UserColumnName="HUDTag#" msprop:Generator_ColumnPropNameInRow="_HUDTag_" msprop:Generator_ColumnVarNameInTable="_columnHUDTag_" msprop:Generator_ColumnPropNameInTable="_HUDTag_Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Title_x0023_" msprop:Generator_UserColumnName="Title#" msprop:Generator_ColumnPropNameInRow="_Title_" msprop:Generator_ColumnVarNameInTable="_columnTitle_" msprop:Generator_ColumnPropNameInTable="_Title_Column" type="xs:string" minOccurs="0" />
+              <xs:element name="TitleElimination_x0023_" msprop:Generator_UserColumnName="TitleElimination#" msprop:Generator_ColumnPropNameInRow="_TitleElimination_" msprop:Generator_ColumnVarNameInTable="_columnTitleElimination_" msprop:Generator_ColumnPropNameInTable="_TitleElimination_Column" type="xs:string" minOccurs="0" />
+              <xs:element name="FilingDate" msprop:Generator_UserColumnName="FilingDate" msprop:Generator_ColumnPropNameInRow="FilingDate" msprop:Generator_ColumnVarNameInTable="columnFilingDate" msprop:Generator_ColumnPropNameInTable="FilingDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ParkName" msprop:Generator_UserColumnName="ParkName" msprop:Generator_ColumnPropNameInRow="ParkName" msprop:Generator_ColumnVarNameInTable="columnParkName" msprop:Generator_ColumnPropNameInTable="ParkNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SiteNumber" msprop:Generator_UserColumnName="SiteNumber" msprop:Generator_ColumnPropNameInRow="SiteNumber" msprop:Generator_ColumnVarNameInTable="columnSiteNumber" msprop:Generator_ColumnPropNameInTable="SiteNumberColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ClassDetail" msprop:Generator_UserTableName="ClassDetail" msprop:Generator_RowDeletedName="ClassDetailRowDeleted" msprop:Generator_RowChangedName="ClassDetailRowChanged" msprop:Generator_RowClassName="ClassDetailRow" msprop:Generator_RowChangingName="ClassDetailRowChanging" msprop:Generator_RowEvArgName="ClassDetailRowChangeEvent" msprop:Generator_RowEvHandlerName="ClassDetailRowChangeEventHandler" msprop:Generator_TableClassName="ClassDetailDataTable" msprop:Generator_TableVarName="tableClassDetail" msprop:Generator_RowDeletingName="ClassDetailRowDeleting" msprop:Generator_TablePropName="ClassDetail">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ClassID" msprop:Generator_UserColumnName="ClassID" msprop:Generator_ColumnPropNameInRow="ClassID" msprop:Generator_ColumnVarNameInTable="columnClassID" msprop:Generator_ColumnPropNameInTable="ClassIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Class" msprop:Generator_UserColumnName="Class" msprop:Generator_ColumnPropNameInRow="Class" msprop:Generator_ColumnVarNameInTable="columnClass" msprop:Generator_ColumnPropNameInTable="ClassColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9038LayoutManagementData" targetNamespace="http://tempuri.org/F9038LayoutManagementData.xsd" xmlns:mstns="http://tempuri.org/F9038LayoutManagementData.xsd" xmlns="http://tempuri.org/F9038LayoutManagementData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString4 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString4" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9038LayoutManagementData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F9038LayoutManagementData" msprop:Generator_DataSetName="F9038LayoutManagementData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AvailableLayoutTable" msprop:Generator_UserTableName="AvailableLayoutTable" msprop:Generator_RowDeletedName="AvailableLayoutTableRowDeleted" msprop:Generator_RowChangedName="AvailableLayoutTableRowChanged" msprop:Generator_RowClassName="AvailableLayoutTableRow" msprop:Generator_RowChangingName="AvailableLayoutTableRowChanging" msprop:Generator_RowEvArgName="AvailableLayoutTableRowChangeEvent" msprop:Generator_RowEvHandlerName="AvailableLayoutTableRowChangeEventHandler" msprop:Generator_TableClassName="AvailableLayoutTableDataTable" msprop:Generator_TableVarName="tableAvailableLayoutTable" msprop:Generator_RowDeletingName="AvailableLayoutTableRowDeleting" msprop:Generator_TablePropName="AvailableLayoutTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QueryLayoutID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="QueryLayoutID" msprop:Generator_ColumnVarNameInTable="columnQueryLayoutID" msprop:Generator_ColumnPropNameInRow="QueryLayoutID" msprop:Generator_ColumnPropNameInTable="QueryLayoutIDColumn" type="xs:int" />
+              <xs:element name="UserID" msprop:Generator_UserColumnName="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" type="xs:int" />
+              <xs:element name="Name_Display" msprop:Generator_UserColumnName="Name_Display" msprop:Generator_ColumnVarNameInTable="columnName_Display" msprop:Generator_ColumnPropNameInRow="Name_Display" msprop:Generator_ColumnPropNameInTable="Name_DisplayColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsAllUsers" msprop:Generator_UserColumnName="IsAllUsers" msprop:Generator_ColumnVarNameInTable="columnIsAllUsers" msprop:Generator_ColumnPropNameInRow="IsAllUsers" msprop:Generator_ColumnPropNameInTable="IsAllUsersColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsDefault" msprop:Generator_UserColumnName="IsDefault" msprop:Generator_ColumnVarNameInTable="columnIsDefault" msprop:Generator_ColumnPropNameInRow="IsDefault" msprop:Generator_ColumnPropNameInTable="IsDefaultColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsTSOnly" msprop:Generator_UserColumnName="IsTSOnly" msprop:Generator_ColumnVarNameInTable="columnIsTSOnly" msprop:Generator_ColumnPropNameInRow="IsTSOnly" msprop:Generator_ColumnPropNameInTable="IsTSOnlyColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsDefault1" msprop:Generator_UserColumnName="IsDefault1" msprop:Generator_ColumnVarNameInTable="columnIsDefault1" msprop:Generator_ColumnPropNameInRow="IsDefault1" msprop:Generator_ColumnPropNameInTable="IsDefault1Column" type="xs:boolean" minOccurs="0" />
+              <xs:element name="QueryView" msprop:Generator_UserColumnName="QueryView" msprop:Generator_ColumnVarNameInTable="columnQueryView" msprop:Generator_ColumnPropNameInRow="QueryView" msprop:Generator_ColumnPropNameInTable="QueryViewColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LayoutName" msprop:Generator_UserColumnName="LayoutName" msprop:Generator_ColumnVarNameInTable="columnLayoutName" msprop:Generator_ColumnPropNameInRow="LayoutName" msprop:Generator_ColumnPropNameInTable="LayoutNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LayoutXML" msprop:Generator_UserColumnName="LayoutXML" msprop:Generator_ColumnVarNameInTable="columnLayoutXML" msprop:Generator_ColumnPropNameInRow="LayoutXML" msprop:Generator_ColumnPropNameInTable="LayoutXMLColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NewDataTable" msprop:Generator_UserTableName="NewDataTable" msprop:Generator_RowDeletedName="NewDataTableRowDeleted" msprop:Generator_TableClassName="NewDataTableDataTable" msprop:Generator_RowChangedName="NewDataTableRowChanged" msprop:Generator_RowClassName="NewDataTableRow" msprop:Generator_RowChangingName="NewDataTableRowChanging" msprop:Generator_RowEvArgName="NewDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="NewDataTableRowChangeEventHandler" msprop:Generator_TablePropName="NewDataTable" msprop:Generator_TableVarName="tableNewDataTable" msprop:Generator_RowDeletingName="NewDataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LayOutName" msprop:Generator_UserColumnName="LayOutName" msprop:Generator_ColumnPropNameInRow="LayOutName" msprop:Generator_ColumnVarNameInTable="columnLayOutName" msprop:Generator_ColumnPropNameInTable="LayOutNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedBy" msprop:Generator_UserColumnName="CreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsAllUsers" msprop:Generator_UserColumnName="IsAllUsers" msprop:Generator_ColumnPropNameInRow="IsAllUsers" msprop:Generator_ColumnVarNameInTable="columnIsAllUsers" msprop:Generator_ColumnPropNameInTable="IsAllUsersColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsDefault" msprop:Generator_UserColumnName="IsDefault" msprop:Generator_ColumnPropNameInRow="IsDefault" msprop:Generator_ColumnVarNameInTable="columnIsDefault" msprop:Generator_ColumnPropNameInTable="IsDefaultColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsTSOnly" msprop:Generator_UserColumnName="IsTSOnly" msprop:Generator_ColumnPropNameInRow="IsTSOnly" msprop:Generator_ColumnVarNameInTable="columnIsTSOnly" msprop:Generator_ColumnPropNameInTable="IsTSOnlyColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

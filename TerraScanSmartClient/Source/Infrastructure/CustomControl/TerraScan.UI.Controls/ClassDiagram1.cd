@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TerraScan.UI.Controls.Strings" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYgAAAAAgAAAAAAICABEAAAIQQAAAAAAjAAAAQAIoA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanButton" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEGIFSAJAAEECAkIFAIJQCACIAIAGEgEMEABAAFCBIA=</HashCode>
+      <FileName>TerraScanButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanCheckBox" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAICAAAAAAgACAABACAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>TerraScanCheckBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanComboBox" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAABAIAAAAAAAAABBABAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>TerraScanComboBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanDataGridView" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EaBMqECjhCRYo4CgASOAUC5UjPpkJYgBaIAYGrGgFg4=</HashCode>
+      <FileName>TerraScanDataGridView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanInfragisticsUltraGrid" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TerraScanInfragisticsUltraGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanLegalGridView" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAgAAAAACAAAACAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>TerraScanLegalGridView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanLinkAndImageCell" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAgAAAIAAAEBAAAAAAAAAIABA=</HashCode>
+      <FileName>TerraScanLinkAndImageCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanLinkAndImageColumn" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAEDAAAQAAAAAAABA=</HashCode>
+      <FileName>TerraScanLinkAndImageColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanLinkLabel" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAIAAAACAAAAAAABAAAEEgGEgAIAhIAAASAAAAAA=</HashCode>
+      <FileName>TerraScanLinkLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanMaskedTextBox" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAgAAIQAAAQAAAABABBAAEAAAAAAAAICAAAAAKAA=</HashCode>
+      <FileName>TerraScanMaskedTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanMonthCalender" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAABACACAAAAAAAACAABgCAAAAAAAAAAAAAAwAAAA=</HashCode>
+      <FileName>TerraScanMonthCalender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanPanel" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACAAAACAAAACAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>TerraScanPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanTextAndImageCell" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAgAAAIAAAEBAAAAAAAAAIABA=</HashCode>
+      <FileName>TerraScanTextAndImageCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanTextAndImageColumn" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAEDAAAgAAAAAAABA=</HashCode>
+      <FileName>TerraScanTextAndImageColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanTextBox" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IkCBAwjAJdUIAxDCElBQJhkSszIDXIQAoLDQaVtDfCA=</HashCode>
+      <FileName>TerraScanTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerraScan.UI.Controls.TerraScanToolStripMenuItem" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACACAgAAAgIAAAAAAAAAA=</HashCode>
+      <FileName>TerraScanToolStripMenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

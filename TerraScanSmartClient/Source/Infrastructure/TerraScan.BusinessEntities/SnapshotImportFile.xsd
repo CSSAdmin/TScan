@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SnapshotImportFile" targetNamespace="http://tempuri.org/SnapshotImportFile.xsd" xmlns:mstns="http://tempuri.org/SnapshotImportFile.xsd" xmlns="http://tempuri.org/SnapshotImportFile.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SnapshotImportFile" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="SnapshotImportFile" msprop:Generator_UserDSName="SnapshotImportFile" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SnapshotImportEntry" msprop:Generator_UserTableName="SnapshotImportEntry" msprop:Generator_RowDeletedName="SnapshotImportEntryRowDeleted" msprop:Generator_TableClassName="SnapshotImportEntryDataTable" msprop:Generator_RowChangedName="SnapshotImportEntryRowChanged" msprop:Generator_RowClassName="SnapshotImportEntryRow" msprop:Generator_RowChangingName="SnapshotImportEntryRowChanging" msprop:Generator_RowEvArgName="SnapshotImportEntryRowChangeEvent" msprop:Generator_RowEvHandlerName="SnapshotImportEntryRowChangeEventHandler" msprop:Generator_TablePropName="SnapshotImportEntry" msprop:Generator_TableVarName="tableSnapshotImportEntry" msprop:Generator_RowDeletingName="SnapshotImportEntryRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

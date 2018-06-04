@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F9080RollYearManagementData" targetNamespace="http://tempuri.org/F9080RollYearManagementData.xsd" xmlns:mstns="http://tempuri.org/F9080RollYearManagementData.xsd" xmlns="http://tempuri.org/F9080RollYearManagementData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Terrascan23May2011ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Terrascan23May2011ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.Terrascan23May2011ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F9080RollYearManagementData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F9080RollYearManagementData" msprop:Generator_DataSetName="F9080RollYearManagementData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetRollYearManagement" msprop:Generator_UserTableName="GetRollYearManagement" msprop:Generator_RowDeletedName="GetRollYearManagementRowDeleted" msprop:Generator_RowChangedName="GetRollYearManagementRowChanged" msprop:Generator_RowClassName="GetRollYearManagementRow" msprop:Generator_RowChangingName="GetRollYearManagementRowChanging" msprop:Generator_RowEvArgName="GetRollYearManagementRowChangeEvent" msprop:Generator_RowEvHandlerName="GetRollYearManagementRowChangeEventHandler" msprop:Generator_TableClassName="GetRollYearManagementDataTable" msprop:Generator_TableVarName="tableGetRollYearManagement" msprop:Generator_RowDeletingName="GetRollYearManagementRowDeleting" msprop:Generator_TablePropName="GetRollYearManagement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RollOverID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="RollOverID" msprop:Generator_ColumnVarNameInTable="columnRollOverID" msprop:Generator_ColumnPropNameInRow="RollOverID" msprop:Generator_ColumnPropNameInTable="RollOverIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="Step" msprop:Generator_UserColumnName="Step" msprop:Generator_ColumnVarNameInTable="columnStep" msprop:Generator_ColumnPropNameInRow="Step" msprop:Generator_ColumnPropNameInTable="StepColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="IsComplete" msprop:Generator_UserColumnName="IsComplete" msprop:Generator_ColumnVarNameInTable="columnIsComplete" msprop:Generator_ColumnPropNameInRow="IsComplete" msprop:Generator_ColumnPropNameInTable="IsCompleteColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RunDate" msprop:Generator_UserColumnName="RunDate" msprop:Generator_ColumnVarNameInTable="columnRunDate" msprop:Generator_ColumnPropNameInRow="RunDate" msprop:Generator_ColumnPropNameInTable="RunDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RunBy" msprop:Generator_UserColumnName="RunBy" msprop:Generator_ColumnVarNameInTable="columnRunBy" msprop:Generator_ColumnPropNameInRow="RunBy" msprop:Generator_ColumnPropNameInTable="RunByColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IsCurrentStep" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IsCurrentStep" msprop:Generator_ColumnVarNameInTable="columnIsCurrentStep" msprop:Generator_ColumnPropNameInRow="IsCurrentStep" msprop:Generator_ColumnPropNameInTable="IsCurrentStepColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="WarningText" msdata:ReadOnly="true" msprop:Generator_UserColumnName="WarningText" msprop:Generator_ColumnVarNameInTable="columnWarningText" msprop:Generator_ColumnPropNameInRow="WarningText" msprop:Generator_ColumnPropNameInTable="WarningTextColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="72" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListRollYearManagement" msprop:Generator_UserTableName="ListRollYearManagement" msprop:Generator_RowDeletedName="ListRollYearManagementRowDeleted" msprop:Generator_RowChangedName="ListRollYearManagementRowChanged" msprop:Generator_RowClassName="ListRollYearManagementRow" msprop:Generator_RowChangingName="ListRollYearManagementRowChanging" msprop:Generator_RowEvArgName="ListRollYearManagementRowChangeEvent" msprop:Generator_RowEvHandlerName="ListRollYearManagementRowChangeEventHandler" msprop:Generator_TableClassName="ListRollYearManagementDataTable" msprop:Generator_TableVarName="tableListRollYearManagement" msprop:Generator_RowDeletingName="ListRollYearManagementRowDeleting" msprop:Generator_TablePropName="ListRollYearManagement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="LastStepCompleted" msdata:ReadOnly="true" msprop:Generator_UserColumnName="LastStepCompleted" msprop:Generator_ColumnVarNameInTable="columnLastStepCompleted" msprop:Generator_ColumnPropNameInRow="LastStepCompleted" msprop:Generator_ColumnPropNameInTable="LastStepCompletedColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="158" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LastStepRunDate" msprop:Generator_UserColumnName="LastStepRunDate" msprop:Generator_ColumnVarNameInTable="columnLastStepRunDate" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="LastStepRunDate" msprop:Generator_ColumnPropNameInTable="LastStepRunDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

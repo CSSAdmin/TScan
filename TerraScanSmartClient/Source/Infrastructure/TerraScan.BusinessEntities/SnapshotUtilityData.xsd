@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SnapshotUtilityData" targetNamespace="http://tempuri.org/SnapshotUtilityData.xsd" xmlns:mstns="http://tempuri.org/SnapshotUtilityData.xsd" xmlns="http://tempuri.org/SnapshotUtilityData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerraScanConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerraScanConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerraScanConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SnapshotUtilityData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SnapshotUtilityData" msprop:Generator_DataSetName="SnapshotUtilityData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ListSnapshot" msprop:Generator_UserTableName="ListSnapshot" msprop:Generator_RowDeletedName="ListSnapshotRowDeleted" msprop:Generator_RowChangedName="ListSnapshotRowChanged" msprop:Generator_RowClassName="ListSnapshotRow" msprop:Generator_RowChangingName="ListSnapshotRowChanging" msprop:Generator_RowEvArgName="ListSnapshotRowChangeEvent" msprop:Generator_RowEvHandlerName="ListSnapshotRowChangeEventHandler" msprop:Generator_TableClassName="ListSnapshotDataTable" msprop:Generator_TableVarName="tableListSnapshot" msprop:Generator_RowDeletingName="ListSnapshotRowDeleting" msprop:Generator_TablePropName="ListSnapshot">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SnapshotID" msprop:Generator_UserColumnName="SnapshotID" msprop:Generator_ColumnVarNameInTable="columnSnapshotID" msprop:Generator_ColumnPropNameInRow="SnapshotID" msprop:Generator_ColumnPropNameInTable="SnapshotIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SnapShotName" msprop:Generator_UserColumnName="SnapShotName" msprop:Generator_ColumnVarNameInTable="columnSnapShotName" msprop:Generator_ColumnPropNameInRow="SnapShotName" msprop:Generator_ColumnPropNameInTable="SnapShotNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SnapshotNote" msprop:Generator_UserColumnName="SnapshotNote" msprop:Generator_ColumnVarNameInTable="columnSnapshotNote" msprop:Generator_ColumnPropNameInRow="SnapshotNote" msprop:Generator_ColumnPropNameInTable="SnapshotNoteColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RecordCount" msprop:Generator_UserColumnName="RecordCount" msprop:Generator_ColumnVarNameInTable="columnRecordCount" msprop:Generator_ColumnPropNameInRow="RecordCount" msprop:Generator_ColumnPropNameInTable="RecordCountColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CreatedBy" msprop:Generator_UserColumnName="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedOn" msdata:ReadOnly="true" msprop:Generator_UserColumnName="CreatedOn" msprop:Generator_ColumnVarNameInTable="columnCreatedOn" msprop:Generator_ColumnPropNameInRow="CreatedOn" msprop:Generator_ColumnPropNameInTable="CreatedOnColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

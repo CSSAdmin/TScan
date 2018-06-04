@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GDocWorkorderCallInData" targetNamespace="http://tempuri.org/GDocWorkorderCallInData.xsd" xmlns:mstns="http://tempuri.org/GDocWorkorderCallInData.xsd" xmlns="http://tempuri.org/GDocWorkorderCallInData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString3" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="GDocWorkorderCallInData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="GDocWorkorderCallInData" msprop:Generator_DataSetName="GDocWorkorderCallInData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="F8912_GetWorkOrderCallIn" msprop:Generator_UserTableName="F8912_GetWorkOrderCallIn" msprop:Generator_RowDeletedName="F8912_GetWorkOrderCallInRowDeleted" msprop:Generator_RowChangedName="F8912_GetWorkOrderCallInRowChanged" msprop:Generator_RowClassName="F8912_GetWorkOrderCallInRow" msprop:Generator_RowChangingName="F8912_GetWorkOrderCallInRowChanging" msprop:Generator_RowEvArgName="F8912_GetWorkOrderCallInRowChangeEvent" msprop:Generator_RowEvHandlerName="F8912_GetWorkOrderCallInRowChangeEventHandler" msprop:Generator_TableClassName="F8912_GetWorkOrderCallInDataTable" msprop:Generator_TableVarName="tableF8912_GetWorkOrderCallIn" msprop:Generator_RowDeletingName="F8912_GetWorkOrderCallInRowDeleting" msprop:Generator_TablePropName="F8912_GetWorkOrderCallIn">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ComplName" msprop:Generator_UserColumnName="ComplName" msprop:Generator_ColumnPropNameInRow="ComplName" msprop:Generator_ColumnVarNameInTable="columnComplName" msprop:Generator_ColumnPropNameInTable="ComplNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ComplPhoneNo" msprop:Generator_UserColumnName="ComplPhoneNo" msprop:Generator_ColumnPropNameInRow="ComplPhoneNo" msprop:Generator_ColumnVarNameInTable="columnComplPhoneNo" msprop:Generator_ColumnPropNameInTable="ComplPhoneNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ComplEmail" msprop:Generator_UserColumnName="ComplEmail" msprop:Generator_ColumnPropNameInRow="ComplEmail" msprop:Generator_ColumnVarNameInTable="columnComplEmail" msprop:Generator_ColumnPropNameInTable="ComplEmailColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AddID" msprop:Generator_UserColumnName="AddID" msprop:Generator_ColumnPropNameInRow="AddID" msprop:Generator_ColumnVarNameInTable="columnAddID" msprop:Generator_ColumnPropNameInTable="AddIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ComplAddID" msprop:Generator_UserColumnName="ComplAddID" msprop:Generator_ColumnPropNameInRow="ComplAddID" msprop:Generator_ColumnVarNameInTable="columnComplAddID" msprop:Generator_ColumnPropNameInTable="ComplAddIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="F8912_SaveWorkOrderCallIn" msprop:Generator_UserTableName="F8912_SaveWorkOrderCallIn" msprop:Generator_RowDeletedName="F8912_SaveWorkOrderCallInRowDeleted" msprop:Generator_RowChangedName="F8912_SaveWorkOrderCallInRowChanged" msprop:Generator_RowClassName="F8912_SaveWorkOrderCallInRow" msprop:Generator_RowChangingName="F8912_SaveWorkOrderCallInRowChanging" msprop:Generator_RowEvArgName="F8912_SaveWorkOrderCallInRowChangeEvent" msprop:Generator_RowEvHandlerName="F8912_SaveWorkOrderCallInRowChangeEventHandler" msprop:Generator_TableClassName="F8912_SaveWorkOrderCallInDataTable" msprop:Generator_TableVarName="tableF8912_SaveWorkOrderCallIn" msprop:Generator_RowDeletingName="F8912_SaveWorkOrderCallInRowDeleting" msprop:Generator_TablePropName="F8912_SaveWorkOrderCallIn">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ComplName" msprop:Generator_UserColumnName="ComplName" msprop:Generator_ColumnPropNameInRow="ComplName" msprop:Generator_ColumnVarNameInTable="columnComplName" msprop:Generator_ColumnPropNameInTable="ComplNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ComplPhoneNo" msprop:Generator_UserColumnName="ComplPhoneNo" msprop:Generator_ColumnPropNameInRow="ComplPhoneNo" msprop:Generator_ColumnVarNameInTable="columnComplPhoneNo" msprop:Generator_ColumnPropNameInTable="ComplPhoneNoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ComplEmail" msprop:Generator_UserColumnName="ComplEmail" msprop:Generator_ColumnPropNameInRow="ComplEmail" msprop:Generator_ColumnVarNameInTable="columnComplEmail" msprop:Generator_ColumnPropNameInTable="ComplEmailColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AddID" msprop:Generator_UserColumnName="AddID" msprop:Generator_ColumnPropNameInRow="AddID" msprop:Generator_ColumnVarNameInTable="columnAddID" msprop:Generator_ColumnPropNameInTable="AddIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ComplAddID" msprop:Generator_UserColumnName="ComplAddID" msprop:Generator_ColumnPropNameInRow="ComplAddID" msprop:Generator_ColumnVarNameInTable="columnComplAddID" msprop:Generator_ColumnPropNameInTable="ComplAddIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="WOID" msprop:Generator_UserColumnName="WOID" msprop:Generator_ColumnPropNameInRow="WOID" msprop:Generator_ColumnVarNameInTable="columnWOID" msprop:Generator_ColumnPropNameInTable="WOIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListAddresses" msprop:Generator_UserTableName="ListAddresses" msprop:Generator_RowDeletedName="ListAddressesRowDeleted" msprop:Generator_RowChangedName="ListAddressesRowChanged" msprop:Generator_RowClassName="ListAddressesRow" msprop:Generator_RowChangingName="ListAddressesRowChanging" msprop:Generator_RowEvArgName="ListAddressesRowChangeEvent" msprop:Generator_RowEvHandlerName="ListAddressesRowChangeEventHandler" msprop:Generator_TableClassName="ListAddressesDataTable" msprop:Generator_TableVarName="tableListAddresses" msprop:Generator_RowDeletingName="ListAddressesRowDeleting" msprop:Generator_TablePropName="ListAddresses">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IncidentAddress" msprop:Generator_UserColumnName="IncidentAddress" msprop:Generator_ColumnVarNameInTable="columnIncidentAddress" msprop:Generator_ColumnPropNameInRow="IncidentAddress" msprop:Generator_ColumnPropNameInTable="IncidentAddressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IncidentID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="IncidentID" msprop:Generator_ColumnVarNameInTable="columnIncidentID" msprop:Generator_ColumnPropNameInRow="IncidentID" msprop:Generator_ColumnPropNameInTable="IncidentIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ComplAddress" msprop:Generator_UserColumnName="ComplAddress" msprop:Generator_ColumnVarNameInTable="columnComplAddress" msprop:Generator_ColumnPropNameInRow="ComplAddress" msprop:Generator_ColumnPropNameInTable="ComplAddressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ComplID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ComplID" msprop:Generator_ColumnVarNameInTable="columnComplID" msprop:Generator_ColumnPropNameInRow="ComplID" msprop:Generator_ColumnPropNameInTable="ComplIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

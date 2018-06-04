@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F8904EventGridData" targetNamespace="http://tempuri.org/F8904EventGridData.xsd" xmlns:mstns="http://tempuri.org/F8904EventGridData.xsd" xmlns="http://tempuri.org/F8904EventGridData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="T2TerrascanConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="T2TerrascanConnectionString3 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.TerraScan.BusinessEntities.Properties.Settings.GlobalReference.Default.T2TerrascanConnectionString3" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F8904EventGridData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F8904EventGridData" msprop:Generator_DataSetName="F8904EventGridData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetEventGrid" msprop:Generator_UserTableName="GetEventGrid" msprop:Generator_RowDeletedName="GetEventGridRowDeleted" msprop:Generator_TableClassName="GetEventGridDataTable" msprop:Generator_RowChangedName="GetEventGridRowChanged" msprop:Generator_RowClassName="GetEventGridRow" msprop:Generator_RowChangingName="GetEventGridRowChanging" msprop:Generator_RowEvArgName="GetEventGridRowChangeEvent" msprop:Generator_RowEvHandlerName="GetEventGridRowChangeEventHandler" msprop:Generator_TablePropName="GetEventGrid" msprop:Generator_TableVarName="tableGetEventGrid" msprop:Generator_RowDeletingName="GetEventGridRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EventType" msprop:Generator_UserColumnName="EventType" msprop:Generator_ColumnPropNameInRow="EventType" msprop:Generator_ColumnVarNameInTable="columnEventType" msprop:Generator_ColumnPropNameInTable="EventTypeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StatusColor" msprop:Generator_UserColumnName="StatusColor" msprop:Generator_ColumnPropNameInRow="StatusColor" msprop:Generator_ColumnVarNameInTable="columnStatusColor" msprop:Generator_ColumnPropNameInTable="StatusColorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventDate" msprop:Generator_UserColumnName="EventDate" msprop:Generator_ColumnPropNameInRow="EventDate" msprop:Generator_ColumnVarNameInTable="columnEventDate" msprop:Generator_ColumnPropNameInTable="EventDateColumn" type="xs:dateTime" />
+              <xs:element name="TempColor" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TempColor" msprop:Generator_ColumnPropNameInRow="TempColor" msprop:Generator_ColumnVarNameInTable="columnTempColor" msprop:Generator_ColumnPropNameInTable="TempColorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WOID" msprop:Generator_UserColumnName="WOID" msprop:Generator_ColumnPropNameInRow="WOID" msprop:Generator_ColumnVarNameInTable="columnWOID" msprop:Generator_ColumnPropNameInTable="WOIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsComplete" msprop:Generator_UserColumnName="IsComplete" msprop:Generator_ColumnPropNameInRow="IsComplete" msprop:Generator_ColumnVarNameInTable="columnIsComplete" msprop:Generator_ColumnPropNameInTable="IsCompleteColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="EventID" msprop:Generator_UserColumnName="EventID" msprop:Generator_ColumnPropNameInRow="EventID" msprop:Generator_ColumnVarNameInTable="columnEventID" msprop:Generator_ColumnPropNameInTable="EventIDColumn" type="xs:int" />
+              <xs:element name="EventTypeID" msprop:Generator_UserColumnName="EventTypeID" msprop:Generator_ColumnPropNameInRow="EventTypeID" msprop:Generator_ColumnVarNameInTable="columnEventTypeID" msprop:Generator_ColumnPropNameInTable="EventTypeIDColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

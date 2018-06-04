@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="F16041ImprovementDistrictParcels" targetNamespace="http://tempuri.org/F16041ImprovementDistrictParcels.xsd" xmlns:mstns="http://tempuri.org/F16041ImprovementDistrictParcels.xsd" xmlns="http://tempuri.org/F16041ImprovementDistrictParcels.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="F16041ImprovementDistrictParcels" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="F16041ImprovementDistrictParcels" msprop:Generator_DataSetName="F16041ImprovementDistrictParcels" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetDistrictParcels" msprop:Generator_UserTableName="GetDistrictParcels" msprop:Generator_RowDeletedName="GetDistrictParcelsRowDeleted" msprop:Generator_RowChangedName="GetDistrictParcelsRowChanged" msprop:Generator_RowClassName="GetDistrictParcelsRow" msprop:Generator_RowChangingName="GetDistrictParcelsRowChanging" msprop:Generator_RowEvArgName="GetDistrictParcelsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetDistrictParcelsRowChangeEventHandler" msprop:Generator_TableClassName="GetDistrictParcelsDataTable" msprop:Generator_TableVarName="tableGetDistrictParcels" msprop:Generator_RowDeletingName="GetDistrictParcelsRowDeleting" msprop:Generator_TablePropName="GetDistrictParcels">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SADistrictID" msprop:Generator_UserColumnName="SADistrictID" msprop:Generator_ColumnPropNameInRow="SADistrictID" msprop:Generator_ColumnVarNameInTable="columnSADistrictID" msprop:Generator_ColumnPropNameInTable="SADistrictIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="District" msprop:Generator_UserColumnName="District" msprop:Generator_ColumnPropNameInRow="District" msprop:Generator_ColumnVarNameInTable="columnDistrict" msprop:Generator_ColumnPropNameInTable="DistrictColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SAName" msprop:Generator_UserColumnName="SAName" msprop:Generator_ColumnPropNameInRow="SAName" msprop:Generator_ColumnVarNameInTable="columnSAName" msprop:Generator_ColumnPropNameInTable="SANameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LevyDate" msprop:Generator_UserColumnName="LevyDate" msprop:Generator_ColumnPropNameInRow="LevyDate" msprop:Generator_ColumnVarNameInTable="columnLevyDate" msprop:Generator_ColumnPropNameInTable="LevyDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FirstDue" msprop:Generator_UserColumnName="FirstDue" msprop:Generator_ColumnPropNameInRow="FirstDue" msprop:Generator_ColumnVarNameInTable="columnFirstDue" msprop:Generator_ColumnPropNameInTable="FirstDueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IDType" msprop:Generator_UserColumnName="IDType" msprop:Generator_ColumnPropNameInRow="IDType" msprop:Generator_ColumnVarNameInTable="columnIDType" msprop:Generator_ColumnPropNameInTable="IDTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetSummaryDetails" msprop:Generator_UserTableName="GetSummaryDetails" msprop:Generator_RowDeletedName="GetSummaryDetailsRowDeleted" msprop:Generator_RowChangedName="GetSummaryDetailsRowChanged" msprop:Generator_RowClassName="GetSummaryDetailsRow" msprop:Generator_RowChangingName="GetSummaryDetailsRowChanging" msprop:Generator_RowEvArgName="GetSummaryDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetSummaryDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetSummaryDetailsDataTable" msprop:Generator_TableVarName="tableGetSummaryDetails" msprop:Generator_RowDeletingName="GetSummaryDetailsRowDeleting" msprop:Generator_TablePropName="GetSummaryDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParcelCount" msprop:Generator_UserColumnName="ParcelCount" msprop:Generator_ColumnPropNameInRow="ParcelCount" msprop:Generator_ColumnVarNameInTable="columnParcelCount" msprop:Generator_ColumnPropNameInTable="ParcelCountColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalLevied" msprop:Generator_UserColumnName="TotalLevied" msprop:Generator_ColumnPropNameInRow="TotalLevied" msprop:Generator_ColumnVarNameInTable="columnTotalLevied" msprop:Generator_ColumnPropNameInTable="TotalLeviedColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalPaid" msprop:Generator_UserColumnName="TotalPaid" msprop:Generator_ColumnPropNameInRow="TotalPaid" msprop:Generator_ColumnVarNameInTable="columnTotalPaid" msprop:Generator_ColumnPropNameInTable="TotalPaidColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetParcelgridDetails" msprop:Generator_UserTableName="GetParcelgridDetails" msprop:Generator_RowDeletedName="GetParcelgridDetailsRowDeleted" msprop:Generator_RowChangedName="GetParcelgridDetailsRowChanged" msprop:Generator_RowClassName="GetParcelgridDetailsRow" msprop:Generator_RowChangingName="GetParcelgridDetailsRowChanging" msprop:Generator_RowEvArgName="GetParcelgridDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="GetParcelgridDetailsRowChangeEventHandler" msprop:Generator_TableClassName="GetParcelgridDetailsDataTable" msprop:Generator_TableVarName="tableGetParcelgridDetails" msprop:Generator_RowDeletingName="GetParcelgridDetailsRowDeleting" msprop:Generator_TablePropName="GetParcelgridDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LastFirst" msprop:Generator_UserColumnName="LastFirst" msprop:Generator_ColumnVarNameInTable="columnLastFirst" msprop:Generator_ColumnPropNameInRow="LastFirst" msprop:Generator_ColumnPropNameInTable="LastFirstColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Legal" msprop:Generator_UserColumnName="Legal" msprop:Generator_ColumnVarNameInTable="columnLegal" msprop:Generator_ColumnPropNameInRow="Legal" msprop:Generator_ColumnPropNameInTable="LegalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PropertyTaxAmount" msprop:Generator_UserColumnName="PropertyTaxAmount" msprop:Generator_ColumnVarNameInTable="columnPropertyTaxAmount" msprop:Generator_ColumnPropNameInRow="PropertyTaxAmount" msprop:Generator_ColumnPropNameInTable="PropertyTaxAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkingFileID" msprop:Generator_UserColumnName="WorkingFileID" msprop:Generator_ColumnPropNameInRow="WorkingFileID" msprop:Generator_ColumnVarNameInTable="columnWorkingFileID" msprop:Generator_ColumnPropNameInTable="WorkingFileIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OwnerID" msprop:Generator_UserColumnName="OwnerID" msprop:Generator_ColumnPropNameInRow="OwnerID" msprop:Generator_ColumnVarNameInTable="columnOwnerID" msprop:Generator_ColumnPropNameInTable="OwnerIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ListParcelDetails" msprop:Generator_UserTableName="ListParcelDetails" msprop:Generator_RowDeletedName="ListParcelDetailsRowDeleted" msprop:Generator_RowChangedName="ListParcelDetailsRowChanged" msprop:Generator_RowClassName="ListParcelDetailsRow" msprop:Generator_RowChangingName="ListParcelDetailsRowChanging" msprop:Generator_RowEvArgName="ListParcelDetailsRowChangeEvent" msprop:Generator_RowEvHandlerName="ListParcelDetailsRowChangeEventHandler" msprop:Generator_TableClassName="ListParcelDetailsDataTable" msprop:Generator_TableVarName="tableListParcelDetails" msprop:Generator_RowDeletingName="ListParcelDetailsRowDeleting" msprop:Generator_TablePropName="ListParcelDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner_Name" msprop:Generator_UserColumnName="Owner_Name" msprop:Generator_ColumnVarNameInTable="columnOwner_Name" msprop:Generator_ColumnPropNameInRow="Owner_Name" msprop:Generator_ColumnPropNameInTable="Owner_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LegalNotes" msprop:Generator_UserColumnName="LegalNotes" msprop:Generator_ColumnVarNameInTable="columnLegalNotes" msprop:Generator_ColumnPropNameInRow="LegalNotes" msprop:Generator_ColumnPropNameInTable="LegalNotesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OwnerID" msprop:Generator_UserColumnName="OwnerID" msprop:Generator_ColumnVarNameInTable="columnOwnerID" msprop:Generator_ColumnPropNameInRow="OwnerID" msprop:Generator_ColumnPropNameInTable="OwnerIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ParcelID" msprop:Generator_UserColumnName="ParcelID" msprop:Generator_ColumnVarNameInTable="columnParcelID" msprop:Generator_ColumnPropNameInRow="ParcelID" msprop:Generator_ColumnPropNameInTable="ParcelIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ParcelRollYear" msprop:Generator_UserColumnName="ParcelRollYear" msprop:Generator_ColumnVarNameInTable="columnParcelRollYear" msprop:Generator_ColumnPropNameInRow="ParcelRollYear" msprop:Generator_ColumnPropNameInTable="ParcelRollYearColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ParcelHeader" msprop:Generator_UserTableName="ParcelHeader" msprop:Generator_RowDeletedName="ParcelHeaderRowDeleted" msprop:Generator_RowChangedName="ParcelHeaderRowChanged" msprop:Generator_RowClassName="ParcelHeaderRow" msprop:Generator_RowChangingName="ParcelHeaderRowChanging" msprop:Generator_RowEvArgName="ParcelHeaderRowChangeEvent" msprop:Generator_RowEvHandlerName="ParcelHeaderRowChangeEventHandler" msprop:Generator_TableClassName="ParcelHeaderDataTable" msprop:Generator_TableVarName="tableParcelHeader" msprop:Generator_RowDeletingName="ParcelHeaderRowDeleting" msprop:Generator_TablePropName="ParcelHeader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ParcelID" msprop:Generator_UserColumnName="ParcelID" msprop:Generator_ColumnPropNameInRow="ParcelID" msprop:Generator_ColumnVarNameInTable="columnParcelID" msprop:Generator_ColumnPropNameInTable="ParcelIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxAmount" msprop:Generator_UserColumnName="TaxAmount" msprop:Generator_ColumnPropNameInRow="TaxAmount" msprop:Generator_ColumnVarNameInTable="columnTaxAmount" msprop:Generator_ColumnPropNameInTable="TaxAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OwnerID" msprop:Generator_UserColumnName="OwnerID" msprop:Generator_ColumnPropNameInRow="OwnerID" msprop:Generator_ColumnVarNameInTable="columnOwnerID" msprop:Generator_ColumnPropNameInTable="OwnerIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RollYear" msprop:Generator_UserColumnName="RollYear" msprop:Generator_ColumnPropNameInRow="RollYear" msprop:Generator_ColumnVarNameInTable="columnRollYear" msprop:Generator_ColumnPropNameInTable="RollYearColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SADistrictID" msprop:Generator_UserColumnName="SADistrictID" msprop:Generator_ColumnPropNameInRow="SADistrictID" msprop:Generator_ColumnVarNameInTable="columnSADistrictID" msprop:Generator_ColumnPropNameInTable="SADistrictIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Legal" msprop:Generator_UserColumnName="Legal" msprop:Generator_ColumnPropNameInRow="Legal" msprop:Generator_ColumnVarNameInTable="columnLegal" msprop:Generator_ColumnPropNameInTable="LegalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="WorkingFileID" msprop:Generator_UserColumnName="WorkingFileID" msprop:Generator_ColumnPropNameInRow="WorkingFileID" msprop:Generator_ColumnVarNameInTable="columnWorkingFileID" msprop:Generator_ColumnPropNameInTable="WorkingFileIDColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ImprovementParcel" msprop:Generator_UserTableName="ImprovementParcel" msprop:Generator_RowDeletedName="ImprovementParcelRowDeleted" msprop:Generator_RowChangedName="ImprovementParcelRowChanged" msprop:Generator_RowClassName="ImprovementParcelRow" msprop:Generator_RowChangingName="ImprovementParcelRowChanging" msprop:Generator_RowEvArgName="ImprovementParcelRowChangeEvent" msprop:Generator_RowEvHandlerName="ImprovementParcelRowChangeEventHandler" msprop:Generator_TableClassName="ImprovementParcelDataTable" msprop:Generator_TableVarName="tableImprovementParcel" msprop:Generator_RowDeletingName="ImprovementParcelRowDeleting" msprop:Generator_TablePropName="ImprovementParcel">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ParcelNumber" msprop:Generator_UserColumnName="ParcelNumber" msprop:Generator_ColumnPropNameInRow="ParcelNumber" msprop:Generator_ColumnVarNameInTable="columnParcelNumber" msprop:Generator_ColumnPropNameInTable="ParcelNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SADistrictID" msprop:Generator_UserColumnName="SADistrictID" msprop:Generator_ColumnPropNameInRow="SADistrictID" msprop:Generator_ColumnVarNameInTable="columnSADistrictID" msprop:Generator_ColumnPropNameInTable="SADistrictIDColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
